@@ -8,7 +8,19 @@
         font-weight: bolder;
         font-size: 2em;
     }
-    td:last-child {
+    td:nth-child(1) {
+        width: 15%;
+    }
+    td:nth-child(2) {
+        width: 10%;
+    }
+    td:nth-child(3) {
+        width: 10%;
+    }
+    td:nth-child(4) {
+        width: 10%;
+    }
+    td:nth-child(5) {
         max-width: 200px;
     }
 }
@@ -25,6 +37,8 @@
     margin: 15px;
     color: rgb(37, 37, 37);
     padding: 8px;
+    margin: auto;
+    width: 80%;
 }
 
 .dialogue {

@@ -1,3 +1,5 @@
+[Torna a campagna](./campaign.md)
+
 # Quest
 
 Missioni assegnate dalla Gilda del Den Fres'tynn.
