@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+#header {
+    position: initial;
+}
+
 table.quest {
     td:first-child {
         font-weight: bolder;

@@ -1,6 +1,6 @@
 ### **Cinghiali della tempesta**
 * **Luogo.**  Terre desolate.  
-* **Ricompensa.** *tbd*  
+* **Ricompensa.** 40mp a testa.  
 * **Mandante.** Bhutur, anziano.  
 * **Informazioni**
 <div class="dialogue">
