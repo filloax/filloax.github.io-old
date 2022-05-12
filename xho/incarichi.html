@@ -1,0 +1,21 @@
+<!--td:first-child-->
+<table class="quest">
+    <tr>
+        <th>Incarico</th>
+        <th>Luogo</th>
+        <th>Ricompensa</th>
+        <th>Mandante</th>
+        <th>Informazioni</th>
+    </tr>
+    <tr>
+        <!-- {% include_relative quest/banbaro.html %} -->
+        {% for file in site.static_files %}
+            {% if file.path contains "/xho/quest/" %}
+                {% assign file_name = file.path | remove:  "/xho/" %}
+
+                {% include_relative {{ file_name }} %}
+
+            {% endif %}
+        {% endfor %}
+    </tr>
+</table>

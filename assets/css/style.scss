@@ -2,3 +2,66 @@
 ---
 
 @import "{{ site.theme }}";
+
+.quest {
+    td:first-child {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+    td:last-child {
+        max-width: 200px;
+    }
+}
+
+.wrapper {
+    max-width: 1200px !important;
+    section {
+        max-width: 100%;
+    }
+}
+
+.dialogue {
+    display: flex;
+    // background-color: rgb(73, 73, 73);
+    // border: rgb(19, 19, 19) solid 2px, rgb(36, 36, 36) solid 8px;
+    border: 10px double rgb(172, 172, 172);
+    border-image: url(../img/dialog_border_white.webp) 34 0 34;
+    border-image-repeat: space;
+    border-image-outset: -8px;
+    padding: 4px;
+    // border-radius: 5px;
+    margin: 10px;
+
+    .icon {
+        flex: 1;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0.2em;
+        background-size: 100%;
+        min-height: 70px;
+    }
+
+    .kynthea {
+        background-image: url(../img/icon_kynthea.webp);
+    }
+    .chestibor {
+        background-image: url(../img/icon_chestibor.webp);
+    }
+
+    p {
+        margin: 0.2em;
+        flex: 5;
+    }
+}
+
+/*
+.kynthea::before {
+    content: "";
+    background-image: url(../img/icon_kynthea.webp);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+*/
