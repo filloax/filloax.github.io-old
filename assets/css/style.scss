@@ -7,6 +7,27 @@
     position: initial;
 }
 
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #d1c288;
+}
+
+h3 {
+    color: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 table.quest {
     td:first-child {
         font-weight: bolder;
@@ -77,6 +98,22 @@ table.quest {
         margin: 0.2em;
         flex: 5;
     }
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.portrait {
+    aspect-ratio: 1/1;
+    background-size: cover;  
+    float: right; 
+    z-index: -1;
+    border-radius: 3%;
+    margin: 0.5em;
 }
 
 /*
