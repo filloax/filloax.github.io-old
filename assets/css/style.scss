@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.quest {
+table.quest {
     td:first-child {
         font-weight: bolder;
         font-size: 2em;
@@ -26,7 +26,7 @@
 }
 
 .wrapper {
-    max-width: 1200px !important;
+    // max-width: 1200px !important;
     section {
         max-width: 100%;
     }
