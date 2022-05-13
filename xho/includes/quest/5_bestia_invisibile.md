@@ -1,7 +1,7 @@
 ### **Bestia invisibile**
-* **Luogo.**  Foresta di Vermaloc.  
-* **Ricompensa.** *tbd*  
-* **Mandante.** Villaggio di Veramund.  
+* **Luogo.**  Foresta di Vermaloc  
+* **Ricompensa.** 450mo a testa  
+* **Mandante.** Villaggio di Veramund  
 * **Informazioni**
 <div class="dialogue">
     <div class="icon chestibor"></div>

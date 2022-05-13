@@ -1,7 +1,7 @@
 ### **Banbaro**
-* **Luogo.**  Alpi della Penombra, parte separata a nord.  
-* **Ricompensa.** *tbd*  
-* **Mandante.** Gilda.  
+* **Luogo.**  Alpi della Penombra, parte separata a nord  
+* **Ricompensa.** 500mo a testa  
+* **Mandante.** Gilda  
 * **Informazioni**
 <div class="dialogue">
     <div class="icon kynthea"></div>

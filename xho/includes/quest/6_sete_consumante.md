@@ -1,7 +1,7 @@
 ### **Sete consumante**
-* **Luogo.**  Foresta di Vermaloc.  
-* **Ricompensa.** *tbd*  
-* **Mandante.** Gilda.  
+* **Luogo.**  Foresta di Vermaloc  
+* **Ricompensa.** 400mo a testa  
+* **Mandante.** Gilda  
 * **Informazioni**
 <div class="dialogue">
     <div class="icon chestibor"></div>

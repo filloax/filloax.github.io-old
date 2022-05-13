@@ -1,7 +1,7 @@
 ### **Demoni minori**
-* **Luogo.**  Asarius, Città delle Bestie.  
-* **Ricompensa.** *tbd*  
-* **Mandante.** Moc, mercante, via Zethris Olios, governante .  
+* **Luogo.**  Asarius, Città delle Bestie  
+* **Ricompensa.** 350mo a testa  
+* **Mandante.** Moc, mercante, via Zethris Olios, governante   
 * **Informazioni**
 <div class="dialogue">
     <div class="icon chestibor"></div>
