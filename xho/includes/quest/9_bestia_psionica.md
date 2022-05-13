@@ -1,7 +1,7 @@
 ### **Bestia psionica**
 * **Luogo.**  Brughiera di Iothia / Terre desolate (da chiedere).  
 * **Ricompensa.** *tbd*  
-* **Mandante.** <img src="../../assets/img/tree.webp"/>.  
+* **Mandante.** <img src="../../../assets/img/tree.webp" style="width: 80px"/> 
 * **Informazioni**
 <div class="quest-paper">
     <p>Bestia con mente rompe teste della tribù. <em>-Firmato con il simbolo di un albero</em></p>

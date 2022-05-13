@@ -1,7 +1,7 @@
 ### **Behir**
 * **Luogo.**  Terre desolate (vicino a Jigow).  
 * **Ricompensa.** *tbd*  
-* **Mandante.** Belrann Jhalaeir, mago.  
+* **Mandante.** Bralae Jhalaeir, maga dei fulmini.  
 * **Informazioni**
 <div class="dialogue">
     <div class="icon kynthea"></div>
