@@ -1,4 +1,5 @@
-# filloax.github.io
-Sito web per campagne varie
+# 5e for Jekyll
 
-[filloax.github.io](https://filloax.github.io)
+Here's a Jekyll theme based on the print styles of _Dungeons & Dragons_ 5th Edition. This builds on [Homebrewery](https://github.com/stolksdorf/homebrewery), a terrific work framework by Scott Tolksdorf.
+
+ 

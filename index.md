@@ -4,8 +4,5 @@ Questo sito contiene informazioni su campagne varie, al momento solo Esploratori
 
 **Campagne**
 
-* [**Esploratori della nebbia**](./xho/campaign.md)
-    * [Quest](./quest.md)
-    * [NPC](./npc.md)
-    * [Mappa interattiva](https://www.redgiantmaps.com/maps/wildemount)
-    * [Luoghi](./luoghi)
+* [**Esploratori della nebbia**](./xho/campaign)
+{% include_relative xho/includes/campaign_index.md indent="    " dir="xho" %}

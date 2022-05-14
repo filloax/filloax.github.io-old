@@ -1,2 +1,5 @@
 theme: jekyll-theme-midnight
 title: Campagne di Fillo
+sass:
+  sass_dir: _sass
+  style: compressed
