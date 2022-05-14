@@ -2,3 +2,4 @@
 {{ include.indent }}* [NPC]({{ include.dir | default: "." }}/npc)
 {{ include.indent }}* [Mappa interattiva](https://www.redgiantmaps.com/maps/wildemount)
 {{ include.indent }}* [Luoghi]({{ include.dir | default: "." }}/luoghi)
+{{ include.indent }}* [Cronologia]({{ include.dir | default: "." }}/timeline)
