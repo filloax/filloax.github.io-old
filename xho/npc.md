@@ -9,6 +9,7 @@ Ovviamente sono state omesse le informazioni che non avete ancora.
 {:toc}
 
 ## Gilda del Den Fres'tynn
+{% include back_to_top.md %}
 
 ### Kynthea Fres'tynn
 
@@ -48,12 +49,33 @@ Bugbear dal pelo scuro, quasi nero. 54 anni. Non ha una gamba ma ha una gamba di
 
 Menziona spesso delle regole del "bravo esploratore".
 
+### ??? (Fabbro)
+*Tiefling (mutante, orco) M, fabbro*
+
+*"Servi della nipote? Hrrm. Io forgio."*
+
+Tiefling verde molto scuro, quasi grigio, con molte chiazze tipo voglie in giro, e corpulento. Il tratto più notevole sono le numerose corna, che non sono solo in testa ma crescono sparse per tutto il corpo. Ne ha in particolare un ammasso sul braccio destro, a metà tra spalla e gomito. Notevoli anche le zanne, una molto grande, l'altra spezzata a metà.
+
+La sua condizione non è unica, ma è abbastanza rara, spesso ritenuta una maledizione di Gruumsh o altri dei: si tratta di un tiefling mutante, la cui progenie infernale si è manifestata in modo incontrollato come per i primi tiefling, e non più contenuta come nei discendenti ora in vita. Sono spesso discriminati, specie se orchi o goblinoidi, a causa della paura che questo possa peggiorare o innescare le maledizioni, vere o fittizie, su quelle razze. Il lato positivo è che gli dona una vita innaturalmente lunga per la sua razza di origine.
+
+### Frau Engel
+*Elfa (pallida) F, governante*
+
+*"Entrate pure. Se scopro che incrinate anche solo una mensola..."*
+
+Elfa pallida (non drow, stranamente per il luogo), visibilmente molto vecchia, in modo tale che riesce a superare anche la vaga giovanilità della razza. Faccia perennemente dall'austero al giudicante.
+
+Governante per il Den Fres'tynn da molto tempo, anche dai tempi della nonna di Kynthea. Girano voci che abbia visto la Calamità in prima persona, ma lei non ha intenzione di parlarne. Il suo lavoro lo fa molto bene.
+
+Abbastanza antipatica a quasi tutti, e reciproca.
+
 <br>
 <br>
 <br>
 <br>
 
 ## Den Fres'tynn
+{% include back_to_top.md %}
 
 Altri membri della casata.
 
@@ -73,6 +95,7 @@ Fratello di Kynthea, ha finanziato la gilda.
 <br>
 
 ## Correlati a PG
+{% include back_to_top.md %}
 
 ### Tariss
 
@@ -94,6 +117,8 @@ Vuole fare la guerriera da grande.
 <br>
 
 ## Grifone del deserto
+{% include back_to_top.md %}
+
 ### Shaba-ku di Marquet
 
 <div style="width: 33%; background-image: url('../assets/img/Alaloth-Sabaku-Shaba-Ku.webp');    background-position: top;   background-size: 280%;" class="portrait"> <a href="../assets/img/Alaloth-Sabaku-Shaba-Ku.webp" class="fill-div"></a></div>
@@ -118,6 +143,7 @@ Viene da Tal'dorei, zona centrale. Interessato alla storia e alle creature arcan
 <br>
 
 ## Den Thelyss
+{% include back_to_top.md %}
 
 ### Mano d'ombra Essek Thelyss
 
@@ -135,6 +161,8 @@ Prodigio della dunamanzia (magia della realtà, gravità e tempo), nonostante l'
 
 
 ## Den Hythenos
+{% include back_to_top.md %}
+
 Include NPC del Faro Radiante.
 
 ### Sergente Bharren Coboryn
@@ -168,6 +196,17 @@ Attualmente ha la pelle di un verde acceso ha causa di una reazione passata. Cap
 <br>
 
 ## Vari
+{% include back_to_top.md %}
+
+### Bralae Jhalaeir
+*Drow F, maga dei fulmini*
+
+Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre da queste parti. Mandante della [missione del Behir](./quest.md#behir). Estremamente bella, a parte che per i capelli ormai permanentemente sparati dati gli esperimenti. Molto entusiasta, forse troppo, riguardo a fulmini e affini.
+
+### Bhutur l'anziano
+*Orco M, anziano del villaggio*
+
+Anziano del villaggio di Khuramunz. Affianca Lada al governo, data la sua veneranda età e conoscenza delle genti del villaggio. Sacerdote di Kord, un tempo grande guerriero. Zanne pronunciate, capelli bianchi in coda dietro. Austero ma conosce tutti gli abitanti del villaggio.
 
 ### Minori
 
