@@ -67,7 +67,7 @@ table.quest {
     // background-color: rgb(73, 73, 73);
     // border: rgb(19, 19, 19) solid 2px, rgb(36, 36, 36) solid 8px;
     border: 10px double rgb(172, 172, 172);
-    border-image: url(../assets/img/dialog_border_white.webp) 34 0 34;
+    border-image: url(/assets/img/dialog_border_white.webp) 34 0 34;
     border-image-repeat: space;
     border-image-outset: -8px;
     padding: 4px;
@@ -84,10 +84,10 @@ table.quest {
     }
 
     .kynthea {
-        background-image: url(../assets/img/icon_kynthea.webp);
+        background-image: url(/assets/img/icon_kynthea.webp);
     }
     .chestibor {
-        background-image: url(../assets/img/icon_chestibor.webp);
+        background-image: url(/assets/img/icon_chestibor.webp);
     }
 
     p {
