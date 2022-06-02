@@ -1,42 +1,42 @@
 ---
 ---
-// @import 'reset.scss';
+@import 'reset.scss';
 @import "{{ site.theme }}";
-// @import 'phb.fonts.scss';
-// @import 'phb.assets.scss';
-// @import 'phb.depricated.scss';
-// @import 'phb.style.dark.scss';
+@import 'phb.fonts.scss';
+@import 'phb.assets.scss';
+@import 'phb.depricated.scss';
+@import 'phb.style.dark.scss';
 @import "filloax.custom.scss";
 
-// strong {
-//     font-family: inherit !important;
-// }
+strong {
+    font-family: inherit !important;
+}
 
-// .phb {
-//     h2 {
-//         font-family: MrJeeves !important;
-//         font-size: 18px;
-//     }
+.phb {
+    h2 {
+        font-family: MrJeeves !important;
+        font-size: 30px;
+    }
 
-//     h3 {
-//         font-family: MrJeeves !important;
-//         font-size: 24px;
-//     }
+    h3 {
+        font-family: MrJeeves !important;
+        font-size: 24px;
+    }
 
-//     // padding: 1em 3em;
+    // padding: 1em 3em;
 
-//     p + h2,
-//     ul + h2,
-//     ol + h2 {
-//         margin-top: 1em;
-//     }
-// }
+    p + h2,
+    ul + h2,
+    ol + h2 {
+        margin-top: 1em;
+    }
+}
 
-// h6 {
-//     font-family: BookSanity;
-// }
+h6 {
+    font-family: BookSanity;
+}
 
-// section #title h1 {
-//     line-height: 1em;
-// }
+section #title h1 {
+    line-height: 1em;
+}
 

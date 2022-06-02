@@ -203,14 +203,13 @@ Attualmente ha la pelle di un verde acceso ha causa di una reazione passata. Cap
 
 Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre da queste parti. Mandante della [missione del Behir](./quest.md#behir). Estremamente bella, a parte che per i capelli ormai permanentemente sparati dati gli esperimenti. Molto entusiasta, forse troppo, riguardo a fulmini e affini.
 
-### Bhutur l'anziano
-*Orco M, anziano del villaggio*
-
-Anziano del villaggio di Khuramunz. Affianca Lada al governo, data la sua veneranda età e conoscenza delle genti del villaggio. Sacerdote di Kord, un tempo grande guerriero. Zanne pronunciate, capelli bianchi in coda dietro. Austero ma conosce tutti gli abitanti del villaggio.
 
 ### Minori
 
 **Matilda Sempreverde.** *Hobbit F*. Proprietaria di mezz'età della taverna della Pila Corta, unica mezzuoma di Rosonha. 
+
+
+**Bhutur l'anziano.** *Orco M, anziano del villaggio*. Anziano del villaggio di Khuramunz. Affianca Lada al governo, data la sua veneranda età e conoscenza delle genti del villaggio. Sacerdote di Kord, un tempo grande guerriero. Zanne pronunciate, capelli bianchi in coda dietro. Austero ma conosce tutti gli abitanti del villaggio.
 
 ###### Poi li divido per fazione, intanto ecco
 {:.no_toc}
