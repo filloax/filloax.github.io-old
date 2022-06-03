@@ -201,7 +201,7 @@ Attualmente ha la pelle di un verde acceso ha causa di una reazione passata. Cap
 ### Bralae Jhalaeir
 *Drow F, maga dei fulmini*
 
-Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre da queste parti. Mandante della [missione del Behir](./quest.md#behir). Estremamente bella, a parte che per i capelli ormai permanentemente sparati dati gli esperimenti. Molto entusiasta, forse troppo, riguardo a fulmini e affini.
+Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre da queste parti. Mandante della [missione del Behir](./quest.md#behir). Estremamente bella, a parte che per i capelli ormai permanentemente sparati dati gli esperimenti. Molto entusiasta, forse troppo, riguardo a fulmini e affini. Si potrebbe dire persino fulminata.
 
 
 ### Minori

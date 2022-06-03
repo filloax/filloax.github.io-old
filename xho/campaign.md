@@ -26,3 +26,13 @@
 	* Arrivo a Khuramunz
 	* Missione: Cinghiali della Tempesta
 	* *Sessione 4*
+* 9/02/843, **9 Misuthar**
+	* A Khuramunz inizio
+	* Inizio *Sessione 5*
+	* Inizio missione *Behir*
+	* Inizio viaggio verso Catena della Penombra (nord-ovest)
+* 10/02/843, **10 Misuthar**
+	* Viaggio verso Catena della Penombra (nord-ovest)
+* 11/02/843, **11 Misuthar**
+	* Arrivo a Catena della Penombra (nord-ovest)
+	* Missione *Behir*, in caverna
