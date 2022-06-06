@@ -16,6 +16,8 @@ Il *riposo lungo* può essere fatto **solo in luoghi civilizzati** ragionevolmen
 
 > Dalle regole base, inoltre: un riposo lungo può essere fatto solo una volta ogni 24 ore. No spam, a prescindere da altre condizioni.
 
+----
+
 ## Magie e azioni
 
 ### Spelldriver (azioni bonus incantesimi)
@@ -30,6 +32,8 @@ Bere una pozione specificamente **di cura** non richiede un azione standard, ma 
 
 Entrambe queste regole valgono solo per bere una pozione per sè stessi: somministrarla a un alleato, per esempio un chierico svenuto, richiederà comunque un azione senza il bonus della cura massima.
 
+----
+
 ## Statistiche
 
 ### Dadi vita
@@ -42,6 +46,8 @@ Quando si sale di livello, l'aumento della vita massima è determinato a partire
 
 Non si ritirano gli 1 come da metodo standard, essendo questo molto più generoso come metodo. Si arrotonda per difetto come in tutte le altre cose del gioco. Vale solo per l'aumento di vita massima, non nel tirare dadi vita durante il riposo breve.
 
+----
+
 ## Viaggio
 
 ### Passo di viaggio
@@ -53,6 +59,8 @@ Non homebrew, ma per comodità ripetuto qua.
 | Veloce  | 400ft                   | 120m | 4mi                  | 6km   | 30mi                    | 48km | Penalità -5 Perc. pass.       |
 | Normale | 300ft                   | 90m  | 3mi                  | 4.5km | 24mi                    | 36km |                               |
 | Lento   | 200ft                   | 60m  | 2mi                  | 3km   | 18mi                    | 24km | Consente furtività e raccolta |
+
+----
 
 ## Crafting
 
