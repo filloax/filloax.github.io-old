@@ -1,0 +1,11 @@
+## Sessione 3: Cinghiali della Tempesta
+
+##### 13/05/22
+
+Incontro con NPC di Ardeal, a parte il vecchio nano rimasto al villaggio. Conversazione poco amabile con Frau Engel, l'anziana elfa pallida governante del casato, e poca conversazione con il fabbro, al quale nessuno ha chiesto il nome. Stanziamento dei PG in luoghi vari. Vedono tutte e 3 le creature rare di Kynthea: Anken, il suo kaburias (garchomp), un lupo blu e secco con artigli di acciaio e evidenti capacità arcane, e un gloomstalker divenuto in qualche modo luminoso.
+
+Viaggio verso il villaggio di Khuramunz, sul fiume Ifontar, per la missione dei Cinghiali della tempesta.
+
+Nel villaggio, conversazione con l'anziano Bhutur che illustra la situazione, e conosciuta la maga dei fulmini (e fulminata) Bralae, che è lì per studiare i cinghiali ed è anche la datrice di lavoro per l'incarico del Behir.
+
+Combattimento con 2 cinghiali fuori dalla Casa delle Gilde, e 2 mamme cinghiale dentro. Catturati 1 cinghiale maschio, 1 femmina, e i 4 piccoli.
