@@ -1,4 +1,4 @@
-## Sessione 4: Fulminamenti
+## Sessione 4 - Fulminamenti
 
 ##### 19/05/2022
 

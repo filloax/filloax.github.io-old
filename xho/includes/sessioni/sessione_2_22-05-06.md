@@ -1,4 +1,4 @@
-## Sessione 2: La Gilda Fres'tynn
+## Sessione 2 - La Gilda Fres'tynn
 
 ##### 6/05/2022
 

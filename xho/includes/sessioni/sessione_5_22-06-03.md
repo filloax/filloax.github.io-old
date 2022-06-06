@@ -1,4 +1,4 @@
-## Sessione 5: Ally switch
+## Sessione 5 - Ally switch
 
 ##### 03/06/2022
 

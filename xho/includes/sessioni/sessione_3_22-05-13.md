@@ -1,4 +1,4 @@
-## Sessione 3: Cinghiali della Tempesta
+## Sessione 3 - Cinghiali della Tempesta
 
 ##### 13/05/22
 
