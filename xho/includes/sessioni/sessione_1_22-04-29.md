@@ -1,0 +1,11 @@
+## Sessione 1 - Alba di Sangue
+
+##### 29/04/2022
+
+Intro: Storia di Xhorhas e degli anni recenti, terre già devastate dalla Calamità di quasi un millennio fa, e negli ultimi 7 ann, con la Convergenza tra universi, sono comparse le Nebbie del Lutto, terre avvolte da densa e innaturale nebbia dove le creature e la terra stessa vengono mutate. Fiorisce il mestiere dell'avventuriero, e quindi causa tasse recenti della Dinastia per tenerli a bada nascono gilde.
+
+Avventurieri agli uffici del Faro Radiante, gilda fighetta del Den Hythenos, clan dedito a mercenari e simili. Incontrano il sergente Coboryn, e per coincidenza anche la Mano d'Ombra Essek Thelyss, passato a controllare lo stato della gilda, come rappresentante di (boh, a voi non è noto).
+
+Interrotta da celebrazione religiosa al Luxon, entità della luce e della rinascita più sacra alla Dinastia, che viene a sua volta interrotta da un attacco della Progenie della Perfidia, cultisti/terroristi che vogliono tornare alla venerazione di Lloth, la Regina dei Ragni, divinità che un tempo la popolazione degli elfi oscuri da cui è composta la Dinastia venerava. Aiutati nella battaglia da un simil-garchomp.
+
+I nostri eroi sono fondamentali a debellare l'attacco, e ricevono un'offerta di lavoro meno fighetta da un biglietto. Uno strano goblin gobbo, [Igor](./npc#igor-del-clan-igor), li conduce alla villa della "padrona", [Kynthea Fres'tynn](./npc#kynthea-frestynn).

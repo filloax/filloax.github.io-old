@@ -1,5 +1,6 @@
 {{ include.indent }}* [Quest]({{ include.dir | default: "." }}/quest)
 {{ include.indent }}* [NPC]({{ include.dir | default: "." }}/npc)
 {{ include.indent }}* [Regole casalinghe]({{ include.dir | default: "." }}/regole)
+{{ include.indent }}* [Riassunto sessioni]({{ include.dir | default: "." }}/sessioni)
 {{ include.indent }}* [Mappa interattiva](https://www.redgiantmaps.com/maps/wildemount)
 {{ include.indent }}* [Luoghi]({{ include.dir | default: "." }}/luoghi)
