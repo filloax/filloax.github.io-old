@@ -1,6 +1,6 @@
 ### **Sete consumante**
 * **Luogo.**  Foresta di Vermaloc  
-* **Ricompensa.** 400mo a testa  
+* **Ricompensa.** 2000mo  
 * **Mandante.** Gilda  
 * **Informazioni**
 <div class="dialogue">

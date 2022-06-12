@@ -1,6 +1,6 @@
 ### **Froghemoth**
 * **Luogo.**  Palude di Velofranto  
-* **Ricompensa.** 450mo a testa  
+* **Ricompensa.** 2250mo  
 * **Mandante.** Den Thelyss  
 * **Informazioni**
 <div class="dialogue">

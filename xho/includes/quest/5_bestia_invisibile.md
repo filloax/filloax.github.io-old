@@ -1,6 +1,6 @@
 ### **Bestia invisibile**
 * **Luogo.**  Foresta di Vermaloc  
-* **Ricompensa.** 450mo a testa  
+* **Ricompensa.** 2250mo  
 * **Mandante.** Villaggio di Veramund  
 * **Informazioni**
 <div class="dialogue">

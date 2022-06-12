@@ -1,6 +1,6 @@
 ### **Behir**
 * **Luogo.**  Terre desolate (vicino a Jigow)  
-* **Ricompensa.** 400mo a testa, pergamene magiche  
+* **Ricompensa.** 2000mo, pergamene magiche  
 * **Mandante.** Bralae Jhalaeir, maga dei fulmini  
 * **Informazioni**
 <div class="dialogue">

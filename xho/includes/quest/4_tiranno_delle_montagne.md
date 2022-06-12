@@ -1,6 +1,6 @@
 ### **Tiranno delle montagne**
 * **Luogo.**  Alpi della Penombra, parte separata a nord  
-* **Ricompensa.** 600mo a testa  
+* **Ricompensa.** 3000mo  
 * **Mandante.** Gilda  
 * **Informazioni**
 <div class="dialogue">
