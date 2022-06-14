@@ -1,4 +1,5 @@
 ### **Behir**
+#### **COMPLETA**
 * **Luogo.**  Terre desolate (vicino a Jigow)  
 * **Ricompensa.** 2000mo, pergamene magiche  
 * **Mandante.** Bralae Jhalaeir, maga dei fulmini  

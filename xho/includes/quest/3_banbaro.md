@@ -1,6 +1,6 @@
 ### **Banbaro**
 * **Luogo.**  Alpi della Penombra, parte separata a nord  
-* **Ricompensa.** 500mo a testa  
+* **Ricompensa.** 2500mo  
 * **Mandante.** Gilda  
 * **Informazioni**
 <div class="dialogue">

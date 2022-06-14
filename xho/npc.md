@@ -28,6 +28,10 @@ La convergenza e le nebbie del lutto hanno esteso in modo entusiasmante le poten
 
 **Anken.** Un esemplare di *kaburias* addomesticato, cosa molto rara.
 
+**Okari.** Un esemplare di una razza simile ai lupi, i *velharma*, più slanciati e evidentemente molto intelligenti. Ha abilità magiche di qualche tipo, e artigli d'acciaio. Il pelo è blu e nero.
+
+**Togil.** Gloomstalker/ombrapace addomesticato, che è stato oggetto di esperimento per renderlo affine alla luce del Luxon invece che all'ombra. Ora ha una pelle completamente bianca, vagamente luminosa.
+
 
 ### Igor del clan Igor
 
@@ -49,7 +53,7 @@ Bugbear dal pelo scuro, quasi nero. 54 anni. Non ha una gamba ma ha una gamba di
 
 Menziona spesso delle regole del "bravo esploratore".
 
-### ??? (Fabbro)
+### Mastro Ner Tör
 *Tiefling (mutante, orco) M, fabbro*
 
 *"Servi della nipote? Hrrm. Io forgio."*
@@ -103,7 +107,7 @@ Fratello di Kynthea, ha finanziato la gilda.
 
 *Drow F, figlia di Xandra*
 
-Bambina drow, abituata a stare da sola, anche se...
+Bambina drow, abituata a stare da sola, anche se di recente ha scoperto un po' come fare amicizia con altri bambini, e ora ne ha molta voglia.
 
 Vuole fare la guerriera da grande.
 
@@ -111,32 +115,6 @@ Vuole fare la guerriera da grande.
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-
-## Grifone del deserto
-{% include back_to_top.md %}
-
-### Shaba-ku di Marquet
-
-<div style="width: 33%; background-image: url('../assets/img/Alaloth-Sabaku-Shaba-Ku.webp');    background-position: top;   background-size: 280%;" class="portrait"> <a href="../assets/img/Alaloth-Sabaku-Shaba-Ku.webp" class="fill-div"></a></div>
-
-*Umano M, mercante di oggetti magici*
-
-Mercante viandante. Vestito da viaggio, con uno scettro arcano legato alla cintura e una borsa contenente molti rotoli di carta.
-
-Shaba-ku viene da Marquet, in particolare dagli Altipiani Artigliati. Ha viaggiato a lungo, incontrando Cocò nel deserto, raccogliendo storie da ogni dove. È estremamente interessato a raccogliere storie, sia antiche e del mondo in grande scala, sia delle persone che incontra, e il suo lavoro gli permette di farlo spesso.
-
-### Cyd O'neal
-
-*Umano M, esperto di creature misteriose*
-
-Collega di Shaba-ku, solitamente ha il volto coperto da elmo o altri indumenti, ma tiene i capelli mediamente lunghi in una coda. Indossa armatura leggera, e tiene due sciabole alla cintura. Seguito da un segugio cornuto dall'aspetto molto aggressivo, generalmente mansueto vicino a lui.
-
-Viene da Tal'dorei, zona centrale. Interessato alla storia e alle creature arcane, ha viaggiato molto. Ha incontrato Shaba-ku ed è stato un elemento chiave per addomesticare Cocò. Ora lo accompagna come collega, per scoprire storie.
-
 <br>
 <br>
 <br>
@@ -153,11 +131,64 @@ Viene da Tal'dorei, zona centrale. Interessato alla storia e alle creature arcan
 
 Prodigio della dunamanzia (magia della realtà, gravità e tempo), nonostante l'età relativamente giovane di 127 anni. Ha evidentemente un ruolo importante, al momento a voi non noto. Girano voci su di lui, di diversa natura.
 
+Ha in qualche modo conoscenze su cose riguardanti il passato di Camelia. Ma per quale motivo?
+
 <br>
 <br>
 <br>
 <br>
 <br>
+
+## Mercanti e Negozianti
+{% include back_to_top.md %}
+
+### Mavreus Vessac
+
+<div style="width: 33%; background-image: url('https://i.imgur.com/zfsX6Ow.png');    background-position: top;   background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/zfsX6Ow.png" class="fill-div"></a></div>
+
+*Tiefling M, artefice*
+
+Creatore e studioso di oggetti e tecnologia arcana. Ha la pelle rossa, e occhi da serpente (nonostante l'immagine). Uno dei due corni è molto scheggiato/rotto, probabilmente per via di un incidente. 
+
+Fratello gemello di [Maza Vessac](#maza-vessac).
+
+È quasi sempre accompagnato da Iggy, il suo *difensore d'acciaio*, una specie di dinosauro golem di metallo.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+### Shaba-ku di Marquet
+
+<div style="width: 33%; background-image: url('../assets/img/Alaloth-Sabaku-Shaba-Ku.webp');    background-position: top;   background-size: 280%;" class="portrait"> <a href="../assets/img/Alaloth-Sabaku-Shaba-Ku.webp" class="fill-div"></a></div>
+
+*Umano M, mercante di oggetti magici*
+
+Mercante viandante. Vestito da viaggio, con uno scettro arcano legato alla cintura e una borsa contenente molti rotoli di carta.
+
+Shaba-ku viene da Marquet, in particolare dagli Altipiani Artigliati. Ha viaggiato a lungo, incontrando Cocò nel deserto, raccogliendo storie da ogni dove. È estremamente interessato a raccogliere storie, sia antiche e del mondo in grande scala, sia delle persone che incontra, e il suo lavoro gli permette di farlo spesso.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+### Cyd O'neal
+
+*Umano M, esperto di creature misteriose*
+
+Collega di Shaba-ku, solitamente ha il volto coperto da elmo o altri indumenti, ma tiene i capelli mediamente lunghi in una coda. Indossa armatura leggera, e tiene due sciabole alla cintura. Seguito da un segugio cornuto dall'aspetto molto aggressivo, generalmente mansueto vicino a lui.
+
+Viene da Tal'dorei, zona centrale. Interessato alla storia e alle creature arcane, ha viaggiato molto. Ha incontrato Shaba-ku ed è stato un elemento chiave per addomesticare Cocò. Ora lo accompagna come collega, per scoprire storie.
+
+<br>
+<br>
+<br>
+<br>
+
 
 
 ## Den Hythenos
@@ -202,6 +233,26 @@ Attualmente ha la pelle di un verde acceso ha causa di una reazione passata. Cap
 *Drow F, maga dei fulmini*
 
 Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre da queste parti. Mandante della [missione del Behir](./quest.md#behir). Estremamente bella, a parte che per i capelli ormai permanentemente sparati dati gli esperimenti. Molto entusiasta, forse troppo, riguardo a fulmini e affini. Si potrebbe dire persino fulminata.
+
+### Nepheli Loux
+
+<div style="width: 25%; background-image: url('https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium');    background-position: top -10px right -50px;   background-size: 150%;" class="portrait"> <a href="https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium" class="fill-div"></a></div>
+
+*Umana F, barbara tribale*
+
+Forzuta umana, ha offerto l'incarico della *bestia psionica*.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+### Maza Vessac
+*Tiefling F, barda dotata*
+
+Affascinante tiefling rossa, sorella gemella di [Mavreus Vessac](#mavreus-vessac). Ha le corna intere, a differenza del fratello, ma come lui occhi da serpente. Viaggia abbastanza.
 
 
 ### Minori
