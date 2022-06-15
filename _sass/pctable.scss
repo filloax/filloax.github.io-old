@@ -1,0 +1,96 @@
+.pctable {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    .cell {
+        max-width: 150px;
+        max-height: 150px;
+        flex: 1 0 21%;
+        text-align: center;
+        /*background: linear-gradient(45deg, #cccccc 0%, #dddddd 100%);*/
+        color: black;
+        aspect-ratio: 1/1;
+        background-repeat: no-repeat;
+    }
+    &:after {
+        content: "";
+        // position: absolute;
+        // bottom: 0px;
+        // left: 0px;
+        z-index: 100;
+        height: 50px;
+        width: 100%;
+        background-image: $footerAccentImage;
+        background-size: cover;
+    }
+}
+
+/* PERSONAGGI */
+
+.pctable .cell.xian {
+    background-image: url("../img/pg/xian_faccia.webp");
+    background-image: url("../img/pg/xian_faccia.webp"),
+        linear-gradient(45deg, #bacebc 0%, #84a189 100%);
+    background-position: top;
+    background-size: cover;
+}
+
+.pctable .cell.xandra {
+    background-image: url("../img/pg/Xandra_C.webp");
+    background-image: url("../img/pg/Xandra_C.webp"),
+        linear-gradient(45deg, #bac8ce 0%, #848ca1 100%);
+    background-position: top 0 left 47%;
+    background-size: 250%;
+}
+
+.pctable .cell.lakario {
+    background-image: url("../img/pg/lakario.webp");
+    background-image: url("../img/pg/lakario.webp"),
+        linear-gradient(45deg, #cebace 0%, #a1849f 100%);
+    background-position: top;
+    background-size: 250%;
+}
+
+.pctable .cell.kir {
+    background-image: url("../img/pg/kir.webp");
+    background-image: url("../img/pg/kir.webp"),
+        linear-gradient(45deg, #cebaba 0%, #a18484 100%);
+    background-position: top 5% left 47%;
+    background-size: 400%;
+}
+
+.pctable .cell.kess {
+    background-image: url("../img/pg/kess.webp");
+    background-image: url("../img/pg/kess.webp"),
+        linear-gradient(45deg, #cec6ba 0%, #a19584 100%);
+    background-position: top;
+    background-size: 250%;
+}
+
+.pctable .cell.willow {
+    background-image: url("../img/pg/willow.webp");
+    background-image: url("../img/pg/willow.webp"),
+        linear-gradient(45deg, #cbceba 0%, #9ea184 100%);
+    background-position: top;
+    background-size: 250%;
+}
+
+.pctable .cell.estia {
+    background-image: url("../img/pg/estia.webp");
+    background-image: url("../img/pg/estia.webp"),
+        linear-gradient(45deg, #cec5ba 0%, #a19484 100%);
+    background-position: top 0 left 5%;
+    background-size: 200%;
+}
+
+.pctable .cell.nikolaya {
+    background-image: url("../img/pg/Nikolaya.webp");
+    background-image: url("../img/pg/Nikolaya.webp"),
+        linear-gradient(45deg, #bac3ce 0%, #8489a1 100%);
+    background-position: top;
+    background-size: 100%;
+}

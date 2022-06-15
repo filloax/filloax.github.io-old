@@ -44,4 +44,3 @@
 * 14/02/843, **14 Misuthar**
 	* Arrivo ad Ardeal, rivelazioni varie
 	* Visita Essek
-	* Visita Nepheli Loux
