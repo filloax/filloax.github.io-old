@@ -90,6 +90,8 @@ con diverse sorprese, che può cambiare a suo piacimento.
 ##### Salo
 {:.no_toc}
 
+![](../assets/img/pg/willow.jpg){: width="325" }
+
 *Gnoll M, chierico (dominio della vita)*
 
 Enorme individuo completamente bendato, dall'aspetto minaccioso che in realtà cela una persona
