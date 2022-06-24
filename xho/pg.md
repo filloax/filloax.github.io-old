@@ -64,7 +64,7 @@ ciclo della vita.
 ##### Jack
 {:.no_toc}
 
-![](../assets/img/pg/kir.webp){: width="400" }
+![](https://i.imgur.com/aPuvxLI.jpg){: width="400" }
 
 *Tiefling (zariel) M, barbaro (zelota)*
 
