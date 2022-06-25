@@ -44,3 +44,20 @@
 * 14/02/843, **14 Misuthar**
 	* Arrivo ad Ardeal, rivelazioni varie
 	* Visita Essek
+* 19/02/843, **19 Misuthar**
+	* Arrivo di Kor alla gilda
+	* Arrivo di Aris alla gilda
+* 20/02/843, **20 Misuthar**
+	* Visita Nepheli Loux
+	* Inizio viaggio per missione Bestia Psionica
+	* Inizio Sessione 7
+* 27/02/843, **27 Misuthar**
+	* Arrivo viaggio per missione Bestia Psionica nella Brughiera di Iothia, dentro al quale sono stati spaventati dei banditi
+	* Nell' "Isola Senzamare", incontro con Eldenser e missione Bestia Psionica
+	* Nella notte, incontro con la tribù della luce, e Hoarah Loux
+* 28/02/843, **28 Misuthar**
+	* Ri-partenza verso Ardeal
+* 4/02/843, **4 Misuthar**
+	* Arrivo ad Ardeal, ricompensa della missione
+	* Ingaggio di Eldenser come teletrasportatore della gilda
+	* Arrivo di Houx in visita ad Ardeal
