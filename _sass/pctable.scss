@@ -9,7 +9,9 @@
     .cell {
         max-width: 150px;
         max-height: 150px;
-        flex: 1 0 21%;
+        width: 100%;
+        height: 100%;
+        flex: 0 0 20%;
         text-align: center;
         /*background: linear-gradient(45deg, #cccccc 0%, #dddddd 100%);*/
         color: black;
@@ -47,12 +49,12 @@
     background-size: 250%;
 }
 
-.pctable .cell.lakario {
-    background-image: url("../img/pg/lakario.webp");
-    background-image: url("../img/pg/lakario.webp"),
+.pctable .cell.aris {
+    background-image: url("https://64.media.tumblr.com/c0f0008254295a93b59fc0c2894a0efa/82bfbb4eb22aee44-a4/s1280x1920/f2d6371b9d367715b8b750f3b3e4489b669f158a.jpg");
+    background-image: url("https://64.media.tumblr.com/c0f0008254295a93b59fc0c2894a0efa/82bfbb4eb22aee44-a4/s1280x1920/f2d6371b9d367715b8b750f3b3e4489b669f158a.jpg"),
         linear-gradient(45deg, #cebace 0%, #a1849f 100%);
-    background-position: top;
-    background-size: 250%;
+    background-position: top 42% right 55%;
+    background-size: 235%;
 }
 
 .pctable .cell.kir {
@@ -93,4 +95,12 @@
         linear-gradient(45deg, #bac3ce 0%, #8489a1 100%);
     background-position: top;
     background-size: 100%;
+}
+
+.pctable .cell.kor {
+    background-image: url("https://i.imgur.com/q4oD74v.jpg");
+    background-image: url("https://i.imgur.com/q4oD74v.jpg"),
+        linear-gradient(45deg, #bac3ce 0%, #8489a1 100%);
+    background-position: top 20% right 50%;
+    background-size: 150%;
 }

@@ -9,5 +9,5 @@
 | [Sete consumante](#sete-consumante) | Foresta di Vermaloc | 2000mo |
 | [Ragni Mangiademoni](#ragni-mangiademoni) | Foresta di Vermaloc | 2000mo |
 | [Froghemoth](#froghemoth) | Palude di Velofranto | 2250mo |
-| [Bestia psionica](#bestia-psionica) | Brughiera di Iothia / Terre desolate (da chiedere) | ??? |
+| [~~Bestia psionica~~](#~~bestia-psionica~~) | ~~Brughiera di Iothia~~ | ~~3500 mo~~ |
 

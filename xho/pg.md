@@ -9,12 +9,13 @@
 <div class="pctable">      
     <div class="cell xian"><a href="#xian" class="fill-div"></a></div>
     <div class="cell xandra"><a href="#xandra" class="fill-div"></a></div>
-    <div class="cell lakario"><a href="#lakario" class="fill-div"></a></div>
+    <div class="cell aris"><a href="#aris" class="fill-div"></a></div>
     <div class="cell kir"><a href="#kir" class="fill-div"></a></div>
     <div class="cell kess"><a href="#kess" class="fill-div"></a></div>
     <div class="cell willow"><a href="#willow" class="fill-div"></a></div>
     <div class="cell estia"><a href="#estia" class="fill-div"></a></div>
     <div class="cell nikolaya"><a href="#nikolaya" class="fill-div"></a></div>
+    <div class="cell kor"><a href="#kor" class="fill-div"></a></div>
 </div>
 
 ## Xian
@@ -47,7 +48,7 @@ Enorme donna armata di falcione, di poche parole ma un mercenario abile.
 il lavoro.
 
 
-## Lakario
+## Aris
 
 ##### Matte
 {:.no_toc}
@@ -58,6 +59,7 @@ Lungo individuo umanoide dalla pelle azzurra, e dagli occhi senza pupille.
 Il suo patto con la Morte (nello specifico, Thanathos) è manifestato nella sua
 arma, una grande falce con un occhio. Caccia i non-morti che hanno violato il
 ciclo della vita.
+Abbastanza impulsivo, sembrerebbe.
 
 ## Kir
 
@@ -145,3 +147,26 @@ sembrano illuminarsi. Nome completo: Nikolaya Yankovic.
 </p>
 
 ???
+
+##### Kor
+{:.no_toc}
+
+![](https://i.imgur.com/q4oD74v.jpg){: width="325" }
+
+*Drow (vacuo) F, ladro (esploratore)*
+
+Drow vacua, visibilmente non morta. Estremamente di poche parole per ora, ma molto abile nella navigazione e nella caccia. Sembra poter camminare su i muri.
+
+## Pensionati
+{:.no_toc}
+
+## Lakario
+{:.no_toc}
+
+##### Matte
+{:.no_toc}
+
+*Aasimar M, chierico (tomba)*
+
+Lungo individuo umanoide dalla pelle azzurra, e dagli occhi senza pupille.
+Venera la Regina dei Corvi, Matrona della Morte.

@@ -1,6 +1,7 @@
 ### **Bestia psionica**
-* **Luogo.**  Brughiera di Iothia / Terre desolate (da chiedere)  
-* **Ricompensa.** ???  
+#### **COMPLETA**
+* **Luogo.**  Brughiera di Iothia  
+* **Ricompensa.** 3500 mo  
 * **Mandante.** <img src="../../../assets/img/tree.webp" style="width: 80px"/> (Nepheli Loux?)  
 * **Informazioni**
 <div class="quest-paper">

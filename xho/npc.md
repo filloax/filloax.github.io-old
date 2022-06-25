@@ -73,9 +73,13 @@ Governante per il Den Fres'tynn da molto tempo, anche dai tempi della nonna di K
 
 Abbastanza antipatica a quasi tutti, e reciproca.
 
-<br>
-<br>
-<br>
+### Eldenser
+*abru-kreen M, teletrasportatore della gilda*
+
+Un abru-kreen, specie a metà tra rettili e insetti (avendo esterno di chitina), più o meno umanoide, e dotata di grandi poteri psionici. Ha viaggiato tutta la vita come molti membri della sua specie, meditando nei vari angoli di Exandria; nel cercare una cura per il figlio Dukit, colpito da un malanno che metteva nel caos le sue "energie", ha trovato l'artefatto con intorno la zona di psionica morta trovata dagli avventurieri.
+
+Dopo l'aiuto ricevuto per curare il figlio, ha accettato di lavorare per la gilda, offrendo i suoi poteri di teletrasporto.
+
 <br>
 
 ## Den Fres'tynn
@@ -89,9 +93,11 @@ Altri membri della casata.
 Nonna di Kynthea, uccisa 200 anni fa da folla inferocita (prima ancora che agisse la Guardia dell'Aurora) dati i suoi esperimenti a dir poco non etici con creature mostruose. È stata causa di brutte figure per della famiglia. Possedeva la villa ad Ardeal, il Castello Fres'tynn.
 
 ### Houx Fres'tynn
-*Drow M, ???*
+<div style="width: 25%; background-image: url('https://i.imgur.com/3wPt9Kn.png'); background-position: top 0 right 60%; background-size: 300%;" class="portrait"> <a href="https://imgur.com/3wPt9Kn" class="fill-div"></a></div>
 
-Fratello di Kynthea, ha finanziato la gilda.
+*Drow M, magnate della seta*
+
+Fratello di Kynthea, a sua differenza si è buttato nel commercio di seta e prodotti animali, dando il via a nuove tecniche di lavorazione che hanno fatto un sacco di soldi a sè e alla famiglia. 
 
 <br>
 <br>
@@ -240,19 +246,41 @@ Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre
 
 *Umana F, barbara tribale*
 
-Forzuta umana, ha offerto l'incarico della *bestia psionica*.
+Forzuta umana, ha offerto l'incarico della *bestia psionica*. Membro del nomade Clan della Luca, e figlia di Hoarah Loux, il suo capo.
 
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+
+### Hoarah Loux
+<div style="width: 25%; background-image: url('https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg'); background-position: top 10% right 55%; background-size: 300%;" class="portrait"> <a href="https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg" class="fill-div"></a></div>
+
+*Umano M, caotico neutrale*
+*?? anni, capo del clan*
+
+Un enorme umano, incredibilmente forzuto, anche se i capelli bianchi fanno capire un età forse più avanzata. Caparbio leader del Clan nomade della Luce, è a conoscenza, in modo quasi innato, dai sogni, e da ricordi che non sa come ha, dello *scopo ancestrale* della sua tribù. Spesso sogna ricordi che gli sembrano suoi, ma che non può avere ricordato: guerre, regni, altri figli.
+
 <br>
 <br>
 <br>
 
 ### Maza Vessac
+
+<div style="width: 25%; background-image: url('https://i.imgur.com/nXVqxIi.jpg'); background-position: top 10% right 45%; background-size: 200%;" class="portrait"> <a href="https://i.imgur.com/nXVqxIi.jpg" class="fill-div"></a></div>
+
 *Tiefling F, barda dotata*
 
 Affascinante tiefling rossa, sorella gemella di [Mavreus Vessac](#mavreus-vessac). Ha le corna intere, a differenza del fratello, ma come lui occhi da serpente. Viaggia abbastanza.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ### Minori
