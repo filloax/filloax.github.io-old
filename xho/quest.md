@@ -4,11 +4,26 @@
 
 Missioni assegnate dalla Gilda del Den Fres'tynn.
 
+## Indice
+
+### Esplorazione
+
+{% include_relative includes/explore_index.md %}
+
+### Incarichi
+
+{% include_relative includes/quest_index.md %}
+
+<br>
+<br>
+
 ## Incarichi
 
 Ricerca o caccia di mostri, ritrovamento di oggetto correlati, e altre missioni con un obiettivo specifico.
 
+{% comment %}
 {% include_relative includes/quest_index.md %}
+{% endcomment %}
 
 {% comment %}
 {% include_relative incarichi.html %}
@@ -21,8 +36,16 @@ Ricerca o caccia di mostri, ritrovamento di oggetto correlati, e altre missioni 
 {% endif %}
 {% endfor %}
 
+<br>
+<br>
+
 ## Esplorazione
 
 Zone da esplorare, partendo da un accampamento nelle vicinanze. Sia nebbie del lutto, che aree particolari.
 
-*(al momento nessuna pronta)*
+{% include_relative includes/explore_index.md %}
+
+<br>
+
+{% include_relative includes/explore_places.md %}
+

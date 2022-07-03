@@ -124,6 +124,18 @@ a.fill-div {
 }
 */
 
+.placeimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+        object-fit: contain;
+        display: inline-block;
+        flex-shrink: 1;
+    }
+}
+
 /* Fade loop */
 
 .fadeloop {
