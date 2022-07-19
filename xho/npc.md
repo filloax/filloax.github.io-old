@@ -40,6 +40,7 @@ La convergenza e le nebbie del lutto hanno esteso in modo entusiasmante le poten
 Servitore di clan, come suo padre e il padre di suo padre. 
 Da tradizione del clan serve scienziati e studiosi... particolari. Il trisnonno serviva Noxis, nonna di Kynthea.
 
+Lo avete aiutato con un artefatto importante da lui accidentalmente fatto cadere, che ha liberato spiriti di ogni sorta.
 
 ### Chestibor
 

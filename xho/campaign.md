@@ -61,3 +61,6 @@
 	* Arrivo ad Ardeal, ricompensa della missione
 	* Ingaggio di Eldenser come teletrasportatore della gilda
 	* Arrivo di Houx in visita ad Ardeal
+* 6/03/843, **6 Misuthar**
+	* Sessione 8
+	* Spiritomb accidentalmente liberato da artefatto da Igor

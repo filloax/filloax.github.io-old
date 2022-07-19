@@ -94,10 +94,10 @@ Oltre a quelli elencati vende anche tutti gli oggetti di basso prezzo nella sezi
 
 | Nome                                               | Prezzo | Rarità     | Quantità |
 | -------------------------------------------------- |:------:| ---------- |:--------:|
-| *Borsa conservante*                                |  1000  | non comune |    3     |
-| *Borsa dei trucchi*                                |  520   | non comune |    1     |
-| *Stivali elfici*                                   |  470   | non comune |    1     |
-| *Guanti del potere orchesco*                     |  500   | non comune |    1     |
+| *Borsa conservante*                                |  1000  | non comune |    2     |
+| ~~~~*Borsa dei trucchi*~~~~                                |  520   | non comune |    0     |
+| ~~~~*Stivali elfici*~~~~                                   |  470   | non comune |    0     |
+| *Guanti del potere orchesco*                       |  500   | non comune |    1     | 
 | Lanterna a lente sporgente                         |   10   | comune     |    5     |
 | Lanterna coperta                                   |   5    | comune     |    5     |
 | Rampino                                            |   7    | comune     |    7     |
@@ -146,7 +146,7 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
 | [*Scettro dei piccioni*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/t5u5dd/the_griffons_saddlebag_staff_of_pigeons_staff/)                                   |  450   | non comune | *Sembra un buffo oggetto, ma ha salvato un intero regno con il suo celere messaggero.*                                                                   |
 | [*Scioglivento*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/kdpsyz/the_griffons_saddlebag_air_render_weapon_shortbow/) [arco corto]                          |  900   | raro       | *Si dice che i migliori tra i guerrieri delle tribù eisfuura dei monti deserti sappiano manipolare il vento così a fino da poterci creare freccie.*      |
 | [*Spilla delle numerose grandezze*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/bj4ado/the_griffons_saddlebag_brooch_of_many_sizes/)                          |  900   | raro       | *Un grande artefice aveva sempre avuto molta vergogna della propria bassa statura, e costruì questo. Ma, un giorno, girò troppo la levetta, e scomparì.* |
-| [*Anello della vista del solar*](https://www.google.com/search?client=firefox-b-d&q=Ring+of+Solar%27s+Sight)                                                             |  900   | raro       | *I solar, tra i più grandi celestiali, offrono questo anello a pochi cacciatori eletti che superano una prova di rigore e giustizia.*                                                                                                                                                         |
+| [~~*Anello della vista del solar*~~](https://www.google.com/search?client=firefox-b-d&q=Ring+of+Solar%27s+Sight)                                                         |  900   | raro       | ~~*I solar, tra i più grandi celestiali, offrono questo anello a pochi cacciatori eletti che superano una prova di rigore e giustizia.*~~                | 
 | **Comuni**                                                                                                                                                               |  ---   | ---        | ---                                                                                                                                                      |
 | [*Cintura da sedia*](https://reddit.com/r/TheGriffonsSaddlebag/comments/ba5283/the_griffons_saddlebag_belt_of_the_chairman/) (originalmente "seat belt" nel manuale lol) |   50   | comune     | *Apprezzata da molti per sedersi ad ammirare il panorama.*                                                                                               |
 | [~~*Sfera di terra selvaggia*~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/pjowlo/the_griffons_saddlebag_ball_of_wild_earth/)                               | ~~75~~ | comune     | *Tenetelo lontano dagli scarabei stercorari, lo spaventano.*                                                                                             |
