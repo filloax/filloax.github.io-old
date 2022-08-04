@@ -50,6 +50,18 @@ Non si ritirano gli 1 come da metodo standard, essendo questo molto più generos
 
 ## Viaggio
 
+### Esplorazione Alexandriana
+
+L'esplorazione per esagoni usata nella campagna. Alcuni link utili ai giocatori (fornisco comunque cose più sintetiche IRL, qua è per avere il materiale):
+
+![Azioni di guardia](../assets/img/DND-Alexandrian-Watch-Actions.jpg){: height = "400"}
+
+* **Azioni di guardia.** https://thealexandrian.net/wordpress/46116/roleplaying-games/5e-hexcrawl-part-3-watch-actions
+
+    * Per chi fa la vedetta: [distanza di vista dall'altezza](https://thealexandrian.net/wordpress/46122/roleplaying-games/hexcrawl-tool-spot-distances)
+
+* **Viaggio.** https://thealexandrian.net/wordpress/46101/roleplaying-games/5e-hexcrawl-part-2-wilderness-travel (linko giusto nel caso possano interessare velocità di viaggio e CD dei terreni, per il resto è roba lato mio)
+
 ### Passo di viaggio
 
 Non homebrew, ma per comodità ripetuto qua.
