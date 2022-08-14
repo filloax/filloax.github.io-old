@@ -54,13 +54,26 @@
 * 27/02/843, **27 Misuthar**
 	* Arrivo viaggio per missione Bestia Psionica nella Brughiera di Iothia, dentro al quale sono stati spaventati dei banditi
 	* Nell' "Isola Senzamare", incontro con Eldenser e missione Bestia Psionica
-	* Nella notte, incontro con la tribù della luce, e Hoarah Loux
+	* Nella notte, incontro con la tribù della luce, e [Hoarah Loux](npc#hoarah-loux)
 * 28/02/843, **28 Misuthar**
 	* Ri-partenza verso Ardeal
 * 4/02/843, **4 Misuthar**
 	* Arrivo ad Ardeal, ricompensa della missione
 	* Ingaggio di Eldenser come teletrasportatore della gilda
-	* Arrivo di Houx in visita ad Ardeal
+	* Arrivo di [Houx](npc#houx-frestynn) in visita ad Ardeal
 * 6/03/843, **6 Misuthar**
 	* Sessione 8
 	* Spiritomb accidentalmente liberato da artefatto da Igor
+* 12/03/843, **12 Misuthar**
+	* Inizio [Sessione 9](sessioni#sessione-9---il-villaggio-lungo-il-fiume)
+	* Partenza per fare la base 1 presso la Foresta del Vermaloc
+* 16/03/843, **16 Misuthar**
+	* Avvistata Aeronave verso Rosonha
+* 17/03/843, **17 Misuthar**
+	* Arrivo e insediamento nella base della Foresta del Vermaloc
+* 18/03/843, **18 Misuthar**
+	* Inizio prima esplorazione Foresta del Vermaloc
+	* Visita del villaggio abbandonato irreale
+* 19/03/843, **19 Misuthar**
+	* [Sessione 10](sessioni#sessione-10---soli-con-chi-è-solo)
+	* Incontro con [Hornet](npc#hornet)

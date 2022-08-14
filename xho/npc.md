@@ -197,6 +197,69 @@ Viene da Tal'dorei, zona centrale. Interessato alla storia e alle creature arcan
 <br>
 
 
+## Viandanti
+{% include back_to_top.md %}
+
+NPC importanti (o comunque non minori) incontrati come parte delle missioni.
+
+### Nepheli Loux
+
+<div style="width: 25%; background-image: url('https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium');    background-position: top -10px right -50px;   background-size: 150%;" class="portrait"> <a href="https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium" class="fill-div"></a></div>
+
+*Umana F, barbara tribale*
+
+Forzuta umana, ha offerto l'incarico della *bestia psionica*. Membro del nomade Clan della Luca, e figlia di Hoarah Loux, il suo capo.
+
+**Interazioni**
+
+- Ha ingaggiato il gruppo per scacciare una creatura psichica ([Eldenser](#eldenser)) dall'Isola Senzamare, che la sua tribù ambiva raggiungere.
+- Li ha aiutati durante la suddetta missione.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+### Hoarah Loux
+<div style="width: 25%; background-image: url('https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg'); background-position: top 10% right 55%; background-size: 300%;" class="portrait"> <a href="https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg" class="fill-div"></a></div>
+
+*Umano M, caotico neutrale*  
+*?? anni, capo del clan*
+
+Un enorme umano, incredibilmente forzuto, anche se i capelli bianchi fanno capire un età forse più avanzata. Caparbio leader del Clan nomade della Luce, è a conoscenza, in modo quasi innato, dai sogni, e da ricordi che non sa come ha, dello *scopo ancestrale* della sua tribù. Spesso sogna ricordi che gli sembrano suoi, ma che non può avere ricordato: guerre, regni, altri figli.
+
+**Interazioni**
+
+- Dopo la missione della Bestia Psionica, ha ringraziato (a modo suo) il gruppo, e fatto un accordo per lasciargli il cubo magico.
+
+<br>
+<br>
+<br>
+
+### Hornet
+
+<div style="width: 25%; background-image: url('https://cdna.artstation.com/p/assets/images/images/032/065/878/large/moira-mcmahon-hollowknighthornet.jpg?1605376747'); background-position: top 10% right 50%; background-size: 350%;" class="portrait"> <a href="https://cdna.artstation.com/p/assets/images/images/032/065/878/large/moira-mcmahon-hollowknighthornet.jpg?1605376747" class="fill-div"></a></div>
+
+*??? F, neutrale buona*  
+*Giovane adulto, guardiana senza meta*
+
+Una figura alta ed esile, con un grande mantello/gonna rosso e una maschera bianca, con due grandi corna che ricordano mantide su essa, e capelli bianco-argento visibili dietro. Ha parti di armatura nera visibili sotto il mantello, e particolari stivali "a trampolo", che la rendono più alta. Ha due sottili stocchi come armi, che sembrano essere legati nelle punte a del filo di seta.
+
+**Interazioni**
+
+- Ha osservato il gruppo da lontano, per poi aiutarlo contro un assalto di bugbear cultisti Llothiani.
+
+<br>
+<br>
+<br>
+
+
+### Bralae Jhalaeir
+*Drow F, maga dei fulmini*
+
+Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre da queste parti. Mandante della [missione del Behir](./quest.md#behir). Estremamente bella, a parte che per i capelli ormai permanentemente sparati dati gli esperimenti. Molto entusiasta, forse troppo, riguardo a fulmini e affini. Si potrebbe dire persino fulminata.
 
 ## Den Hythenos
 {% include back_to_top.md %}
@@ -218,15 +281,36 @@ Evidentemente ha un ruolo di leadership o controllo con il Faro. Abiti estremame
 
 ### Membri del Faro
 
-#### ???
+Info miste
+- Jenor, Kyria, Tazennin, Biggy e Frilysta sono un gruppo di esplorazione della nebbia, incontrato dal gruppo B.
+
+#### Jenor Hythenos
+{:.no_toc}
 *Drow M, avventuriero spocchioso*
 
-Elfo evidentemente figlio di papà, iscritto al Den Hythenos per probabile arroganza.
+Giovane rampollo del Den Hythenos, molto spocchioso per la nobiltà. Si è iscritto per fare il figo, fondamentalmente. 
+Incontrato dal gruppo principale all'inizio, e dal gruppo B nella foresta.
 
-#### ???
+#### Kyria Ti'irn
+{:.no_toc}
 *Drow F, stregone della magia selvaggia*
-
 Attualmente ha la pelle di un verde acceso ha causa di una reazione passata. Capelli corti e un po' bruciati.
+Incontrata dal gruppo principale all'inizio, e dal gruppo B nella foresta.
+
+#### Tazennin Mizzrym
+{:.no_toc}
+*Drow M, protettore*  
+Viaggia per proteggere "Lady Kyria", come da lavoro.
+
+#### Biggy Ogg
+{:.no_toc}
+*Goblin M, mago*
+Mago, poco sveglio oltre allo studio.
+
+#### Frilysta
+{:.no_toc}
+*Tiefling F, guerriera strana?*  
+Tiefling viola, corna dritte, molto strana.
 
 <br>
 <br>
@@ -235,38 +319,6 @@ Attualmente ha la pelle di un verde acceso ha causa di una reazione passata. Cap
 
 ## Vari
 {% include back_to_top.md %}
-
-### Bralae Jhalaeir
-*Drow F, maga dei fulmini*
-
-Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre da queste parti. Mandante della [missione del Behir](./quest.md#behir). Estremamente bella, a parte che per i capelli ormai permanentemente sparati dati gli esperimenti. Molto entusiasta, forse troppo, riguardo a fulmini e affini. Si potrebbe dire persino fulminata.
-
-### Nepheli Loux
-
-<div style="width: 25%; background-image: url('https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium');    background-position: top -10px right -50px;   background-size: 150%;" class="portrait"> <a href="https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium" class="fill-div"></a></div>
-
-*Umana F, barbara tribale*
-
-Forzuta umana, ha offerto l'incarico della *bestia psionica*. Membro del nomade Clan della Luca, e figlia di Hoarah Loux, il suo capo.
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-### Hoarah Loux
-<div style="width: 25%; background-image: url('https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg'); background-position: top 10% right 55%; background-size: 300%;" class="portrait"> <a href="https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg" class="fill-div"></a></div>
-
-*Umano M, caotico neutrale*
-*?? anni, capo del clan*
-
-Un enorme umano, incredibilmente forzuto, anche se i capelli bianchi fanno capire un età forse più avanzata. Caparbio leader del Clan nomade della Luce, è a conoscenza, in modo quasi innato, dai sogni, e da ricordi che non sa come ha, dello *scopo ancestrale* della sua tribù. Spesso sogna ricordi che gli sembrano suoi, ma che non può avere ricordato: guerre, regni, altri figli.
-
-<br>
-<br>
-<br>
 
 ### Maza Vessac
 
