@@ -1,5 +1,9 @@
 [Torna a campagna](./campaign.md)
 
+> 3 Settembre 2022: Nuovi negozianti! L'alchimista **Alchimia Botanica**.  
+Tutti i negozianti hanno qualche nuova merce in vendita, evidenziate in **grassetto**.
+
+
 # Negozi
 
 I vari negozianti vendono direttamente _solo_ le cose elencate nella tabella, oppure oggetti base che abbiano senso; altri magici se non elencati no. Però alcuni sanno costruire oggetti, vedi sotto.
@@ -92,25 +96,30 @@ Utili meno spesso *woodcarving*, roba di legno varia, *engineering*, creazione d
 ### Negozio
 Oltre a quelli elencati vende anche tutti gli oggetti di basso prezzo nella sezione *tinkering* del manuale completo del crafting.
 
-| Nome                                               | Prezzo | Rarità     | Quantità |
-| -------------------------------------------------- |:------:| ---------- |:--------:|
-| *Borsa conservante*                                |  1000  | non comune |    2     |
-| ~~~~*Borsa dei trucchi*~~~~                                |  520   | non comune |    0     |
-| ~~~~*Stivali elfici*~~~~                                   |  470   | non comune |    0     |
-| *Guanti del potere orchesco*                       |  500   | non comune |    1     | 
-| Lanterna a lente sporgente                         |   10   | comune     |    5     |
-| Lanterna coperta                                   |   5    | comune     |    5     |
-| Rampino                                            |   7    | comune     |    7     |
-| Rampino migliorato¹                                |  100   | non comune |    1     |
-| Munizioni avanzate (vedi manuale)                  | varia  | varia      |    -     |
-| **Materiali**                                      |  ---   | ---        |   ---    |
-| Essenza arcana comune (gemma draconica di Eberron) |   45   | comune     |    7     |
-| Essenza divina comune (gemma draconica di Syberys) |   45   | comune     |    2     |
-| Essenza arcana non comune                          |  150   | non comune |    1     |
-| Inchiostro magico non comune                       |   40   | non comune |    1     |
-| Inchiostro magico comune                           |   15   | comune     |    14    |
-| Reagente comune                                    |   15   | comune     |    -     |
-| Reagente non comune                                |   40   | non comune |    25    |
+| Nome                                                                                                                                           | Prezzo | Rarità     | Quantità |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |:------:| ---------- |:--------:|
+| *Borsa conservante*                                                                                                                            |  1000  | non comune |    2     |
+| ~~*Borsa dei trucchi*~~                                                                                                                    |  520   | non comune |    0     |
+| ~~*Stivali elfici*~~                                                                                                                       |  470   | non comune |    0     |
+| *Guanti del potere orchesco*                                                                                                                   |  500   | non comune |    1     |
+| [***Runa dell'Abilità (Skill)***](oggetti#runa-dellabilità)                                                                                    |  550   | non comune |    1     |
+| [***Ordinario bastone da passeggio***](https://dungeon_strugglers.artstation.com/projects/rAnvkm)                                              |  180   | comune     |    1     |
+| [***Lanciafiamme dell'alchimista***](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/udwzsx/the_griffons_saddlebag_alchemists_firethrower/)|  1000  | raro       |    1     |
+| [***Mantello della protezione***](https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/mantello-della-protezione/)          |  1600  | raro       |    1     | 
+| Lanterna a lente sporgente                                                                                                                     |   10   | comune     |    5     |
+| Lanterna coperta                                                                                                                               |   5    | comune     |    5     |
+| Rampino                                                                                                                                        |   7    | comune     |    7     |
+| Rampino migliorato¹                                                                                                                            |  100   | non comune |    1     |
+| Munizioni avanzate (vedi manuale)                                                                                                              | varia  | varia      |    -     |
+| [**Fuoco dell'alchimista**](https://roll20.net/compendium/dnd5e/Alchemist%27s%20Fire#content)                                                      |   20   | comune     |    9     |
+| **Materiali**                                                                                                                                  |  ---   | ---        |   ---    |
+| Essenza arcana comune (gemma draconica di Eberron)                                                                                             |   45   | comune     |    7     |
+| Essenza divina comune (gemma draconica di Syberys)                                                                                             |   45   | comune     |    2     |
+| Essenza arcana non comune                                                                                                                      |  150   | non comune |    1     |
+| Inchiostro magico non comune                                                                                                                   |   40   | non comune |    1     |
+| Inchiostro magico comune                                                                                                                       |   15   | comune     |    14    |
+| Reagente comune                                                                                                                                |   15   | comune     |    -     |
+| Reagente non comune                                                                                                                            |   40   | non comune |    25    |
 
 ¹ As an action, or in place of an attack as
 part of the Attack action, you may target a surface, object
@@ -138,21 +147,27 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
 
 ### Negozio
 
-| Nome                                                                                                                                                                     | Prezzo | Rarità     | Info brevi                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |:------:| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| *Balestra leggera +1*                                                                                                                                                    |  565   | non comune | *Vendutami 7 anni or sono da un avventuriero particolare.*                                                                                               |
-| [*Stivali molleggiati*](https://roll20.net/compendium/dnd5e/Boots%20of%20Striding%20and%20Springing#content)                                                             |  325   | non comune | *Tuc Saltolesto era un famoso predone, che saltava a destra e manca. Questo finchè non cadde sulla lancia della guardia.*                                |
-| [*Centipestatori*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/d868l9/the_griffons_saddlebag_centibeaters_wondrous_item/) [guanti]                            |  300   | non comune | *Chi vuole tirare cento pugni, impara bene da chi ha cento mani.*                                                                                        |
-| [*Scettro dei piccioni*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/t5u5dd/the_griffons_saddlebag_staff_of_pigeons_staff/)                                   |  450   | non comune | *Sembra un buffo oggetto, ma ha salvato un intero regno con il suo celere messaggero.*                                                                   |
-| [*Scioglivento*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/kdpsyz/the_griffons_saddlebag_air_render_weapon_shortbow/) [arco corto]                          |  900   | raro       | *Si dice che i migliori tra i guerrieri delle tribù eisfuura dei monti deserti sappiano manipolare il vento così a fino da poterci creare freccie.*      |
-| [*Spilla delle numerose grandezze*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/bj4ado/the_griffons_saddlebag_brooch_of_many_sizes/)                          |  900   | raro       | *Un grande artefice aveva sempre avuto molta vergogna della propria bassa statura, e costruì questo. Ma, un giorno, girò troppo la levetta, e scomparì.* |
-| [~~*Anello della vista del solar*~~](https://www.google.com/search?client=firefox-b-d&q=Ring+of+Solar%27s+Sight)                                                         |  900   | raro       | ~~*I solar, tra i più grandi celestiali, offrono questo anello a pochi cacciatori eletti che superano una prova di rigore e giustizia.*~~                | 
-| **Comuni**                                                                                                                                                               |  ---   | ---        | ---                                                                                                                                                      |
-| [*Cintura da sedia*](https://reddit.com/r/TheGriffonsSaddlebag/comments/ba5283/the_griffons_saddlebag_belt_of_the_chairman/) (originalmente "seat belt" nel manuale lol) |   50   | comune     | *Apprezzata da molti per sedersi ad ammirare il panorama.*                                                                                               |
-| [~~*Sfera di terra selvaggia*~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/pjowlo/the_griffons_saddlebag_ball_of_wild_earth/)                               | ~~75~~ | comune     | *Tenetelo lontano dagli scarabei stercorari, lo spaventano.*                                                                                             |
-| [*Pozione da bagno*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/biqp7g/the_griffons_saddlebag_bath_potion_potion/)                                           |   25   | comune     | *I nobili guerrieri la usano sempre per i gala dopo giornate di lotta.*                                                                                  |
-| [*Vestiti riparanti*](https://www.worldanvil.com/block/15048)                                                                                                            |   60   | comune     | *Anche i vestiti che ho addosso funzionano così, in realtà. Necessario per il mio lavoro.*                                                               |
-| [*Totem del rospo*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/opfkr3/the_griffons_saddlebag_bullfrog_totem_wondrous/)                                       |   60   | comune     | *Gli insetti da queste parti sono pochi ma davvero fastidiosi. Un goblin nelle paludi mi ha venduto questo piccolo ma utilissimo cimelio.*               |
+| Nome                                                                                                                                                                                                         | Prezzo | Rarità     | Info brevi                                                                                                                                               |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |:------:| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| *Balestra leggera +1*                                                                                                                                                                                        |  565   | non comune | *Vendutami 7 anni or sono da un avventuriero particolare.*                                                                                               |     |
+| [*Stivali molleggiati*](https://roll20.net/compendium/dnd5e/Boots%20of%20Striding%20and%20Springing#content)                                                                                                 |  325   | non comune | *Tuc Saltolesto era un famoso predone, che saltava a destra e manca. Questo finchè non cadde sulla lancia della guardia.*                                |     |
+| [*Centipestatori*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/d868l9/the_griffons_saddlebag_centibeaters_wondrous_item/) [guanti]                                                                |  300   | non comune | *Chi vuole tirare cento pugni, impara bene da chi ha cento mani.*                                                                                        |     |
+| [~~*Scettro dei piccioni*~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/t5u5dd/the_griffons_saddlebag_staff_of_pigeons_staff/)                                                                   |  450   | non comune | *Sembra un buffo oggetto, ma ha salvato un intero regno con il suo celere messaggero.*                                                                   |     |
+| [*Scioglivento*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/kdpsyz/the_griffons_saddlebag_air_render_weapon_shortbow/) [arco corto]                                                              |  900   | raro       | *Si dice che i migliori tra i guerrieri delle tribù eisfuura dei monti deserti sappiano manipolare il vento così a fino da poterci creare freccie.*      |     |
+| [*Spilla delle numerose grandezze*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/bj4ado/the_griffons_saddlebag_brooch_of_many_sizes/)                                                              |  900   | raro       | *Un grande artefice aveva sempre avuto molta vergogna della propria bassa statura, e costruì questo. Ma, un giorno, girò troppo la levetta, e scomparì.* |     |
+| [~~*Anello della vista del solar*~~](https://www.google.com/search?client=firefox-b-d&q=Ring+of+Solar%27s+Sight)                                                                                             |  900   | raro       | ~~*I solar, tra i più grandi celestiali, offrono questo anello a pochi cacciatori eletti che superano una prova di rigore e giustizia.*~~                |     |
+| ***Anello del camminare sull'acqua***                                                                                                                                                                           |  400   | non comune | *Un gruppo particolare di pirati nell'oceano Lucidiano usava questi anelli per arrembare navi a piedi...*                                                |     |
+| [***Giacca del capitano***](https://dungeon_strugglers.artstation.com/projects/g2lqX8)                                                                                                                           |  700   | raro       | *...e si dice che il capitano di quella ciurma, a cui apparteneva questa giacca, uccidesse persone con i suoi pesanti insulti. Una ciurma particolare.*  |     |
+| [***Moscafatua Meccanica***](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/dcbew0/the_griffons_saddlebag_clockwork_faefly_wondrous/)                                                                    |  400   | non comune | *Parte di una collezione di insetti meccanici realizzati da un inventore gnomico Doreico, Jegim. Sono interessato a trovarne altre, in realtà.*          |     |
+| [***Pietra di Ioun, Tempra***](https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/pietra-di-ioun/)                                                                                          | 12000  | molto raro | *Le antiche ziggurat in onore di Ioun, la Savia Mentore, sono oggi in rovina, principalmente a causa delle congiure del Sussurrato.*                     |     |
+| **Comuni**                                                                                                                                                                                                   |  ---   | ---        | ---                                                                                                                                                      |     |
+| [*Cintura da sedia*](https://reddit.com/r/TheGriffonsSaddlebag/comments/ba5283/the_griffons_saddlebag_belt_of_the_chairman/) (originalmente "seat belt" nel manuale lol)                                     |   50   | comune     | *Apprezzata da molti per sedersi ad ammirare il panorama.*                                                                                               |     |
+| [~~*Sfera di terra selvaggia*~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/pjowlo/the_griffons_saddlebag_ball_of_wild_earth/)                                                                   | ~~75~~ | comune     | *Tenetelo lontano dagli scarabei stercorari, lo spaventano.*                                                                                             |     |
+| [*Pozione da bagno*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/biqp7g/the_griffons_saddlebag_bath_potion_potion/)                                                                               |   25   | comune     | *I nobili guerrieri la usano sempre per i gala dopo giornate di lotta.*                                                                                  |     |
+| [*Vestiti riparanti*](https://www.worldanvil.com/block/15048)                                                                                                                                                |   60   | comune     | *Anche i vestiti che ho addosso funzionano così, in realtà. Necessario per il mio lavoro.*                                                               |     |
+| [*Totem del rospo*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/opfkr3/the_griffons_saddlebag_bullfrog_totem_wondrous/)                                                                           |   60   | comune     | *Gli insetti da queste parti sono pochi ma davvero fastidiosi. Un goblin nelle paludi mi ha venduto questo piccolo ma utilissimo cimelio.*               |     |
+| [***Anello del disimprontato***](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/qwt5ed/the_griffons_saddlebag_ring_of_the_printless_ring/)                                                               |   60   | comune     | *Vendutomi da un ladro ravveduto. Sono sicuro che le due guardie dietro di lui non avessero niente a che fare con la repentina redenzione.*              |     |
+| [***Cubo pulente***](https://the-griffons-saddlebag.tumblr.com/post/634595508493680640/%F0%9D%97%A1%F0%9D%97%B2%F0%9D%98%84-%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BA-cleaning-cube-wondrous-item-common) |   75   | comune     | *Non propriamente senziente, ciò che rimane di un particolare cubo gelatinoso rimasto troppo al sole. Ama pulire, se gli date acqua.*                    |     |
 
 
 
@@ -207,6 +222,7 @@ Altri oggetti:
 | Pugnale *di ferronero*²            |  600   | raro       |    1     |
 | Cotta di maglia *di stahlrim*²     |  1460  | raro       |    1     |
 | Giaco di maglia *di mithril*²³     |  200   | non comune |    1     |
+| **Spada corta +1**                 |  600   | non comune |    1     | 
 | ---                                |  ---   | ---        |   ---    | 
 | Lingotto di ferro                  |   1    | comune     |    25    |
 | Lingotto di acciaio                |   2    | comune     |    25    |
@@ -223,3 +239,57 @@ Altri oggetti:
 ³ Il mithril è modificato da me rispetto al manuale base: aumenta di 1 il bonus massimo alla CA che si ottiene dalle armature. 
 (Per esempio, armatura media usa destrezza fino a 3)
 
+
+## Alchimia Botanica
+*Alchimista, e seguace di branca druidica particolarmente scientifica*
+
+> La Scienza Botanica è un'arte, una magia, e una tecnologia, modestamente.
+
+Gestore: **Torgga Foglianera**, nana F, barbuta, Generalmente volto coperto da simil-maschera da saldatore, strano dato il lavoro per un non esperto. Pezzi di armatura di metallo verde scuro, con parti di legno.
+
+Sul cortile a lato del negozio, con terra relativamente verde che pochi giorni prima dell'apertura così non era, sono presenti numerosi particolari fiori e piante, molti in apparente movimento come una sorta di macchina. Diversi raggi magici vengono lanciati dai fiori, diversi dentro al negozio, sul retro.
+
+### Costruttore
+
+**Discipline** 
+* *Alchimista*: CD 23
+* *Erborista*: CD 23
+* *Veleni*: CD 23
+
+### Negozio
+
+| Nome                                                                                                                          | Prezzo | Rarità     | Quantità |
+| ----------------------------------------------------------------------------------------------------------------------------- |:------:| ---------- |:--------:|
+| [Fulmine liquido](oggetti#fulmine-liquido)                                                                                                           |  640   | raro       |    1     |
+| Pozione di resistenza necrotica                                                                                               |  250   | non comune |    1     |
+| Pozione di resistenza da fuoco                                                                                                |  280   | non comune |    1     |
+| Pozione di resistenza velenosa                                                                                                |  300   | non comune |    1     |
+| [Pozione della forza dei giganti, colline](https://dungeonsanddragons.fandom.com/it/wiki/Pozione_della_Forza_dei_Giganti)     |  260   | non comune |    1     |
+| [Pozione della forza dei giganti, pietra](https://dungeonsanddragons.fandom.com/it/wiki/Pozione_della_Forza_dei_Giganti)      |  600   | raro       |    1     |
+| [Pozione di eroismo](https://dungeonedraghi.it/compendio/oggetti-magici/pozioni/pozione-di-eroismo/)                          |  500   | raro       |    1     |
+| [Pozione di velocità](https://dungeonsanddragons.fandom.com/it/wiki/Pozione_di_Velocit%C3%A0)                                 |  2500  | molto raro |    1     |
+| [Pozione di vitalità](https://dungeonsanddragons.fandom.com/it/wiki/Pozione_di_Vitalit%C3%A0)                                 |  950   | molto raro |    1     |
+| [Essenza d'ira](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/cxwv7e/the_griffons_saddlebag_essence_of_rage_potion/) |  500   | raro       |    1     |
+| [Pozione della breve carica](oggetti#pozione-della-breve-carica) |  180   | non comune       |    2     |
+| ----------------------------------------------------------------------------------------------------------------------------- | -----  | ---------- |  -----   |
+| Pozione di cura (10/2d4+2)                                                                                                    |   50   | comune     |    -     |
+| Pozione di cura maggiore (20/4d4+4)                                                                                           |  130   | non comune |    3     |
+| Pozione di cura superiore (40/8d4+8)                                                                                          |  540   | raro       |    1     |
+| ~~Pozione di cura suprema (60/10d4+20)~~                                                                                      |  5500  | molto raro |    0     |
+| [Unguento di Keoghtom](https://dungeonsanddragons.fandom.com/it/wiki/Unguento_di_Keoghtom) (cura)                             |  300   | non comune |    1     |
+| [Fuoco dell'alchimista](https://roll20.net/compendium/dnd5e/Alchemist%27s%20Fire#content)                                     |   20   | comune     |    9     |
+| [Fuoco alchemico](oggetti#fuoco-alchemico)                                                                                                           |   50   | comune     |    3     |
+| [Napalm alchemico](oggetti#napalm-alchemico)                                                                                                          |   70   | comune     |    2     |
+| [Acido alchemico](oggetti#acido-alchemico)                                                                                                           |   50   | comune     |    5     |
+| [Acido alchemico maggiore](oggetti#acido-alchemico)                                                                                                  |  150   | non comune |    1     |
+| [Olio argenteo](oggetti#oli-alchemici)                                                                                                             |   20   | comune     |    -     |
+| [Olio gelido](oggetti#oli-alchemici)                                                                                                               |   80   | comune     |    6     |
+| [Olio bruciante](oggetti#oli-alchemici)                                                                                                            |   45   | comuen     |    4     |
+| Veleni vari (da manuale base)                                                                                                 | varia  | varia      |  varia   |
+| Esplosivi vari (non ho tempo di segnarli, a parte il seguente)                                                                | varia  | varia      |  varia   |
+| [Alcol nanico](oggetti#alcol-nanico)                                                              |   25   | comune     |    3     | 
+| Antidoto                                                                                                                      |   75   | comune     |    -     |
+| ---                                                                                                                           |  ---   | ---        |   ---    |
+| Reagente comune                                                                                                               |   15   | comune     |    -     |
+| Reagente non comune                                                                                                           |   40   | non comune |    25    |
+| Reagente raro                                                                                                                 |  200   | raro       |    5     |

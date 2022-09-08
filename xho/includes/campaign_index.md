@@ -4,6 +4,7 @@
 {{ include.indent }}  * [NPC]({{ include.dir | default: "." }}/npc)
 {{ include.indent }}* [Negozi]({{ include.dir | default: "." }}/negozi)
 {{ include.indent }}* [Regole casalinghe]({{ include.dir | default: "." }}/regole)
+{{ include.indent }}* [Oggetti homebrew]({{ include.dir | default: "." }}/oggetti)
 {{ include.indent }}* [Riassunto sessioni]({{ include.dir | default: "." }}/sessioni)
 {{ include.indent }}  * [Riassunto sessioni extra]({{ include.dir | default: "." }}/sessioni_extra)
 {{ include.indent }}* [Mappa interattiva](https://www.redgiantmaps.com/maps/wildemount)
