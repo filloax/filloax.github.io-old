@@ -77,3 +77,7 @@
 * 19/03/843, **19 Misuthar**
 	* [Sessione 10](sessioni#sessione-10---soli-con-chi-è-solo)
 	* Incontro con [Hornet](npc#hornet)
+* 20/03/843, **20 Misuthar**
+	* [Sessione 11](sessioni#sessione-11---jurassic-watermill)
+	* Arrivo al Mulino del Fiume
+	* Scontro con Presenza Fetida
