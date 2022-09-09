@@ -57,27 +57,27 @@
 	* Nella notte, incontro con la tribù della luce, e [Hoarah Loux](npc#hoarah-loux)
 * 28/02/843, **28 Misuthar**
 	* Ri-partenza verso Ardeal
-* 4/02/843, **4 Misuthar**
+* 4/03/843, **4 Dualahei**
 	* Arrivo ad Ardeal, ricompensa della missione
 	* Ingaggio di Eldenser come teletrasportatore della gilda
 	* Arrivo di [Houx](npc#houx-frestynn) in visita ad Ardeal
-* 6/03/843, **6 Misuthar**
+* 6/03/843, **6 Dualahei**
 	* Sessione 8
 	* Spiritomb accidentalmente liberato da artefatto da Igor
-* 12/03/843, **12 Misuthar**
+* 12/03/843, **12 Dualahei**
 	* Inizio [Sessione 9](sessioni#sessione-9---il-villaggio-lungo-il-fiume)
 	* Partenza per fare la base 1 presso la Foresta del Vermaloc
-* 16/03/843, **16 Misuthar**
+* 16/03/843, **16 Dualahei**
 	* Avvistata Aeronave verso Rosonha
-* 17/03/843, **17 Misuthar**
+* 17/03/843, **17 Dualahei**
 	* Arrivo e insediamento nella base della Foresta del Vermaloc
-* 18/03/843, **18 Misuthar**
+* 18/03/843, **18 Dualahei**
 	* Inizio prima esplorazione Foresta del Vermaloc
 	* Visita del villaggio abbandonato irreale
-* 19/03/843, **19 Misuthar**
+* 19/03/843, **19 Dualahei**
 	* [Sessione 10](sessioni#sessione-10---soli-con-chi-è-solo)
 	* Incontro con [Hornet](npc#hornet)
-* 20/03/843, **20 Misuthar**
+* 20/03/843, **20 Dualahei**
 	* [Sessione 11](sessioni#sessione-11---jurassic-watermill)
 	* Arrivo al Mulino del Fiume
 	* Scontro con Presenza Fetida
