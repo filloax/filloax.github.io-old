@@ -1,4 +1,5 @@
 {{ include.indent }}* [Quest]({{ include.dir | default: "." }}/quest)
+{{ include.indent }}  * [Esplorazione: Vermaloc]({{ include.dir | default: "." }}/aree/vermaloc)
 {{ include.indent }}* Personaggi
 {{ include.indent }}  * [PG]({{ include.dir | default: "." }}/pg)
 {{ include.indent }}  * [NPC]({{ include.dir | default: "." }}/npc)

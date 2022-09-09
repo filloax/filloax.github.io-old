@@ -9,6 +9,8 @@ La Foresta del Vermaloc è un'enorme foresta di alberi dai tronchi viola-rosso s
 
 Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, aggiungendo ancora più varietà alle creature mostruose e ai luoghi misteriosi della foresta.
 
+[Pagina di stato dell'esplorazione](./aree/vermaloc)
+
 <br>
 
 ### Distesa Spinata
