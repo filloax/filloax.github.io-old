@@ -1,5 +1,11 @@
 [Torna a campagna](./campaign.md)
 
+<style>
+a strong {
+    color: rgb(253, 82, 82)
+}
+</style>
+
 > 3 Settembre 2022: Nuovi negozianti! L'alchimista **Alchimia Botanica**.  
 Tutti i negozianti hanno qualche nuova merce in vendita, evidenziate in **grassetto**.
 
