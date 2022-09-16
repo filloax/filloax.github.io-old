@@ -96,30 +96,30 @@ Utili meno spesso *woodcarving*, roba di legno varia, *engineering*, creazione d
 ### Negozio
 Oltre a quelli elencati vende anche tutti gli oggetti di basso prezzo nella sezione *tinkering* del manuale completo del crafting.
 
-| Nome                                                                                                                                           | Prezzo | Rarità     | Quantità |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |:------:| ---------- |:--------:|
-| *Borsa conservante*                                                                                                                            |  1000  | non comune |    2     |
-| ~~*Borsa dei trucchi*~~                                                                                                                    |  520   | non comune |    0     |
-| ~~*Stivali elfici*~~                                                                                                                       |  470   | non comune |    0     |
-| *Guanti del potere orchesco*                                                                                                                   |  500   | non comune |    1     |
-| [***Runa dell'Abilità (Skill)***](oggetti#runa-dellabilità)                                                                                    |  550   | non comune |    1     |
-| [***Ordinario bastone da passeggio***](https://dungeon_strugglers.artstation.com/projects/rAnvkm)                                              |  180   | comune     |    1     |
-| [***Lanciafiamme dell'alchimista***](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/udwzsx/the_griffons_saddlebag_alchemists_firethrower/)|  1000  | raro       |    1     |
-| [***Mantello della protezione***](https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/mantello-della-protezione/)          |  1600  | raro       |    1     | 
-| Lanterna a lente sporgente                                                                                                                     |   10   | comune     |    5     |
-| Lanterna coperta                                                                                                                               |   5    | comune     |    5     |
-| Rampino                                                                                                                                        |   7    | comune     |    7     |
-| Rampino migliorato¹                                                                                                                            |  100   | non comune |    1     |
-| Munizioni avanzate (vedi manuale)                                                                                                              | varia  | varia      |    -     |
+| Nome                                                                                                                                               | Prezzo | Rarità     | Quantità |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | :----: | ---------- | :------: |
+| _Borsa conservante_                                                                                                                                |  1000  | non comune |    2     |
+| ~~_Borsa dei trucchi_~~                                                                                                                            |  520   | non comune |    0     |
+| ~~_Stivali elfici_~~                                                                                                                               |  470   | non comune |    0     |
+| ~~_Guanti del potere orchesco_~~                                                                                                                   |  500   | non comune |    0     |
+| [**_Runa dell'Abilità (Skill)_**](oggetti#runa-dellabilità)                                                                                        |  550   | non comune |    2     |
+| [**_Ordinario bastone da passeggio_**](https://dungeon_strugglers.artstation.com/projects/rAnvkm)                                                  |  180   | comune     |    1     |
+| [**_Lanciafiamme dell'alchimista_**](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/udwzsx/the_griffons_saddlebag_alchemists_firethrower/) |  1000  | raro       |    1     |
+| [**_Mantello della protezione_**](https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/mantello-della-protezione/)              |  1600  | raro       |    1     |
+| Lanterna a lente sporgente                                                                                                                         |   10   | comune     |    5     |
+| Lanterna coperta                                                                                                                                   |   5    | comune     |    5     |
+| Rampino                                                                                                                                            |   7    | comune     |    7     |
+| Rampino migliorato¹                                                                                                                                |  100   | non comune |    1     |
+| Munizioni avanzate (vedi manuale)                                                                                                                  | varia  | varia      |    -     |
 | [**Fuoco dell'alchimista**](https://roll20.net/compendium/dnd5e/Alchemist%27s%20Fire#content)                                                      |   20   | comune     |    9     |
-| **Materiali**                                                                                                                                  |  ---   | ---        |   ---    |
-| Essenza arcana comune (gemma draconica di Eberron)                                                                                             |   45   | comune     |    7     |
-| Essenza divina comune (gemma draconica di Syberys)                                                                                             |   45   | comune     |    2     |
-| Essenza arcana non comune                                                                                                                      |  150   | non comune |    1     |
-| Inchiostro magico non comune                                                                                                                   |   40   | non comune |    1     |
-| Inchiostro magico comune                                                                                                                       |   15   | comune     |    14    |
-| Reagente comune                                                                                                                                |   15   | comune     |    -     |
-| Reagente non comune                                                                                                                            |   40   | non comune |    25    |
+| **Materiali**                                                                                                                                      |  ---   | ---        |   ---    |
+| Essenza arcana comune (gemma draconica di Eberron)                                                                                                 |   45   | comune     |    7     |
+| Essenza divina comune (gemma draconica di Syberys)                                                                                                 |   45   | comune     |    2     |
+| Essenza arcana non comune                                                                                                                          |  150   | non comune |    1     |
+| Inchiostro magico non comune                                                                                                                       |   40   | non comune |    1     |
+| Inchiostro magico comune                                                                                                                           |   15   | comune     |    14    |
+| Reagente comune                                                                                                                                    |   15   | comune     |    -     |
+| Reagente non comune                                                                                                                                |   40   | non comune |    25    |
 
 ¹ As an action, or in place of an attack as
 part of the Attack action, you may target a surface, object
@@ -153,7 +153,7 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
 | [*Stivali molleggiati*](https://roll20.net/compendium/dnd5e/Boots%20of%20Striding%20and%20Springing#content)                                                                                                 |  325   | non comune | *Tuc Saltolesto era un famoso predone, che saltava a destra e manca. Questo finchè non cadde sulla lancia della guardia.*                                |     |
 | [*Centipestatori*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/d868l9/the_griffons_saddlebag_centibeaters_wondrous_item/) [guanti]                                                                |  300   | non comune | *Chi vuole tirare cento pugni, impara bene da chi ha cento mani.*                                                                                        |     |
 | [~~*Scettro dei piccioni*~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/t5u5dd/the_griffons_saddlebag_staff_of_pigeons_staff/)                                                                   |  450   | non comune | *Sembra un buffo oggetto, ma ha salvato un intero regno con il suo celere messaggero.*                                                                   |     |
-| [*Scioglivento*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/kdpsyz/the_griffons_saddlebag_air_render_weapon_shortbow/) [arco corto]                                                              |  900   | raro       | *Si dice che i migliori tra i guerrieri delle tribù eisfuura dei monti deserti sappiano manipolare il vento così a fino da poterci creare freccie.*      |     |
+| [~~*Scioglivento*~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/kdpsyz/the_griffons_saddlebag_air_render_weapon_shortbow/) [arco corto]                                                              |  900   | raro       | ~~*Si dice che i migliori tra i guerrieri delle tribù eisfuura dei monti deserti sappiano manipolare il vento così a fino da poterci creare freccie.* ~~     |     |
 | [*Spilla delle numerose grandezze*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/bj4ado/the_griffons_saddlebag_brooch_of_many_sizes/)                                                              |  900   | raro       | *Un grande artefice aveva sempre avuto molta vergogna della propria bassa statura, e costruì questo. Ma, un giorno, girò troppo la levetta, e scomparì.* |     |
 | [~~*Anello della vista del solar*~~](https://www.google.com/search?client=firefox-b-d&q=Ring+of+Solar%27s+Sight)                                                                                             |  900   | raro       | ~~*I solar, tra i più grandi celestiali, offrono questo anello a pochi cacciatori eletti che superano una prova di rigore e giustizia.*~~                |     |
 | ***Anello del camminare sull'acqua***                                                                                                                                                                           |  400   | non comune | *Un gruppo particolare di pirati nell'oceano Lucidiano usava questi anelli per arrembare navi a piedi...*                                                |     |
@@ -166,8 +166,8 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
 | [*Pozione da bagno*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/biqp7g/the_griffons_saddlebag_bath_potion_potion/)                                                                               |   25   | comune     | *I nobili guerrieri la usano sempre per i gala dopo giornate di lotta.*                                                                                  |     |
 | [*Vestiti riparanti*](https://www.worldanvil.com/block/15048)                                                                                                                                                |   60   | comune     | *Anche i vestiti che ho addosso funzionano così, in realtà. Necessario per il mio lavoro.*                                                               |     |
 | [*Totem del rospo*](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/opfkr3/the_griffons_saddlebag_bullfrog_totem_wondrous/)                                                                           |   60   | comune     | *Gli insetti da queste parti sono pochi ma davvero fastidiosi. Un goblin nelle paludi mi ha venduto questo piccolo ma utilissimo cimelio.*               |     |
-| [***Anello del disimprontato***](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/qwt5ed/the_griffons_saddlebag_ring_of_the_printless_ring/)                                                               |   60   | comune     | *Vendutomi da un ladro ravveduto. Sono sicuro che le due guardie dietro di lui non avessero niente a che fare con la repentina redenzione.*              |     |
-| [***Cubo pulente***](https://the-griffons-saddlebag.tumblr.com/post/634595508493680640/%F0%9D%97%A1%F0%9D%97%B2%F0%9D%98%84-%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BA-cleaning-cube-wondrous-item-common) |   75   | comune     | *Non propriamente senziente, ciò che rimane di un particolare cubo gelatinoso rimasto troppo al sole. Ama pulire, se gli date acqua.*                    |     |
+| [~~***Anello del disimprontato***~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/qwt5ed/the_griffons_saddlebag_ring_of_the_printless_ring/)                                                               |   60   | comune     | ~~*Vendutomi da un ladro ravveduto. Sono sicuro che le due guardie dietro di lui non avessero niente a che fare con la repentina redenzione.*~~              |     |
+| [~~***Cubo pulente***~~](https://the-griffons-saddlebag.tumblr.com/post/634595508493680640/%F0%9D%97%A1%F0%9D%97%B2%F0%9D%98%84-%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BA-cleaning-cube-wondrous-item-common) |   75   | comune     | ~~*Non propriamente senziente, ciò che rimane di un particolare cubo gelatinoso rimasto troppo al sole. Ama pulire, se gli date acqua.*~~                    |     |
 
 
 
@@ -283,11 +283,18 @@ Sul cortile a lato del negozio, con terra relativamente verde che pochi giorni p
 | [Acido alchemico](oggetti#acido-alchemico)                                                                                                           |   50   | comune     |    5     |
 | [Acido alchemico maggiore](oggetti#acido-alchemico)                                                                                                  |  150   | non comune |    1     |
 | [Olio argenteo](oggetti#oli-alchemici)                                                                                                             |   20   | comune     |    -     |
-| [Olio gelido](oggetti#oli-alchemici)                                                                                                               |   80   | comune     |    6     |
-| [Olio bruciante](oggetti#oli-alchemici)                                                                                                            |   45   | comuen     |    4     |
+| [Olio gelido](oggetti#oli-alchemici)                                                                                                               |   80   | comune     |    4     |
+| [Olio bruciante](oggetti#oli-alchemici)                                                                                                            |   45   | comuen     |    2     |
 | Veleni vari (da manuale base)                                                                                                 | varia  | varia      |  varia   |
 | Esplosivi vari (non ho tempo di segnarli, a parte il seguente)                                                                | varia  | varia      |  varia   |
-| [Alcol nanico](oggetti#alcol-nanico)                                                              |   25   | comune     |    3     | 
+| [Alcol nanico](oggetti#alcol-nanico)                                                                                                              |   25   | comune     |    3     |
+| [Pacco di polvere da scoppio](oggetti#polvere-da-scoppio)                                                                                               |   55   | comune     |    9     |
+| [Polvere fumogena](oggetti#polvere-fumogena)                                                                                                          |   45   | comune     |    11    |
+| [Esplosivo semplice](oggetti#esplosivo-generico)                                                                                                        |  150   | comune     |    4     |
+| [Esplosivo maggiore](oggetti#esplosivo-generico)                                                                                                              |  280   | non comune |    1     |
+| [Telaio da granata](oggetti#telaio-da-granata)                                                                                                            |   75   | non comune |    4     |
+| [~~Bomba chiodi~~ (solo crafting)](oggetti#bombachiodi)                                                                                          |   -    | non comune |    0     |
+| [~~Esplosivo potente~~ (solo crafting)](oggetti#esplosivo-generico)                                                                                     |   -    | raro       |    0     |
 | Antidoto                                                                                                                      |   75   | comune     |    -     |
 | ---                                                                                                                           |  ---   | ---        |   ---    |
 | Reagente comune                                                                                                               |   15   | comune     |    -     |

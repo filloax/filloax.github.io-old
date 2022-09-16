@@ -79,7 +79,42 @@ Non li scrivo tutti per mancanza di tempo, sono tipo 6. Non presenti qua, ma dis
 - Esplosivo semplice/maggiore/potente
 
 #### Alcol Nanico
+_\[Dwarvel Alcohol]_
+
 Fiaschetta di liquido infiammabile ed esplosivo, se lanciata lascia una casella 1.5m di liquido per terra. Se incendiato con fuoco o fulmine esplode, infliggendo 2d4 danni da fuoco a ogni creatura entro 1.5m.
+
+#### Polvere da Scoppio
+_\[Blasting Powder]_
+
+Polvere grigia basata sulla polvere nera delle armi da fuoco e molte altre sostanze e migliorie alchemiche. Se accesa con danni da fuoco o fulmine, esplode: creature entro 3m fanno TS Des 14, subendo 1d4 danni da fuoco + 1d4 danni da fulmine se falliscono, o la metà per successo. I danni si accumulano per ogni unità di polvere nello stesso punto (max 5). Danni doppi su costruzioni.
+
+#### Telaio da Granata
+_\[Grenade Casing]_
+
+Inserendo _fuoco dell'alchimista_ e un esplosivo si può usare; lanciata entro 18m, creature a gittata dell'esplosivo devono fare TS Des con CD pari a quella dell'esplosivo. Se falliscono subiscono danni dell'esplosivo +1d4 perforanti +1d4 da fuoco.
+
+#### Bombachiodi
+_\[Nail Bomb]_
+
+Pesante e più pericoloso di altri esplosivi. Spara frattaglie in giro. Detonato da danni da fuoco o fulmine. Come azione, può esere lanciato entro 6m, ma non esplode automaticamente. Detonato: ogni creatura entro 6m fa TS Des con CD pari a quella raggiungibile dal costruttore dell'esplosivo nel crafting; se fallisce, subisce 8d6 danni perforanti, o la metà in caso di successo.
+
+Può essere legato a una miccia, che ritarda a scelta lo scoppio a seconda della durata: fine del turno, inizio del tuo prossimo turno, 2 round, inizio del turno.
+
+#### Polvere Fumogena
+_\[Smoke Powder]_
+
+Polvere grigia in grandi grani, da non confondersi con quella da scoppio. Se accesa con danni da fuoco o fulmine, rilascia fumo denso in 6m, area rimane pesantemente oscurata per 2d4 round. Il round successivo rimane leggermente oscurata, e poi torna libera. I round si contano all'inizio del tuo turno.
+
+Altri usi di polvere fumogena estendono la durata di altri 1d4 round.
+
+#### Esplosivo generico
+Acceso con danni da fuoco o fulmine. Lanciabile entro 6m. Creature entro gittata fanno TS Des con CD pari a quella dell'alchimista di crafting, e subiscono i danni indicati in caso di fallimento, o la metà in caso di successo. Creature a gittata di più di un esplosivo subiscono solo l'effetto maggiore.
+
+| Nome     | Raggio |          Danni          |
+| -------- |:------:|:-----------------------:|
+| Semplice |   3m   | 1d6 fuoco + 1d8 fulmine |
+| Maggiore |  4.5m  | 2d8 fuoco + 2d8 fulmine |
+| Potente  |   6m   | 4d7 fuoco + 4d8 fulmine | 
 
 
 ### Pozione della Breve Carica
