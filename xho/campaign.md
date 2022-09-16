@@ -81,3 +81,7 @@
 	* [Sessione 11](sessioni#sessione-11---jurassic-watermill)
 	* Arrivo al Mulino del Fiume
 	* Scontro con Presenza Fetida
+	* Level up 11
+* 22/03/843, **22 Dualahei**
+	* [[Sessione 12]]
+	* Arrivo all'accampamento e alla base dopo spedizione 1
