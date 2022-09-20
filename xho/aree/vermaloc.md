@@ -42,6 +42,10 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
 * A Sud della nebbia c'è la **fortezza di Dumaran**, dove risiedono Hobgoblin seguaci di Lloth, la Regina dei Ragni, dalla carne mutata in colori simil-drow e dagli occhi gialli.
 
+    * Un interrogatorio di due cultisti ha rivelato che stanno cercando di fare un **rituale per incarnare Lloth** in un avatar costituito da qualcosa o qualcuno.
+
+    * Questo rituale è in punti chiave della foresta, e centrato in una antica città drow nell'Underdark. Inoltre, pare essere legato, diretto, o gestito da una tale *Regina Reggente*. Altre informazioni: [sessione 13](sessioni#sessione-13---nebbie-nebulose).
+
 * Trovata **mappa per un lago in una giungla** nel bel mezzo della foresta, che era posseduta da persone morte nel mulino. Una porzione di giungla nella foresta non è sicuramente qualcosa di naturale; i proprietari sembravano interessati a qualcosa nel centro del lago.
 
 * Sul monte della Corona della Regina si erge ora una **grande torre** che prima non era presente, dalle fattezze descritte come "sia antiche che futuristiche". La torre è stata indicata come luogo da indagare.
@@ -68,6 +72,10 @@ Gruppo B
 
 * Tempio dei sacerdoti lunari: tempio antico di sacerdoti/druidi dediti alla luna
 
+**Minori**
+
+* Una torre diroccata, con uno scantinato infestato da ragni.
+
 ### Luoghi avvistati o noti ma non visti
 
 * La grande torre sul Monte della Corona della Regina menzionata nelle piste.
@@ -80,3 +88,4 @@ Gruppo B
 
 * Albero molto grande a nord del mulino, dalle foglie rosa.
 
+* Area di "giungla" interna alla foresta, sotto la grande torre sul Monte della Corona. Contiene un lago, con qualcosa di interesse per un gruppo vecchio di avventurieri al centro.

@@ -146,6 +146,8 @@ illusionista, quando fa le sue magie dei tatuaggi sul suo braccio
 sembrano illuminarsi. Nome completo: Nikolaya Yankovic.
 </p>
 
+Il suo homunculus si chiama Galka, ed è abbastanza pallido.
+
 ???
 
 ##### Kor

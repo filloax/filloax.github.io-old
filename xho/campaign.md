@@ -83,5 +83,13 @@
 	* Scontro con Presenza Fetida
 	* Level up 11
 * 22/03/843, **22 Dualahei**
-	* [[Sessione 12]]
+	* [Sessione 12](sessioni#sessione-12---interludio-shopping-sogni-particolari)
 	* Arrivo all'accampamento e alla base dopo spedizione 1
+* 23/03/843, **23 Dualahei**
+	* Inizio [Sessione 13](sessioni#sessione-13---nebbie-nebulose)
+	* Partenza Gruppo B
+	* Gruppo A fa missione demoni minori
+* 29/03/843, **29 Dualahei**
+	* Secondo viaggio gruppo A, da nord 
+* 1/04/843, **1 Thunsheer**
+	* Gruppo trova torre abbandonata con ragni fase
