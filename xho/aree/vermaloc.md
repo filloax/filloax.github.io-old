@@ -40,6 +40,12 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
 * Sono stati segnalati diversi casi di grandi creature **insettoidi intelligenti**, in particolare api. Razze animali/zoriadi non sono sconosciute, ma insettoidi generalmente sono molto rari, e api mai viste.
 
+    * A quanto pare esiste una tribù di grandi mantidi intelligenti, sembrano essere molto territoriali.
+
+        * Hornet ha vaghi ricordi di loro.
+
+        * La maschera di Hornet ricordava ad una mantide quella "delle loro signore".
+
 * A Sud della nebbia c'è la **fortezza di Dumaran**, dove risiedono Hobgoblin seguaci di Lloth, la Regina dei Ragni, dalla carne mutata in colori simil-drow e dagli occhi gialli.
 
     * Un interrogatorio di due cultisti ha rivelato che stanno cercando di fare un **rituale per incarnare Lloth** in un avatar costituito da qualcosa o qualcuno.
