@@ -93,3 +93,13 @@
 	* Secondo viaggio gruppo A, da nord 
 * 1/04/843, **1 Thunsheer**
 	* Gruppo trova torre abbandonata con ragni fase
+* 3/04/843, **3 Thunsheer**
+	* Arrivo a base, fine esplorazione 2
+	* Inizio [Sessione 14](sessioni#sessione-14---lame-sugli-alberi)
+* 4/04/843
+	* Partenza esplorazione 3, direzione torre
+* 5?/04/843
+	* Incontro con mantidi
+	* Inizio [Sessione 15](sessioni#sessione-15---nebbia-sui-monti)
+* 9/04/943
+	* Arrivo a Torre
