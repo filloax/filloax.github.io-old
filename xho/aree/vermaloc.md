@@ -79,7 +79,7 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
 * <span class="new">**Colui che vede ogni memoria**. Una [misteriosa figura](../npc/fog#colui-che-vede) è comparsa nei sogni diverse volte agli avventurieri che esplorano la foresta. Parla di strane cose come "sublimazione", e invita più o meno cordialmente a non interferire.</span>
 
-    - <span class="new">Un'altra figura, Aldia, sembra comparire in maniera similmente paranormale, e ha avvisato di stare attenti a questo individuo dei sogni.</span>
+    - <span class="new">Un'altra figura, [Aldia](../npc/fog#aldia-studioso-della-nebbia), sembra comparire in maniera similmente paranormale, e ha avvisato di stare attenti a questo individuo dei sogni.</span>
 
 * <span class="new">**L'ultimo circolo verde**. Un circolo di druidi, capeggiato da [Urul l'Antico](../npc/vermaloc#urul-lantico), protegge l'ultima area verde del bosco. Hanno detto che supporteranno il gruppo se li incontreranno, e che se aiuteranno ulteriormente la natura potranno entrare nell'area.</span>
 
