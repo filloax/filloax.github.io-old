@@ -9,7 +9,7 @@
 }
 .new::before {
     content: "▶  ";
-    color: #ff8112;
+    color: #44ff55;
     font-size: 15px;
 }
 </style>
@@ -59,7 +59,7 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
     
     * <span class="new">È stato visto dalla torre un enorme alveare.</span>
 
-* **Sangue di ragno**. A Sud della nebbia c'è la **fortezza di Dumaran**, dove risiedono Hobgoblin seguaci di Lloth, la Regina dei Ragni, dalla carne mutata in colori simil-drow e dagli occhi gialli.
+* **Sangue di ragno**. A Sud della nebbia c'è la **fortezza di Dumaran**, dove risiedono [Hobgoblin seguaci di Lloth](../npc/cults#hobgoblin-di-dumaran), la Regina dei Ragni, dalla carne mutata in colori simil-drow e dagli occhi gialli.
 
     * Un interrogatorio di due cultisti ha rivelato che stanno cercando di fare un **rituale per incarnare Lloth** in un avatar costituito da qualcosa o qualcuno.
 
@@ -77,11 +77,11 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
 ![](https://i.imgur.com/1cJuFMV.jpg?1){: height="250px" }
 
-* <span class="new">**Colui che vede ogni memoria**. Una misteriosa figura è comparsa nei sogni diverse volte agli avventurieri che esplorano la foresta. Parla di strane cose come "sublimazione", e invita più o meno cordialmente a non interferire.</span>
+* <span class="new">**Colui che vede ogni memoria**. Una [misteriosa figura](../npc/fog#colui-che-vede) è comparsa nei sogni diverse volte agli avventurieri che esplorano la foresta. Parla di strane cose come "sublimazione", e invita più o meno cordialmente a non interferire.</span>
 
     - <span class="new">Un'altra figura, Aldia, sembra comparire in maniera similmente paranormale, e ha avvisato di stare attenti a questo individuo dei sogni.</span>
 
-* <span class="new">**L'ultimo circolo verde**. Un circolo di druidi, capeggiato da Urul l'Antico, protegge l'ultima area verde del bosco. Hanno detto che supporteranno il gruppo se li incontreranno, e che se aiuteranno ulteriormente la natura potranno entrare nell'area.</span>
+* <span class="new">**L'ultimo circolo verde**. Un circolo di druidi, capeggiato da [Urul l'Antico](../npc/vermaloc#urul-lantico), protegge l'ultima area verde del bosco. Hanno detto che supporteranno il gruppo se li incontreranno, e che se aiuteranno ulteriormente la natura potranno entrare nell'area.</span>
 
 * <span class="new">**...and dragons**. Un drago verde sembra essersi insediato nella foresta.</span>
     - <span class="new">Urul l'Antico dice che il drago è qua da "pochi anni", e che sta sfruttando e manipolando la natura ma non ha idea dei suoi fini.</span>

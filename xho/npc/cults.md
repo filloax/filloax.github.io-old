@@ -6,7 +6,11 @@ Cultisti di vario tipo e credo.
 
 ### Hobgoblin di Dumaran
 
-\- hobgoblin vermaloc
+Popolazione di hobgoblin seguaci di Lolth, la Regina dei ragni. Hanno base nella fortezza di Dumaran, da qualche parte nel sud della Foresta del Vermaloc.
+
+La benedizione (o maledizione) di Lolth, li ha mutati, con una pelle grigia/nera/viola (simile ai drow) e occhi totalmente gialli.
+
+![](https://i.imgur.com/znSwB9k.png){: height="300px"}
 
 ## Seguaci di Asmodeus, Signore degli Inferi
 
