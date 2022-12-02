@@ -16,6 +16,10 @@ Il *riposo lungo* può essere fatto **solo in luoghi civilizzati** ragionevolmen
 
 > Dalle regole base, inoltre: un riposo lungo può essere fatto solo una volta ogni 24 ore. No spam, a prescindere da altre condizioni.
 
+- È ora possibile fare 2 riposi lunghi per spedizione nelle nebbie, sfruttando un oggetto magico ritrovato lì dentro e adattato dalla gilda.
+
+> Nota: non lo faccio per essere cattivo, solo per permettere di avere situazioni con meno di uno scontro al giorno bilanciate comunque, senza necessitare il fantomatico "giorno di avventura" per forza.
+
 ----
 
 ## Magie e azioni

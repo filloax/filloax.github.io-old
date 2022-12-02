@@ -103,3 +103,7 @@
 	* Inizio [Sessione 15](sessioni#sessione-15---nebbia-sui-monti)
 * 9/04/943
 	* Arrivo a Torre
+	* [Sessione 16](sessioni#sessione-16---shayis-di-hellfire)
+	* [Sessione 17](sessioni#sessione-17---lo-studioso-e-il-burattinaio)
+* 10/04/943
+	* Recupero cadavere Shayis, girando intorno a giungla	
