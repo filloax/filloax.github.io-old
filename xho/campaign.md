@@ -107,3 +107,6 @@
 	* [Sessione 17](sessioni#sessione-17---lo-studioso-e-il-burattinaio)
 * 10/04/943
 	* Recupero cadavere Shayis, girando intorno a giungla	
+	* Inizio [Sessione 18](sessioni#sessione-18---occhi-nella-giungla)
+* 11/04/843
+	* Ingresso in giungla e caverna nel lago
