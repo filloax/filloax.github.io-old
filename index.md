@@ -6,3 +6,5 @@ Questo sito contiene informazioni su campagne varie, al momento solo Esploratori
 
 * [**Esploratori della nebbia**](./xho/campaign)
 {% include_relative xho/includes/campaign_index.md indent="    " dir="xho" %}
+* [**La stella Nera: La compagnia del pomello**](./star/campaign)
+{% include_relative star/includes/campaign_index.md indent="    " dir="xho" %}
