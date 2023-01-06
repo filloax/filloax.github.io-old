@@ -1,4 +1,4 @@
-[Torna a campagna](./campaign.md)
+[Torna a campagna](/star/campaign)
 
 # Riassunto stagioni precedenti
 

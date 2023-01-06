@@ -1,4 +1,4 @@
-[Torna a indice](../index.md)
+[Torna a campagna](/star/campaign)
 
 # La Stella Nera
 

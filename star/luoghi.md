@@ -1,4 +1,4 @@
-[Torna a campagna](../campaign)
+[Torna a campagna](/star/campaign)
 
 # Luoghi
 

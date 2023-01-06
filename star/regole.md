@@ -1,4 +1,4 @@
-[Torna a campagna](/xho/campaign)
+[Torna a campagna](/star/campaign)
 
 # Regole casalinghe
 {:.no_toc}
@@ -9,18 +9,6 @@
 
 * Indice
 {:toc}
-
-## Riposo
-
-Il *riposo lungo* può essere fatto **solo in luoghi civilizzati** ragionevolmente sicuri (quindi villaggi, città, accampamenti difesi della gilda, ecc.), o in zone sicure specificamente dichiarate come tali per questo scopo dal master. Quando invece non ci si trova in tali aree, quello che normalmente sarebbe un *riposo lungo* conta solo come *riposo breve*. Quindi tenete dietro alle risorse, o maghi.
-
-> Dalle regole base, inoltre: un riposo lungo può essere fatto solo una volta ogni 24 ore. No spam, a prescindere da altre condizioni.
-
-- È ora possibile fare 2 riposi lunghi per spedizione nelle nebbie, sfruttando un oggetto magico ritrovato lì dentro e adattato dalla gilda.
-
-> Nota: non lo faccio per essere cattivo, solo per permettere di avere situazioni con meno di uno scontro al giorno bilanciate comunque, senza necessitare il fantomatico "giorno di avventura" per forza.
-
-----
 
 ## Magie e azioni
 
@@ -54,18 +42,6 @@ Non si ritirano gli 1 come da metodo standard, essendo questo molto più generos
 
 ## Viaggio
 
-### Esplorazione Alexandriana
-
-L'esplorazione per esagoni usata nella campagna. Alcuni link utili ai giocatori (fornisco comunque cose più sintetiche IRL, qua è per avere il materiale):
-
-![Azioni di guardia](../assets/img/DND-Alexandrian-Watch-Actions.jpg){: height = "400"}
-
-* **Azioni di guardia.** https://thealexandrian.net/wordpress/46116/roleplaying-games/5e-hexcrawl-part-3-watch-actions
-
-    * Per chi fa la vedetta: [distanza di vista dall'altezza](https://thealexandrian.net/wordpress/46122/roleplaying-games/hexcrawl-tool-spot-distances)
-
-* **Viaggio.** https://thealexandrian.net/wordpress/46101/roleplaying-games/5e-hexcrawl-part-2-wilderness-travel (linko giusto nel caso possano interessare velocità di viaggio e CD dei terreni, per il resto è roba lato mio)
-
 ### Passo di viaggio
 
 Non homebrew, ma per comodità ripetuto qua.
@@ -79,6 +55,8 @@ Non homebrew, ma per comodità ripetuto qua.
 ----
 
 ## Crafting
+
+Regole per costruire oggetti più usabili di quelle base (che richiedono mooooooolto tempo ingame), anche se essendo già a parte finale campagna non so quanto saranno applicabili. Le riporto comunque nel caso diventassero rilevanti, metti mai.
 
 Riferimento con tabelle di materiali e tempo per costruire i vari oggetti, prezzo delle cose, oggetti ottenibili e difficoltà di raccolta, ecc., qua:
 - [Kibblestasty's Crafting Free version](https://drive.google.com/file/d/1hqZUD8LbJWinvB05qX3pHrKCUwVX4jYD/view) ([thread reddit](https://old.reddit.com/r/DnDBehindTheScreen/comments/u74mm7/kibbles_crafting_system_alchemy_blacksmithing/))
