@@ -4,11 +4,19 @@
 
 ### Facoltà di Alterazione "Ascosa" dell'Università Magica di Elturel
 
-<descrizione>
+Si trova in una situazione particolare, inizialmente nata come facoltà di Trasmutazione dell’università eltugardiana, a causa di affinità nella Trama Magica, l’influenza della Perla del Nord, decisamente più grande e vitale di Elturel, la sta rendendo man mano più grande. Girano voci che il responsabile abbia intenzione di separarsi dall’università madre, attualmente malgestita dal ringiovanito Choh. Detta Ascosa (quella della campagna di Bergo).
 
-#### Omdoom
+#### Uther Omdoom
 
-####
+*Umano, mago promettente*
+
+Primo del corso di Trasmutazione alla facoltà, e rappresentante studentesco piuttosto popolare, ha uno grande spirito di iniziativa e un’ancor più grande ambizione. È un sognatore. Ha molti amici per la città.
+
+#### Arel Qiqen
+
+*Elfo, ricercatore*
+
+Un ricercatore archeologico.
 
 
 ### Altri
