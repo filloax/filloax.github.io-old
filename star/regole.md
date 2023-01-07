@@ -10,6 +10,12 @@
 * Indice
 {:toc}
 
+## Attacchi/combattimento
+
+### Attacco con due armi
+
+Come per il futuro One D&D, combattenti che usano due armi non devono usare la propria azione bonus per attaccare con l'arma secondaria, ma hanno semplicemente un attacco in più come parte dell'azione di attacco, una volta per turno.
+
 ## Magie e azioni
 
 ### Spelldriver (azioni bonus incantesimi)
@@ -57,6 +63,8 @@ Non homebrew, ma per comodità ripetuto qua.
 ## Crafting
 
 Regole per costruire oggetti più usabili di quelle base (che richiedono mooooooolto tempo ingame), anche se essendo già a parte finale campagna non so quanto saranno applicabili. Le riporto comunque nel caso diventassero rilevanti, metti mai.
+
+Ripeto, DIFFICILMENTE ENTRERà IN GIOCO, a meno che non vogliate attivamente voi usarle, e volendo potete.
 
 Riferimento con tabelle di materiali e tempo per costruire i vari oggetti, prezzo delle cose, oggetti ottenibili e difficoltà di raccolta, ecc., qua:
 - [Kibblestasty's Crafting Free version](https://drive.google.com/file/d/1hqZUD8LbJWinvB05qX3pHrKCUwVX4jYD/view) ([thread reddit](https://old.reddit.com/r/DnDBehindTheScreen/comments/u74mm7/kibbles_crafting_system_alchemy_blacksmithing/))

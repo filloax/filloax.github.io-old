@@ -4,3 +4,4 @@
 {{ include.indent }}  * [NPC]({{ include.dir | default: "." }}/npc)
 {{ include.indent }}* [Luoghi]({{ include.dir | default: "." }}/luoghi)
 {{ include.indent }}* [Regole homebrew]({{ include.dir | default: "." }}/regole)
+{{ include.indent }}* [Oggetti homebrew]({{ include.dir | default: "." }}/oggetti)

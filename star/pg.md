@@ -55,6 +55,8 @@ Un anello magico trovato nella Forgia della Furia ha risvegliato il suo Ego Astr
 
 *firbolg, druida in cerca di casa*
 
+![](https://i.imgur.com/m6BFOqB.jpg){: width="250" }
+
 Enorme umanoide verde fatata, che abitava in una comunità semplice nel bosco, che proteggeva le sue profondità e viveva in comune. L'albero bianco sacro al centro del villaggio un giorno ha cominciato a risplendere di una luce particolare, e diversi abitanti tra cui lei sono stati sparsi ai quattro angoli del continente, per ragioni tuttora ignote.
 
 Di recente, anche grazie agli insegnamenti della druida [Olyeka](./npc/korplactz.md#onyeka-lantica), ha capito il segreto per viaggiare tra gli alberi: ha forse la via per casa?
