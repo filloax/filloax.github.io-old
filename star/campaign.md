@@ -2,6 +2,8 @@
 
 # La Stella Nera
 
+![](https://i.imgur.com/z7FdwdU.jpg)
+
 ##### La compagnia del Pomello
 
 {% include_relative includes/campaign_index.md %}

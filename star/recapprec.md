@@ -6,7 +6,7 @@
 
 *Livelli 1-6*
 
-![](https://i.imgur.com/ITfZIfl.jpg)
+![](https://i.imgur.com/z7FdwdU.jpg)
 
 Inizio a Verdebosco, assalto cultisti. Viaggio verso Elturel a avvisare del tentato furto, in strada ingaggio per andare in Città Senza Sole. A Elturel conversazioni con Arcidiacono, e con Università Magica, che li ingaggia a trovare altri pezzi della spada, la reliquia in questione frammentata. 
 
