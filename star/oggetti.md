@@ -7,9 +7,32 @@
 Oggetti vari che non sono nel manuale base o facilmente trovabili su internet.
 
 -   Indice
-    {:toc}
+{:toc}
 
 ## Oggetti magici
+
+### Psykos
+
+*arma marziale (spada lunga), magico, artefatto, richiede sintonia da un paladino*
+
+#### Sopita
+
+![](https://i.imgur.com/Wap2lZS.jpg){: width="300px" }
+
+- +1 ai tiri per colpire e per i danni
+- In caso di critico, infligge 1d6 danni psichici extra, e il bersaglio ha svantaggio al suo prossimo tiro per colpire.
+
+#### Risvegliata
+
+![](https://i.imgur.com/RHr8RNK.jpg){: width="300px" }
+
+- +2 ai tiri per colpire e per i danni
+- In caso di critico, infligge 1d8 danni psichici extra, e il bersaglio ha svantaggio a tutti i tiri per colpire nel suo prossimo turno. *(modificato)*
+- Il possessore può usare 20 PF (+20 per ogni livello in più) della sua Imposizione delle Mani per lanciare l'incantesimo [*fortezza dell'intelletto*](http://dnd5e.wikidot.com/spell:intellect-fortress) attraverso di essa. La concentrazione per questo incantesimo, se lanciato in questo modo, è mantenuta separatamente dagli altri.
+- Permette di "leggere l'anima" delle creature, ed è apparentemente in parte senziente, comunicando telepaticamente con il portatore. Può influenzare le creature soggiogate da entità ideali esterne, come la Stella Nera.
+
+*Spada del leggendario paladino Ser Darian, che fu cruciale nel respingere gli Illithid secoli fa. Avvicinarla alla testa fa sentire uno strano rumore di fondo mentale.*  
+*"Per sconfiggere il tuo nemico devi saper pensare come lui."*
 
 ### Anello dell'Ego Astrale
 
@@ -97,31 +120,8 @@ Creazione dell'ego astrale:
 *"Più proriamente dovrebbe chiamarsi ‘Coppa di Asce’, ma ho uno stile da portare avanti."*
 *-Borin, mastro fabbro e apassionato di carte*
 
-### Psykos
-
-*arma marziale (spada lunga), magico, artefatto, richiede sintonia da un paladino*
-
-#### Sopita
-
-![](https://i.imgur.com/Wap2lZS.jpg){: width="200px" }
-
-- +1 ai tiri per colpire e per i danni
-- In caso di critico, infligge 1d6 danni psichici extra, e il bersaglio ha svantaggio al suo prossimo tiro per colpire.
-
-#### Risvegliata
-
-![](https://i.imgur.com/RHr8RNK.jpg){: width="200px" }
-
-- +2 ai tiri per colpire e per i danni
-- In caso di critico, infligge 1d8 danni psichici extra, e il bersaglio ha svantaggio a tutti i tiri per colpire nel suo prossimo turno. *(modificato)*
-- Il possessore può usare 20 PF (+20 per ogni livello in più) della sua Imposizione delle Mani per lanciare l'incantesimo [*fortezza dell'intelletto*](http://dnd5e.wikidot.com/spell:intellect-fortress) attraverso di essa. La concentrazione per questo incantesimo, se lanciato in questo modo, è mantenuta separatamente dagli altri.
-- Permette di "leggere l'anima" delle creature, ed è apparentemente in parte senziente, comunicando telepaticamente con il portatore. Può influenzare le creature soggiogate da entità ideali esterne, come la Stella Nera.
-
-*Spada del leggendario paladino Ser Darian, che fu cruciale nel respingere gli Illithid secoli fa. Avvicinarla alla testa fa sentire uno strano rumore di fondo mentale.*  
-*"Per sconfiggere il tuo nemico devi saper pensare come lui."*
-
 ## Armi
 
 ### Arpione (di Astolfo)
 
-[???]
+[perso descrizione, da recuperare]
