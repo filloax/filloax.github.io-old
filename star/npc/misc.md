@@ -6,6 +6,8 @@
 
 *Nano, fabbro*
 
+![](https://i.imgur.com/cz4rFw1.jpg){: width="250px" }
+
 Fabbro di fama leggendaria, vive da eremita in mezzo agli Artigli del Troll, colline infestate da troll. Abitava lì da prima che ci fosse questa infestazione, ed è riuscito a rimanere relativamente indisturbato grazie a svariate torrette a vapore e orologeria (e un tocco arcano).Di molte poche parole.
 
 Casa sua ha un ascensore segreto che porta ad una vera e propria dimora sotterranea, con numerosi servitori meccanici.

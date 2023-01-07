@@ -4,6 +4,8 @@
 
 ### Tribù della Palude
 
+![](https://i.imgur.com/M4T350j.png)
+
 I lucertoloidi non usano nomi molto fantasiosi.
 
 **Duz.** Il capo, abbastanza grasso, ma anche altrettanto muscoloso. Più intelligente di quanto non dia a vedere.
@@ -14,9 +16,13 @@ I lucertoloidi non usano nomi molto fantasiosi.
 
 **Raka.** Cacciatrice ed intagliatrice, le avevano rubato le uova.
 
+**[Gryndarr.](/star/pg#gryndarr)**
+
 ### Tempio dell'Acqua
 
 NPC incontrati al tempio al centro dell'isola.
+
+![](https://i.imgur.com/UKcfADF.png)
 
 #### Karp
 
@@ -43,15 +49,27 @@ Una lince vaporea che cercava la compagna Jafra, persa nel tempio. È stato aiut
 
 ### Batiri
 
+![](https://i.imgur.com/pntQhhh.jpg){: width="200px" }
+
 Tribù di goblin che usa grandi maschere, che coprono gran parte del loro corpo.
 
 #### Onyeka l'antica
+
+<div style="width: 25%; background-image: url('https://i.imgur.com/6HlpKaX.png'); background-position: top 0% left 0%; background-size: 100%; float: left;" class="portrait"> <a href="https://i.imgur.com/6HlpKaX.png" class="fill-div"></a></div>
 
 *Hobgoblin, druido ancestrale*
 
 Druida estremamente antica, vive con la tribù anche se li precede di molto. Sta principalmente isolata.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+
 #### Altri
+
+![](https://i.imgur.com/qemVPny.png){: width="180px" }
 
 **Elewa.** Capa dei goblin, amante anche troppo di gioielli.
 
@@ -59,6 +77,8 @@ Druida estremamente antica, vive con la tribù anche se li precede di molto. Sta
 
 
 ### Da'zas
+
+![](https://www.belloflostsouls.net/wp-content/uploads/2017/02/yuanti-header-.jpg){: height="200px" }
 
 Popolazione di Yuan-ti che si era insediata nell'isola.
 

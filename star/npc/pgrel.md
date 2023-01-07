@@ -6,7 +6,7 @@ NPC correlati a backstory del PG o altro. Alcuni non ancora incontrati dal grupp
 
 #### Aalf Brando
 
-*Umano, cugino*
+*Umano, cuggino*
 
 Cugino di Flynn. Anche lui affetto da magia selvaggia, viaggia con Jotnar dopo che gli è comparso sulla testa. Decisamente baffuto.
 
@@ -14,11 +14,15 @@ Cugino di Flynn. Anche lui affetto da magia selvaggia, viaggia con Jotnar dopo c
 
 *Firbolg, seguace del fulmine*
 
+![](https://i.imgur.com/VEYfhqA.jpg){: width="250px" }
+
 Proviene dallo stesso villaggio di Pteris nel bosco. Chierico della tempesta del dio Kord, sta vivendo il viaggio impostogli dall’Albero Bianco come una prova per vedere se è forte anche da solo. Non è detto che una volta trovata la via di casa ci tornerà subito.
 
 #### Francis Numwit Nefignyc Piedipiatti Malbert Polywog
 
 *Gnomo, vampiro minore*
+
+![](https://i.imgur.com/dqL0t0R.jpg){: width="250px" }
 
 Contatto criminale di Ielenia. Abita nei bassifondi di Elturel, cosa piuttosto complicata per uno con la sua “condizione” visto il sole perenne. È aggiornato su quello che succede nei bassifondi delle città vicine, e anche bravo a evitare i problemi. Giura di non aver mai bevuto sangue umanoide negli ultimi 30 anni. Ha due pistole fatte da suo pro-pronipote.
 
@@ -53,6 +57,8 @@ Fratello minore di Ielenia, a sua differenza completamente umano. Piuttosto prov
 #### Sabian Delacroix
 
 *Umano, traditore*
+
+![](https://i.imgur.com/n1A95fq.jpg){: width="250px" }
 
 Ex-secondo di Ishtar, gli ha rubato la nave perché voleva fare più soldi. Ha lavorato per la criminalità organizzata di Baldur’s Gate e altri, cambiando un po’ bandiera quando capita. È finito in qualche modo nel Piano dell’Acqua (motivo per cui sembrava introvabile), ma la cosa non gli ha impedito di continuare gli affari.
 
