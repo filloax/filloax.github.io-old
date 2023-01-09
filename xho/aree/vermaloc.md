@@ -12,6 +12,13 @@
     color: #44ff55;
     font-size: 15px;
 }
+.done::before {
+    content: '\f00c  ';
+    font-family: FontAwesome;
+    /* content: "✔️  "; */
+    color: white;
+    font-size: 15px;
+}
 </style>
 
 # Esplorazione - Foresta del Vermaloc
@@ -28,6 +35,7 @@ La Foresta del Vermaloc è un'enorme foresta di alberi dai tronchi viola-rosso s
 Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, aggiungendo ancora più varietà alle creature mostruose e ai luoghi misteriosi della foresta.
 
 <p class="new">Nuove tracce evidenziate col simbolo a sinistra!</p>
+<p class="done">Tracce "completate" evidenziate col simbolo a sinistra!</p>
 
 ## Incarichi
 
@@ -42,7 +50,7 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
 * **Il fiume morente**. L'acqua del **fiume Furaj non è più potabile** dalla nascita delle Nebbie, la fonte è tra i Monti della Penombra.
 
-    * <span class="new">La posizione della fonte vista dalla torre aveva una delle strane colonne oscure, e in zona era visibile una strana formazione rocciosa, principalmente coperta dalla vista da altre montagne ma la cui parte visibile sembrava un braccio proteso.</span>
+    * La posizione della fonte vista dalla torre aveva una delle strane colonne oscure, e in zona era visibile una strana formazione rocciosa, principalmente coperta dalla vista da altre montagne ma la cui parte visibile sembrava un braccio proteso.
 
 * Diverse creature (granchi e un mostro pianta) hanno **escrescenze che ricordano un volto** sulle carni; la causa di questa "infezione" è al momento ignota, ma probabilmente collegata.
 
@@ -57,7 +65,7 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
         * La maschera di Hornet ricordava ad una mantide quella "delle loro signore".
     
-    * <span class="new">È stato visto dalla torre un enorme alveare.</span>
+    * È stato visto dalla torre un enorme alveare.
 
 * **Sangue di ragno**. A Sud della nebbia c'è la **fortezza di Dumaran**, dove risiedono [Hobgoblin seguaci di Lloth](../npc/cults#hobgoblin-di-dumaran), la Regina dei Ragni, dalla carne mutata in colori simil-drow e dagli occhi gialli.
 
@@ -65,26 +73,30 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
     * Questo rituale è in punti chiave della foresta, e centrato in una antica città drow nell'Underdark. Inoltre, pare essere legato, diretto, o gestito da una tale *Regina Reggente*. Altre informazioni: [sessione 13](sessioni#sessione-13---nebbie-nebulose).
 
-    * <span class="new">Un rituale condotto dai cultisti, inclusa un alta sacerdotessa, è stato bloccato alla Torre del Vermaloc. Sembrava avere a che fare con una faglia nella realtà, e stavano sfruttando un artefatto di Lolth.</span>
+    * Un rituale condotto dai cultisti, inclusa un alta sacerdotessa, è stato bloccato alla Torre del Vermaloc. Sembrava avere a che fare con una faglia nella realtà, e stavano sfruttando un artefatto di Lolth.
 
-* **Il lago nella giungla**. Trovata **mappa per un lago in una giungla** nel bel mezzo della foresta, che era posseduta da persone morte nel mulino. Una porzione di giungla nella foresta non è sicuramente qualcosa di naturale; i proprietari sembravano interessati a qualcosa nel centro del lago.
+* <span class="done"></span> **Il lago nella giungla**. Trovata **mappa per un lago in una giungla** nel bel mezzo della foresta, che era posseduta da persone morte nel mulino. Una porzione di giungla nella foresta non è sicuramente qualcosa di naturale; i proprietari sembravano interessati a qualcosa nel centro del lago.
 
-* **Torre del Vermaloc**. Sul monte della Corona della Regina si erge ora una **grande torre** che prima non era presente, dalle fattezze descritte come "sia antiche che futuristiche". La torre è stata indicata come luogo da indagare.
+    * <span class="new"></span> Il lago conteneva lo [spirito del sentimento](/xho/npc/vermaloc#spirito-del-sentimento), che è stato liberato dal party, e gli ha offerto dei doni in cambio.
 
-    - <span class="new">Dalla torre sembra potersi vedere tutta la foresta, ben oltre la naturale possibilità anche con il meteo più favorevole. Ha permesso di notare diversi punti di interesse.</span>
-    - <span class="new">Tra le aree della foresta visibili dalla torre, spicca un enorme colonna oscura a sud, che sicuramente non era visibile dalla torre, più un altra a ovest e un'altra ancora a sud, in corrispondenza del fiume, anche se le ultime due più piccole.</span>
-    - <span class="new">La torre aveva una antica (ma esteticamente avanzata) tavola contenente glifi magici di invocazione, che permette a una creatura in grado di teletrasportarsi di tornare lì.</span>
+* <span class="done"></span> **Torre del Vermaloc**. Sul monte della Corona della Regina si erge ora una **grande torre** che prima non era presente, dalle fattezze descritte come "sia antiche che futuristiche". La torre è stata indicata come luogo da indagare.
+
+    - Dalla torre sembra potersi vedere tutta la foresta, ben oltre la naturale possibilità anche con il meteo più favorevole. Ha permesso di notare diversi punti di interesse.
+    - Tra le aree della foresta visibili dalla torre, spicca un enorme colonna oscura a sud, che sicuramente non era visibile dalla torre, più un altra a ovest e un'altra ancora a sud, in corrispondenza del fiume, anche se le ultime due più piccole.
+    - La torre aveva una antica (ma esteticamente avanzata) tavola contenente glifi magici di invocazione, che permette a una creatura in grado di teletrasportarsi di tornare lì.
 
 ![](https://i.imgur.com/1cJuFMV.jpg?1){: height="250px" }
 
-* <span class="new">**Colui che vede ogni memoria**. Una [misteriosa figura](../npc/fog#colui-che-vede) è comparsa nei sogni diverse volte agli avventurieri che esplorano la foresta. Parla di strane cose come "sublimazione", e invita più o meno cordialmente a non interferire.</span>
+* **Colui che vede ogni memoria**. Una [misteriosa figura](../npc/fog#colui-che-vede) è comparsa nei sogni diverse volte agli avventurieri che esplorano la foresta. Parla di strane cose come "sublimazione", e invita più o meno cordialmente a non interferire.
 
-    - <span class="new">Un'altra figura, [Aldia](../npc/fog#aldia-studioso-della-nebbia), sembra comparire in maniera similmente paranormale, e ha avvisato di stare attenti a questo individuo dei sogni.</span>
+    - Un'altra figura, [Aldia](../npc/fog#aldia-studioso-della-nebbia), sembra comparire in maniera similmente paranormale, e ha avvisato di stare attenti a questo individuo dei sogni.
+    - Qualunque sia la figura dei sogni, lo [Spirito del Sentimento](/xho/npc/vermaloc#spirito-del-sentimento) sembrava esserne molto spaventato quando ci ha guardato.
 
-* <span class="new">**L'ultimo circolo verde**. Un circolo di druidi, capeggiato da [Urul l'Antico](../npc/vermaloc#urul-lantico), protegge l'ultima area verde del bosco. Hanno detto che supporteranno il gruppo se li incontreranno, e che se aiuteranno ulteriormente la natura potranno entrare nell'area.</span>
+* **L'ultimo circolo verde**. Un circolo di druidi, capeggiato da [Urul l'Antico](../npc/vermaloc#urul-lantico), protegge l'ultima area verde del bosco. Hanno detto che supporteranno il gruppo se li incontreranno, e che se aiuteranno ulteriormente la natura potranno entrare nell'area.
 
-* <span class="new">**...and dragons**. Un drago verde sembra essersi insediato nella foresta.</span>
-    - <span class="new">Urul l'Antico dice che il drago è qua da "pochi anni", e che sta sfruttando e manipolando la natura ma non ha idea dei suoi fini.</span>
+* **...and dragons**. Un [drago verde](/xho/npc/vermaloc#drago-verde) sembra essersi insediato nella foresta.
+    - Urul l'Antico dice che il drago è qua da "pochi anni", e che sta sfruttando e manipolando la natura ma non ha idea dei suoi fini.
+    - <span class="new"></span> Il drago ha incontrato il gruppo vicino al [crepaccio iridescente](#luoghi-di-interesse-scoperti), intimandogli di "non interferire". Era invisibile, e sembrava essere possessivo di qualcosa che lo interessava nel crepaccio.
 
 **Altre**
 
@@ -96,18 +108,21 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
 **Principali**
 
-* <span class="new">Torre del Vermaloc: una torre dall'aspetto stranamente avanzato, seppur antico, che si erge su un promontorio tra le montagne, il Promontorio della Corona.</span>
-    - <span class="new">Da essa sembra potersi vedere chiaramente tutta la foresta, ben oltre la normale capacità visiva. Inoltre, mostra strani punti oscuri non visibili altrimenti.</span>
-    - <span class="new">Ha dei glifi magici che permettono a un a creatura in grado di teletrasportarsi di andare lì.</span>
+* Torre del Vermaloc: una torre dall'aspetto stranamente avanzato, seppur antico, che si erge su un promontorio tra le montagne, il Promontorio della Corona.
+    - Da essa sembra potersi vedere chiaramente tutta la foresta, ben oltre la normale capacità visiva. Inoltre, mostra strani punti oscuri non visibili altrimenti.
+    - Ha dei glifi magici che permettono a un a creatura in grado di teletrasportarsi di andare lì.
 
 * Mulino del Fiume [???]: mulino enorme sul fiume Furaj, infestato da una presenza venefica, ora liberato. Contiene numerosi ingranaggi e meccanismi di origine pseudo-druidica, dallo scopo ignoto.
 
-* <span class="new">Crepaccio iridescente: un enorme crepaccio che emana luce rosa, la quale è visibile a distanza.</span>
-    - <span class="new">L'arcidruido Urul ha detto che da lì provengono gli animali mutanti, e la luce muta gli animali normali.</span>
+* Crepaccio iridescente: un enorme crepaccio che emana luce rosa, la quale è visibile a distanza.
+    - L'arcidruido Urul ha detto che da lì provengono gli animali mutanti, e la luce muta gli animali normali.
+    - <span class="new"></span>Sembra esserci qualcosa di interessante per il [drago verde](/xho/npc/vermaloc#drago-verde) che si aggira nella foresta.
 
-* <span class="new">Una radura con una perenne tempesta sopra, e tanti fulmini.</span>
+* Una radura con una perenne tempesta sopra, e tanti fulmini.
+    - <span class="new"></span>Sembra che sia soggetto di una leggenda sulla Calamità, la guerra degli dei di poco meno di un millennio fa: il Signore delle Tempeste, Kord, avrebbe trafitto sopra a questa parte di foresta la Regina dei Ragni, Lolth, creando una radura ancora tempestata dai fulmini.
 
 * Area di "giungla" interna alla foresta, sotto la grande torre sul Monte della Corona. Contiene un lago, con qualcosa di interesse per un gruppo vecchio di avventurieri al centro.
+    - <span class="new"></span>Il lago conteneva lo [Spirito del Sentimento](/xho/npc/vermaloc#spirito-del-sentimento).
 
 * Un enorme alveare.
 
@@ -121,6 +136,8 @@ Gruppo B
 
 * Tempio dei sacerdoti lunari: tempio antico di sacerdoti/druidi dediti alla luna
 
+* Voragine: una voragine vicino al muro di nebbia a ovest, dove gli alberi continuano a fluttuare come se ci fosse ancora il terreno.
+
 **Minori**
 
 * Una torre diroccata, con uno scantinato infestato da ragni.
@@ -131,6 +148,6 @@ Gruppo B
 
 * Albero molto grande a nord del mulino, dalle foglie rosa.
 
-* <span class="new">Un albero rinsecchito ma enorme tra le montagne.</span>
+* Un albero rinsecchito ma enorme tra le montagne.
 
-* <span class="new">Una strana formazione rocciosa a forma di braccio proteso, vicino a dove dovrebbe essere la fonte del fiume Furaj.</span>
+* Una strana formazione rocciosa a forma di braccio proteso, vicino a dove dovrebbe essere la fonte del fiume Furaj.
