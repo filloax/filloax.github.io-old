@@ -30,6 +30,11 @@
         background-size: cover;
     }
 }
+.pctable.star {
+    .cell {
+        flex: 1 0 31%;
+    }
+}
 
 /* PERSONAGGI */
 
@@ -103,4 +108,61 @@
         linear-gradient(45deg, #bac3ce 0%, #8489a1 100%);
     background-position: top 20% right 50%;
     background-size: 150%;
+}
+
+
+.pctable .cell.astolfo {
+    background-image: url("https://i.imgur.com/6QLsHFD.png");
+    background-image: url("https://i.imgur.com/6QLsHFD.png"),
+        linear-gradient(45deg, #b3f1ec 0%, #56797e 100%);
+    background-position: top 0% right 45%;
+    background-size: 300%;
+}
+
+.pctable .cell.pgianni {
+    background-image: url("https://i.imgur.com/axahP4i.jpg");
+    background-image: url("https://i.imgur.com/axahP4i.jpg"),
+        linear-gradient(45deg, #b3c4f1 0%, #565a7e 100%);
+    background-position: top 10% right 60%;
+    background-size: 340%;
+}
+
+.pctable .cell.ielenia {
+    background-image: url("https://i.imgur.com/F3plggF.png");
+    background-image: url("https://i.imgur.com/F3plggF.png"),
+        linear-gradient(45deg, #f1cfb3 0%, #7e6956 100%);
+    background-position: top 5% right 50%;
+    background-size: 200%;
+}
+
+.pctable .cell.flynn {
+    background-image: url("https://i.imgur.com/RXmlUlH.png");
+    background-image: url("https://i.imgur.com/RXmlUlH.png"),
+        linear-gradient(45deg, #d0b3f1 0%, #6c567e 100%);
+    background-position: top 10% right 47%;
+    background-size: 320%;
+}
+
+.pctable .cell.pteris {
+    background-image: url("https://i.imgur.com/m6BFOqB.png");
+    background-image: url("https://i.imgur.com/m6BFOqB.png"),
+        linear-gradient(45deg, #ccf1b3 0%, #224b19 100%);
+    background-position: top 5% right 47%;
+    background-size: 320%;
+}
+
+.pctable .cell.ishtar {
+    background-image: url("https://i.imgur.com/oQR9qZJ.png");
+    background-image: url("https://i.imgur.com/oQR9qZJ.png"),
+        linear-gradient(45deg, #c4c4c4 0%, #424242 100%);
+    background-position: top 15% right 60%;
+    background-size: 150%;
+}
+
+.pctable .cell.gryndarr {
+    background-image: url("https://i.imgur.com/qZPIjfr.png");
+    background-image: url("https://i.imgur.com/qZPIjfr.png"),
+        linear-gradient(45deg, #c4c4c4 0%, #424242 100%);
+    background-position: top 15% left 5%;
+    background-size: 330%;
 }
