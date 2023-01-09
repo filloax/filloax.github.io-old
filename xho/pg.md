@@ -150,7 +150,9 @@ Il suo homunculus si chiama Galka, ed è abbastanza pallido.
 
 ???
 
-##### Kor
+## Kor
+
+##### Chiara
 {:.no_toc}
 
 ![](https://i.imgur.com/q4oD74v.jpg){: width="325" }
@@ -158,6 +160,17 @@ Il suo homunculus si chiama Galka, ed è abbastanza pallido.
 *Drow (vacuo) F, ladro (esploratore)*
 
 Drow vacua, visibilmente non morta. Estremamente di poche parole per ora, ma molto abile nella navigazione e nella caccia. Sembra poter camminare su i muri.
+
+## Krieg
+
+##### Red
+{:.no_toc}
+
+*Mezzelfa F, paladino / stregone*
+
+*(Ospite)*
+
+Visibilmente dall'armatura soldato dell'impero Dwendaliano, anche se dichiaratamente lo ha rinnegato, come si evince dallo stemma cancellato con il sangue. Ottime capacità anti-magiche.
 
 ## Pensionati
 {:.no_toc}

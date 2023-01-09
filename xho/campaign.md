@@ -110,3 +110,7 @@
 	* Inizio [Sessione 18](sessioni#sessione-18---occhi-nella-giungla)
 * 11/04/843
 	* Ingresso in giungla e caverna nel lago
+	* [Sessione 19](sessioni#sessione-19---la-forza-del-sentimento)
+	* Inizio [Sessione 20](sessioni#sessione-20---mens-sana)
+* 17/04/843
+	* Fine terza esplorazione
