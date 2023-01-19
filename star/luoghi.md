@@ -2,6 +2,14 @@
 
 # Luoghi
 
+## Faerun e il mondo
+
+[![Mappa di Faerun](https://i.imgur.com/v9EC1ay.jpg)](https://i.ibb.co/dgYvsZ7/Faerun-Map-Redone-Roll-20-Res-Hexes.jpg)
+
+[![Mappa della massa continentale](https://i.imgur.com/9NkAH2n.jpg)](https://i.imgur.com/RSB1U0a.jpg)
+
+*Cliccate per versione HD*
+
 ## Città
 
 ### Elturel
