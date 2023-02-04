@@ -5,3 +5,4 @@
 {{ include.indent }}* [Luoghi]({{ include.dir | default: "." }}/luoghi)
 {{ include.indent }}* [Regole homebrew]({{ include.dir | default: "." }}/regole)
 {{ include.indent }}* [Oggetti homebrew]({{ include.dir | default: "." }}/oggetti)
+{{ include.indent }}* [Riassunto sessioni]({{ include.dir | default: "." }}/sessioni)
