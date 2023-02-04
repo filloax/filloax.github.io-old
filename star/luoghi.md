@@ -36,6 +36,14 @@ Caduta negli abissi e scomparsa il terzo mese del 1550, è ignoto cosa le sia su
 
 Città più influente del Nord e forse di tutta Faerun. Porto estremamente importante, e centro politico dell'Alleanza dei Lord. Tra le sue caratteristiche architettoniche, sono presenti numerosi grandi statue che si dice si animino per difendere la città quando è in grande pericolo.
 
+### Baldur's Gate
+
+![](https://i.imgur.com/vp4sYs2.jpg) ![](https://i.imgur.com/DJsR3cc.png)
+
+[Baldur's Gate su Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Baldur%27s_Gate)
+
+[descrizione da mettere]
+
 ## Piano dell'Acqua e correlate
 
 ![](https://db4sgowjqfwig.cloudfront.net/campaigns/236146/assets/1181860/floating-islands.jpg)
