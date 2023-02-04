@@ -40,15 +40,12 @@ Oggetti vari che non sono nel manuale base o facilmente trovabili su internet.
 
 *oggetto meraviglioso, raro, richiede sintonia*
 
-[DA RIBILANCIARE, UN PO' POCO UTILE]
-
-Oggetto magico, richiede sintonia, raro
-L'anello permette di evocare il proprio Ego Astrale, una rappresentazione del proprio subconscio (statistiche sul retro), usando un'azione bonus.
+L'anello permette di evocare il proprio Ego Astrale, una rappresentazione del proprio subconscio, usando un'azione bonus.
 L'Ego Astrale è considerata una creatura (vedi statistiche in seguito). Non ha punti ferita, ma i danni che subisce sono inflitti al proprietario, dopo aver applicato le resistenze.
 Ogni Ego Astrale ha i suoi poteri. L'Ego Astrale può compiere azioni se il proprietario gli impartisce mentalmente un comando con un'azione o un'azione bonus; alcune azioni richiedono l'uso di un'azione del proprietario per essere usate.
 
 *La freccia in questo anello è di raro metallo meteoritico.*  
-*Si dice che questo metallo diventi più duro con il tempo.*
+*Si dice che questo metallo diventi più duro con il tempo.*  
 *"Ora et labora"*
 
 #### Statistiche Ego Astrale
@@ -67,7 +64,7 @@ Generalmente un Ego Astrale ha resistenza a danni fisici non magici, e riduzione
 
 **Riduzione ai danni.** I danni inflitti all'ego astrale sono ridotti di 2.
 
-**Ego Astrale.** L'Ego Astrale usa il bonus competenza del portatore in diverse caratteristiche, rappresentato con "PRO". Se il portatore non usa un'azione bonus o un'azione per dare un ordine all'ego astrale, farà l'azione di Schivata. Se non usa un'azione, non potrà fare le azioni con "(azione)" nel nome.
+**Ego Astrale.** L'Ego Astrale usa il bonus competenza del portatore in diverse caratteristiche, rappresentato con "PRO". Se il portatore non usa un'azione bonus o un'azione per dare un ordine all'ego astrale, farà l'azione di Schivare. Se non usa un'azione, non potrà fare le azioni con "(azione)" nel nome.
 
 ##### Azioni
 
