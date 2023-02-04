@@ -43,12 +43,9 @@ Oggetti vari che non sono nel manuale base o facilmente trovabili su internet.
 [DA RIBILANCIARE, UN PO' POCO UTILE]
 
 Oggetto magico, richiede sintonia, raro
-L'anello permette di evocare il proprio Ego Astrale, una rappresentazione del proprio subconscio (statistiche sul retro).
-I danni subiti da esso sono inflitti per metà al proprietario.
-- Si può usare un'azione per manifestarlo in forma indebolita. In questa forma, non può attaccare e godere di competenza.
-- 1/rp. breve, con un'azione si può manifestarlo nel completo.
-- Se manifestato, si può usare un'azione per risvegliare la sua potenza: per 1 minuto è Risvegliato (vedi statistiche), ed è possibile fare magie attraverso di esso, le quali ottengono +1 a tiri per colpire. Ciò non potrà poi essere rifatto per 1d3 gg.
-- Con un'azione bonus, se manifestato, lo si può far muovere o demanifestare. Con un'azione, gli si può far eseguire un'azione.
+L'anello permette di evocare il proprio Ego Astrale, una rappresentazione del proprio subconscio (statistiche sul retro), usando un'azione bonus.
+L'Ego Astrale è considerata una creatura (vedi statistiche in seguito). Non ha punti ferita, ma i danni che subisce sono inflitti al proprietario, dopo aver applicato le resistenze.
+Ogni Ego Astrale ha i suoi poteri. L'Ego Astrale può compiere azioni se il proprietario gli impartisce mentalmente un comando con un'azione o un'azione bonus; alcune azioni richiedono l'uso di un'azione del proprietario per essere usate.
 
 *La freccia in questo anello è di raro metallo meteoritico.*  
 *Si dice che questo metallo diventi più duro con il tempo.*
@@ -57,30 +54,36 @@ I danni subiti da esso sono inflitti per metà al proprietario.
 #### Statistiche Ego Astrale
 {:.no_toc}
 
-Le scelte che seguono sono fatte alla prima manifestazione, e poi rimangono costanti, cambiando solo quando cambia la statistica usata del proprietario.
+Generalmente un Ego Astrale ha resistenza a danni fisici non magici, e riduzione ai danni 2.
 
-Creazione dell'ego astrale:
-- Scegli una tra SAG, CAR, INT: è la tua caratteristica dell'ego astrale.
-- INT, SAG, CAR equivalenti alle tue.
-- FOR, DES, COS: 
-    - Scegli una tra le tre: è pari alla tua caratteristica corrispondente sommata al tuo modificatore della caratteristica dell'ego astrale.
-    - Scegli una tra le due rimaste: è pari alla tua caratteristica dell'ego astrale, o calcolata come la precedente, a tua scelta.
-    - La rimanente è pari alla tua caratteristica corrispondente.
-    - Il massimo per queste caratteristiche è 22 invece di 20.
-- L'ego astrale ha gittata pari alla somma di INT, SAG e CAR moltiplicata per 3, in metri. Non può allontanarsi da te più di così.
-- CA: 12 + DES. *(modificato)*
-- Competenze: scegli due tra *Atletica*, *Acrobatica*, *Intimidire*, *Percezione*, *Indagare*. Tiri per abilità fatti tramite l'ego rappresentano il portatore che usa le abilità del proprio Ego astrale.
-- HP: non presenti, metà dei danni subiti sono inflitti al proprietario.
-- Aspetto: a scelta del giocatore, ma non del portatore nel mondo di gioco.
-- Se INT >= 18, è semiautomatico: per usarlo basta un'azione bonus.
+#### Ego Astrale: Waterlung
+{:.no_toc}
 
-**Azioni.**
-- **Colpo.** *Attacco in mischia con arma*, +FOR/DES+PRO per colpire, 1.5mt, un bersaglio. Colpito: 1d6+FOR/DES danni da forza.
-- **Attacco.** L'Ego Astrale fa 2 attacchi Colpo, o 4 se Risvegliato.
-- **Azione.** L'Ego Astrale fa un'azione standard come scrutare, aiutare, ecc.
-- **Magia.** Se Risvegliato, il proprietario può fare una magia attraverso l'Ego Astrale, ottenendo +1 ai tiri per colpire.
+| FOR | DES | COS | INT | SAG | CAR |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+|  14 |  20 |  18 |  13 |  11 |  17 |  
 
-*PRO: bonus competenza*
+**Resistenze.** Danni fisici non magici
+
+**Riduzione ai danni.** I danni inflitti all'ego astrale sono ridotti di 2.
+
+**Ego Astrale.** L'Ego Astrale usa il bonus competenza del portatore in diverse caratteristiche, rappresentato con "PRO". Se il portatore non usa un'azione bonus o un'azione per dare un ordine all'ego astrale, farà l'azione di Schivata. Se non usa un'azione, non potrà fare le azioni con "(azione)" nel nome.
+
+##### Azioni
+
+**Modellare acqua.** L'ego astrale lancia il trucchetto *modellare acqua*.
+
+**Incantesimi innati (azione).** L'Ego astrale lancia uno dei seguenti incantesimi:
+
+- *creare o distruggere acqua* (3/giorno)
+
+- *muro d'acqua*, *respirazione subacquea*, *camminare sull'acqua* (3/giorno)
+
+- *controllare acqua*, *sfera acquea* (2/giorno)
+
+**Raffica di pugni (azione).** L'Ego astrale fa quattro attacchi Pugno. Se almeno due di essi colpiscono lo stesso bersaglio, deve fare un TS Costituzione a CD 17; in caso di fallimento subisce 2d6 danni contundenti magici e viene spinto di 3m per ogni pugno andato a segno, in caso di successo subisce la metà dei danni e non viene spinto.
+
+**Pugno.** *Attacco con arma da mischia*: +5+PRO per colpire, un bersaglio. Colpito: 1d6+5 danni contundenti.
 
 ### Ascia di Bastoni
 
@@ -125,3 +128,23 @@ Creazione dell'ego astrale:
 ### Arpione (di Astolfo)
 
 [perso descrizione, da recuperare]
+
+
+## Versioni vecchie
+
+
+### Anello dell'Ego Astrale
+
+*oggetto meraviglioso, raro, richiede sintonia*
+
+Oggetto magico, richiede sintonia, raro
+L'anello permette di evocare il proprio Ego Astrale, una rappresentazione del proprio subconscio (statistiche sul retro).
+I danni subiti da esso sono inflitti per metà al proprietario.
+- Si può usare un'azione per manifestarlo in forma indebolita. In questa forma, non può attaccare e godere di competenza.
+- 1/rp. breve, con un'azione si può manifestarlo nel completo.
+- Se manifestato, si può usare un'azione per risvegliare la sua potenza: per 1 minuto è Risvegliato (vedi statistiche), ed è possibile fare magie attraverso di esso, le quali ottengono +1 a tiri per colpire. Ciò non potrà poi essere rifatto per 1d3 gg.
+- Con un'azione bonus, se manifestato, lo si può far muovere o demanifestare. Con un'azione, gli si può far eseguire un'azione.
+
+*La freccia in questo anello è di raro metallo meteoritico.*  
+*Si dice che questo metallo diventi più duro con il tempo.*
+*"Ora et labora"*
