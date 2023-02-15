@@ -1,5 +1,11 @@
 [Torna a campagna](./campaign.md)
 
+<style>
+p {
+    
+}
+</style>
+
 # Sessioni
 {:.no_toc}
 

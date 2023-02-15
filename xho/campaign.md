@@ -113,4 +113,19 @@
 	* [Sessione 19](sessioni#sessione-19---la-forza-del-sentimento)
 	* Inizio [Sessione 20](sessioni#sessione-20---mens-sana)
 * 17/04/843
-	* Fine terza esplorazione
+	* Fine esplorazione 3, dopo 11 giorni
+	* Settiamana di pausa in cui avvengono:
+	* Inizio [Sessione 21](sessioni#sessione-21---la-marcia-di-urzin)
+	* [Sessione 22](sessioni#sessione-22---cyber-vs-demon)
+* 24/04/843
+	* Fine settimana di pausa
+	* Teletrasporto a Jigow per missione del Froghemoth
+* 29/04/843
+	* Arrivo a Urzin nella palude di Velofranto
+	* Viaggio nella palude per la missione
+* 31/04/843
+	* Missione del froghemoth: [Sessione 23](sessioni#sessione-23---anfibi-sgraditi)
+* 3/05/843
+	* Ritorno a Urzin
+* 8/05/843
+	* Ritorno a Jigow, teletrasporto alla base

@@ -6,6 +6,12 @@
 * Indice
 {:toc}
 
+[Mappa interattiva](https://www.redgiantmaps.com/maps/exandria)
+
+[![](https://i.imgur.com/LaB3fYS.jpg)](https://static.wikia.nocookie.net/criticalrole/images/9/90/Wildemount_Poster_Map.jpg/revision/latest?cb=20220322061349)
+
+[Pagina wiki del continente](https://criticalrole.fandom.com/wiki/Wildemount)
+
 ## Principali
 {% include back_to_top.md %}
 
@@ -50,6 +56,31 @@ Divisa in tre distretti principali:
 
 ![](https://i.imgur.com/8wXNbID.jpg){: width="300" }
 * **Terre fantasma.** Esterno di Rosonha, terre infestate da fantasmi che stanno venendo man mano riconquistate.
+
+### Jigow
+
+<div style="float: right"><img src="https://i.imgur.com/kLBjVU9.jpg" height="400"/>
+</div>
+
+![](https://i.imgur.com/oi7cxBU.jpg){: width="340" }
+
+[Pagina wiki](https://criticalrole.fandom.com/wiki/Jigow)
+
+Un insieme di villaggi cresciuto fino ad unirsi nell'unica città portuale della Dinastia Kryn. 
+
+Situata sulla costa nord di Xhorhas, nel Golfo di Smeraldo, alla foce del fiume Ifolon.
+
+<br><br>
+
+### Urzin
+
+![](https://i.imgur.com/vuY410e.png?1){: width="400" }
+
+[Pagina wiki](https://criticalrole.fandom.com/wiki/Urzin)
+
+Villaggio semovente per la Palude di Velofranto, a ovest di Xhorhas, sulla schiena di enormi testuggini reggiorizzonte, più una miriade di tende e rifugi mobili. Abitato principalmente da goblinoidi e orchi.
+
+La posizione del villaggio è variabile, come il numero di effettive abitazioni, dato che a volte le testuggini vanno per strade diverse portando a periodiche separazioni e riunioni del villaggio.
 
 ## Luoghi d'interesse
 {% include back_to_top.md %}

@@ -8,9 +8,27 @@
 
 *Drow M, prodigio della dunamanzia*
 
+[Pagina della wiki](https://criticalrole.fandom.com/wiki/Essek_Thelyss)
+
 Prodigio della dunamanzia (magia della realtà, gravità e tempo), nonostante l'età relativamente giovane di 127 anni. Ha evidentemente un ruolo importante, al momento a voi non noto. Girano voci su di lui, di diversa natura.
 
 Ha in qualche modo conoscenze su cose riguardanti il passato di Camelia. Ma per quale motivo?
+
+## Den Kryn
+
+La casata capeggiata dalla Regina Radiosa, Leylas Kryn, e centrale al governo della Dinastia. Gestisce governo e clero.
+
+### Olomon Frangisole
+
+<div class="portrait" style="  width: 33%;   background-image: url('https://i.imgur.com/K2fOTxn.png');   background-position: top;   background-size: 150%;   aspect-ratio: 1/1;"> <a href="https://i.imgur.com/K2fOTxn.png" class="fill-div"></a></div>
+
+*Minotauro M, generale in pensione*
+
+[Pagina della wiki](https://criticalrole.fandom.com/wiki/Olomon)
+
+Uno dei fondatori della dinastia, giunto a una tarda età di questa vita (infatti, non era originalmente un minotauro, ma un drow Conseguito), dopo la guerra ha deciso di ritirarsi dai ruoli più alti della carriera militare e lasciare fare a più giovani, qualcosa di inusuale nella Dinastia. Rimane comunque un ufficiale, ma ora è anche dedito a ruoli più governativi, in particolare tra i numerosi piccoli insediamenti ufficialmente governati da lui sta il villaggio semovente di [Urzin](/xho/luoghi#urzin), dopo che ha sconfitto a duello il capo precedente come da tradizione locale.
+
+Attualmente un enorme e imponente minotauro, a quanto pare è molto popolare popolare tra le donne nella dinastia, almeno per quanto riguarda l'ammirazione da una distanza di sicurezza. In realtà abbastanza tranquillo.
 
 ## Den Hythenos
 
