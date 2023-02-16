@@ -42,7 +42,17 @@ Città più influente del Nord e forse di tutta Faerun. Porto estremamente impor
 
 [Baldur's Gate su Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Baldur%27s_Gate)
 
-[descrizione da mettere]
+Metropoli più grande della Costa dells Spada, dal commercio florido e contemporaneamente malfamata. Governata da quattro Granduchi.
+
+## Altri luoghi importanti
+
+### Candlekeep
+
+![](https://5e.tools/img/adventure/BGDIA/024-why5x-01-05.png)
+
+[Candlekeep su Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Candlekeep)
+
+Il Castello dei Tomi, uno dei centri di conoscenza più importanti di tutta Faerun. Per entrare, bisogna offrire un testo non posseduto nella collezione del maniero.
 
 ## Piano dell'Acqua e correlate
 

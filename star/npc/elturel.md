@@ -6,7 +6,7 @@
 
 Università antica, illustre nella costa della spada, e una delle due cose per cui è nota Elturel insieme al secondo sole.
 
-#### Choc Avarur
+#### Choh Avarur
 
 *Umano, rettore bambino*
 
@@ -42,6 +42,25 @@ Celestiale per “Spazzini”. Organizzazione malavitosa situata ad Elturel, sot
 
 Nobile di Elturel, pubblicamente un filantropo, che tiene nascosto l’essere il leader degli Ekeden. Pelle vagamente dorata, occhi apparentemente brillanti di azzurro.
 
+### Cavalieri Infernali
+
+Uno dei due ordini cavallereschi della città, insieme all'Ordine del Compagno. Fanno in parte anche da milizia/guardia del regno. Come gli altri ordini, giurano il Credo Risoluto.
+
+#### Reya Mantlemorn
+
+<div style="width: 20%; background-image: url('https://5e.tools/img/adventure/BGDIA/155-mzc8l-f-01-reya.png'); background-position: top 0% right 60%; background-size: 300%; float: left;" class="portrait"> <a href="https://5e.tools/img/adventure/BGDIA/155-mzc8l-f-01-reya.png" class="fill-div"></a></div>
+
+Giovane cavalleressa, dopo la caduta della città ha giurato vendetta contro il culto di Zariel, sentendo le voci del loro coinvolgimento. Scoprendo dal gruppo che la città è ancora salvabile, ha giurato di seguirli fino agli inferi, se necessario.
+
+<br>
+<br>
+<br>
+<br>
+
+#### Minori
+
+**Bran.** Un tenente dei cavalieri infernali, fuori dalla città al momento del disastro.
+
 ### Altri
 
 #### Arcidiacono Arod Greylzeri
@@ -50,4 +69,5 @@ Arcidiacono del tempio di Amaunator (dio del sole) a Elturel, defunto qualche me
 
 #### Alto Cancelliere Thavius Kreeg
 
-Cancelliere di Elturel, una delle cariche più alte di govenro, fortunatamente scappato alla caduta della città.
+~~Cancelliere di Elturel, una delle cariche più alte di govenro, fortunatamente scappato alla caduta della città.~~
+Vedi [Thavius Kreeg (cultista)](/star/npc/evil#thavius-kreeg).

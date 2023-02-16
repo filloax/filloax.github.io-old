@@ -35,3 +35,34 @@ Una dei tenenti di Kanalath, elfa cresciuta da una vita difficile dove ha impara
 ![](https://cdnb.artstation.com/p/assets/images/images/028/248/145/large/max-dunbar-krull-concept-02-facepaint-03-resized.jpg)
 
 Un chierico, dall'aspetto molto inquietante, apparentemente muto seppur non sordo. Per ora sempre visto insieme a Kanalath, che ha trasportato dopo i vari attacchi.
+
+
+### Culto di Zariel
+
+Hanno in qualche modo orchestrato la caduta di Elturel, e tramite la famiglia Vanthampur pianificavano un destino simile per Baldur's Gate
+
+#### Thavius Kreeg
+
+*Umano, alto osservatore traditore*
+
+![](https://castparty.files.wordpress.com/2021/08/thavius-signing.png){: height="300px" }
+
+Alto Osservatore di Elturel al momento della caduta, segretamente un capo di un culto di Zariel. Sembra coinvolto con la caduta della città. Riferiva ordini ai cultisti di Baldur's Gate per orchestrare un destino simile anche per quella città.
+
+Arrestato dal party.
+
+#### Thalamra Vanthampur
+
+*Umano, duchessa nerboruta*
+
+![](https://5e.tools/img/adventure/BGDIA/022-637000757702239303.png){: height="300px" }
+
+Anziana ma comunque vigorosa, questa ex-contadina ascesa al potere è, come tutta la sua famiglia, segretamente una cultista di Zariel. Guidava il culto di Baldur's Gate, e collaborava con Thavius Kreeg per portare a cadere anche quella città. Ha cambiato tre mariti, ogni suo figlio da uno di essi.
+
+È stata uccisa dal party, mentre i suoi figli arrestati. Ha promesso che "si rivedranno all'inferno".
+
+#### Resto della famiglia Vanthampur
+
+- **Thurstwell.** Un rachitico 40enne infermo, che osserva il mondo tramite i suoi imp.
+- **Amrik.** Il secondogenito, il preferito della madre, più bravo a mercanteggiare.
+- **Mortlock.** Il terzogenito, dalla faccia deforme. Ha abbandonato la città e la famiglia dopo che i fratelli ne hanno ordinato l'omicidio.

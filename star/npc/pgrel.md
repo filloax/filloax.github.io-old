@@ -10,14 +10,6 @@ NPC correlati a backstory del PG o altro. Alcuni non ancora incontrati dal grupp
 
 Cugino di Flynn. Anche lui affetto da magia selvaggia, viaggia con Jotnar dopo che gli è comparso sulla testa. Decisamente baffuto.
 
-#### Jotnar Bramatempesta
-
-*Firbolg, seguace del fulmine*
-
-![](https://i.imgur.com/VEYfhqA.jpg){: width="250px" }
-
-Proviene dallo stesso villaggio di Pteris nel bosco. Chierico della tempesta del dio Kord, sta vivendo il viaggio impostogli dall’Albero Bianco come una prova per vedere se è forte anche da solo. Non è detto che una volta trovata la via di casa ci tornerà subito.
-
 #### Francis Numwit Nefignyc Piedipiatti Malbert Polywog
 
 *Gnomo, vampiro minore*
@@ -44,12 +36,6 @@ Maestro di Prete Gianni fin da quando era piccolo, molto serio ma dall’istruzi
 
 Abate attuale dell’Abbazia della Luna a Iriaebor. Molto severo, eccessivamente severo. Tollera poco le digressioni dalla linea principale della chiesa, in modo tendenzialmente contrario ai suoi insegnamenti.
 
-#### Stephen Zeke
-
-*Umano, esausto*
-
-Fratello minore di Ielenia, a sua differenza completamente umano. Piuttosto provato dal periodo di prigionia da Lord Mikhail, anche perché ci ha perso un orecchio.
-
 #### Zora Amblecrown
 
 ???
@@ -63,3 +49,46 @@ Fratello minore di Ielenia, a sua differenza completamente umano. Piuttosto prov
 Ex-secondo di Ishtar, gli ha rubato la nave perché voleva fare più soldi. Ha lavorato per la criminalità organizzata di Baldur’s Gate e altri, cambiando un po’ bandiera quando capita. È finito in qualche modo nel Piano dell’Acqua (motivo per cui sembrava introvabile), ma la cosa non gli ha impedito di continuare gli affari.
 
 A un certo punto, ha organizzato un colpo alla Città delle Mille Perle, con la ciurma di Undyne, ma li ha venduti. Attualmente fa lavori di quel tipo, aggregandosi a ciurme per contribuire, appropriarsene, e tradire in generale.
+
+### Compagni di Pteris
+
+#### Solanum
+
+*Firbolg, arcidruida dell'albero*
+
+Arcidruida, anziana del villaggio di Pteris. Guardiana dell'albero bianco sacro al centro del villaggio, che le ha insegnato essere un ramo di Yggdrasil, l'albero dei mondi.
+
+#### Jotnar Bramatempesta
+
+*Firbolg, seguace del fulmine*
+
+![](https://i.imgur.com/VEYfhqA.jpg){: width="250px" }
+
+Proviene dallo stesso villaggio di Pteris nel bosco. Chierico della tempesta del dio Kord, sta vivendo il viaggio impostogli dall’Albero Bianco come una prova per vedere se è forte anche da solo. Non è detto che una volta trovata la via di casa ci tornerà subito.
+
+
+#### Altri
+
+**Willow.** Firbolg M.
+
+**Annona.** Firbolg F.
+
+### Famiglia di Ielenia
+
+#### Stephen Zeke
+
+*Umano, esausto*
+
+Fratello minore di Ielenia, a sua differenza completamente umano. Piuttosto provato dal periodo di prigionia da Lord Mikhail, anche perché ci ha perso un orecchio.
+
+#### Mora Zeke
+
+*Umana, madre di Ielenia*
+
+Madre di Ielenia.
+
+#### Harum Zeke
+
+*Umano, zio di Ielenia*
+
+Zio di Ielenia, pettegolo.
