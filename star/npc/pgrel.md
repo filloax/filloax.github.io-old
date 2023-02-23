@@ -18,11 +18,16 @@ Cugino di Flynn. Anche lui affetto da magia selvaggia, viaggia con Jotnar dopo c
 
 Contatto criminale di Ielenia. Abita nei bassifondi di Elturel, cosa piuttosto complicata per uno con la sua “condizione” visto il sole perenne. È aggiornato su quello che succede nei bassifondi delle città vicine, e anche bravo a evitare i problemi. Giura di non aver mai bevuto sangue umanoide negli ultimi 30 anni. Ha due pistole fatte da suo pro-pronipote.
 
+<div style="width: 40%; float: left"><img src="https://i.imgur.com/tmIh2ET.jpg" class="portrait" style="margin-left: 15px"/></div>
+
+<br>
+
 #### Papagor Fumonero
 
 *Tiefling (mezzuomo), cuoco*
 
 Cuoco e speziale dell’Abbazia della Luna a Irlaebor. Ha trovato per primo Prete Gianni in una cassetta di verdura, e lo ha cresciuto come un padre adottivo. Ha l’animo molto gentile, e condisce tutto con l’erba giusta.
+<br><br><br><br><br><br><br><br><br>
 
 #### Galyl Rylani
 
@@ -30,11 +35,17 @@ Cuoco e speziale dell’Abbazia della Luna a Irlaebor. Ha trovato per primo Pret
 
 Maestro di Prete Gianni fin da quando era piccolo, molto serio ma dall’istruzione accattivante. Molto anziano ma anche rivoluzionario, razionale. Custodisce gelosamente un libro sacro apocrifo che parla di varianti del culto di Selune.
 
+<div style="width: 36%; float: left"><img src="https://i.imgur.com/qwb7Rqy.png" class="portrait" style="margin-left: 15px"/></div>
+
+<br>
+
 #### Laphis Goldiron
 
 *Umano, abate*
 
 Abate attuale dell’Abbazia della Luna a Iriaebor. Molto severo, eccessivamente severo. Tollera poco le digressioni dalla linea principale della chiesa, in modo tendenzialmente contrario ai suoi insegnamenti.
+
+<br><br><br><br>
 
 #### Zora Amblecrown
 
