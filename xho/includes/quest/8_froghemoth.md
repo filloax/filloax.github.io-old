@@ -1,4 +1,5 @@
 ### **Froghemoth**
+#### **COMPLETA**
 * **Luogo.**  Palude di Velofranto  
 * **Ricompensa.** 2250mo  
 * **Mandante.** Den Thelyss  

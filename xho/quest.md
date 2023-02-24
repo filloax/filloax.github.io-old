@@ -1,10 +1,20 @@
 [Torna a campagna](./campaign.md)
 
+<style>
+.new::before {
+    content: "▶  ";
+    color: #44ff55;
+    font-size: 15px;
+}
+</style>
+
 # Quest
 
 Missioni assegnate dalla Gilda del Den Fres'tynn.
 
 ## Indice
+
+<span class="new">Nuove missioni indicate con freccia!</span>
 
 ### Esplorazione
 
