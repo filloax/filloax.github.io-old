@@ -25,3 +25,5 @@ Affascinante tiefling rossa, sorella gemella di [Mavreus Vessac](#mavreus-vessac
 **Bhutur l'anziano.** *Orco M, anziano del villaggio*. Anziano del villaggio di Khuramunz. Affianca Lada al governo, data la sua veneranda età e conoscenza delle genti del villaggio. Sacerdote di Kord, un tempo grande guerriero. Zanne pronunciate, capelli bianchi in coda dietro. Austero ma conosce tutti gli abitanti del villaggio.
 
 **Lord ogre Bufahl II.** *Ogre M, capo reggente*. Capo reggente del villaggio di [Urzin](/xho/luoghi#urzin), in assenza di Olomon Frangisole.
+
+**Veluna Samarshan.** *Umana F, capitano in pensione*. Capitano del [Krakenwhacker](/xho/quest#ultimo-viaggio-del-krakenwhacker), ora anziana e appena andata in pensione.
