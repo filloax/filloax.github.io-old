@@ -51,3 +51,16 @@ Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre
 
 Abitante del villaggio semovente di [Urzin](/xho/luoghi#urzin) nella Palude di Velofranto. Riesce in qualche modo a navigare perfettamente nella palude leccando e mangiando piante, e lo fa per cercare funghi. Ama fare amicizia con gli animali. Decisamente poco schizzinoso con il cibo. Un individuo quantomento particolare.
 
+### Nadeem Saade
+
+TODO
+
+### Hwyn Atrith
+
+TODO
+
+### Caduceus Clay
+
+[Caduceus Clay su Critical Role Wiki](https://criticalrole.fandom.com/wiki/Caduceus_Clay)
+
+TODO

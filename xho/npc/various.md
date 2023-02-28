@@ -17,6 +17,25 @@ Affascinante tiefling rossa, sorella gemella di [Mavreus Vessac](#mavreus-vessac
 <br>
 <br>
 
+### La Seconda Rocca
+
+Una squadra di nove mercenari, dotata di armamenti tecno-arcani avanzati costruiti dal loro leader. È composta da:
+
+- Recon: un mezzelfo smilzo, armato di mazza e molto agile.
+- Sergente: un individuo in armatura completa dwendaliana vetusta, completamente bardato. Ha una specie di blaster arcano sperimentale.
+- Fortezza: un umano enorme, con una grande ballista portatile a ripetizione.
+- Bombarolo: un uomo senza un occhio, armato di numerose cariche esplosive alchemiche. A seconda della sobrietà, anche di uno spadone.
+- Fornace: un individuo completamente ricoperto di pelli, il cui volto non è in alcun modo visibile. Non ha armi visibili, si esprime a mugugni, ed è seguito da un piccolo unicorno di fuoco.
+- Testa: il leader del gruppo, un tarchiato artefice dalle numerose idee, e ampia praticità.
+- Doc: una mezzorchessa in tunica da guaritore, con fin troppo entusiasmo per tagliare le ossa.
+- Occhio: una mezzelfa con un cappello a tesa larga, e dall'aspetto "polinesiano", in termini reali. Estremamente rude.
+- Ambasciatore: un elfo estremamente furtivo, anche grazie a dei gadget realizzati da Testa.
+
+### L'Orsogufo
+
+[The Owlbear su Critical Role Wiki](https://criticalrole.fandom.com/wiki/The_Owlbear)
+
+TODO
 
 ### Minori
 

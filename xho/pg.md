@@ -76,7 +76,7 @@ entra in ira.
 
 ## Kess
 
-##### Andre
+##### Camilla
 {:.no_toc}
 
 ![](../assets/img/pg/kess.webp){: width="325" }
@@ -104,7 +104,7 @@ del tè, che come dice il nome, beh, fa il tè.
 
 ## Estia
 
-##### Andre
+##### Camilla
 {:.no_toc}
 
 ![](../assets/img/pg/estia.webp){: width="325" }
