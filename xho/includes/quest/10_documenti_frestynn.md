@@ -1,8 +1,9 @@
-### **Il Segreto dei Vermi Purpurei**
-* **Luogo.**  Impero Dwendaliano (Windandyr Ovest)
-* **Ricompensa.** 6000 mo  
-* **Mandante.** Den Fres'tynn
-* **Informazioni**
+---
+title: Il Segreto dei Vermi Purpurei
+location: Impero Dwendaliano (Windandyr Ovest)
+reward: 6000 mo
+giver: Den Fres'tynn
+---
 <div class="dialogue">
     <div class="icon kynthea"></div>
     <p>Questa è una questione segreta, grave, urgente, e fuori dalle vostre normali mansioni di esploratori e cercatori di creature magiche. Servono i migliori. Degli importanti progetti della mia casata, realizzati da mia nonna secoli or sono, che hanno permesso alla Dinastia di controllare i *vermi purpurei* finora, sono stati sottratti. La questione non è nota fuori dalla casata, dati i problemi politici ed economici che questa notizia porterebbe, e non c'era traccia dei ladri, fino a poco tempo fa, grazie all'intervento di una figura esterna.</p>

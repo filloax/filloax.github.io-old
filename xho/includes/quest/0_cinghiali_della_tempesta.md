@@ -1,9 +1,10 @@
-### **Cinghiali della tempesta**
-#### **COMPLETA**
-* **Luogo.**  Terre desolate  
-* **Ricompensa.** 2000mo  
-* **Mandante.** Bhutur, anziano  
-* **Informazioni**
+---
+title: Cinghiali della tempesta
+location: Terre desolate  
+reward: 2000mo
+giver: Bhutur, anziano
+completed: true
+---
 <div class="dialogue">
     <div class="icon chestibor"></div>
     <p>Questa potrebbe interessare al ragazzo cornuto. Un villaggio lungo il fiume Ifolon, a nord-ovest da qua, è stato occupato da una mandria di cinghiali della tempesta. L'anziano ha indetto una santa caccia in nome del Signore delle Tempeste Kord, visto che a quanto pare un modo in cui celebrare Kord è cacciare bestie a lui sacre.</p>

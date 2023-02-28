@@ -1,11 +1,13 @@
-### **Bestia psionica**
-#### **COMPLETA**
-* **Luogo.**  Brughiera di Iothia  
-* **Ricompensa.** 3500 mo  
-* **Mandante.** <img src="../../../assets/img/tree.webp" style="width: 80px"/> (Nepheli Loux?)  
-* **Informazioni**
+---
+title: Bestia psionica
+location: Brughiera di Iothia  
+reward: 3500 mo
+giver: Nepheli Loux
+completed: true
+---
 <div class="quest-paper">
-    <p>Bestia con mente rompe teste della tribù. <em>-Firmato con il simbolo di un albero</em></p>
+    <p>Bestia con mente rompe teste della tribù.</p>
+    <img src="../../../assets/img/tree.webp" style="width: 80px"/>
 </div>
 <div class="dialogue">
     <div class="icon kynthea"></div>

@@ -1,8 +1,9 @@
-### **Volo a Piltover, Tal'dorei**
-* **Luogo.** Tal'dire, Piltover
-* **Ricompensa.** 3000mo, punto di viaggio
-* **Mandante.** Gilda
-* **Informazioni**
+---
+title: Volo a Piltover, Tal'dorei
+location: Tal'dorei, Piltover
+reward: 3000mo, punto di viaggio
+giver: Gilda
+---
 <div class="dialogue">
     <div class="icon kynthea"></div>
     <p>Siamo stati scelti, insieme ad altri, per accompagnare in un primo viaggio diplomatico per aeronave a Piltover alcuni rappresentati della Dinastia. Questo avrebbe enorme valore per noi: intanto, portando con voi il caro Eldenser, avremmo una possibilità di teletrasporto nel continente Tal'doreico. Inoltre, aprire la rotta per la Città del Futuro permetterebbe di fare altri interessanti incarichi, oltre a ricercare la fauna del continente in generale: al momento siamo abbastanza isolati.</p>
