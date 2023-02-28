@@ -1,18 +1,5 @@
 [Torna a campagna](./campaign.md)
 
-<style>
-.new::before {
-    content: "▶  ";
-    color: #44ff55;
-    font-size: 15px;
-}
-.restocked::before {
-    content: "▶  ";
-    color: #ff8112;
-    font-size: 15px;
-}
-</style>
-
 <p class="new">Nuove merci evidenziate con freccia di questo colore</p>
 <p class="restocked">Merci tornate disponibiili evidenziate con freccia di questo colore</p>
 

@@ -65,7 +65,7 @@
 	* Sessione 8
 	* Spiritomb accidentalmente liberato da artefatto da Igor
 * 12/03/843, **12 Dualahei**
-	* Inizio [Sessione 9](sessioni#sessione-9---il-villaggio-lungo-il-fiume)
+	* Inizio [Sessione 9](sessioni#sessione-9-il-villaggio-lungo-il-fiume)
 	* Partenza per fare la base 1 presso la Foresta del Vermaloc
 * 16/03/843, **16 Dualahei**
 	* Avvistata Aeronave verso Rosonha
@@ -75,18 +75,18 @@
 	* Inizio prima esplorazione Foresta del Vermaloc
 	* Visita del villaggio abbandonato irreale
 * 19/03/843, **19 Dualahei**
-	* [Sessione 10](sessioni#sessione-10---soli-con-chi-è-solo)
+	* [Sessione 10](sessioni#sessione-10-soli-con-chi-è-solo)
 	* Incontro con [Hornet](npc#hornet)
 * 20/03/843, **20 Dualahei**
-	* [Sessione 11](sessioni#sessione-11---jurassic-watermill)
+	* [Sessione 11](sessioni#sessione-11-jurassic-watermill)
 	* Arrivo al Mulino del Fiume
 	* Scontro con Presenza Fetida
 	* Level up 11
 * 22/03/843, **22 Dualahei**
-	* [Sessione 12](sessioni#sessione-12---interludio-shopping-sogni-particolari)
+	* [Sessione 12](sessioni#sessione-12-interludio-shopping-sogni-particolari)
 	* Arrivo all'accampamento e alla base dopo spedizione 1
 * 23/03/843, **23 Dualahei**
-	* Inizio [Sessione 13](sessioni#sessione-13---nebbie-nebulose)
+	* Inizio [Sessione 13](sessioni#sessione-13-nebbie-nebulose)
 	* Partenza Gruppo B
 	* Gruppo A fa missione demoni minori
 * 29/03/843, **29 Dualahei**
@@ -95,28 +95,28 @@
 	* Gruppo trova torre abbandonata con ragni fase
 * 3/04/843, **3 Thunsheer**
 	* Arrivo a base, fine esplorazione 2
-	* Inizio [Sessione 14](sessioni#sessione-14---lame-sugli-alberi)
+	* Inizio [Sessione 14](sessioni#sessione-14-lame-sugli-alberi)
 * 4/04/843
 	* Partenza esplorazione 3, direzione torre
 * 5?/04/843
 	* Incontro con mantidi
-	* Inizio [Sessione 15](sessioni#sessione-15---nebbia-sui-monti)
+	* Inizio [Sessione 15](sessioni#sessione-15-nebbia-sui-monti)
 * 9/04/943
 	* Arrivo a Torre
-	* [Sessione 16](sessioni#sessione-16---shayis-di-hellfire)
-	* [Sessione 17](sessioni#sessione-17---lo-studioso-e-il-burattinaio)
+	* [Sessione 16](sessioni#sessione-16-shayis-di-hellfire)
+	* [Sessione 17](sessioni#sessione-17-lo-studioso-e-il-burattinaio)
 * 10/04/943
 	* Recupero cadavere Shayis, girando intorno a giungla	
-	* Inizio [Sessione 18](sessioni#sessione-18---occhi-nella-giungla)
+	* Inizio [Sessione 18](sessioni#sessione-18-occhi-nella-giungla)
 * 11/04/843
 	* Ingresso in giungla e caverna nel lago
-	* [Sessione 19](sessioni#sessione-19---la-forza-del-sentimento)
-	* Inizio [Sessione 20](sessioni#sessione-20---mens-sana)
+	* [Sessione 19](sessioni#sessione-19-la-forza-del-sentimento)
+	* Inizio [Sessione 20](sessioni#sessione-20-mens-sana)
 * 17/04/843
 	* Fine esplorazione 3, dopo 11 giorni
 	* Settiamana di pausa in cui avvengono:
-	* Inizio [Sessione 21](sessioni#sessione-21---la-marcia-di-urzin)
-	* [Sessione 22](sessioni#sessione-22---cyber-vs-demon)
+	* Inizio [Sessione 21](sessioni#sessione-21-la-marcia-di-urzin)
+	* [Sessione 22](sessioni#sessione-22-cyber-vs-demon)
 * 24/04/843
 	* Fine settimana di pausa
 	* Teletrasporto a Jigow per missione del Froghemoth
@@ -124,7 +124,7 @@
 	* Arrivo a Urzin nella palude di Velofranto
 	* Viaggio nella palude per la missione
 * 31/04/843
-	* Missione del froghemoth: [Sessione 23](sessioni#sessione-23---anfibi-sgraditi)
+	* Missione del froghemoth: [Sessione 23](sessioni#sessione-23-anfibi-sgraditi)
 * 3/05/843
 	* Ritorno a Urzin
 * 8/05/843

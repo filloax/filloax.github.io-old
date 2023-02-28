@@ -190,3 +190,15 @@ a.fill-div {
     60% {opacity: 0;}
     100% {opacity: 0;}
 }
+
+.new::before {
+    content: "▶  ";
+    color: #44ff55;
+    font-size: 15px;
+}
+
+.restocked::before {
+    content: "▶  ";
+    color: #ff8112;
+    font-size: 15px;
+}

@@ -1,13 +1,5 @@
 [Torna a campagna](./campaign.md)
 
-<style>
-.new::before {
-    content: "▶  ";
-    color: #44ff55;
-    font-size: 15px;
-}
-</style>
-
 # Quest
 
 Missioni assegnate dalla Gilda del Den Fres'tynn.
