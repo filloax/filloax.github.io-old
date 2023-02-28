@@ -21,11 +21,11 @@ Missioni assegnate dalla Gilda del Den Fres'tynn.
 
 | Incarico | Luogo | Mandante | Ricompensa |
 | :------- | :---- | :------: | :--------: |
-{% for page in incomplete_quests_good %}| [**{{page.title}}**]({{page.title | slugify}}) | {{page.location}} | {{page.giver}} | {{page.reward}} |
+{% for page in incomplete_quests_good %}| [**{{page.title}}**](#{{page.title | slugify}}) | {{page.location}} | {{page.giver}} | {{page.reward}} |
 {% endfor %}| *LIVELLO BASSO* | --- | --- | --- |
-{% for page in incomplete_quests_bad %}| [{{page.title}}]({{page.title | slugify}}) | {{page.giver}} | {{page.reward}} |
+{% for page in incomplete_quests_bad %}| [{{page.title}}](#{{page.title | slugify}}) | {{page.giver}} | {{page.reward}} |
 {% endfor %}| **SVOLTE** | --- | --- | --- |
-{% for page in completed_quests %}| [~~{{page.title}}~~]({{page.title | slugify}}) | {{page.giver}} | {{page.reward}} |
+{% for page in completed_quests %}| [~~{{page.title}}~~](#{{page.title | slugify}}) | {{page.giver}} | {{page.reward}} |
 {% endfor %}
 
 <br>

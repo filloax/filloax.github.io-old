@@ -63,4 +63,10 @@ for (let i = 0; i < indexlinks.length; i++) {
         targ.click()
     });
 }
+
+// Apertura da altra pagina
+var hash = window.location.hash.substr(1);
+const targ = document.getElementById(hash)
+targ?.click()
+
 </script>

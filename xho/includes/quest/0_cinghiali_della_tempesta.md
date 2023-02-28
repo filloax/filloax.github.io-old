@@ -14,3 +14,6 @@ completed: true
     <p>In effetti, rientra nelle consuetudini del Re delle Battaglie. Inoltre, animali con affinità elementale sono sempre interessanti per la ricerca.</p>
 </div>
 
+Completata durante le sessioni:
+- [Sessione 3](/xho/sessioni#sessione-3-cinghiali-della-tempesta)
+- [Sessione 4](/xho/sessioni#sessione-4-fulminamenti)

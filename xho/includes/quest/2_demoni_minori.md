@@ -11,3 +11,5 @@ completed: true
     <p>Alla fine quel problema è stato risolto, ma ci sono sempre nuovi casi di demoni in zona.</p>
 </div>
 
+Completata durante le sessioni:
+- [Sessione 22](/xho/sessioni#sessione-22-cyber-vs-demon)

@@ -3,6 +3,7 @@ title: Ultimo viaggio del Krakenwhacker
 location: Baia del disastro, Rotthold
 reward: 3000mo, nave magica
 giver: Cap. Veluna Samarshan
+completed: true
 ---
 <div class="dialogue">
     <div class="icon chestibor"></div>
@@ -13,3 +14,5 @@ giver: Cap. Veluna Samarshan
     <p>Da quel che ho capito, la nave è l'invidia di numerosi capitani della Costa delle Meraviglie, della Baldoria, e altri simpatici individui, oltre che per la sua generale qualità per l'artefatto magico in nome di Bahamut che la protegge da fuoco, fulmini, e altri pericoli magici. Sarebbe un ottima risorsa per la gilda, e per questo sarete pagati adeguatamente.</p>
 </div>
 
+Completata durante le sessioni:
+- [Sessione 24](/xho/sessioni#sessione-24-ultimo-viaggio-del-krakenwhacker)
