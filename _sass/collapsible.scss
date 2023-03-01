@@ -1,7 +1,6 @@
 /* Style the button that is used to open and close the collapsible content */
-.collapsible {
+.coll-primary {
     color: #c9ad6a;
-    cursor: pointer;
     padding: 5px;
     margin: 0px;
     width: 100%;
@@ -11,10 +10,6 @@
     text-align: left;
     font-size: 25px;
     font-family: MrJeeves;
-
-    &:before {
-        content: "▲ "
-    }
 
     &:after {
         content:' ';
@@ -28,8 +23,28 @@
     }
 }
 
-.collapsible.active:before {
-    content: "▼ "
+.coll-secondary {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-style: italic;
+    font-family: MrJeeves;
+    text-align: left;
+    
+    &:hover {
+        background-color: #dddddd22;
+    }
+}
+
+.collapsible {
+    cursor: pointer;
+    &:before {
+        content: "▲ "
+    }
+    &.active:before {
+        content: "▼ "
+    }
 }
 
 /* Style the collapsible content. Note: hidden by default */

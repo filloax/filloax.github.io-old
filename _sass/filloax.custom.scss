@@ -202,3 +202,15 @@ a.fill-div {
     color: #ff8112;
     font-size: 15px;
 }
+
+@mixin no-indent {
+    text-indent: 0 !important;
+}
+
+.noindent {
+    @include no-indent;
+}
+
+blockquote, blockquote * {
+    @include no-indent;
+}
