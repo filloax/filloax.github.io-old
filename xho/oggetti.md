@@ -6,8 +6,57 @@
 
 Oggetti vari che non sono nel manuale base o facilmente trovabili su internet.
 
+{% include kibbles_notice.md %}
+
 -   Indice
     {:toc}
+
+### Oggetti mondani
+
+#### Rampino
+
+_oggetto mondano_
+
+Come azione, o invece di un attacco come parte dell'azione di Attacco, puoi bersagliare una superfice, oggetto o creatura entro 6m. Se il bersaglio è Piccolo o più piccolo, puoi fare un tiro di Forza (Atletica) per afferrare per tirare il bersaglio a te e afferrarlo. In alternativa, se il bersaglio è da Medio in su, puoi scegliere di venire attirato a esso, senza afferrarlo. Attacchi di opportunità provocati da questo movimento hanno svantaggio.
+
+**Variante: Rampino avanzato.** Gittata aumentata a 18m, invece dei 6m base. Muoversi oltre 9m richiede un'azione e il movimento.
+
+#### Scudo a torre
+
+_armatura (scudo)_
+
+Questo scudo è enorme e scomodo. Mentre lo trasporti, la velocità viene ridotta di 3m. Alla fine di ogni turno, scegli una direzione. Hai mezza copertura da attacchi in un cono in quella direzione. In alternativa puoi scegliere un bersaglio, e tracciarne il movimento. Hai mezza copertura da attacchi da quel bersaglio (e soltanto quel bersaglio).
+
+### Oggetti meravigliosi
+
+#### Gemma celeste
+
+_oggetto meraviglioso, artefatto, richiede sintonia_
+
+Trovata nel tempio dei sacerdoti lunari (Vermaloc F9, [[Sessione Extra 1]]). Questa gemma sembra contenere una Gemma Draconica di Syberys, dalla quale si sono generate delle formazioni cristalline che formano un secondo strato che aumenta la grandezza, rendendola grande 30cm circa. Il colore è diverso, rosa chiaro invece del solito giallo.
+
+La gemma attira a sè i raggi della luna, illuminandosi sotto il cielo notturno.
+
+Finchè la gemma è a contatto con te, sotto la luce lunare ottieni i seguenti benefici:
+
+-   Sei immune alle malattie
+-   La tua Costituzione aumenta di 2
+
+La gemma ha 4 cariche. Puoi lanciare _metamorfosi_ tramite la gemma consumando 4 cariche, e _passare senza traccia_, _invsibilità_, _camuffare sè stessi_, e _raggio lunare_ (3° livello), consumando 1 carica. La gemma recupera 1d4 cariche a mezzanotte, se esposta alla luce lunare.
+
+Inoltre, puoi lanciare _scrittura celeste_ tramite la gemma, senza consumare cariche.
+
+Infine, è possibile costruire un telescopio che possa focalizzare i poteri della gemma, con competenza in arcano e strumenti e materiali appropriati. Se si dispone di esso, si può focalizzare il potere della gemma per osservare l'area circostante da un punto di vista posto 200m sopra alla costruzione. La preparazione richiede un'ora, e l'osservazione può essere svolta per mezz'ora. Dopo aver usato la gemma in questo modo, non può essere usata di nuovo in questo modo per una settimana.
+
+> Nota di regole: quando cambia la Costituzione nel mezzo di una giornata, cambiano i PF massimi, e i PF insieme a loro. Quello che rimane costante è quanti danni sono stati subiti: passare da 80 PF massimi a 100 per un cambio di costituzione, quando si avevano 60PF, porta ad avere 80 PF: 20 danni subiti rimangono costanti.
+
+### Pozioni
+
+#### Pozione della Breve Carica
+
+_pozione, raro_
+
+Quando bevi questa pozione, tira 1d4+1. Per questo numero di round, la tua velocità raddoppia, ottieni +2 ai tiri per i danni, e i danni che subisci vengono ridotti di 2. Dopo questi round, la tua velocità è dimezzata, e ottieni -5 ai tiri per i danni, per la stessa durata.
 
 ### Rune
 
@@ -150,30 +199,3 @@ Acceso con danni da fuoco o fulmine. Lanciabile entro 6m. Creature entro gittata
 | **Metallo** | **Difficoltà crafting** | **Armi** | **Armature** |
 | :-------- | :-: | :-- | :-- |
 | Covolt (adattato da Griffon's) | +6 | +1d4 danni da fulmine | Resistenza ai danni da fulmine. |
-
-### Pozione della Breve Carica
-
-_pozione, raro_
-
-Quando bevi questa pozione, tira 1d4+1. Per questo numero di round, la tua velocità raddoppia, ottieni +2 ai tiri per i danni, e i danni che subisci vengono ridotti di 2. Dopo questi round, la tua velocità è dimezzata, e ottieni -5 ai tiri per i danni, per la stessa durata.
-
-### Gemma celeste
-
-_oggetto meraviglioso, artefatto, richiede sintonia_
-
-Trovata nel tempio dei sacerdoti lunari (Vermaloc F9, [[Sessione Extra 1]]). Questa gemma sembra contenere una Gemma Draconica di Syberys, dalla quale si sono generate delle formazioni cristalline che formano un secondo strato che aumenta la grandezza, rendendola grande 30cm circa. Il colore è diverso, rosa chiaro invece del solito giallo.
-
-La gemma attira a sè i raggi della luna, illuminandosi sotto il cielo notturno.
-
-Finchè la gemma è a contatto con te, sotto la luce lunare ottieni i seguenti benefici:
-
--   Sei immune alle malattie
--   La tua Costituzione aumenta di 2
-
-La gemma ha 4 cariche. Puoi lanciare _metamorfosi_ tramite la gemma consumando 4 cariche, e _passare senza traccia_, _invsibilità_, _camuffare sè stessi_, e _raggio lunare_ (3° livello), consumando 1 carica. La gemma recupera 1d4 cariche a mezzanotte, se esposta alla luce lunare.
-
-Inoltre, puoi lanciare _scrittura celeste_ tramite la gemma, senza consumare cariche.
-
-Infine, è possibile costruire un telescopio che possa focalizzare i poteri della gemma, con competenza in arcano e strumenti e materiali appropriati. Se si dispone di esso, si può focalizzare il potere della gemma per osservare l'area circostante da un punto di vista posto 200m sopra alla costruzione. La preparazione richiede un'ora, e l'osservazione può essere svolta per mezz'ora. Dopo aver usato la gemma in questo modo, non può essere usata di nuovo in questo modo per una settimana.
-
-> Nota di regole: quando cambia la Costituzione nel mezzo di una giornata, cambiano i PF massimi, e i PF insieme a loro. Quello che rimane costante è quanti danni sono stati subiti: passare da 80 PF massimi a 100 per un cambio di costituzione, quando si avevano 60PF, porta ad avere 80 PF: 20 danni subiti rimangono costanti.

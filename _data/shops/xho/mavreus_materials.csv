@@ -1,0 +1,12 @@
+name,price,rarity,amount,new,restocked
+Essenza arcana rara,700,raro,2,x,
+Essenza primale rara,700,raro,1,x,
+Essenza divina rara,700,raro,1,x,
+"Essenza comune (gemma draconica di Eberron, Syberys, Khyber)",45,comune,56,,x
+Essenza arcana non comune,150,non comune,5,,
+Inchiostro magico raro,200,raro,5,x,
+Inchiostro magico non comune,40,non comune,13,,x
+Inchiostro magico comune,15,comune,14,,
+Reagente comune,15,comune,-,,
+Reagente non comune,40,non comune,24,,
+Reagente raro,200,raro,5,x,

@@ -139,7 +139,7 @@
 	* **Inizio estate**
 * 1/06/843, **1 Brussendar**
 	* (dopo 3 giorni) Ritorno alla gilda
-	* Inizio [Sessione 25](/xho/sessioni#)
+	* Inizio [Sessione 25](/xho/sessioni#sessione-25-assalto-alla-valle-oscura)
 * 15/06/843
 	* Fiera degli Artigiani, e fine produzione equipaggiamento vario
 	* Teletrasporto ad Asarius, partenza verso villaggio di frontiera

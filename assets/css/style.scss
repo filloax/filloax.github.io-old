@@ -8,7 +8,7 @@
 @import 'phb.style.dark.scss';
 @import "filloax.custom.scss";
 @import "pctable.scss";
-@import "recap-collapsible.scss";
+@import "collapsible.scss";
 
 strong {
     font-family: inherit !important;
@@ -53,7 +53,11 @@ p {
 
 blockquote {
     p {
-        margin-bottom: 0px !important;
-        padding-bottom: 2px !important;
+        margin-bottom: 1em !important;
+        padding-bottom: 0px !important;
     }
+}
+
+p + ul {
+    margin-top: -1em !important;
 }

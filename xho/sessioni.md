@@ -12,12 +12,14 @@ Recap delle sessioni.
 
 <button type="button" class="expand-all">Espandi tutti</button>
 
+<div class="noindent">
+
 {% for page in recap_pages %}
 
 {% assign title_num_part = page.title | split: " - " | first %}
 {% assign title_title_part = page.title | split: " - " | last %}
 
-<button type="button" class="collapsible" id="{{page.title | slugify}}">{{title_num_part}} - <span class="recap-title">{{title_title_part}}</span></button>
+<button type="button" class="collapsible coll-primary" id="{{page.title | slugify}}">{{title_num_part}} - <span class="recap-title">{{title_title_part}}</span></button>
 <div class="collapsible-content" markdown="1">
 
 {{ page.content }}
@@ -25,48 +27,4 @@ Recap delle sessioni.
 </div>
 {% endfor %}
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.parentElement.nextElementSibling ;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-
-var expAll = document.getElementsByClassName("expand-all");
-
-for (let i = 0; i < expAll.length; i++) {
-    const el = expAll[i]
-    el.addEventListener("click", function() {
-        for (let j = 0; j < coll.length; j++) {
-            coll[j].click()
-        }
-    });
-}
-
-var indexlinks = document.getElementsByClassName("recap-index");
-for (let i = 0; i < indexlinks.length; i++) {
-    const el = indexlinks[i]
-    el.addEventListener("click", function() {
-        const anchor = event.target.closest("a");
-        if (!anchor) return;                      
-        const targ = document.getElementById(anchor.getAttribute('href').replace(/^#/, ""))
-        if (targ.tagName !== "BUTTON") return;
-        targ.click()
-    });
-}
-
-// Apertura da altra pagina
-var hash = window.location.hash.substr(1);
-const targ = document.getElementById(hash)
-targ?.click()
-
-</script>
+</div>
