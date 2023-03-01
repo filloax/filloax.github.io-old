@@ -24,10 +24,13 @@ Contatto criminale di Ielenia. Abita nei bassifondi di Elturel, cosa piuttosto c
 
 #### Papagor Fumonero
 
-*Tiefling (mezzuomo), cuoco*
+*Diavolo camuffato da tiefling (mezzuomo), cuoco*
 
 Cuoco e speziale dell’Abbazia della Luna a Irlaebor. Ha trovato per primo Prete Gianni in una cassetta di verdura, e lo ha cresciuto come un padre adottivo. Ha l’animo molto gentile, e condisce tutto con l’erba giusta.
-<br><br><br><br><br><br><br><br><br>
+
+- In realtà un diavolo redento contro la sua natura, camuffato da tiefling. 
+
+<br><br><br><br><br><br>
 
 #### Galyl Rylani
 
@@ -45,7 +48,9 @@ Maestro di Prete Gianni fin da quando era piccolo, molto serio ma dall’istruzi
 
 Abate attuale dell’Abbazia della Luna a Iriaebor. Molto severo, eccessivamente severo. Tollera poco le digressioni dalla linea principale della chiesa, in modo tendenzialmente contrario ai suoi insegnamenti.
 
-<br><br><br><br>
+- Orfano a causa di una guerra fin da bambino, l'esperienza lo ha segnato per desiderare ardentemente l'ordine.
+
+<br><br>
 
 #### Zora Amblecrown
 

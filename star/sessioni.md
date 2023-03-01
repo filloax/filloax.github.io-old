@@ -12,6 +12,8 @@ Riassunti delle sessioni.
 
 <button type="button" class="expand-all">Espandi tutti</button>
 
+<div class="noindent">
+
 {% for page in recap_pages %}
 
 {% assign title_num_part = page.title | split: " - " | first %}
@@ -27,6 +29,8 @@ Riassunti delle sessioni.
 </div>
 {% endfor %}
 
+</div>
+
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -34,7 +38,7 @@ var i;
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.parentElement.nextElementSibling ;
+    var content = this.nextElementSibling ;
     if (content.style.display === "block") {
       content.style.display = "none";
     } else {

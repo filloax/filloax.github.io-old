@@ -57,3 +57,7 @@ blockquote {
         padding-bottom: 0px !important;
     }
 }
+
+p + ul {
+    margin-top: -1em !important;
+}
