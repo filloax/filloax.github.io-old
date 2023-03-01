@@ -37,13 +37,19 @@
     }
 }
 
+.coll-blank {
+    border: none;
+    background: none;
+    outline: none;
+}
+
 .collapsible {
     cursor: pointer;
     &:before {
-        content: "▲ "
+        content: "▴ "
     }
     &.active:before {
-        content: "▼ "
+        content: "▾ "
     }
 }
 
@@ -51,6 +57,12 @@
 .collapsible-content {
     display: none;
     overflow: hidden;
+
+    &.bordered {
+        padding-left: 10px;
+        border-left: 3px #dddddd;
+        border-left-style: inset;
+    }
 }
 
 .recap-title {

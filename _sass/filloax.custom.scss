@@ -214,3 +214,7 @@ a.fill-div {
 blockquote, blockquote * {
     @include no-indent;
 }
+
+tr.tablesep {
+    background-color: #11351c !important;
+}
