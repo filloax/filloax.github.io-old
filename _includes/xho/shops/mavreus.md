@@ -21,7 +21,9 @@ _Artefice tiefling decisamente impulsivo_
 -   _Carpentiere_: CD 17
 -   _Fabbro_: CD 16
 
-**Moltiplicatore di prezzo:** 1x
+<h4 class="collapsible coll-blank">Informazioni</h4>
+
+<div class="collapsible-content bordered" markdown="1">
 
 Può costruire diversi tipi di oggetti magici e affini. Ricette e prezzi per gli oggetti di questo tipo stanno sotto, in ordine, alle sezioni di
 
@@ -34,9 +36,9 @@ Il tutto (tranne _runecarving_ e _tinkering_ che sono solo sul manuale completo)
 
 Utili meno spesso _woodcarving_, roba di legno varia, _engineering_, creazione di grandi strutture, trappole, e macchine da battaglia.
 
-### Negozio
+</div>
 
-Oltre a quelli elencati vende anche tutti gli oggetti di basso prezzo nella sezione _tinkering_ del manuale completo del crafting.
+### Negozio
 
 <table>
     <tr>
@@ -87,3 +89,5 @@ Oltre a quelli elencati vende anche tutti gli oggetti di basso prezzo nella sezi
         </tr>
     {% endfor %}
 </table>
+
+Oltre a quelli elencati vende anche tutti gli oggetti di basso prezzo nella sezione _tinkering_ del manuale completo del crafting.
