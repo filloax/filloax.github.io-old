@@ -9,7 +9,7 @@ Oggetti vari che non sono nel manuale base o facilmente trovabili su internet.
 {% include kibbles_notice.md %}
 
 -   Indice
-    {:toc}
+{:toc}
 
 ### Oggetti mondani
 
@@ -186,16 +186,34 @@ Acceso con danni da fuoco o fulmine. Lanciabile entro 6m. Creature entro gittata
 
 #### Materiali di Kibbles
 
-| **Metallo** | **Difficoltà crafting** | **Armi** | **Armature** |
-| :-------- | :-: | :-- | :-- |
-| Adamantio | +7 | I critici con questa arma danneggiano armi e armature non magiche e non di adamantio, riducendo i TPC o la CA di 2. | Indossando questa armatura, ogni critico diventa un colpo normale. |
-| Mithril | +5 | Un'arma pesante diventa normale, un'arma leggera diventa pesante. La CD per applicare incantesimi (crafting) cala di 4, e conta come se avesse 1 essenza comune. | Se l'armatura darebbe svantaggio in Furtività, non lo da, e non ha eventuali requisiti di forza. _Aggiunta mia: il limite di bonus alla CA da destrezza, se c'è, aumenta di 1._ Come per armi riguardo all'incantabilità. |
-| Ferroscuro | +6 | Hai vantaggio nei TPC mentre sei al buio. | Tiri Percezione per vederti hanno svantaggio finchè sei al buio. |
-| Stahlrim (Ice steel) | +6 | +1d4 danni da freddo | Resistenza ai danni da fuoco. |
-| Ignitum (Fire steel) | +6 | +1d4 danni da fuoco | Resistenza ai danni da freddo. |
+| **Metallo**          | **Difficoltà crafting** | **Armi**                                                                                                                                                         | **Armature**                                                                                                                                                                                                              |
+| :------------------- | :---------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Adamantio            |           +7            | I critici con questa arma danneggiano armi e armature non magiche e non di adamantio, riducendo i TPC o la CA di 2.                                              | Indossando questa armatura, ogni critico diventa un colpo normale.                                                                                                                                                        |
+| Mithril              |           +5            | Un'arma pesante diventa normale, un'arma normale diventa leggera. La CD per applicare incantesimi (crafting) cala di 4, e conta come se avesse 1 essenza comune. | Se l'armatura darebbe svantaggio in Furtività, non lo da, e non ha eventuali requisiti di forza. _Aggiunta mia: il limite di bonus alla CA da destrezza, se c'è, aumenta di 1._ Come per armi riguardo all'incantabilità. |
+| Ferroscuro           |           +6            | Hai vantaggio nei TPC mentre sei al buio.                                                                                                                        | Tiri Percezione per vederti hanno svantaggio finchè sei al buio.                                                                                                                                                          |
+| Stahlrim (Ice steel) |           +6            | +1d4 danni da freddo                                                                                                                                             | Resistenza ai danni da fuoco.                                                                                                                                                                                             |
+| Phyrion (Fire steel) |           +6            | +1d4 danni da fuoco                                                                                                                                              | Resistenza ai danni da freddo.                                                                                                                                                                                            |
 
 #### Materiali miei
 
 | **Metallo** | **Difficoltà crafting** | **Armi** | **Armature** |
 | :-------- | :-: | :-- | :-- |
 | Covolt (adattato da Griffon's) | +6 | +1d4 danni da fulmine | Resistenza ai danni da fulmine. |
+
+### Forgiatura
+
+#### Modificatori di armi e armature
+
+|    Modificatore    | Mod. difficoltà |                                                                                              Weapon Effect                                                                                              |                                                                     Armor Effect                                                                     |
+| :----------------: | :-------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    Aerodinamico    |       +4        |                                              L'arma ottiene la proprietà Da Lancio (3/9m) se non la possiede, o se la possiede il raggio aumenta di 3/9m.                                               |                                        La tua velocità di caduta diventa 150m mentre indossi questa armatura.                                        |
+|     A due lame     |       +10       |       Il dado di danno dell'arma viene ridotto. Ottiene la proprietà "Speciale: Puoi usare un'azione bonus per infliggere un attacco con questa arma, che infligge 1d4 danni da taglio al colpo".       |                                                                         ---                                                                          |
+| Soppesato (nanico) |       +4        |                                                                    Un'arma leggera diventa normale, un'arma normale diventa pesante.                                                                    | Se un effetto ti sposterebbe mentre sei a terra, puoi usare la tua reazione per ridurre lo spostamento di 3m. Il peso dell'armatura aumenta del 50%. |
+|       Elfico       |       +5        |                                                                                        L'arma diventa Accurata.                                                                                         |                                        Hai competenza in questa armatura anche se normalmente non la avresti.                                        |
+|      Fragile       |       N/A       |                                                    Un'arma Fragile si rompe con un 1 a t.p.c. contro bersagli che indossano un'armatura non Fragile.                                                    |                               Un'armatura Fragile viene distrutta se subisci un colpo critico da un'arma non Fragile.                                |
+|     Rinforzato     |       +4        |                                                          Il [Dado Qualità](/xho/regole#manutenzione-armi) di un'arma mantenuta diventa un d12.                                                          |                                            Il [Dado Qualità](/xho/regole#manutenzione-armi) dell'armatura se manutenuta diventa un d12.                                             |
+|    Cavalleresco    |       +2        | Richiede arma a due mani con Portata. L'arma diventa per una mano e il suo dado di danno aumenta, ma hai svantaggio se la usi su un bersaglio a 1.5mt. Inoltre, richiede due mani se non sei a cavallo. |                                                                         ---                                                                          |
+|      Perfetto      |      +6MW       |                                                                            Un'arma Perfetta ottiene +1 ai tiri per colpire.                                                                             |                      Un'armatura Perfetta ottiene Riduzione ai Danni 2.                       |
+|     Segmentato     |       +4        |                                                                                                   ---                                                                                                   |                                                L'armatura può essere indossata e rimossa in metà del tempo.                                                |
+|     Con incavo     |       +2        |                                                                  Questa arma può contenere una gemma magica creata da un Incantatore. Le gemme magiche forniscono vari tipi di effetti.                                                                   |                                               Questa armatura può contenere una gemma magica creata da un Incantatore. Le gemme magiche forniscono vari tipi di effetti.                                                 |
+|      Spinato       |       +4        |                                                                     Se l'arma infliggeva danni contundenti, li infligge perforanti.                                                                     | --- |

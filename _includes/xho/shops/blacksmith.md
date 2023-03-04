@@ -4,7 +4,7 @@ _Fabbro mutante della gilda_
 
 > Hrrm.
 
-**Gestore**: [Mastro Ner Tör](/xho/npc/frestynn#mastro-ner-tör)
+**Gestore**: [Mastro Ner Tör](/xho/npc/frestynn#mastro-ner-tör). Orco e tiefling mutante, numerose corna ovunque.
 
 Lavoratore della gilda: offre sconto o extra a membri della gilda.
 
@@ -15,7 +15,11 @@ Lavoratore della gilda: offre sconto o extra a membri della gilda.
 -   _Fabbro_: CD 23
 -   _Carpentiere_: CD 20
 
-**Moltiplicatore di prezzo:** 0.85x
+**Moltiplicatore di prezzo:** 85%
+
+<h4 class="collapsible coll-blank">Informazioni</h4>
+
+<div class="collapsible-content bordered" markdown="1">
 
 Ricette e prezzi da fabbro a **pg. 43** del [PDF gratuito](pdf/crafting_free_version_reddit.pdf), o in alternativa pagina 219 sul manuale completo.
 
@@ -26,7 +30,65 @@ armi personalizzate. Certi materiali possono probabilmente essere fatti arrivare
 
 Esempi di materiali speciali sono il ferronero, che da vantaggio all'ombra, o lo stahlrim, metallo gelato. I modificatori sono di varia natura.
 
+</div>
+
 ### Negozio
+
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Descrizione</th>
+        <th>Prezzo</th>
+        <th>Rarità</th>
+        <th>Quantità</th>
+    </tr>
+    {% for row in site.data.shops.xho.nertor %}
+        <tr>
+            <td>
+            {% if row["new"] %}<span class="new"></span>{% endif %}
+            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
+            {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
+            {% if row["amount"] == "0" %}<del>{% endif %}
+            {% if row["magicspecific"] %}<em>{% endif %}
+            {% if row["special"] %}<strong>{% endif %}
+            <span markdown="1">{{ row["name"] }}</span>
+            {% if row["special"] %}</strong>{% endif %}
+            {% if row["magicspecific"] %}</em>{% endif %}
+            {% if row["amount"] == "0" %}</del>{% endif %}
+            {% if row["link"] %}</a>{% endif %}
+            </td>
+            <td>{{ row["desc"] }} {% if row["attunement"] %}(s){% endif %}</td>
+            <td style="text-align:center">{{ row["price"] }}</td>
+            <td style="text-align:center">{{ row["rarity"] }}</td>
+            <td style="text-align:center">{{ row["amount"] }}</td>
+        </tr>
+    {% endfor %}
+    <tr class="tablesep">
+        <td><strong>Materiali</strong></td>
+        <td></td><td></td><td></td><td></td>
+    </tr>
+    {% for row in site.data.shops.xho.nertor_materials %}
+        <tr>
+            <td>
+            {% if row["new"] %}<span class="new"></span>{% endif %}
+            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
+            {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
+            {% if row["amount"] == "0" %}<del>{% endif %}
+            <span markdown="1">{{ row["name"] }}</span>
+            {% if row["amount"] == "0" %}</del>{% endif %}
+            {% if row["link"] %}</a>{% endif %}
+            </td>
+            <td>-</td>
+            <td style="text-align:center">{{ row["price"] }}</td>
+            <td style="text-align:center">{{ row["rarity"] }}</td>
+            <td style="text-align:center">{{ row["amount"] }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+<h4 class="collapsible coll-blank">Altri oggetti</h4>
+
+<div class="collapsible-content bordered" markdown="1">
 
 Oggetti trovabili normalmente da un fabbro:
 
@@ -36,39 +98,7 @@ Oggetti trovabili normalmente da un fabbro:
 
 Altri oggetti:
 
--   Materiali da costruzione rilevanti a prezzo base, alcuni particolari evidenziati sotto. Elenco metalli speciali a **pg. 49** del
-    [PDF gratuito](pdf/crafting_free_version_reddit.pdf), o pagina 224 del manuale completo.
--   Oggetti speciali da Kibbles' Compendium of Craft and Creation, evidenziati qui sotto (non sono tutti, solo alcuni interessanti)
+-   Materiali da costruzione rilevanti a prezzo base, alcuni particolari evidenziati sotto. Elenco metalli speciali [qua](/xho/oggetti#metalli) o linkato nella tabella.
+-   Oggetti speciali da Kibbles' Compendium of Craft and Creation, evidenziati [qua](/xho/oggetti), non tutti solo quelli interessanti
 
-| Nome                                                |   Prezzo    | Rarità     | Quantità |
-| --------------------------------------------------- | :---------: | ---------- | :------: |
-| Scudo a torre                                       |     45      | comune     |    2     |
-| Scudo spinato                                       |     35      | comune     |    1     |
-| Bracciali da parata                                 |     12      | comune     |    3     |
-| Olio argenteo                                       |     18      | comune     |    3     |
-| Ascia da battaglia *aerodinamica*¹                  |     70      | comune     |    1     |
-| Falcione *con incavo*¹                              |     70      | comune     |    1     |
-| Spada lunga *a due lame*¹                           |     300     | non comune |    1     |
-| Giaco di maglia *di mithril*²³                      |     200     | non comune |    1     |
-| Spada corta +1                                      |     500     | non comune |    1     |
-| Scudo +1                   |    1000     | non comune |    1     |
-| Armatura +1 (su richiesta) | base + 2500 | raro       |    -     |
-| Pugnale *di ferronero*²                             |     600     | raro       |    1     |
-| Cotta di maglia *di stahlrim*² (ice steel)          |    1460     | raro       |    1     |
-| Mezza armatura *perfetta*¹                          |    6000     | molto raro |    1     |
-| ---                                                 |     ---     | ---        |   ---    |
-| Lingotto di ferro                                   |      1      | comune     |    25    |
-| Lingotto di acciaio                                 |      2      | comune     |    25    |
-| Lingotto di mithril²³                               |     30      | non comune |    18    |
-| Lingotto di adamantio²                              |     60      | non comune |    2     |
-| Lingotto di ferronero² (darksteel)                  |     60      | non comune |    4     |
-| Lingotto di stahlrim² (icesteel)                    |     60      | non comune |    5     |
-| Lingotto di covolt²                  |     60      | non comune |    5     |
-| Lingotto di ignitum² (firesteel)                    |     60      | non comune |    -     |
-
-¹  Modificatori all'arma, **pg. 50** del [PDF gratuito](pdf/crafting_free_version_reddit.pdf) oppure pagina 225 del manuale completo
-
-²  Metalli speciali, [pagina sul sito qua](oggetti#metalli), oppure anche pagina **pg. 49** del [PDF gratuito](pdf/crafting_free_version_reddit.pdf) oppure pagina 224 del manuale completo
-
-³ Il mithril è modificato da me rispetto al manuale base: aumenta di 1 il bonus massimo alla CA che si ottiene dalle armature.
-(Per esempio, armatura media usa destrezza fino a 3)
+</div>

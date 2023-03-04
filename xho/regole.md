@@ -70,11 +70,11 @@ L'esplorazione per esagoni usata nella campagna. Alcuni link utili ai giocatori 
 
 Non homebrew, ma per comodità ripetuto qua.
 
-| Passo   | Distanza per minuto (i) | (m)  | Distanza per ora (i) | (m)   | Distanza per giorno (i) | (m)  | Effetto                       |
+| Passo   | Distanza per minuto (i) | (m)  | Distanza per ora (i) |  (m)  | Distanza per giorno (i) | (m)  | Effetto                       |
 | ------- | :---------------------: | :--: | :------------------: | :---: | :---------------------: | :--: | ----------------------------- |
-| Veloce  | 400ft                   | 120m | 4mi                  | 6km   | 30mi                    | 48km | Penalità -5 Perc. pass.       |
-| Normale | 300ft                   | 90m  | 3mi                  | 4.5km | 24mi                    | 36km |                               |
-| Lento   | 200ft                   | 60m  | 2mi                  | 3km   | 18mi                    | 24km | Consente furtività e raccolta |
+| Veloce  |          400ft          | 120m |         4mi          |  6km  |          30mi           | 48km | Penalità -5 Perc. pass.       |
+| Normale |          300ft          | 90m  |         3mi          | 4.5km |          24mi           | 36km |                               |
+| Lento   |          200ft          | 60m  |         2mi          |  3km  |          18mi           | 24km | Consente furtività e raccolta |
 
 ----
 
@@ -83,6 +83,14 @@ Non homebrew, ma per comodità ripetuto qua.
 Riferimento con tabelle di materiali e tempo per costruire i vari oggetti, prezzo delle cose, oggetti ottenibili e difficoltà di raccolta, ecc., qua:
 - [Kibblestasty's Crafting Free version](https://drive.google.com/file/d/1hqZUD8LbJWinvB05qX3pHrKCUwVX4jYD/view) ([thread reddit](https://old.reddit.com/r/DnDBehindTheScreen/comments/u74mm7/kibbles_crafting_system_alchemy_blacksmithing/))
 - Kibbles' Compendium of Craft and Creation: il manuale completo, con anche tabelle per cucina, "tinkering" (inventoraggio?), Rune, Intagliatura, e altro: altrove, sul drive ci sono risorse più complete
+
+### Manutenzione armi
+
+One of the perks of having a blacksmith in the field is their ability to keep gear in its best condition, giving you an edge (sometimes literally) in the quality of your gear and weapons. Over the course of 2 hours, a Blacksmith can maintain a number of weapons or sets of armor equal to their proficiency bonus, granting each weapon or armor maintained a special d6 Quality Die.
+
+For a weapon, this can be rolled and added to an attack or damage roll, representing a case where the perfect state of the gear turned a miss into a hit or dealt a bit of extra damage. For a set of armor, the die can be rolled when hit by an attack, and the damage taken from that attack can be reduced by that amount.
+
+Rolling this die doesn't require an action, but once rolled it is spent and can't be regained until the blacksmith maintains that armor or weapon again.
 
 ### Raccolta da creature
 
