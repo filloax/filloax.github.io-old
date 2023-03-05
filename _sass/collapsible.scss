@@ -55,7 +55,7 @@
 
 /* Style the collapsible content. Note: hidden by default */
 .collapsible-content {
-    display: none;
+    // display: none; // Set via js so it can be removed
     overflow: hidden;
 
     &.bordered {

@@ -8,10 +8,10 @@
 # Negozi
 
 *   Indice
-    -   [Arcanerie diaboliche di Mavreus Vessac](#arcanerie-diaboliche-di-mavreus-vessac)
-    -   [Il Grifone del Deserto](#il-grifone-del-deserto)
-    -   [Mastro Ner Tör](#mastro-ner-tör)
-    -   [Alchimia botanica](#alchimia-botanica)
+    -   [Arcanerie diaboliche di Mavreus Vessac (Artefice)](#arcanerie-diaboliche-di-mavreus-vessac)
+    -   [Il Grifone del Deserto (Oggetti rari)](#il-grifone-del-deserto)
+    -   [Mastro Ner Tör (Fabbro)](#mastro-ner-tör)
+    -   [Alchimia botanica (Alchimista)](#alchimia-botanica)
 
 Alcune merci sono "su richiesta" perchè sono di uso comune, ma generalmente possono craftare tutte le altre cose craftabili se avete materiali ecc.
 

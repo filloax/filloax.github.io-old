@@ -1,0 +1,144 @@
+- name: Balestra leggera +1
+  price: 565
+  rarity: non comune
+  desc: Vendutami 7 anni or sono da un avventuriero particolare.
+- name: Stivali molleggiati
+  link: https://roll20.net/compendium/dnd5e/Boots%20of%20Striding%20and%20Springing#content
+  attunement: x
+  price: 325
+  rarity: non comune
+  desc: Tuc Saltolesto era un famoso predone, che saltava a destra e manca. Questo finchè non cadde sulla lancia della guardia.
+- name: Centipestatori
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/d868l9/the_griffons_saddlebag_centibeaters_wondrousitem/ [guanti]
+  price: 300
+  rarity: non comune
+  desc: Chi vuole tirare cento pugni, impara bene da chi ha cento mani.
+- name: Anello del camminare sull'acqua
+  link: https://dungeonsanddragons.fandom.com/it/wiki/Anello_del_Camminare_sull%E2%80%99Acqua
+  price: 400
+  rarity: non comune
+  desc: Un gruppo particolare di pirati nell'oceano Lucidiano usava questi anelli per arrembare navi a piedi...
+- name: Giacca del capitano
+  link: https://dungeon_strugglers.artstation.com/projects/g2lqX8
+  attunement: x
+  price: 700
+  rarity: raro
+  desc: ...e si dice che il capitano di quella ciurma, a cui apparteneva questa giacca, uccidesse persone con i suoi pesanti insulti. Una ciurma particolare.
+- name: Artigli della furia dell'orso
+  attunement: barbaro
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/z70hkn/the_griffons_saddlebag_claws_of_ursinefury/
+  price: 1000
+  rarity: raro
+  desc: DIPLOMAZIA! Cosi soleva dire il proprietario di questi guanti, dicono.
+- name: Medaglia del Viandante
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/embms2/the_griffons_saddlebag_badge_of_thewayfarer/
+  price: 1500
+  rarity: raro
+  desc: La Tregua del Viandante. Una locanda leggendaria, che si dice fluttui nel Mare Astrale, pronta ad accogliere avventurieri bisognosi. Si dice che queste medaglie con la parola d'ordine giusta permettano di andarci, una volta alla settimana, ma purtroppo la parola è segreta ai più. Anche se magie di divinazione potenti potrebbero probabilmente aiutare.
+- name: Anello dell'essenza speculare
+  link: https://old.reddit.com/r/UnearthedArcana/comments/al1mo1/the_griffons_saddlebag_band_of_mirroredessence/
+  price: 1200
+  rarity: raro
+  attunement: x
+  desc: Posseduto da Istredd il Camaleonte. Un famosissimo spadaccino-mago, letale assassino e mercenario schietto. Bastavano voci della sua presenza in un palazzo per rendere chiunque sospettoso di impostori. E si dice che ora sia anche la sua, di essenza, a risiedere in questo anello.
+- name: Bracciali dell'arco spettrale
+  attunement: x
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/z4gubc/the_griffons_saddlebag_ghostbow_bracerwondrous/
+  price: 1700
+  rarity: molto raro
+  desc: I lamenti dall'oltretomba riecheggiano ad ogni tiro della sua corda.
+- name: Anello della forza lunare
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/onftfw/the_griffons_saddlebag_ring_of_lunar_mightring/
+  attunement: x
+  price: 2000
+  rarity: molto raro
+  desc: "La marea, che tira alcuni e spinge altri, talvolta con estrema forza. Questo anello è intriso di Dunamanzia, la magia di tempo e gravità studiata in queste terre. Non fate quella faccia, ho avuto la possibilità di visitare i Tomi di Marmo: non è un segreto per me."
+- name: Armatura completa di Novanite
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/gaxbft/the_griffons_saddlebag_novanite_armor_armorany/
+  price: 4000
+  attunement: x
+  rarity: molto raro
+  desc: Ammirate la luce emanata da questa armatura, e noterete l'aura aliena che emana. È metallo del mare astrale, e permette di passarci attraverso, all'occorrenza. I più importanti pirati gith indossano armatura di questo metallo.
+- name: Pietra di Ioun, Tempra
+  link: https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/pietra-di-ioun/
+  attunement: x
+  price: 3500
+  rarity: molto raro
+  desc: Le antiche ziggurat in onore di Ioun, la Savia Mentore, sono oggi in rovina, principalmente a causa delle congiure del Sussurrato.
+ 
+
+- name: Pozione da bagno
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/biqp7g/the_griffons_saddlebag_bath_potion_potion/
+  price: 25
+  rarity: comune
+  desc: I nobili guerrieri la usano sempre per i gala dopo giornate di lotta.
+- name: Vestiti riparanti
+  link: https://www.worldanvil.com/block/15048
+  price: 60
+  rarity: comune
+  desc: Anche i vestiti che ho addosso funzionano così, in realtà. Necessario per il mio lavoro.
+- name: Totem del rospo
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/opfkr3/the_griffons_saddlebag_bullfrog_totem_wondrous/
+  price: 60
+  rarity: comune
+  desc: Gli insetti da queste parti sono pochi ma davvero fastidiosi. Un goblin nelle paludi mi ha venduto questo piccolo ma utilissimo cimelio.
+- name: Cintura da sedia (seat belt)
+  link: https://reddit.com/r/TheGriffonsSaddlebag/comments/ba5283/the_griffons_saddlebag_belt_of_the_chairman/
+  price: 50
+  rarity: comune
+  desc: Apprezzata da molti per sedersi ad ammirare il panorama.
+
+- name: Anello della vista del solar
+  link: https://www.google.com/search?client=firefox-b-d&q=Ring+of+Solar%27s+Sight
+  price: 900
+  rarity: raro
+  desc: I solar, tra i più grandi celestiali, offrono questo anello a pochi cacciatori eletti che superano una prova di rigore e giustizia.
+  sold: true
+- name: Scettro dei piccioni
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/t5u5dd/the_griffons_saddlebag_staff_of_pigeons_staff/
+  price: 450
+  rarity: non comune
+  desc: Sembra un buffo oggetto, ma ha salvato un intero regno con il suo celere messaggero.
+  sold: true
+- name: Scioglivento [arco corto]
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/kdpsyz/the_griffons_saddlebag_air_render_weapon_shortbow/
+  price: 900
+  desc: Si dice che i migliori tra i guerrieri delle tribù eisfuura dei monti deserti sappiano manipolare il vento così a fino da poterci creare freccie. 
+  rarity: raro
+  sold: true
+- name: Moscafatua Meccanica
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/dcbew0/the_griffons_saddlebag_clockwork_faefly_wondrous/
+  price: 400
+  rarity: non comune
+  desc: Parte di una collezione di insetti meccanici realizzati da un inventore gnomico Doreico, Jegim. Sono interessato a trovarne altre, in realtà.
+  sold: true
+- name: Anello del disimprontato
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/qwt5ed/the_griffons_saddlebag_ring_of_the_printless_ring/
+  price: 60
+  rarity: comune
+  desc: Vendutomi da un ladro ravveduto. Sono sicuro che le due guardie dietro di lui non avessero niente a che fare con la repentina redenzione.
+  sold: true
+- name: Cubo pulente
+  link: https://the-griffons-saddlebag.tumblr.com/post/634595508493680640/%F0%9D%97%A1%F0%9D%97%B2%F0%9D%98%84-%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BA-cleaning-cube-wondrous-item-common
+  price: 75
+  rarity: comune
+  desc: Non propriamente senziente, ciò che rimane di un particolare cubo gelatinoso rimasto troppo al sole. Ama pulire, se gli date acqua.
+  sold: true
+- name: Sfera di terra selvaggia
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/pjowlo/the_griffons_saddlebag_ball_of_wild_earth/
+  price: 75
+  rarity: comune
+  desc: Tenetelo lontano dagli scarabei stercorari, lo spaventano.
+  sold: true
+- name: Spilla delle numerose grandezze
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/bj4ado/the_griffons_saddlebag_brooch_of_many_sizes/
+  price: 900
+  rarity: raro
+  desc: Un grande artefice aveva sempre avuto molta vergogna della propria bassa statura, e costruì questo. Ma, un giorno, girò troppo la levetta, e scomparì.    
+  sold: true
+- name: Guardia ombrosa
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/ascb2k/the_griffons_saddlebag_shadow_ward_wondrous_item/
+  price: 2000
+  rarity: molto raro
+  desc: L'oscurità è temuta da molti, ma per molti altri è casa, è conforto.
+  sold: true

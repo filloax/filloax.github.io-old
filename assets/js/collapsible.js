@@ -24,19 +24,31 @@ function searchFor(_selector, _subject) {
 }
 
 window.onload = function() {
-    var coll = document.getElementsByClassName("collapsible");
     var i;
+    var collCnt = document.getElementsByClassName("collapsible-content");
+
+    for (i = 0; i < collCnt.length; i++) {
+        collCnt[i].style["display"] = "none"
+    }
+
+    var coll = document.getElementsByClassName("collapsible");
 
     for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        let content = nextInDOM(".collapsible-content", $(this))
-        if (content.css("display") == "block") {
-            content.css("display", "none");
-        } else {
-            content.css("display", "block");
-        }
-    });
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            let content = nextInDOM(".collapsible-content", $(this))
+            while (content) {
+                if (content.css("display") != "none") {
+                    content.css("display", "none");
+                } else {
+                    content.css("display", "");
+                }
+                content = content.next()
+                if (!content.hasClass("collapsible-content")) {
+                    break
+                }
+            }
+        });
     }
 
     var expAll = document.getElementsByClassName("expand-all");

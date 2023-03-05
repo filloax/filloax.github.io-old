@@ -12,39 +12,80 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
 
 ### Negozio
 
-| Nome                                                                                                                                                                                 | Prezzo | Rarità     | Info brevi                                                                                                                                                                                                                                                                                                                                                     |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----: | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| _Balestra leggera +1_                                                                                                                                                                |  565   | non comune | _Vendutami 7 anni or sono da un avventuriero particolare._                                                                                                                                                                                                                                                                                                     |     |
-| [_Stivali molleggiati_](https://roll20.net/compendium/dnd5e/Boots%20of%20Striding%20and%20Springing#content)                                                                         |  325   | non comune | _Tuc Saltolesto era un famoso predone, che saltava a destra e manca. Questo finchè non cadde sulla lancia della guardia._                                                                                                                                                                                                                                      |     |
-| [_Centipestatori_](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/d868l9/the_griffons_saddlebag_centibeaters_wondrous_item/) [guanti]                                        |  300   | non comune | _Chi vuole tirare cento pugni, impara bene da chi ha cento mani._                                                                                                                                                                                                                                                                                              |     |
-| _Anello del camminare sull'acqua_                                                                                                                                                    |  400   | non comune | _Un gruppo particolare di pirati nell'oceano Lucidiano usava questi anelli per arrembare navi a piedi..._                                                                                                                                                                                                                                                      |     |
-| [_Giacca del capitano_](https://dungeon_strugglers.artstation.com/projects/g2lqX8)                                                                                                   |  700   | raro       | _...e si dice che il capitano di quella ciurma, a cui apparteneva questa giacca, uccidesse persone con i suoi pesanti insulti. Una ciurma particolare._                                                                                                                                                                                                        |     |
-| [_Artigli della furia dell'orso (per barbari)_](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/z70hkn/the_griffons_saddlebag_claws_of_ursine_fury/) |  1000  | raro       | _DIPLOMAZIA! Cosi soleva dire il proprietario di questi guanti, dicono._                                                                                                                                                                                                                                                                                       |
-| [_Medaglia del Viandante_](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/embms2/the_griffons_saddlebag_badge_of_the_wayfarer/)                     |  1500  | raro       | _La Tregua del Viandante. Una locanda leggendaria, che si dice fluttui nel Mare Astrale, pronta ad accogliere avventurieri bisognosi. Si dice che queste medaglie con la parola d'ordine giusta permettano di andarci, una volta alla settimana, ma purtroppo la parola è segreta ai più. Anche se magie di divinazione potenti potrebbero probabilmente aiutare._ |
-| [_Anello dell'essenza speculare_](https://old.reddit.com/r/UnearthedArcana/comments/al1mo1/the_griffons_saddlebag_band_of_mirrored_essence/)                |  1200  | raro       | _Posseduto da Istredd il Camaleonte. Un famosissimo spadaccino-mago, letale assassino e mercenario schietto. Bastavano voci della sua presenza in un palazzo per rendere chiunque sospettoso di impostori. E si dice che ora sia anche la sua, di essenza, a risiedere in questo anello._                                                                      |
-| [_Bracciali dell'arco spettrale_](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/z4gubc/the_griffons_saddlebag_ghostbow_bracer_wondrous/)           |  1700  | molto raro | _I lamenti dall'oltretomba riecheggiano ad ogni tiro della sua corda_.                                                                                                                                                                                                                                                                                         |
-| [_Anello della forza lunare_](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/onftfw/the_griffons_saddlebag_ring_of_lunar_might_ring/)               |  2000  | molto raro | _La marea, che tira alcuni e spinge altri, talvolta con estrema forza. Questo anello è intriso di Dunamanzia, la magia di tempo e gravità studiata in queste terre. Non fate quella faccia, ho avuto la possibilità di visitare i Tomi di Marmo: non è un segreto per me._                                                                                     |
-| [_Armatura completa di Novanite_](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/gaxbft/the_griffons_saddlebag_novanite_armor_armor_any/)           |  4000  | molto raro | _Ammirate la luce emanata da questa armatura, e noterete l'aura aliena che emana. È metallo del mare astrale, e permette di passarci attraverso, all'occorrenza. I più importanti pirati gith indossano armatura di questo metallo._                                                                                                                           |
-| [_Pietra di Ioun, Tempra_](https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/pietra-di-ioun/)                                                                  |  3500  | molto raro | _Le antiche ziggurat in onore di Ioun, la Savia Mentore, sono oggi in rovina, principalmente a causa delle congiure del Sussurrato._                                                                                                                                                                                                                           |     |
-| **Comuni**                                                                                                                                                                           |  ---   | ---        | ---                                                                                                                                                                                                                                                                                                                                                            |     |
-| [_Pozione da bagno_](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/biqp7g/the_griffons_saddlebag_bath_potion_potion/)                                                       |   25   | comune     | _I nobili guerrieri la usano sempre per i gala dopo giornate di lotta._                                                                                                                                                                                                                                                                                        |     |
-| [_Vestiti riparanti_](https://www.worldanvil.com/block/15048)                                                                                                                        |   60   | comune     | _Anche i vestiti che ho addosso funzionano così, in realtà. Necessario per il mio lavoro._                                                                                                                                                                                                                                                                     |     |
-| [_Totem del rospo_](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/opfkr3/the_griffons_saddlebag_bullfrog_totem_wondrous/)                                                   |   60   | comune     | _Gli insetti da queste parti sono pochi ma davvero fastidiosi. Un goblin nelle paludi mi ha venduto questo piccolo ma utilissimo cimelio._                                                                                                                                                                                                                     |     |
-| [_Cintura da sedia_](https://reddit.com/r/TheGriffonsSaddlebag/comments/ba5283/the_griffons_saddlebag_belt_of_the_chairman/) (originalmente "seat belt" nel manuale lol)             |   50   | comune     | _Apprezzata da molti per sedersi ad ammirare il panorama._                                                                                                                                                                                                                                                                                                     |     |
+{% 
+    assign sabMain = site.data.shops.xho.sabaku 
+    | where_exp: "row", "row.rarity != 'comune'" 
+    | where_exp: "row", "row.sold != true" 
+%}
+{% 
+    assign sabCommon = site.data.shops.xho.sabaku 
+    | where: "rarity", "comune" 
+    | where_exp: "row", "row.sold != true" 
+%}
+{% 
+    assign sabSold = site.data.shops.xho.sabaku 
+    | where: "sold", "true"
+%}
 
-\-
-
-.
-
-\-
-
-| **Acquistati** | | |(inseriti per descrizioni) |
-| [~~_Anello della vista del solar_~~](https://www.google.com/search?client=firefox-b-d&q=Ring+of+Solar%27s+Sight) | 900 | raro | ~~_I solar, tra i più grandi celestiali, offrono questo anello a pochi cacciatori eletti che superano una prova di rigore e giustizia._~~ | |
-| [~~_Scettro dei piccioni_~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/t5u5dd/the_griffons_saddlebag_staff_of_pigeons_staff/) | 450 | non comune | _Sembra un buffo oggetto, ma ha salvato un intero regno con il suo celere messaggero._ | |
-| [~~_Scioglivento_~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/kdpsyz/the_griffons_saddlebag_air_render_weapon_shortbow/) [arco corto] | 900 | raro | ~~_Si dice che i migliori tra i guerrieri delle tribù eisfuura dei monti deserti sappiano manipolare il vento così a fino da poterci creare freccie._ ~~ | |
-| [~~_Moscafatua Meccanica_~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/dcbew0/the_griffons_saddlebag_clockwork_faefly_wondrous/) | 400 | non comune | _Parte di una collezione di insetti meccanici realizzati da un inventore gnomico Doreico, Jegim. Sono interessato a trovarne altre, in realtà._ | |
-| [~~_Anello del disimprontato_~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/qwt5ed/the_griffons_saddlebag_ring_of_the_printless_ring/) | 60 | comune | ~~_Vendutomi da un ladro ravveduto. Sono sicuro che le due guardie dietro di lui non avessero niente a che fare con la repentina redenzione._~~ | |
-| [~~_Cubo pulente_~~](https://the-griffons-saddlebag.tumblr.com/post/634595508493680640/%F0%9D%97%A1%F0%9D%97%B2%F0%9D%98%84-%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%F0%9D%97%BA-cleaning-cube-wondrous-item-common) | 75 | comune | ~~_Non propriamente senziente, ciò che rimane di un particolare cubo gelatinoso rimasto troppo al sole. Ama pulire, se gli date acqua._~~ | |
-| [~~_Sfera di terra selvaggia_~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/pjowlo/the_griffons_saddlebag_ball_of_wild_earth/) | ~~75~~ | comune | _Tenetelo lontano dagli scarabei stercorari, lo spaventano._ | |
-| [~~_Spilla delle numerose grandezze_~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/bj4ado/the_griffons_saddlebag_brooch_of_many_sizes/)                                      |  900   | raro       | _Un grande artefice aveva sempre avuto molta vergogna della propria bassa statura, e costruì questo. Ma, un giorno, girò troppo la levetta, e scomparì._                                                                                                                                                                                                       |     |
-| [~~_Guardia ombrosa_~~](https://old.reddit.com/r/TheGriffonsSaddlebag/comments/ascb2k/the_griffons_saddlebag_shadow_ward_wondrous_item/)                        |  2000  | molto raro | _L'oscurità è temuta da molti, ma per molti altri è casa, è conforto._                                                                                                                                                                                                                                                                                         |
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Descrizione</th>
+        <th>Sintonia</th>
+        <th>Prezzo</th>
+        <th>Rarità</th>
+    </tr>
+    {% for row in sabMain %}
+        <tr>
+            <td>
+            {% if row["new"] %}<span class="new"></span>{% endif %}
+            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
+            {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
+            <span markdown="1">{{ row["name"] }}</span>
+            {% if row["link"] %}</a>{% endif %}
+            </td>
+            <td><span markdown="1">_{{ row["desc"] }}_</span></td>
+            <td style="text-align:center">{{ row["attunement"] }}</td>
+            <td style="text-align:center">{{ row["price"] }}</td>
+            <td style="text-align:center">{{ row["rarity"] }}</td>
+        </tr>
+    {% endfor %}
+    <tr class="tablesep">
+        <td><strong>Comuni</strong></td>
+        <td></td><td></td><td></td><td></td>
+    </tr>
+    {% for row in sabCommon %}
+        <tr>
+            <td>
+            {% if row["new"] %}<span class="new"></span>{% endif %}
+            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
+            {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
+            <span markdown="1">{{ row["name"] }}</span>
+            {% if row["link"] %}</a>{% endif %}
+            </td>
+            <td><span markdown="1">_{{ row["desc"] }}_</span></td>
+            <td style="text-align:center">{{ row["attunement"] }}</td>
+            <td style="text-align:center">{{ row["price"] }}</td>
+            <td style="text-align:center">{{ row["rarity"] }}</td>
+        </tr>
+    {% endfor %}
+    <tr class="tablesep collapsible coll-blank">
+        <td><strong>Venduti</strong></td>
+        <td></td><td></td><td></td><td></td>
+    </tr>
+    {% for row in sabSold %}
+        <tr class="collapsible-content">
+            <td>
+            {% if row["new"] %}<span class="new"></span>{% endif %}
+            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
+            {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
+            <span markdown="1">~~{{ row["name"] }}~~</span>
+            {% if row["link"] %}</a>{% endif %}
+            </td>
+            <td><span markdown="1">_{{ row["desc"] }}_</span></td>
+            <td style="text-align:center">{{ row["attunement"] }}</td>
+            <td style="text-align:center"><del>{{ row["price"] }}</del></td>
+            <td style="text-align:center">{{ row["rarity"] }}</td>
+        </tr>
+    {% endfor %}
+</table>
