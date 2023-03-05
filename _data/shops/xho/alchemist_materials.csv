@@ -1,0 +1,8 @@
+name,link,desc,price,rarity,amount,magicspecific,attunement,new,restocked,special
+Reagente comune,,,15,comune,-,,,,,
+Reagente non comune,,,40,non comune,25,,,,,
+Reagente raro,,,200,raro,11,,,,,
+Essenza primale comune,,,45,raro,-,,,,,
+Essenza primale non comune,,,150,raro,19,,,,,
+Essenza primale rara,,,700,raro,3,,,,x,
+Essenza primale molto rara,,,7000,molto raro,1,,,x,,
