@@ -1,0 +1,48 @@
+<script src="/assets/js/xandra.js"></script>
+
+<div class="xandra">
+
+<h3> Xandra </h3>
+
+<h4> Lancia attacchi </h4>
+
+<form class="attack">
+    <label for="attacknum">Numero attacchi</label><br>
+    <input type="number" id="attacknum" name="attacknum" value="3"/><br>
+    <label for="attackbonus">Bonus attacco</label><br>
+    <input type="number" id="attackbonus" name="attackbonus" value="10"/><br>
+    <label for="asurge">Azione impetuosa (2x attacchi)</label>
+    <input type="checkbox" id="asurge" name="asurge">
+    <label for="polebonus">Attacco bonus con asta</label>
+    <input type="checkbox" id="polebonus" name="polebonus">
+    <br>
+
+    <button type="button" id="rollattacks">Lancia attacchi!</button>
+
+    <div id="atkresults">
+    </div>
+</form>
+
+<h4> Calcola danni </h4>
+
+<form class="damage">
+    <label for="attacknum">Numero attacchi a segno</label><br>
+    <input type="number" id="attacknum" name="attacknum" value="3"/>
+
+    <p>Critici?</p>
+    <div id="critcheckboxes"></div>
+
+    <label for="polebonus">Bonus con asta</label>
+    <input type="checkbox" id="polebonus" name="polebonus">
+    <label for="polebonus-crit">Critico</label>
+    <input type="checkbox" id="polebonus-crit" name="polebonus-crit">
+
+    <br>
+
+    <button type="button" id="rolldamage">Lancia danni!</button>
+
+    <table id="dmgresults">
+    </table>
+</form>
+
+</div>

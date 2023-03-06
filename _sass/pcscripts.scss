@@ -1,0 +1,25 @@
+td.crit {
+    color: green
+}
+
+.tooltip {
+    position: relative;
+
+    .tooltiptext {
+        visibility: hidden;
+        // width: 120px;
+        background-color: #0c0c0c77;
+        color: #fff;
+        text-align: center;
+        padding: 5px;
+        border-radius: 6px;
+    
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+    }
+
+    &:hover .tooltiptext {
+        visibility: visible;
+    }
+}
