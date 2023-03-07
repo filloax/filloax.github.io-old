@@ -12,13 +12,6 @@ const weaponFormulas = {
     },
 }
 
-// Rerollable, affected by enlarge, etc
-const weaponDamage = [
-    "bludgeoning",
-    "slashing",
-    "piercing",
-]
-
 /** @type {DamageEntry[]} */
 var currentResults = []
 
@@ -179,7 +172,8 @@ function rollDamage(weapon, critical, bonus) {
     if (weapon in weaponFormulas) {
         const formulas = weaponFormulas[weapon]
         const dmgOutput = map(formulas, function(formula, dtype) {
-            const critFormula = (critical && !dtype.startsWith("extra-")) 
+            const isExtra = dtype.startsWith("extra-")
+            const critFormula = (critical && !isExtra) 
                 ? convertFormulaToCrit(formula)
                 : formula;
             const bonusFormula = critFormula.replace("BONUS", bonus)
@@ -199,6 +193,7 @@ function rollDamage(weapon, critical, bonus) {
                 extraDmg[actualDmgType] = dmgOutput[dmgType]
             } else {
                 dmg[dmgType] = dmgOutput[dmgType]
+                dmg[dmgType].isWeaponDamage = true
             }
         })
         return [dmg, extraDmg]
@@ -239,7 +234,13 @@ function convertFormulaToCrit(formula) {
 }
 
 /**
- * @typedef {{value: number, formula: string, results: number[], rerolled: number}} SingleDamage
+ * @typedef {{
+ *  value: number, 
+ *  formula: string, 
+ *  results: number[], 
+ *  rerolled: number,
+ *  isWeaponDamage: boolean,
+ * }} SingleDamage
  * @typedef {{
  *  id: string, 
  *  dmg: Object<string, SingleDamage>,
@@ -287,8 +288,9 @@ function updateDamageTable(damageDataList) {
     theadRow.append("<td><strong>Attacco</strong></td>")
 
     damageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidth[key] + 1}em"></td>`));
+    theadRow.append(`<td class="dmg-head total"></td>`)
     extraDamageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidthExtra[key] + 1}em"></td>`));
-    theadRow.find(`:nth-child(${damageTypes.length + 2})`).toggleClass("vert-sep") // add vert sep to first extra cell
+    theadRow.find(`:nth-child(${damageTypes.length + 3})`).toggleClass("vert-sep") // add vert sep to first extra cell
 
     const tbody = $(document.createElement("tbody"))
     table.append(tbody)
@@ -297,31 +299,42 @@ function updateDamageTable(damageDataList) {
         const row = $(document.createElement("tr"));
         row.attr("id", `${slugify(entry.id)}-${index}`);
         tbody.append(row);
-        row.append(`<td>${entry.id}</td>`);
-        row.relatedDmgRow = entry
+        const rowName = $(`<td>${entry.id}</td>`)
+        if (entry.crit) {
+            rowName.toggleClass("crit")
+        }
+        row.append(rowName);
+        row.relatedDmgRow = entry;
+
+        let hasRerollButton = false;
+        let alreadyRerolled = false;
 
         const addDamageColumns = function(dmgTable, rerollCheck, dmgWidth, noCrits) {
             return dtype => {
                 if (dtype in dmgTable) {
                     /** @type {SingleDamage} */
                     const dmgEntry = dmgTable[dtype]
-                    const critPart = (entry.crit && !noCrits) ? " crit" : "";
-                    const el = $(`<td class="tooltip dmg ${dtype}${critPart}">
+                    const numResults = occurrences(dmgEntry.results)
+                    const hasOnes = numResults[1] >= dmgEntry.results.length / 2
+                    const hasLowRolls = numResults[1] + numResults[2] >= dmgEntry.results.length / 2
+                    const el = $(`<td class="tooltip dmg ${dtype}">
                         ${dmgEntry.value}
                         <div class="tooltiptext">${dmgEntry.formula}<br>${dmgEntry.results}</div>
                     </td>`)
+                    if (hasOnes) {
+                        el.toggleClass("dmg-one")
+                    } else if (hasLowRolls) {
+                        el.toggleClass("dmg-low")
+                    } else if (entry.crit && !noCrits) {
+                        el.toggleClass("crit")
+                    }
                     el.css("width", (dmgWidth[dtype] + 1) + "em")
                     el.relatedDmgEntry = dmgEntry
                     el.relatedDmgRow = entry
                     if (rerollCheck) {
-                        if (dmgEntry.rerolled > 0) {
-                            el.append(makeRerollButton(entry.id, true))
-                        } else if (
-                            weaponDamage.indexOf(dtype) >= 0
-                            && dmgEntry.results.some(n => n === 1 || n === 2)
-                        ) {
-                            el.append(makeRerollButton(entry.id))
-                        }
+                        hasRerollButton = hasRerollButton || dmgEntry.rerolled > 0 
+                            || dmgEntry.results.some(n => n === 1 || n === 2);
+                        alreadyRerolled = alreadyRerolled || dmgEntry.rerolled > 0;
                     }
                     row.append(el);
                 } else {
@@ -332,9 +345,26 @@ function updateDamageTable(damageDataList) {
 
         damageTypes.forEach(addDamageColumns(entry.dmg, true, dmgWidth));
 
+        const sum = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue + entry.dmg[current].value, 0);
+        const sumFormula = flatmap(Object.keys(entry.dmg), dmgType => entry.dmg[dmgType].formula).join(" + ");
+        const sumResults = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue.concat(entry.dmg[current].results), []);
+        row.append(`<td class="tooltip dmg total${(entry.crit && !noCrits) ? " crit" : ""}">
+            <em>${sum}</em>
+            <div class="tooltiptext">${sumFormula}<br>${sumResults}</div>
+        </td>`);
+
+
         extraDamageTypes.forEach(addDamageColumns(entry.extraDmg, false, dmgWidthExtra, true));
 
-        row.find(`:nth-child(${damageTypes.length + 2})`).toggleClass("vert-sep") // add vert sep to first extra cell
+        row.find(`:nth-child(${damageTypes.length + 3})`).toggleClass("vert-sep"); // add vert sep to first extra cell
+
+        if (hasRerollButton) {
+            if (alreadyRerolled) {
+                rowName.append(makeRerollButton(entry.id, true))
+            } else {
+                rowName.append(makeRerollButton(entry.id, false))
+            }
+        }
     });
 
     // Do total
@@ -345,10 +375,11 @@ function updateDamageTable(damageDataList) {
     for (const [dmgType, dmg] of Object.entries(total)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
+    totalRow.append(`<td><strong><em>${Object.values(total).reduce((a, b) => a + b)}</em></strong></td>`)
     for (const [dmgType, dmg] of Object.entries(extraTotal)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
-    totalRow.find(`:nth-child(${damageTypes.length + 2})`).toggleClass("vert-sep") // add vert sep to first extra cell
+    totalRow.find(`:nth-child(${damageTypes.length + 3})`).toggleClass("vert-sep") // add vert sep to first extra cell
     
     // Tooltip
 
@@ -358,7 +389,6 @@ function updateDamageTable(damageDataList) {
         const topPos = -jel.height() / 2
         jel.css({
             left: leftPos + "px", 
-            // top: topPos + "px",
         })
     });
 }
@@ -374,7 +404,7 @@ function makeRerollButton(id, alreadyUsed) {
             console.log("Rerolling", id)
             Object.keys(targ.dmg).forEach((dmgType) => {
                 const dmg = targ.dmg[dmgType]
-                if (weaponDamage.indexOf(dmgType) >= 0) {
+                if (dmg.isWeaponDamage) {
                     const formula = dmg.formula
                     const [newResult, singleDiceRolls] = roll(formula, true)
                     dmg.rerolled++
@@ -451,9 +481,29 @@ function slugify(str) {
 }
 
 function map(obj, fun) {
-    out = {};
+    const out = {};
     Object.keys(obj).forEach(function(key, _) {
         out[key] = fun(obj[key], key, obj)
     });
     return out;
+}
+
+function flatmap(array, fun) {
+    const out = [];
+    array.forEach(function(val, index) {
+        out.push(fun(val, index, array));
+    });
+    return out;
+}
+
+function occurrences(array, val) {
+    if (val) {
+        return array.reduce(function (acc, curr) {
+            return (curr === val) ? ++acc : acc;
+          }, 0);    
+    } else {
+        return array.reduce(function (acc, curr) {
+            return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc;
+        }, {});
+    }
 }

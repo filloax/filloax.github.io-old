@@ -2,18 +2,26 @@ td.crit {
     color: green
 }
 
+td.dmg-low {
+    color: orange;
+}
+
+td.dmg-one {
+    color: red;
+}
+
 .tooltip {
     position: relative;
 
     .tooltiptext {
         visibility: hidden;
-        // width: 120px;
+        width: fit-content;
         background-color: #0c0c0c77;
         color: #fff;
         text-align: center;
         padding: 5px;
         border-radius: 6px;
-    
+
         // position: fixed;
         position: absolute;
         left: 2em;
@@ -62,6 +70,10 @@ table#dmgresults {
     }
 
     td.dmg-head {
+        &.total::before {
+            content: "Tot";
+            font-style: italic;
+        }
         &.bludgeoning::before {
             content: "B";
         }
@@ -74,6 +86,10 @@ table#dmgresults {
         &.lightning::before {
             content: "L";
         }
+    }
+
+    td.dmg.total {
+        padding-right: 1em;
     }
 
     .vert-sep {
