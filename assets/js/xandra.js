@@ -47,10 +47,11 @@ window.onload = function() {
         /** @type {Array<DamageEntry>} */
         const results = [];
         const numAttacks = parseInt(sel(".damage #attacknum").val());
+        const dmgBonus = parseInt(sel(".damage #dmgbonus").val());
 
         for (let i = 0; i < numAttacks; i++  ) {
             const crit = sel(`#crit-box-${i}`)?.is(":checked")
-            const [singleDmg, extraDmg] = rollDamage(DEFAULT_WEAPON, crit, 7)
+            const [singleDmg, extraDmg] = rollDamage(DEFAULT_WEAPON, crit, dmgBonus)
             results.push({
                 id: `Attacco ${i+1}`,
                 dmg: singleDmg,
@@ -61,7 +62,7 @@ window.onload = function() {
 
         if (sel(".damage #polebonus").is(":checked")) {
             const crit = sel(".damage #polebonus-crit").is(":checked")
-            const [singleDmg, extraDmg] = rollDamage("polearm-bonus", crit, 7);
+            const [singleDmg, extraDmg] = rollDamage("polearm-bonus", crit, dmgBonus);
             results.push({
                 id: "Attacco bonus",
                 dmg: singleDmg,
@@ -73,10 +74,19 @@ window.onload = function() {
         updateDamageTable(results);
 
         currentResults = results;
+
+        if (sel(".damage #reroll-auto").is(":checked")) {
+            let buttonsLeftToCLick = sel(".reroll-button:not(.reroll-used)");
+            while (buttonsLeftToCLick.length) {
+                buttonsLeftToCLick.first().trigger("click");
+                buttonsLeftToCLick = sel(".reroll-button:not(.reroll-used)");
+            }
+        }
     });
 
-    sel(".damage #attacknum").on("change", function(e) {
-        console.log("test", $(this).val())
+    styleNumberInputs();
+
+    sel("#attacknum").on("change", function(e) {
         if ($(this).val() < 0) {
             $(this).val(0);
         }
@@ -85,6 +95,58 @@ window.onload = function() {
     });
 
     updateCritCheckboxes();
+}
+
+const numberInputWidthByLength = {
+    1: -3,
+    2: -2.7,
+}
+
+function styleNumberInputs() {
+    const inputNumbers = sel(`input[type="number"]`);
+
+    inputNumbers.get().forEach(el => {
+        const div = $(`<div class="number-input"></div>`);
+        div.insertBefore($(el));
+        div.append(el);
+
+        const minusButton = $(`<button class="minus" type="button"></button>`);
+        minusButton.on("click", ev => {el.stepDown(); $(el).trigger("change")});
+        const plusButton = $(`<button class="plus" type="button"></button>`);
+        plusButton.on("click", ev => {el.stepUp(); $(el).trigger("change")});
+        $(el).before(minusButton);
+        $(el).after(plusButton);
+    })
+
+    inputNumbers.on("change", ev => {
+        const el = $(ev.target);
+
+        const width = numberInputWidthByLength[el.val().length] 
+            ? numberInputWidthByLength[el.val().length] 
+            : (el.val().length - 4);
+        el.width(width + "em");
+    });
+    inputNumbers.trigger("change")
+
+
+    // box each input number in a number-box div, pack a sign span with it if needed
+    inputNumbers.get().forEach(el => {
+        const div = $(`<div class="number-box"></div>`);
+        div.insertBefore($(el));
+        div.append(el);
+    })
+
+    sel(".bonus").before(`<span class="bonus-sign" style="padding-left: 5px">+</span>`)
+
+    sel(".bonus").on("change", function(e) {
+        const jthis = $(this)
+        const signEl = jthis.prev(".bonus-sign")
+        if (jthis.val() < 0) {
+            signEl.css("visibility", "hidden")
+        } else {
+            signEl.css("visibility", "visible")
+        }
+    });
 }
 
 function resetAttacks() {
@@ -105,10 +167,10 @@ function updateCritCheckboxes() {
 
     for (let i = 0; i < atkNum; i++) {
         const id = "crit-box-" + i
-        container.append(`
+        container.append(`<div class="critbox">
             <label for="${id}">${i + 1}</label>
             <input type="checkbox" id="${id}" name="${id}"/>
-        `)
+        </div>`)
     }
 }
 
@@ -116,14 +178,14 @@ function updateCritCheckboxes() {
 function rollDamage(weapon, critical, bonus) {
     if (weapon in weaponFormulas) {
         const formulas = weaponFormulas[weapon]
-        const dmgOutput = map(formulas, function(formula) {
-            const critFormula = (critical) 
+        const dmgOutput = map(formulas, function(formula, dtype) {
+            const critFormula = (critical && !dtype.startsWith("extra-")) 
                 ? convertFormulaToCrit(formula)
                 : formula;
             const bonusFormula = critFormula.replace("BONUS", bonus)
             const [result, singleRolls] = roll(bonusFormula, true)
             return {
-                "value": result, 
+                "value": Math.max(result, 1), 
                 "formula": bonusFormula, 
                 "results": singleRolls,
                 "rerolled": 0,
@@ -238,12 +300,12 @@ function updateDamageTable(damageDataList) {
         row.append(`<td>${entry.id}</td>`);
         row.relatedDmgRow = entry
 
-        const addDamageColumns = function(dmgTable, rerollCheck, dmgWidth) {
+        const addDamageColumns = function(dmgTable, rerollCheck, dmgWidth, noCrits) {
             return dtype => {
                 if (dtype in dmgTable) {
                     /** @type {SingleDamage} */
                     const dmgEntry = dmgTable[dtype]
-                    const critPart = (entry.crit) ? " crit" : "";
+                    const critPart = (entry.crit && !noCrits) ? " crit" : "";
                     const el = $(`<td class="tooltip dmg ${dtype}${critPart}">
                         ${dmgEntry.value}
                         <div class="tooltiptext">${dmgEntry.formula}<br>${dmgEntry.results}</div>
@@ -272,7 +334,7 @@ function updateDamageTable(damageDataList) {
 
         row.append(`<td class="vert-sep"></td>`);
 
-        extraDamageTypes.forEach(addDamageColumns(entry.extraDmg, false, dmgWidthExtra));
+        extraDamageTypes.forEach(addDamageColumns(entry.extraDmg, false, dmgWidthExtra, true));
     });
 
     // Do total
@@ -309,6 +371,7 @@ function makeRerollButton(id, alreadyUsed) {
     if (!alreadyUsed) {
         el.on("click", ev => {
             const targ = currentResults.find(entry => entry.id == id);
+            console.log("Rerolling", id)
             Object.keys(targ.dmg).forEach((dmgType) => {
                 const dmg = targ.dmg[dmgType]
                 if (weaponDamage.indexOf(dmgType) >= 0) {

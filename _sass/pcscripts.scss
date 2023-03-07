@@ -80,3 +80,81 @@ table#dmgresults {
         border-left: #ffffffdd 1px solid;
     }
 }
+
+@mixin number-box {
+    font-family: ScalySans;
+    color: white;
+    font-size: 3em;
+}
+
+.xandra {
+    input[type="number"] {
+        background: none;
+        border: none;
+        @include number-box;
+        appearance: textfield;
+        width: 2em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .bonus-sign {
+        @include number-box;
+        text-align: right;
+    }
+
+    .number-input,
+    .number-input * {
+        box-sizing: border-box;
+    }
+
+    .number-input {
+        display: flex;
+        align-content: space-around;
+        align-items: center;
+
+        .number-box {
+            background: #121212dd;
+            border-left: $horizontalRule 3px solid;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+
+        button {
+            outline:none;
+            background-color: transparent;
+            color: white;
+            border: none;
+            align-items: center;
+            justify-content: center;
+            width: 1rem;
+            height: 3rem;
+            cursor: pointer;
+            margin: 0;
+            position: relative;
+
+            @mixin button {
+                display: inline-block;
+                position: absolute;
+                font-family: "Font Awesome 5 Free"; 
+                font-weight: 900;
+                content: '\f077';
+            }
+
+            &.minus:after {
+                @include button;
+                transform: translate(-50%, -50%) rotate(180deg);
+            }
+
+            &.plus:before {
+                @include button;
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+        }
+    }
+
+    .critbox {
+        display: inline-block;
+        margin: 5px;
+    }
+}
