@@ -11,6 +11,15 @@ const weaponFormulas = {
     },
 }
 
+const rerollableDamage = [
+    "bludgeoning",
+    "slashing",
+    "piercing",
+]
+
+/** @type {DamageEntry[]} */
+var currentResults = []
+
 window.onload = function() {
     sel("#rollattacks").on("click", function(e) {
         e.preventDefault();
@@ -56,9 +65,20 @@ window.onload = function() {
         }
 
         updateDamageTable(results);
+
+        currentResults = results;
     });
 
-    updateCritCheckboxes()
+    sel(".damage #attacknum").on("change", function(e) {
+        console.log("test", $(this).val())
+        if ($(this).val() < 0) {
+            $(this).val(0);
+        }
+
+        updateCritCheckboxes();
+    });
+
+    updateCritCheckboxes();
 }
 
 function resetAttacks() {
@@ -95,7 +115,13 @@ function rollDamage(weapon, critical, bonus) {
                 ? convertFormulaToCrit(formula)
                 : formula;
             const bonusFormula = critFormula.replace("BONUS", bonus)
-            return {"value": roll(bonusFormula), "formula": bonusFormula}
+            const [result, singleRolls] = roll(bonusFormula, true)
+            return {
+                "value": result, 
+                "formula": bonusFormula, 
+                "results": singleRolls,
+                "rerolled": 0,
+            }
         })
     } else {
         console.error(`rollDamage: "${weapon}" not a valid weapon!`)
@@ -134,7 +160,8 @@ function convertFormulaToCrit(formula) {
 }
 
 /**
- * @typedef {{id: string, dmg: Object<string, {value: number, formula: string}>, crit: boolean}} DamageEntry
+ * @typedef {{value: number, formula: string, results: number[], rerolled: number}} SingleDamage
+ * @typedef {{id: string, dmg: Object<string, SingleDamage>, crit: boolean}} DamageEntry
  */
 
 /**
@@ -172,19 +199,33 @@ function updateDamageTable(damageDataList) {
     const tbody = $(document.createElement("tbody"))
     table.append(tbody)
 
-    damageDataList.forEach((val, index) => {
+    damageDataList.forEach((entry, index) => {
         const row = $(document.createElement("tr"));
-        row.attr("id", `${slugify(val.id)}-${index}`);
+        row.attr("id", `${slugify(entry.id)}-${index}`);
         tbody.append(row);
-        row.append(`<td>${val.id}</td>`);
+        row.append(`<td>${entry.id}</td>`);
+        row.relatedDmgRow = entry
 
         damageTypes.forEach((dtype) => {
-            if (dtype in val.dmg) {
-                const critPart = (val.crit) ? " crit" : "";
-                row.append(`<td class="tooltip dmg-${dtype}${critPart}">
-                    ${val.dmg[dtype].value}
-                    <span class="tooltiptext">${val.dmg[dtype].formula}</span>
-                </td>`);
+            if (dtype in entry.dmg) {
+                /** @type {SingleDamage} */
+                const dmgEntry = entry.dmg[dtype]
+                const critPart = (entry.crit) ? " crit" : "";
+                const el = $(`<td class="tooltip dmg-${dtype}${critPart}">
+                    ${dmgEntry.value}
+                    <div class="tooltiptext">${dmgEntry.formula}<br>${dmgEntry.results}</div>
+                </td>`)
+                el.relatedDmgEntry = dmgEntry
+                el.relatedDmgRow = entry
+                if (dmgEntry.rerolled > 0) {
+                    el.append(makeRerollButton(entry.id, true))
+                } else if (
+                    rerollableDamage.indexOf(dtype) >= 0
+                    && dmgEntry.results.some(n => n === 1 || n === 2)
+                ) {
+                    el.append(makeRerollButton(entry.id))
+                }
+                row.append(el);
             } else {
                 row.append("<td></td>");
             }
@@ -199,6 +240,34 @@ function updateDamageTable(damageDataList) {
     for (const [dmgType, dmg] of Object.entries(total)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
+}
+
+function makeRerollButton(id, alreadyUsed) {
+    const el = $(document.createElement("span"))
+    el.addClass("reroll-button")
+    el.append(`<i class="fa-solid fa-arrow-rotate-left"></i>`)
+
+    if (!alreadyUsed) {
+        el.on("click", ev => {
+            const targ = currentResults.filter(entry => entry.id == id)[0];
+            Object.keys(targ.dmg).forEach((dmgType) => {
+                const dmg = targ.dmg[dmgType]
+                if (rerollableDamage.indexOf(dmgType) >= 0) {
+                    const formula = dmg.formula
+                    const [newResult, singleDiceRolls] = roll(formula, true)
+                    dmg.rerolled++
+                    dmg.value = newResult
+                    dmg.results = singleDiceRolls
+                }
+            });
+
+            updateDamageTable(currentResults);
+        });
+    } else {
+        el.addClass("reroll-used")
+    }
+
+    return el
 }
 
 // Generic functions
@@ -218,28 +287,33 @@ rollDice = (dicesize) => getRandomInt(1, dicesize + 1)
 const DICE_EXPR_REGEX = /([1-9]\d*)?d([1-9]\d*)/
 const DICE_FORMULA_REGEX = /((([1-9]\d*)?d([1-9]\d*)(\s*?[-+×x*÷\/]\s*?(\d,\d|\d)+(\.\d+)?)?))+?/
 
-function rollSimple(diceFormula) {
+function rollSimple(diceFormula, getSingles) {
     const match = DICE_EXPR_REGEX.exec(diceFormula)
     if (match) {
         const num = (match[1] === "") ? 1 : parseInt(match[1])
         const dice = parseInt(match[2])
-        let tot = 0;
-        for (let i = 0; i < num; i++) tot += rollDice(dice);
-        return tot
+        let results = [];
+        for (let i = 0; i < num; i++) 
+            results.push(rollDice(dice));
+        const tot = results.reduce((a, b) => a + b)
+        return getSingles ? [tot, results] : tot
     } else {
         console.error(`roll: ${diceFormula} not a dice expression!`)
     }
 }
 
-function roll(diceFormula) {
+function roll(diceFormula, getSingleRolls) {
     if (DICE_FORMULA_REGEX.test(diceFormula)) {
         let diceMatches = DICE_EXPR_REGEX.exec(diceFormula)
+        const allRolls = []
         while (diceMatches) {
-            const result = rollSimple(diceMatches[0])
+            const [result, singleRolls] = rollSimple(diceMatches[0], true)
             diceFormula = diceFormula.replace(diceMatches[0], result)
             diceMatches = DICE_EXPR_REGEX.exec(diceFormula)
+            singleRolls.forEach(r => allRolls.push(r))
         }
-        return eval(diceFormula)
+        const res = eval(diceFormula)
+        return getSingleRolls ? [res, allRolls] : res
     } else {
         console.error(`roll: ${diceFormula} not a dice formula!`)
     }

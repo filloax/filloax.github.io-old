@@ -17,9 +17,22 @@ td.crit {
         /* Position the tooltip text - see examples below! */
         position: absolute;
         z-index: 1;
+        bottom: 0;
+        left: 15%;
+        margin-left: -10px;
     }
 
     &:hover .tooltiptext {
         visibility: visible;
+    }
+}
+
+span.reroll-button {
+    cursor: pointer;
+    &.reroll-used {
+        cursor: default;
+        i {
+            opacity: 40%;
+        }
     }
 }
