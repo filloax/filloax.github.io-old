@@ -4,3 +4,8 @@ sass:
   sass_dir: _sass
   style: compressed
 repository: filloax/filloax.github.io
+exclude:
+  - "bower_components"
+  - "bower.json"
+  - "node_modules"
+  - "package.json"
