@@ -70,6 +70,7 @@ table#dmgresults {
     }
 
     td.dmg-head {
+        font-weight: 900;
         &.total::before {
             content: "Tot";
             font-style: italic;
@@ -84,7 +85,14 @@ table#dmgresults {
             content: "P";
         }
         &.lightning::before {
-            content: "L";
+            content: "\e0b7";
+            font-family: "Font Awesome 5 Free"; 
+            color: lightblue;
+        }
+        &.fire::before {
+            content: "\f06d";
+            font-family: "Font Awesome 5 Free"; 
+            color: orangered;
         }
     }
 
