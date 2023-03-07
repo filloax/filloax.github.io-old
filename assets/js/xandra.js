@@ -287,8 +287,8 @@ function updateDamageTable(damageDataList) {
     theadRow.append("<td><strong>Attacco</strong></td>")
 
     damageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidth[key] + 1}em"></td>`));
-    theadRow.append(`<td class="vert-sep"><em>Extra</em></td>`)
     extraDamageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidthExtra[key] + 1}em"></td>`));
+    theadRow.find(`:nth-child(${damageTypes.length + 2})`).toggleClass("vert-sep") // add vert sep to first extra cell
 
     const tbody = $(document.createElement("tbody"))
     table.append(tbody)
@@ -332,9 +332,9 @@ function updateDamageTable(damageDataList) {
 
         damageTypes.forEach(addDamageColumns(entry.dmg, true, dmgWidth));
 
-        row.append(`<td class="vert-sep"></td>`);
-
         extraDamageTypes.forEach(addDamageColumns(entry.extraDmg, false, dmgWidthExtra, true));
+
+        row.find(`:nth-child(${damageTypes.length + 2})`).toggleClass("vert-sep") // add vert sep to first extra cell
     });
 
     // Do total
@@ -345,10 +345,10 @@ function updateDamageTable(damageDataList) {
     for (const [dmgType, dmg] of Object.entries(total)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
-    totalRow.append(`<td class="vert-sep"></td>`);
     for (const [dmgType, dmg] of Object.entries(extraTotal)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
+    totalRow.find(`:nth-child(${damageTypes.length + 2})`).toggleClass("vert-sep") // add vert sep to first extra cell
     
     // Tooltip
 
