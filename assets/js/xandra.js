@@ -225,7 +225,7 @@ function updateDamageTable(damageDataList) {
     theadRow.append("<td><strong>Attacco</strong></td>")
 
     damageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidth[key] + 1}em"></td>`));
-    theadRow.append(`<td><em>Extra</em></td>`)
+    theadRow.append(`<td class="vert-sep"><em>Extra</em></td>`)
     extraDamageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidthExtra[key] + 1}em"></td>`));
 
     const tbody = $(document.createElement("tbody"))
@@ -270,7 +270,7 @@ function updateDamageTable(damageDataList) {
 
         damageTypes.forEach(addDamageColumns(entry.dmg, true, dmgWidth));
 
-        row.append(document.createElement("td"));
+        row.append(`<td class="vert-sep"></td>`);
 
         extraDamageTypes.forEach(addDamageColumns(entry.extraDmg, false, dmgWidthExtra));
     });
@@ -283,23 +283,21 @@ function updateDamageTable(damageDataList) {
     for (const [dmgType, dmg] of Object.entries(total)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
-    totalRow.append(document.createElement("td"))
+    totalRow.append(`<td class="vert-sep"></td>`);
     for (const [dmgType, dmg] of Object.entries(extraTotal)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
     
     // Tooltip
 
-    sel('.tooltip').on("mousemove", ev => {
-        const par = $(ev.target);
-        const tooltip = par.find(".tooltiptext");
-        tooltip.get().forEach(el => {
-            let tooltipX = ev.clientX + $(el).width() / 2 + 10;
-            let tooltipY = ev.clientY - $(el).height() / 2;  
-            $(el).css({left: tooltipX, top: tooltipY});      
+    sel('.tooltiptext').get().forEach(el => {
+        const jel = $(el)
+        const leftPos = jel.width() / 2 + 25
+        const topPos = -jel.height() / 2
+        jel.css({
+            left: leftPos + "px", 
+            // top: topPos + "px",
         })
-
-        // console.log("Set", tooltip, "to", ev.pageX, ev.pageY);
     });
 }
 

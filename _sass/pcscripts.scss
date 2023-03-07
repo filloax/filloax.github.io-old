@@ -14,10 +14,14 @@ td.crit {
         padding: 5px;
         border-radius: 6px;
     
-        /* Position the tooltip text - see examples below! */
-        position: fixed;
+        // position: fixed;
+        position: absolute;
+        left: 2em;
+        bottom: -15px;
         z-index: 1;
-        margin-left: -10px;
+        // margin-left: 10px;
+        user-select: none;
+        pointer-events: none;
 
         opacity: 0;
         transition: .15s ease-in-out;
@@ -45,6 +49,7 @@ span.reroll-button {
 
 table#dmgresults {
     width: max-content;
+    overflow: visible;
 
     tr > td {
         width: fit-content;
@@ -69,5 +74,9 @@ table#dmgresults {
         &.lightning::before {
             content: "L";
         }
+    }
+
+    .vert-sep {
+        border-left: #ffffffdd 1px solid;
     }
 }
