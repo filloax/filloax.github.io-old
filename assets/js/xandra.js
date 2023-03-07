@@ -5,13 +5,15 @@ const weaponFormulas = {
     "covolt-scythe": {
         "slashing": "1d10+BONUS",
         "lightning": "1d8",
+        "extra-lightning": "1d8",
     },
     "polearm-bonus": {
         "bludgeoning": "1d4+BONUS",
     },
 }
 
-const rerollableDamage = [
+// Rerollable, affected by enlarge, etc
+const weaponDamage = [
     "bludgeoning",
     "slashing",
     "piercing",
@@ -48,18 +50,22 @@ window.onload = function() {
 
         for (let i = 0; i < numAttacks; i++  ) {
             const crit = sel(`#crit-box-${i}`)?.is(":checked")
+            const [singleDmg, extraDmg] = rollDamage(DEFAULT_WEAPON, crit, 7)
             results.push({
                 id: `Attacco ${i+1}`,
-                dmg: rollDamage(DEFAULT_WEAPON, crit, 7),
+                dmg: singleDmg,
+                extraDmg: extraDmg,
                 crit: crit,
             })
         }
 
         if (sel(".damage #polebonus").is(":checked")) {
             const crit = sel(".damage #polebonus-crit").is(":checked")
+            const [singleDmg, extraDmg] = rollDamage("polearm-bonus", crit, 7);
             results.push({
                 id: "Attacco bonus",
-                dmg: rollDamage("polearm-bonus", crit, 7),
+                dmg: singleDmg,
+                extraDmg: extraDmg,
                 crit: crit,
             });
         }
@@ -110,7 +116,7 @@ function updateCritCheckboxes() {
 function rollDamage(weapon, critical, bonus) {
     if (weapon in weaponFormulas) {
         const formulas = weaponFormulas[weapon]
-        return map(formulas, function(formula) {
+        const dmgOutput = map(formulas, function(formula) {
             const critFormula = (critical) 
                 ? convertFormulaToCrit(formula)
                 : formula;
@@ -123,6 +129,17 @@ function rollDamage(weapon, critical, bonus) {
                 "rerolled": 0,
             }
         })
+
+        const dmg = {}, extraDmg = {}
+        Object.keys(dmgOutput).forEach(dmgType => {
+            if (dmgType.startsWith("extra-")) {
+                const actualDmgType = dmgType.replace("extra-", "")
+                extraDmg[actualDmgType] = dmgOutput[dmgType]
+            } else {
+                dmg[dmgType] = dmgOutput[dmgType]
+            }
+        })
+        return [dmg, extraDmg]
     } else {
         console.error(`rollDamage: "${weapon}" not a valid weapon!`)
     }
@@ -161,7 +178,12 @@ function convertFormulaToCrit(formula) {
 
 /**
  * @typedef {{value: number, formula: string, results: number[], rerolled: number}} SingleDamage
- * @typedef {{id: string, dmg: Object<string, SingleDamage>, crit: boolean}} DamageEntry
+ * @typedef {{
+ *  id: string, 
+ *  dmg: Object<string, SingleDamage>,
+ *  extraDmg: Object<string, SingleDamage>,
+ *  crit: boolean,
+ * }} DamageEntry
  */
 
 /**
@@ -174,27 +196,37 @@ function updateDamageTable(damageDataList) {
     table.empty();
 
     const total = {}
+    const extraTotal = {}
+    const dmgWidth = {}
+    const dmgWidthExtra = {}
 
     damageDataList.forEach((val, index) => {
-        for (const [dmgType, dmg] of Object.entries(val.dmg)) {
-            if (!(dmgType in total)) {
-                total[dmgType] = 0
+        [[val.dmg, total, dmgWidth], [val.extraDmg, extraTotal, dmgWidthExtra]].forEach(tuple => {
+            const dmgTable = tuple[0]; const dmgTotal = tuple[1];
+            const dmgMaxWidth = tuple[2];
+            for (const [dmgType, dmg] of Object.entries(dmgTable)) {
+                if (!(dmgType in dmgTotal)) {
+                    dmgTotal[dmgType] = 0
+                    dmgMaxWidth[dmgType] = 0
+                }
+                dmgTotal[dmgType] += dmg.value
+                dmgMaxWidth[dmgType] = Math.max((dmg.value + "").length, dmgMaxWidth[dmgType])
             }
-            total[dmgType] += dmg.value
-        }
+        });
     });
 
     const damageTypes = Object.keys(total)
+    const extraDamageTypes = Object.keys(extraTotal)
 
     const thead = $(document.createElement("thead"))
     const theadRow = $(document.createElement("tr"))
     thead.append(theadRow)
     table.append(thead)
-    theadRow.append("<td><em>Attacco</em></td>")
+    theadRow.append("<td><strong>Attacco</strong></td>")
 
-    damageTypes.forEach((key) => {
-        theadRow.append(`<td>${key}</td>`)
-    });
+    damageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidth[key] + 1}em"></td>`));
+    theadRow.append(`<td><em>Extra</em></td>`)
+    extraDamageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidthExtra[key] + 1}em"></td>`));
 
     const tbody = $(document.createElement("tbody"))
     table.append(tbody)
@@ -206,30 +238,41 @@ function updateDamageTable(damageDataList) {
         row.append(`<td>${entry.id}</td>`);
         row.relatedDmgRow = entry
 
-        damageTypes.forEach((dtype) => {
-            if (dtype in entry.dmg) {
-                /** @type {SingleDamage} */
-                const dmgEntry = entry.dmg[dtype]
-                const critPart = (entry.crit) ? " crit" : "";
-                const el = $(`<td class="tooltip dmg-${dtype}${critPart}">
-                    ${dmgEntry.value}
-                    <div class="tooltiptext">${dmgEntry.formula}<br>${dmgEntry.results}</div>
-                </td>`)
-                el.relatedDmgEntry = dmgEntry
-                el.relatedDmgRow = entry
-                if (dmgEntry.rerolled > 0) {
-                    el.append(makeRerollButton(entry.id, true))
-                } else if (
-                    rerollableDamage.indexOf(dtype) >= 0
-                    && dmgEntry.results.some(n => n === 1 || n === 2)
-                ) {
-                    el.append(makeRerollButton(entry.id))
+        const addDamageColumns = function(dmgTable, rerollCheck, dmgWidth) {
+            return dtype => {
+                if (dtype in dmgTable) {
+                    /** @type {SingleDamage} */
+                    const dmgEntry = dmgTable[dtype]
+                    const critPart = (entry.crit) ? " crit" : "";
+                    const el = $(`<td class="tooltip dmg ${dtype}${critPart}">
+                        ${dmgEntry.value}
+                        <div class="tooltiptext">${dmgEntry.formula}<br>${dmgEntry.results}</div>
+                    </td>`)
+                    el.css("width", (dmgWidth[dtype] + 1) + "em")
+                    el.relatedDmgEntry = dmgEntry
+                    el.relatedDmgRow = entry
+                    if (rerollCheck) {
+                        if (dmgEntry.rerolled > 0) {
+                            el.append(makeRerollButton(entry.id, true))
+                        } else if (
+                            weaponDamage.indexOf(dtype) >= 0
+                            && dmgEntry.results.some(n => n === 1 || n === 2)
+                        ) {
+                            el.append(makeRerollButton(entry.id))
+                        }
+                    }
+                    row.append(el);
+                } else {
+                    row.append("<td></td>");
                 }
-                row.append(el);
-            } else {
-                row.append("<td></td>");
-            }
-        });
+            };
+        };
+
+        damageTypes.forEach(addDamageColumns(entry.dmg, true, dmgWidth));
+
+        row.append(document.createElement("td"));
+
+        extraDamageTypes.forEach(addDamageColumns(entry.extraDmg, false, dmgWidthExtra));
     });
 
     // Do total
@@ -240,6 +283,24 @@ function updateDamageTable(damageDataList) {
     for (const [dmgType, dmg] of Object.entries(total)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
+    totalRow.append(document.createElement("td"))
+    for (const [dmgType, dmg] of Object.entries(extraTotal)) {
+        totalRow.append(`<td><strong>${dmg}</strong></td>`)
+    }
+    
+    // Tooltip
+
+    sel('.tooltip').on("mousemove", ev => {
+        const par = $(ev.target);
+        const tooltip = par.find(".tooltiptext");
+        tooltip.get().forEach(el => {
+            let tooltipX = ev.clientX + $(el).width() / 2 + 10;
+            let tooltipY = ev.clientY - $(el).height() / 2;  
+            $(el).css({left: tooltipX, top: tooltipY});      
+        })
+
+        // console.log("Set", tooltip, "to", ev.pageX, ev.pageY);
+    });
 }
 
 function makeRerollButton(id, alreadyUsed) {
@@ -249,10 +310,10 @@ function makeRerollButton(id, alreadyUsed) {
 
     if (!alreadyUsed) {
         el.on("click", ev => {
-            const targ = currentResults.filter(entry => entry.id == id)[0];
+            const targ = currentResults.find(entry => entry.id == id);
             Object.keys(targ.dmg).forEach((dmgType) => {
                 const dmg = targ.dmg[dmgType]
-                if (rerollableDamage.indexOf(dmgType) >= 0) {
+                if (weaponDamage.indexOf(dmgType) >= 0) {
                     const formula = dmg.formula
                     const [newResult, singleDiceRolls] = roll(formula, true)
                     dmg.rerolled++

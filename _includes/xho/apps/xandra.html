@@ -14,8 +14,10 @@
     <input type="number" id="attackbonus" name="attackbonus" value="10"/><br>
     <label for="asurge">Azione impetuosa (2x attacchi)</label>
     <input type="checkbox" id="asurge" name="asurge">
+    <br>
+
     <label for="polebonus">Attacco bonus con asta</label>
-    <input type="checkbox" id="polebonus" name="polebonus">
+    <input type="checkbox" id="polebonus" name="polebonus" checked>
     <br>
 
     <button type="button" id="rollattacks">Lancia attacchi!</button>
@@ -24,17 +26,21 @@
     </div>
 </form>
 
+<br>
+
 <h4> Calcola danni </h4>
 
 <form class="damage">
     <label for="attacknum">Numero attacchi a segno</label><br>
     <input type="number" id="attacknum" name="attacknum" value="3"/>
 
-    <p>Critici?</p>
+    <span>Critici?</span>
     <div id="critcheckboxes"></div>
 
+    <br>
+
     <label for="polebonus">Bonus con asta</label>
-    <input type="checkbox" id="polebonus" name="polebonus">
+    <input type="checkbox" id="polebonus" name="polebonus" checked>
     <label for="polebonus-crit">Critico</label>
     <input type="checkbox" id="polebonus-crit" name="polebonus-crit">
 

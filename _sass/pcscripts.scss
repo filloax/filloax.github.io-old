@@ -15,15 +15,17 @@ td.crit {
         border-radius: 6px;
     
         /* Position the tooltip text - see examples below! */
-        position: absolute;
+        position: fixed;
         z-index: 1;
-        bottom: 0;
-        left: 15%;
         margin-left: -10px;
+
+        opacity: 0;
+        transition: .15s ease-in-out;
     }
 
     &:hover .tooltiptext {
         visibility: visible;
+        opacity: 100%;
     }
 }
 
@@ -33,6 +35,39 @@ span.reroll-button {
         cursor: default;
         i {
             opacity: 40%;
+        }
+    }
+}
+
+#critcheckboxes {
+    display: inline-block;
+}
+
+table#dmgresults {
+    width: max-content;
+
+    tr > td {
+        width: fit-content;
+        text-align: center;
+
+        &:first-child {
+            padding-right: 2em;
+            text-align: left;
+        }
+    }
+
+    td.dmg-head {
+        &.bludgeoning::before {
+            content: "B";
+        }
+        &.slashing::before {
+            content: "S";
+        }
+        &.piercing::before {
+            content: "P";
+        }
+        &.lightning::before {
+            content: "L";
         }
     }
 }
