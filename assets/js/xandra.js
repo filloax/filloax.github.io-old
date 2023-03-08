@@ -44,13 +44,15 @@ window.onload = function() {
         const results = [];
         const numAttacks = parseInt(sel(".damage #attacknum").val());
         const dmgBonus = parseInt(sel(".damage #dmgbonus").val());
+        const extraFormula = getExtraDamageFormula();
 
         for (let i = 0; i < numAttacks; i++  ) {
             const crit = sel(`#crit-box-${i}`)?.is(":checked")
-            const [singleDmg, extraDmg] = rollDamage(DEFAULT_WEAPON, crit, dmgBonus)
+            const [mainDmg, extraDmg, bonusDmg] = rollDamage(DEFAULT_WEAPON, crit, dmgBonus, extraFormula)
             results.push({
                 id: `Attacco ${i+1}`,
-                dmg: singleDmg,
+                dmg: mainDmg,
+                bonusDmg: bonusDmg,
                 extraDmg: extraDmg,
                 crit: crit,
             })
@@ -58,10 +60,11 @@ window.onload = function() {
 
         if (sel(".damage #polebonus").is(":checked")) {
             const crit = sel(".damage #polebonus-crit").is(":checked")
-            const [singleDmg, extraDmg] = rollDamage("polearm-bonus", crit, dmgBonus);
+            const [mainDmg, extraDmg, bonusDmg] = rollDamage("polearm-bonus", crit, dmgBonus, extraFormula);
             results.push({
                 id: "Attacco bonus",
-                dmg: singleDmg,
+                dmg: mainDmg,
+                bonusDmg: bonusDmg,
                 extraDmg: extraDmg,
                 crit: crit,
             });
@@ -91,12 +94,35 @@ window.onload = function() {
     });
 
     updateCritCheckboxes();
+
+    setupExtraDamageButtons();
 }
+
+/**
+ * @typedef {{
+*  value: number, 
+*  formula: string, 
+*  results: number[], 
+*  gwrerolled: number,
+*  isWeaponDamage: boolean,
+* }} SingleDamage
+* @typedef {{
+*  id: string, 
+*  dmg: Object<string, SingleDamage>,
+*  bonusDmg: Object<string, SingleDamage>,
+*  extraDmg: Object<string, SingleDamage>,
+*  crit: boolean,
+*  savageChoiceId: number,
+*  isSavageReroll: boolean,
+* }} DamageEntry
+*/
 
 const numberInputWidthByLength = {
     1: -3,
     2: -2.7,
 }
+
+//#region Styling
 
 function styleNumberInputs() {
     const inputNumbers = sel(`input[type="number"]`);
@@ -155,17 +181,9 @@ function styleDmgHeaders() {
     sel("td.dmg-head.fire").addClass(commonClass + " ra-fire")
 }
 
-function resetAttacks() {
-    sel("#atkresults").empty()
-}
+//#endregion
 
-function doAttack(bonus) {
-    const rand = rollDice(20)
-    const roll = rand + bonus
-    sel("#atkresults").append(`<div class="atkresult${(rand == 20) ? " crit" : ""}">${roll}</div>`);
-}
-
-
+//#region [rgba(175, 125, 255, 0.03)] BaseDamage
 function updateCritCheckboxes() {
     const atkNum = parseInt(sel(".damage #attacknum").val())
     const container = sel("#critcheckboxes")
@@ -180,26 +198,35 @@ function updateCritCheckboxes() {
     }
 }
 
+const baseWeaponDamageTypes = ["piercing", "slashing", "bludgeoning"];
 
-function rollDamage(weapon, critical, bonus) {
+function rollDamage(weapon, critical, bonus, bonusFormula) {
     if (weapon in weaponFormulas) {
         const formulas = weaponFormulas[weapon]
+
+        let firstValidBonusType = undefined;
+
         const dmgOutput = map(formulas, function(formula, dtype) {
             const isExtra = dtype.startsWith("extra-")
-            const critFormula = (critical && !isExtra) 
+
+            if (!firstValidBonusType && !isExtra && baseWeaponDamageTypes.indexOf(dtype) >= 0) {
+                firstValidBonusType = dtype;
+            }
+
+            const formulaWithCrit = (critical && !isExtra) 
                 ? convertFormulaToCrit(formula)
                 : formula;
-            const bonusFormula = critFormula.replace("BONUS", bonus)
-            const [result, singleRolls] = roll(bonusFormula, true)
+            const formulaWithBonus = formulaWithCrit.replace("BONUS", bonus)
+            const [result, singleRolls] = roll(formulaWithBonus, true)
             return {
                 "value": Math.max(result, 1), 
-                "formula": bonusFormula, 
+                "formula": formulaWithBonus, 
                 "results": singleRolls,
                 "gwrerolled": 0,
             }
         })
 
-        const dmg = {}, extraDmg = {}
+        const dmg = {}, extraDmg = {}, bonusDmg = {}
         Object.keys(dmgOutput).forEach(dmgType => {
             if (dmgType.startsWith("extra-")) {
                 const actualDmgType = dmgType.replace("extra-", "")
@@ -209,7 +236,25 @@ function rollDamage(weapon, critical, bonus) {
                 dmg[dmgType].isWeaponDamage = true
             }
         })
-        return [dmg, extraDmg]
+
+        if (bonusFormula && bonusFormula !== "") {
+            const bonusFormulaWithCrit = critical
+                ? convertFormulaToCrit(bonusFormula)
+                : bonusFormula;
+            const bonusFormulaWithBonus = bonusFormulaWithCrit.replace("BONUS", bonus)
+
+            const [result, singleRolls] = roll(bonusFormulaWithBonus, true)
+
+            bonusDmg[firstValidBonusType] = {
+                "value": Math.max(result, 1), 
+                "formula": bonusFormulaWithBonus, 
+                "results": singleRolls,
+                "gwrerolled": 0,
+                "isWeaponDamage": false,
+            }
+        }
+
+        return [dmg, extraDmg, bonusDmg]
     } else {
         console.error(`rollDamage: "${weapon}" not a valid weapon!`)
     }
@@ -245,24 +290,53 @@ function convertFormulaToCrit(formula) {
 
     return formulaArr.join("")
 }
+//#endregion
 
-/**
- * @typedef {{
- *  value: number, 
- *  formula: string, 
- *  results: number[], 
- *  gwrerolled: number,
- *  isWeaponDamage: boolean,
- * }} SingleDamage
- * @typedef {{
- *  id: string, 
- *  dmg: Object<string, SingleDamage>,
- *  extraDmg: Object<string, SingleDamage>,
- *  crit: boolean,
- *  savageChoiceId: number,
- *  isSavageReroll: boolean,
-* }} DamageEntry
- */
+//#region [rgba(255, 125, 125, 0.03)] ExtraDamage
+
+function setupExtraDamageButtons() {
+    const enlargeBox = sel("#enlarge")
+    const enlargeSuperBox = sel("#enlarge-super")
+    const extraFormulaInput = sel("#bonus-formula")
+
+    enlargeBox.on("click", ev => {
+        enlargeSuperBox.prop("checked", false);
+    });
+    enlargeSuperBox.on("click", ev => {
+        enlargeBox.prop("checked", false);
+    });
+    extraFormulaInput.on("change", ev => {
+        const valid = DICE_EXPR_REGEX.test(extraFormulaInput.val()) 
+            || parseInt(extraFormulaInput.val()) 
+            || extraFormulaInput.val() === ""
+        sel(".invalid-formula-warn").css({display: valid ? "none" : "block"})
+    });
+}
+
+function getExtraDamageFormula() {
+    const enlargeBox = sel("#enlarge")
+    const enlargeSuperBox = sel("#enlarge-super")
+    const extraFormulaInput = sel("#bonus-formula")
+
+    const parts = []
+
+    if (enlargeSuperBox.is(":checked")) {
+        parts.push("2d4")
+    } else if (enlargeBox.is(":checked")) {
+        parts.push("1d4")
+    }
+
+    const extraVal = extraFormulaInput.val()
+    if (DICE_EXPR_REGEX.test(extraVal) || parseInt(extraVal)) {
+        parts.push(extraVal)
+    }
+
+    return parts.join("+")
+}
+
+//#endregion
+
+//#region TableRender
 
 /**
  * 
@@ -274,14 +348,21 @@ function updateDamageTable(damageDataList) {
     table.empty();
 
     const total = {}
+    const bonusTotal = {}
     const extraTotal = {}
-    const minWidth = 2;
+    const minWidth = 1.5;
     const dmgWidth = {"total": minWidth}
+    const dmgWidthBonus = {"total": minWidth}
     const dmgWidthExtra = {"total": minWidth}
 
     damageDataList.forEach((val, index) => {
-        [[val.dmg, total, dmgWidth], [val.extraDmg, extraTotal, dmgWidthExtra]].forEach(tuple => {
-            const dmgTable = tuple[0]; const dmgTotal = tuple[1];
+        [
+            [val.dmg, total, dmgWidth], 
+            [val.bonusDmg, bonusTotal, dmgWidthBonus],
+            [val.extraDmg, extraTotal, dmgWidthExtra],
+        ].forEach(tuple => {
+            const dmgTable = tuple[0]; 
+            const dmgTotal = tuple[1];
             const dmgMaxWidth = tuple[2];
             let sum = 0;
             for (const [dmgType, dmg] of Object.entries(dmgTable)) {
@@ -298,6 +379,7 @@ function updateDamageTable(damageDataList) {
     });
 
     const damageTypes = Object.keys(total)
+    const bonusDamageTypes = Object.keys(bonusTotal)
     const extraDamageTypes = Object.keys(extraTotal)
 
     const thead = $(document.createElement("thead"))
@@ -307,9 +389,11 @@ function updateDamageTable(damageDataList) {
     theadRow.append("<td><strong>Attacco</strong></td>")
 
     damageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="max-width: ${dmgWidth[key] + 1}em"></td>`));
+    bonusDamageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key} bonus" style="max-width: ${dmgWidthBonus[key] + 1}em"></td>`));
     theadRow.append(`<td class="dmg-head total"></td>`)
     extraDamageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="max-width: ${dmgWidthExtra[key] + 1}em"></td>`));
-    theadRow.find(`:nth-child(${damageTypes.length + 3})`).toggleClass("vert-sep") // add vert sep to first extra cell
+    const extraSepPos = damageTypes.length + bonusDamageTypes.length + 3;
+    theadRow.find(`:nth-child(${extraSepPos})`).toggleClass("vert-sep") // add vert sep to first extra cell
 
     const tbody = $(document.createElement("tbody"))
     table.append(tbody)
@@ -327,7 +411,7 @@ function updateDamageTable(damageDataList) {
         let hasRerollButton = false;
         let alreadyRerolled = false;
 
-        const addDamageColumns = function(dmgTable, rerollCheck, dmgWidth, noCrits) {
+        const addDamageColumns = function(dmgTable, rerollCheck, dmgWidth, noCrits, extraClass) {
             return dtype => {
                 if (dtype in dmgTable) {
                     /** @type {SingleDamage} */
@@ -335,7 +419,7 @@ function updateDamageTable(damageDataList) {
                     const numResults = occurrences(dmgEntry.results)
                     const hasOnes = numResults[1] >= dmgEntry.results.length / 2
                     const hasLowRolls = numResults[1] + numResults[2] >= dmgEntry.results.length / 2
-                    const el = $(`<td class="tooltip dmg ${dtype}">
+                    const el = $(`<td class="tooltip dmg ${dtype}}">
                         ${dmgEntry.value}
                         <div class="tooltiptext">${dmgEntry.formula}<br>${dmgEntry.results}</div>
                     </td>`)
@@ -346,6 +430,7 @@ function updateDamageTable(damageDataList) {
                     } else if (entry.crit && !noCrits) {
                         el.toggleClass("crit")
                     }
+                    if (extraClass) el.toggleClass(extraClass);
                     el.css("width", (dmgWidth[dtype] + 1) + "em")
 
                     if (rerollCheck) {
@@ -361,10 +446,15 @@ function updateDamageTable(damageDataList) {
         };
 
         damageTypes.forEach(addDamageColumns(entry.dmg, true, dmgWidth));
+        bonusDamageTypes.forEach(addDamageColumns(entry.bonusDmg, false, dmgWidthBonus, false, "bonus"));
 
-        const sum = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue + entry.dmg[current].value, 0);
-        const sumFormula = Object.keys(entry.dmg).map(dmgType => entry.dmg[dmgType].formula).join(" + ");
-        const sumResults = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue.concat(entry.dmg[current].results), []);
+        const dmgToSum = [entry.dmg, entry.bonusDmg];   
+        const sum = dmgToSum.map(v => Object.keys(v).reduce((previousValue, current) => previousValue + v[current].value, 0))
+            .reduce((a, b) => a + b);
+        const sumFormula = dmgToSum.map(v => Object.keys(entry.dmg).map(dmgType => entry.dmg[dmgType].formula).join(" + "))
+            .join(" + ");
+        const sumResults = dmgToSum.map(v => Object.keys(entry.dmg).reduce((previousValue, current) => previousValue.concat(entry.dmg[current].results), []))
+            .reduce((a, b) => a.concat(b));
         row.append(`<td class="tooltip dmg total${(entry.crit) ? " crit" : ""}"
             style="max-width: ${dmgWidth["total"] + 1}em"
         >
@@ -375,7 +465,7 @@ function updateDamageTable(damageDataList) {
 
         extraDamageTypes.forEach(addDamageColumns(entry.extraDmg, false, dmgWidthExtra, true));
 
-        row.find(`:nth-child(${damageTypes.length + 3})`).toggleClass("vert-sep"); // add vert sep to first extra cell
+        row.find(`:nth-child(${extraSepPos})`).toggleClass("vert-sep"); // add vert sep to first extra cell
 
         if (hasRerollButton) {
             const btn = makeRerollButton(entry.id, alreadyRerolled)
@@ -394,11 +484,15 @@ function updateDamageTable(damageDataList) {
     for (const [dmgType, dmg] of Object.entries(total)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
-    totalRow.append(`<td><strong><em>${Object.values(total).reduce((a, b) => a + b)}</em></strong></td>`)
+    for (const [dmgType, dmg] of Object.entries(bonusTotal)) {
+        totalRow.append(`<td><strong>${dmg}</strong></td>`)
+    }
+    const totalAll =[...Object.values(total), ...Object.values(bonusTotal)].reduce((a, b) => a + b)
+    totalRow.append(`<td><strong><em>${totalAll}</em></strong></td>`)
     for (const [dmgType, dmg] of Object.entries(extraTotal)) {
         totalRow.append(`<td><strong>${dmg}</strong></td>`)
     }
-    totalRow.find(`:nth-child(${damageTypes.length + 3})`).toggleClass("vert-sep") // add vert sep to first extra cell
+    totalRow.find(`:nth-child(${extraSepPos})`).toggleClass("vert-sep") // add vert sep to first extra cell
     
     // Tooltip
 
@@ -413,6 +507,10 @@ function updateDamageTable(damageDataList) {
 
     styleDmgHeaders();
 }
+
+//#endregion
+
+//#region Rerolls
 
 function reroll(damageId) {
     const targ = currentResults.find(entry => entry.id == damageId);
@@ -528,8 +626,23 @@ function addSavageAttacker(element, dmgEntry) {
     return button;
 }
 
+//#endregion
+
+//#region Old
+function resetAttacks() {
+    sel("#atkresults").empty()
+}
+
+function doAttack(bonus) {
+    const rand = rollDice(20)
+    const roll = rand + bonus
+    sel("#atkresults").append(`<div class="atkresult${(rand == 20) ? " crit" : ""}">${roll}</div>`);
+}
+//#endregion
+
 // Generic functions
 
+//#region Generic
 function sel(str) {
     return $(`.${PARENT_CLASS} ${str}`)
 }
@@ -609,3 +722,4 @@ function occurrences(array, val) {
 function deepcopy(obj) {
     return JSON.parse(JSON.stringify(obj))
 }
+//#endregion

@@ -1,7 +1,7 @@
 <script src="/assets/js/xandra.js"></script>
 <script src="https://kit.fontawesome.com/e2e8523316.js" crossorigin="anonymous"></script>
 
-<div class="xandra">
+<div class="webapp xandra">
 
 <h3> Xandra </h3>
 
@@ -40,33 +40,58 @@
 <h4> Calcola danni </h4>
 
 <form class="damage">
-    <div style="display: inline-block; padding: 0 5px">
-        <label for="attacknum">Numero attacchi a segno</label>
-        <input type="number" id="attacknum" name="attacknum" value="3"/>   
+    <div class="damagebox">
+        <div class="damagecontainer">
+            <p><strong>Numero attacchi</strong></p>
+    
+            <div style="display: inline-block; padding: 0 5px">
+                <label for="attacknum">Numero attacchi a segno</label>
+                <input type="number" id="attacknum" name="attacknum" value="3"/>   
+            </div>   
+            <br>
+        
+            <span>Critici?</span>
+            <div id="critcheckboxes"></div>
+        
+            <br>
+        
+            <input type="checkbox" id="polebonus" name="polebonus" checked>
+            <label for="polebonus">Bonus con asta</label>
+            <input type="checkbox" id="polebonus-crit" name="polebonus-crit"> 
+            <label for="polebonus-crit">Critico</label>
+        </div>
+    
+        <div class="damagecontainer">
+            <p><strong>Danni armi</strong></p>
+    
+            <div style="display: inline-block; padding: 0 5px; text-align: center;">
+                <label for="dmgbonus">Bonus danni</label>
+                <input type="number" class="bonus" id="dmgbonus" name="dmgbonus" value="7"/>  
+            </div>
+            
+            <br>
+        
+            <input type="checkbox" id="reroll-auto" name="reroll-auto">
+            <label for="reroll-auto">Ritira in automatico 1 e 2 delle armi</label>
+        </div>
+    
+        <div class="damagecontainer">
+            <p><strong>Danni extra</strong></p>
+            <p><em>(Non affetto da reroll)
+                <sup><a href="https://old.reddit.com/r/dndnext/comments/e9dgyh/does_enlargereduce_work_with_great_weapon_fighting/">ref</a></sup></em>
+            </p>
+
+            <input type="checkbox" id="enlarge" name="enlarge"> 
+            <label for="enlarge">Ingrandire</label>
+            <br>
+            <input type="checkbox" id="enlarge-super" name="enlarge-super"> 
+            <label for="enlarge-super">Ingrandire (super)</label>
+            <br>
+            <label for="bonus-formula">Altri danni</label>
+            <input type="text" id="bonus-formula" name="bonus-formula" placeholder="2d4+1d8+5">
+            <p class="invalid-formula-warn">Formula non valida!</p>
+        </div>    
     </div>
-    <div style="display: inline-block; padding: 0 5px">
-        <label for="dmgbonus">Bonus danni</label>
-        <input type="number" class="bonus" id="dmgbonus" name="dmgbonus" value="7"/>  
-    </div>
-
-    <br>
-
-    <span>Critici?</span>
-    <div id="critcheckboxes"></div>
-
-    <br>
-
-    <label for="polebonus">Bonus con asta</label>
-    <input type="checkbox" id="polebonus" name="polebonus" checked>
-    <label for="polebonus-crit">Critico</label>
-    <input type="checkbox" id="polebonus-crit" name="polebonus-crit">
-
-    <br>
-
-    <label for="reroll-auto">Ritira in automatico 1 e 2 delle armi</label>
-    <input type="checkbox" id="reroll-auto" name="reroll-auto">
-
-    <br>
 
     <button type="button" id="rolldamage">Lancia danni!</button>
 

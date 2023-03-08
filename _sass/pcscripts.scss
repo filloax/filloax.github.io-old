@@ -73,7 +73,8 @@ span.savage-button {
 
 table#dmgresults {
     width: max-content;
-    overflow: visible;
+    overflow-x: scroll;
+    overflow-y: visible;
 
     tr > td {
         width: fit-content;
@@ -110,6 +111,9 @@ table#dmgresults {
             // font-family: "Font Awesome 5 Free"; 
             color: orangered;
         }
+        &.bonus::after {
+            content: "+";
+        }
     }
 
     .vert-sep {
@@ -123,7 +127,48 @@ table#dmgresults {
     font-size: 3em;
 }
 
-.xandra {
+.webapp.xandra {
+    max-width: 800px;
+    overflow: visible;
+    * {
+        overflow: visible;
+    }
+
+    .invalid-formula-warn {
+        display: none;
+        color: red;
+        font-style: italic;
+    }
+
+    .damagebox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        @media (max-width: 800px) {
+            flex-direction: column;
+
+            .damagecontainer {
+                text-align: center;
+                width: fit-content;
+            }
+        }
+
+        .damagecontainer {
+            border: 0.5px solid #ffffff99;
+            padding: 1em;
+            margin: 0.5em;
+            border-radius: 5px;
+
+            p {
+              padding-bottom: 0;  
+              &:last-of-type {
+                margin-bottom: 2px !important;
+              }
+            }
+        }
+    }
+
     input[type="number"] {
         background: none;
         border: none;
