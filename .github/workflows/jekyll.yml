@@ -8,8 +8,8 @@ name: Deploy Jekyll site to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
+  # push:
+  #   branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -41,9 +41,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: Build with Jekyll
+      - name: npm/yarn/pnpm install
+        uses: Jaid/action-npm-install@v1.2.4
+        id: npm-setup
+      - name: Build with Jekyll (Using grunt)
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        # run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: grunt build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
