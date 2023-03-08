@@ -13,10 +13,9 @@ module.exports = (grunt) ->
   grunt.initConfig
 
     copy:
-      options:
-        nonull: true
       jquery:
         files: [{
+          nonull: true
           expand: true
           cwd: "bower_components/jquery/dist/"
           src: "jquery.min.js"
