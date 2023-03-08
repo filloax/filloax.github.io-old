@@ -75,29 +75,25 @@ table#dmgresults {
             content: "Tot";
             font-style: italic;
         }
-        &.bludgeoning::before {
-            content: "B";
-        }
-        &.slashing::before {
-            content: "S";
-        }
-        &.piercing::before {
-            content: "P";
-        }
-        &.lightning::before {
-            content: "\e0b7";
-            font-family: "Font Awesome 5 Free"; 
+        // &.bludgeoning::before {
+        //     content: "B";
+        // }
+        // &.slashing::before {
+        //     content: "S";
+        // }
+        // &.piercing::before {
+        //     content: "P";
+        // }
+        &.lightning {
+            // content: "\e0b7";
+            // font-family: "Font Awesome 5 Free"; 
             color: lightblue;
         }
-        &.fire::before {
-            content: "\f06d";
-            font-family: "Font Awesome 5 Free"; 
+        &.fire {
+            // content: "\f06d";
+            // font-family: "Font Awesome 5 Free"; 
             color: orangered;
         }
-    }
-
-    td.dmg.total {
-        padding-right: 1em;
     }
 
     .vert-sep {

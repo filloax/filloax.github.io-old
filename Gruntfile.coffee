@@ -20,6 +20,23 @@ module.exports = (grunt) ->
           src: "jquery.min.js"
           dest: "vendor/js/"
         }]
+      misc:
+       files: [
+          {
+            nonull: true
+            expand: true
+            cwd: "node_modules/rpg-awesome/css/"
+            src: "rpg-awesome.min.css"
+            dest: "vendor/css/"
+          },
+          {
+            nonull: true
+            expand: true
+            cwd: "node_modules/rpg-awesome/fonts/"
+            src: "*"
+            dest: "vendor/fonts/"
+          },
+       ]
 
     exec:
       jekyll:

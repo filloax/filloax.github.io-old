@@ -142,6 +142,16 @@ function styleNumberInputs() {
     });
 }
 
+function styleDmgHeaders() {
+    const commonClass = "ra"
+    sel("td.dmg-head.slashing").addClass(commonClass + " ra-sword")
+    sel("td.dmg-head.piercing").addClass(commonClass + " ra-broadhead-arrow ")
+    sel("td.dmg-head.bludgeoning").addClass(commonClass + " ra-flat-hammer")
+
+    sel("td.dmg-head.lightning").addClass(commonClass + " ra-lightning-bolt")
+    sel("td.dmg-head.fire").addClass(commonClass + " ra-fire")
+}
+
 function resetAttacks() {
     sel("#atkresults").empty()
 }
@@ -260,21 +270,25 @@ function updateDamageTable(damageDataList) {
 
     const total = {}
     const extraTotal = {}
-    const dmgWidth = {}
-    const dmgWidthExtra = {}
+    const minWidth = 2;
+    const dmgWidth = {"total": minWidth}
+    const dmgWidthExtra = {"total": minWidth}
 
     damageDataList.forEach((val, index) => {
         [[val.dmg, total, dmgWidth], [val.extraDmg, extraTotal, dmgWidthExtra]].forEach(tuple => {
             const dmgTable = tuple[0]; const dmgTotal = tuple[1];
             const dmgMaxWidth = tuple[2];
+            let sum = 0;
             for (const [dmgType, dmg] of Object.entries(dmgTable)) {
                 if (!(dmgType in dmgTotal)) {
-                    dmgTotal[dmgType] = 0
-                    dmgMaxWidth[dmgType] = 0
+                    dmgTotal[dmgType] = 0;
+                    dmgMaxWidth[dmgType] = minWidth;
                 }
                 dmgTotal[dmgType] += dmg.value
                 dmgMaxWidth[dmgType] = Math.max((dmg.value + "").length, dmgMaxWidth[dmgType])
+                sum += dmg.value;
             }
+            dmgMaxWidth["total"] = Math.max(dmgMaxWidth["total"], (sum + "").length)
         });
     });
 
@@ -348,7 +362,9 @@ function updateDamageTable(damageDataList) {
         const sum = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue + entry.dmg[current].value, 0);
         const sumFormula = flatmap(Object.keys(entry.dmg), dmgType => entry.dmg[dmgType].formula).join(" + ");
         const sumResults = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue.concat(entry.dmg[current].results), []);
-        row.append(`<td class="tooltip dmg total${(entry.crit && !noCrits) ? " crit" : ""}">
+        row.append(`<td class="tooltip dmg total${(entry.crit && !noCrits) ? " crit" : ""}"
+            style="width: ${dmgWidth["total"] + 1}em"
+        >
             <em>${sum}</em>
             <div class="tooltiptext">${sumFormula}<br>${sumResults}</div>
         </td>`);
@@ -359,11 +375,9 @@ function updateDamageTable(damageDataList) {
         row.find(`:nth-child(${damageTypes.length + 3})`).toggleClass("vert-sep"); // add vert sep to first extra cell
 
         if (hasRerollButton) {
-            if (alreadyRerolled) {
-                rowName.append(makeRerollButton(entry.id, true))
-            } else {
-                rowName.append(makeRerollButton(entry.id, false))
-            }
+            const btn = makeRerollButton(entry.id, alreadyRerolled)
+            btn.css({position: "absolute"})
+            rowName.append(btn)
         }
     });
 
@@ -391,6 +405,8 @@ function updateDamageTable(damageDataList) {
             left: leftPos + "px", 
         })
     });
+
+    styleDmgHeaders();
 }
 
 function makeRerollButton(id, alreadyUsed) {
