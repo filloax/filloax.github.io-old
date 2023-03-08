@@ -13,6 +13,8 @@ module.exports = (grunt) ->
   grunt.initConfig
 
     copy:
+      options:
+        nonull: true
       jquery:
         files: [{
           expand: true
