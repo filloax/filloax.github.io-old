@@ -3,7 +3,6 @@
 "use strict"
 
 module.exports = (grunt) ->
-  grunt.loadNpmTasks "grunt-bower-task"
   grunt.loadNpmTasks "grunt-contrib-connect"
   grunt.loadNpmTasks "grunt-contrib-copy"
   grunt.loadNpmTasks "grunt-contrib-watch"
@@ -17,7 +16,7 @@ module.exports = (grunt) ->
         files: [{
           nonull: true
           expand: true
-          cwd: "bower_components/jquery/dist/"
+          cwd: "node_modules/jquery/dist/"
           src: "jquery.min.js"
           dest: "vendor/js/"
         }]
