@@ -6,3 +6,4 @@ vendor
 _sass/midnight.scss
 /bower_components/
 /node_modules/
+/vendor/
