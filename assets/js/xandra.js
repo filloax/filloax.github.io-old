@@ -469,8 +469,9 @@ function updateDamageTable(damageDataList) {
 
         if (hasRerollButton) {
             const btn = makeRerollButton(entry.id, alreadyRerolled)
-            btn.css({position: "absolute"})
             rowName.append(btn)
+            // const curMargin = rowName.css("margin-right")
+            // rowName.css("margin-right", `calc(${curMargin} - ${btn.width()}px)`)
         }
 
         addSavageAttacker(rowName, entry);
