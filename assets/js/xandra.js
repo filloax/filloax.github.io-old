@@ -365,7 +365,7 @@ function updateDamageTable(damageDataList) {
         const sum = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue + entry.dmg[current].value, 0);
         const sumFormula = Object.keys(entry.dmg).map(dmgType => entry.dmg[dmgType].formula).join(" + ");
         const sumResults = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue.concat(entry.dmg[current].results), []);
-        row.append(`<td class="tooltip dmg total${(entry.crit && !noCrits) ? " crit" : ""}"
+        row.append(`<td class="tooltip dmg total${(entry.crit) ? " crit" : ""}"
             style="width: ${dmgWidth["total"] + 1}em"
         >
             <em>${sum}</em>
