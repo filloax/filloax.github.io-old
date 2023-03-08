@@ -2,6 +2,7 @@
 {{ include.indent }}  * [Esplorazione: Vermaloc]({{ include.dir | default: "." }}/aree/vermaloc)
 {{ include.indent }}* Personaggi
 {{ include.indent }}  * [PG]({{ include.dir | default: "." }}/pg)
+{{ include.indent }}    * [Webapp PG]({{ include.dir | default: "." }}/pgscripts)
 {{ include.indent }}  * [NPC]({{ include.dir | default: "." }}/npc)
 {{ include.indent }}* [Negozi]({{ include.dir | default: "." }}/negozi)
 {{ include.indent }}* [Regole casalinghe]({{ include.dir | default: "." }}/regole)

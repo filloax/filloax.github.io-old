@@ -18,6 +18,10 @@
     <div class="cell kor"><a href="#kor" class="fill-div"></a></div>
 </div>
 
+### Script vari
+
+Andate a [pgscripts](/xho/pgscripts) per alcune web-app per i personaggi. Tipo il calcolo danni di Xandra, quella roba lì.
+
 ## Xian
 
 ##### Gimmy

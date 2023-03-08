@@ -306,9 +306,9 @@ function updateDamageTable(damageDataList) {
     table.append(thead)
     theadRow.append("<td><strong>Attacco</strong></td>")
 
-    damageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidth[key] + 1}em"></td>`));
+    damageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="max-width: ${dmgWidth[key] + 1}em"></td>`));
     theadRow.append(`<td class="dmg-head total"></td>`)
-    extraDamageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="width: ${dmgWidthExtra[key] + 1}em"></td>`));
+    extraDamageTypes.forEach(key => theadRow.append(`<td class="dmg-head ${key}" style="max-width: ${dmgWidthExtra[key] + 1}em"></td>`));
     theadRow.find(`:nth-child(${damageTypes.length + 3})`).toggleClass("vert-sep") // add vert sep to first extra cell
 
     const tbody = $(document.createElement("tbody"))
@@ -366,7 +366,7 @@ function updateDamageTable(damageDataList) {
         const sumFormula = Object.keys(entry.dmg).map(dmgType => entry.dmg[dmgType].formula).join(" + ");
         const sumResults = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue.concat(entry.dmg[current].results), []);
         row.append(`<td class="tooltip dmg total${(entry.crit) ? " crit" : ""}"
-            style="width: ${dmgWidth["total"] + 1}em"
+            style="max-width: ${dmgWidth["total"] + 1}em"
         >
             <em>${sum}</em>
             <div class="tooltiptext">${sumFormula}<br>${sumResults}</div>
