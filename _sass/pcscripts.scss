@@ -43,6 +43,22 @@ td.dmg-one {
 
 span.reroll-button {
     cursor: pointer;
+    padding-left: 3px;
+    &.reroll-used {
+        cursor: default;
+        i {
+            opacity: 40%;
+        }
+    }
+}
+
+span.savage-button {
+    cursor: pointer;
+    color: darkred;
+    width: 2.5em;
+    display: inline-block;
+    text-align: right;
+    padding-right: 3px;
     &.reroll-used {
         cursor: default;
         i {

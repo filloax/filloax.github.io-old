@@ -13,7 +13,8 @@ const weaponFormulas = {
 }
 
 /** @type {DamageEntry[]} */
-var currentResults = []
+var currentResults = [];
+var savageRerolled = false;
 
 window.onload = function() {
     sel("#rollattacks").on("click", function(e) {
@@ -37,6 +38,8 @@ window.onload = function() {
     });
 
     sel("#rolldamage").on("click", function(e) {
+        savageRerolled = false;
+
         /** @type {Array<DamageEntry>} */
         const results = [];
         const numAttacks = parseInt(sel(".damage #attacknum").val());
@@ -192,7 +195,7 @@ function rollDamage(weapon, critical, bonus) {
                 "value": Math.max(result, 1), 
                 "formula": bonusFormula, 
                 "results": singleRolls,
-                "rerolled": 0,
+                "gwrerolled": 0,
             }
         })
 
@@ -248,7 +251,7 @@ function convertFormulaToCrit(formula) {
  *  value: number, 
  *  formula: string, 
  *  results: number[], 
- *  rerolled: number,
+ *  gwrerolled: number,
  *  isWeaponDamage: boolean,
  * }} SingleDamage
  * @typedef {{
@@ -256,7 +259,9 @@ function convertFormulaToCrit(formula) {
  *  dmg: Object<string, SingleDamage>,
  *  extraDmg: Object<string, SingleDamage>,
  *  crit: boolean,
- * }} DamageEntry
+ *  savageChoiceId: number,
+ *  isSavageReroll: boolean,
+* }} DamageEntry
  */
 
 /**
@@ -318,7 +323,6 @@ function updateDamageTable(damageDataList) {
             rowName.toggleClass("crit")
         }
         row.append(rowName);
-        row.relatedDmgRow = entry;
 
         let hasRerollButton = false;
         let alreadyRerolled = false;
@@ -343,12 +347,11 @@ function updateDamageTable(damageDataList) {
                         el.toggleClass("crit")
                     }
                     el.css("width", (dmgWidth[dtype] + 1) + "em")
-                    el.relatedDmgEntry = dmgEntry
-                    el.relatedDmgRow = entry
+
                     if (rerollCheck) {
-                        hasRerollButton = hasRerollButton || dmgEntry.rerolled > 0 
+                        hasRerollButton = hasRerollButton || dmgEntry.gwrerolled > 0 
                             || dmgEntry.results.some(n => n === 1 || n === 2);
-                        alreadyRerolled = alreadyRerolled || dmgEntry.rerolled > 0;
+                        alreadyRerolled = alreadyRerolled || dmgEntry.gwrerolled > 0;
                     }
                     row.append(el);
                 } else {
@@ -360,7 +363,7 @@ function updateDamageTable(damageDataList) {
         damageTypes.forEach(addDamageColumns(entry.dmg, true, dmgWidth));
 
         const sum = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue + entry.dmg[current].value, 0);
-        const sumFormula = flatmap(Object.keys(entry.dmg), dmgType => entry.dmg[dmgType].formula).join(" + ");
+        const sumFormula = Object.keys(entry.dmg).map(dmgType => entry.dmg[dmgType].formula).join(" + ");
         const sumResults = Object.keys(entry.dmg).reduce((previousValue, current) => previousValue.concat(entry.dmg[current].results), []);
         row.append(`<td class="tooltip dmg total${(entry.crit && !noCrits) ? " crit" : ""}"
             style="width: ${dmgWidth["total"] + 1}em"
@@ -379,6 +382,8 @@ function updateDamageTable(damageDataList) {
             btn.css({position: "absolute"})
             rowName.append(btn)
         }
+
+        addSavageAttacker(rowName, entry);
     });
 
     // Do total
@@ -409,33 +414,118 @@ function updateDamageTable(damageDataList) {
     styleDmgHeaders();
 }
 
+function reroll(damageId) {
+    const targ = currentResults.find(entry => entry.id == damageId);
+    console.log("Rerolling", damageId)
+    Object.keys(targ.dmg).forEach((dmgType) => {
+        const dmg = targ.dmg[dmgType]
+        if (dmg.isWeaponDamage) {
+            const formula = dmg.formula
+            const [newResult, singleDiceRolls] = roll(formula, true)
+            dmg.gwrerolled++
+            dmg.value = newResult
+            dmg.results = singleDiceRolls
+        }
+    });
+
+    updateDamageTable(currentResults);
+}
+
 function makeRerollButton(id, alreadyUsed) {
     const el = $(document.createElement("span"))
     el.addClass("reroll-button")
     el.append(`<i class="fa-solid fa-arrow-rotate-left"></i>`)
 
     if (!alreadyUsed) {
-        el.on("click", ev => {
-            const targ = currentResults.find(entry => entry.id == id);
-            console.log("Rerolling", id)
-            Object.keys(targ.dmg).forEach((dmgType) => {
-                const dmg = targ.dmg[dmgType]
-                if (dmg.isWeaponDamage) {
-                    const formula = dmg.formula
-                    const [newResult, singleDiceRolls] = roll(formula, true)
-                    dmg.rerolled++
-                    dmg.value = newResult
-                    dmg.results = singleDiceRolls
-                }
-            });
-
-            updateDamageTable(currentResults);
-        });
+        el.on("click", ev => reroll(id));
     } else {
         el.addClass("reroll-used")
     }
 
     return el
+}
+
+function savageRerollChoice(damageId) {
+    const targIndex = currentResults.findIndex(entry => entry.id == damageId);
+    const targ = currentResults[targIndex]
+    console.log("Savage rerolling", damageId)
+
+    const numChoices = 2;
+
+    const maxRerollId = currentResults.map(e => e.savageChoiceId).filter(e => e).find((val, index, arr) => arr.every(val2 => val >= val2))
+    const rerollId = maxRerollId ? maxRerollId + 1 : 0;
+    targ.savageChoiceId = rerollId;
+
+    for (let i = 1; i < numChoices; i++) {
+        /** @type {DamageEntry} */
+        const newEntry = deepcopy(targ)
+        newEntry.id = `${damageId} (${i + 1})`
+
+        newEntry.savageChoiceId = rerollId;
+        newEntry.isSavageReroll = true;
+
+        Object.keys(newEntry.dmg).forEach((dmgType) => {
+            const dmg = newEntry.dmg[dmgType]
+            if (dmg.isWeaponDamage) {
+                const formula = dmg.formula
+                const [newResult, singleDiceRolls] = roll(formula, true)
+                dmg.value = newResult
+                dmg.results = singleDiceRolls
+            }
+        });
+
+        currentResults.splice(targIndex + i, 0, newEntry);
+    }
+
+    savageRerolled = true;
+
+    updateDamageTable(currentResults);
+}
+
+function savageChoose(damageId) {
+    const targIndex = currentResults.findIndex(entry => entry.id == damageId);
+    const targ = currentResults[targIndex];
+    const others = currentResults.filter(entry => targ.id !== entry.id && targ.savageChoiceId === entry.savageChoiceId)
+
+    targ.savageChoiceId = undefined;
+    targ.isSavageReroll = undefined;
+
+    others.forEach(other => {
+        const otherIndex = currentResults.findIndex(e => e.id === other.id);
+        currentResults.splice(otherIndex, 1);
+    });
+    updateDamageTable(currentResults);
+}
+
+/**
+ * @param {JQuery} element 
+ * @param {DamageEntry} dmgEntry
+ */
+function addSavageAttacker(element, dmgEntry) {
+    const button = $(`<span class="savage-button">
+        </span>`)
+    element.prepend(button)
+
+    if (dmgEntry.savageChoiceId !== undefined) {
+        if (dmgEntry.isSavageReroll) {
+            button.append(`<i class="fa-solid fa-arrow-turn-up fa-rotate-90"></i>`)
+        } else {
+            button.append(`<i class="fa-solid fa-arrow-right-long"></i>`)
+        }
+
+        button.on("click", ev => savageChoose(dmgEntry.id))
+    } else {
+        button.append(`<i class="ra ra-axe-swing"></i>
+                       <i class="fa-solid fa-arrow-rotate-left"></i>`)
+
+        if (!savageRerolled) {
+            button.on("click", ev => savageRerollChoice(dmgEntry.id));
+        } else {
+            button.addClass("reroll-used");
+        }
+    }
+
+    return button;
 }
 
 // Generic functions
@@ -504,14 +594,6 @@ function map(obj, fun) {
     return out;
 }
 
-function flatmap(array, fun) {
-    const out = [];
-    array.forEach(function(val, index) {
-        out.push(fun(val, index, array));
-    });
-    return out;
-}
-
 function occurrences(array, val) {
     if (val) {
         return array.reduce(function (acc, curr) {
@@ -522,4 +604,8 @@ function occurrences(array, val) {
             return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc;
         }, {});
     }
+}
+
+function deepcopy(obj) {
+    return JSON.parse(JSON.stringify(obj))
 }
