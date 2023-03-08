@@ -23,13 +23,14 @@ function searchFor(_selector, _subject) {
     }
 }
 
-window.onload = function() {
+addEventListener("load", function() {
     var i;
     var collCnt = document.getElementsByClassName("collapsible-content");
 
     for (i = 0; i < collCnt.length; i++) {
         collCnt[i].style["display"] = "none"
     }
+    console.log("test")
 
     var coll = document.getElementsByClassName("collapsible");
 
@@ -78,4 +79,4 @@ window.onload = function() {
     const targ = document.getElementById(hash);
     if (targ && targ.click)
         targ.click();
-}
+});

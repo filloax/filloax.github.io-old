@@ -16,7 +16,7 @@ const weaponFormulas = {
 var currentResults = [];
 var savageRerolled = false;
 
-window.onload = function() {
+addEventListener("load", function() {
     sel("#rollattacks").on("click", function(e) {
         e.preventDefault();
         let numattacks = sel(".attack #attacknum").val();
@@ -96,7 +96,7 @@ window.onload = function() {
     updateCritCheckboxes();
 
     setupExtraDamageButtons();
-}
+});
 
 /**
  * @typedef {{
