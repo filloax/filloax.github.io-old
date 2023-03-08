@@ -11,3 +11,4 @@ exclude:
   - "package.json"
   - "Gruntfile.coffee"
   - "test_local.bat"
+  - ".github"
