@@ -35,7 +35,7 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-relative-links"
   gem "jekyll-remote-theme"
-  gem "jekyll-sass-converter"
+  # gem "jekyll-sass-converter"
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-swiss"
