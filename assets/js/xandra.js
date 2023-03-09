@@ -45,10 +45,13 @@ addEventListener("load", function() {
         const numAttacks = parseInt(sel(".damage #attacknum").val());
         const dmgBonus = parseInt(sel(".damage #dmgbonus").val());
         const extraFormula = getExtraDamageFormula();
+        const useHalfOrcCrits = isUsingHalforcCrits();
 
         for (let i = 0; i < numAttacks; i++  ) {
             const crit = sel(`#crit-box-${i}`)?.is(":checked")
-            const [mainDmg, extraDmg, bonusDmg] = rollDamage(DEFAULT_WEAPON, crit, dmgBonus, extraFormula)
+            const [mainDmg, extraDmg, bonusDmg] = rollDamage(DEFAULT_WEAPON, crit, dmgBonus, 
+                {bonusFormula: extraFormula, halfOrcCrit: useHalfOrcCrits},
+                );
             results.push({
                 id: `Attacco ${i+1}`,
                 dmg: mainDmg,
@@ -60,7 +63,9 @@ addEventListener("load", function() {
 
         if (sel(".damage #polebonus").is(":checked")) {
             const crit = sel(".damage #polebonus-crit").is(":checked")
-            const [mainDmg, extraDmg, bonusDmg] = rollDamage("polearm-bonus", crit, dmgBonus, extraFormula);
+            const [mainDmg, extraDmg, bonusDmg] = rollDamage("polearm-bonus", crit, dmgBonus, 
+            {bonusFormula: extraFormula, halfOrcCrit: useHalfOrcCrits},
+            );
             results.push({
                 id: "Attacco bonus",
                 dmg: mainDmg,
@@ -200,7 +205,15 @@ function updateCritCheckboxes() {
 
 const baseWeaponDamageTypes = ["piercing", "slashing", "bludgeoning"];
 
-function rollDamage(weapon, critical, bonus, bonusFormula) {
+/**
+ * 
+ * @param {string} weapon 
+ * @param {boolean} critical 
+ * @param {number} bonus
+ * @param {{bonusFormula: string, halfOrcCrit: boolean}} options 
+ * @returns 
+ */
+function rollDamage(weapon, critical, bonus, options = {}) {
     if (weapon in weaponFormulas) {
         const formulas = weaponFormulas[weapon]
 
@@ -209,12 +222,17 @@ function rollDamage(weapon, critical, bonus, bonusFormula) {
         const dmgOutput = map(formulas, function(formula, dtype) {
             const isExtra = dtype.startsWith("extra-")
 
+            let extraCritDice = 0;
+
             if (!firstValidBonusType && !isExtra && baseWeaponDamageTypes.indexOf(dtype) >= 0) {
                 firstValidBonusType = dtype;
+                if (options.halfOrcCrit) {
+                    extraCritDice++;
+                }
             }
 
             const formulaWithCrit = (critical && !isExtra) 
-                ? convertFormulaToCrit(formula)
+                ? convertFormulaToCrit(formula, extraCritDice)
                 : formula;
             const formulaWithBonus = formulaWithCrit.replace("BONUS", bonus)
             const [result, singleRolls] = roll(formulaWithBonus, true)
@@ -237,10 +255,10 @@ function rollDamage(weapon, critical, bonus, bonusFormula) {
             }
         })
 
-        if (bonusFormula && bonusFormula !== "") {
+        if (options.bonusFormula && options.bonusFormula !== "") {
             const bonusFormulaWithCrit = critical
-                ? convertFormulaToCrit(bonusFormula)
-                : bonusFormula;
+                ? convertFormulaToCrit(options.bonusFormula)
+                : options.bonusFormula;
             const bonusFormulaWithBonus = bonusFormulaWithCrit.replace("BONUS", bonus)
 
             const [result, singleRolls] = roll(bonusFormulaWithBonus, true)
@@ -265,7 +283,7 @@ function rollDamage(weapon, critical, bonus, bonusFormula) {
  * @param {string} formula 
  * @returns 
  */
-function convertFormulaToCrit(formula) {
+function convertFormulaToCrit(formula, extraDice = 0) {
     const diceRegex = /([1-9]\d*)?d/g;
     let match;
     const indexPairs = [];
@@ -280,7 +298,7 @@ function convertFormulaToCrit(formula) {
         pair = indexPairs.pop();
         const numStr = formulaArr.slice(pair[0], pair[1]);
         const num = (numStr === "d") ? 1 : parseInt(numStr.slice(0, -1))
-        const newNumStr = `${(num * 2)}d`
+        const newNumStr = `${(num * 2 + extraDice)}d`
         formulaArr.splice(pair[0], pair[1] - pair[0], newNumStr)
         indexPairs.forEach(pair => [
             pair[0] + newNumStr.length - numStr.length,
@@ -451,9 +469,9 @@ function updateDamageTable(damageDataList) {
         const dmgToSum = [entry.dmg, entry.bonusDmg];   
         const sum = dmgToSum.map(v => Object.keys(v).reduce((previousValue, current) => previousValue + v[current].value, 0))
             .reduce((a, b) => a + b);
-        const sumFormula = dmgToSum.map(v => Object.keys(entry.dmg).map(dmgType => entry.dmg[dmgType].formula).join(" + "))
+        const sumFormula = dmgToSum.map(v => Object.keys(v).map(dmgType => v[dmgType].formula).join(" + "))
             .join(" + ");
-        const sumResults = dmgToSum.map(v => Object.keys(entry.dmg).reduce((previousValue, current) => previousValue.concat(entry.dmg[current].results), []))
+        const sumResults = dmgToSum.map(v => Object.keys(v).reduce((previousValue, current) => previousValue.concat(v[current].results), []))
             .reduce((a, b) => a.concat(b));
         row.append(`<td class="tooltip dmg total${(entry.crit) ? " crit" : ""}"
             style="max-width: ${dmgWidth["total"] + 1}em"
@@ -625,6 +643,14 @@ function addSavageAttacker(element, dmgEntry) {
     }
 
     return button;
+}
+
+//#endregion
+
+//#region HalforcSavage
+
+function isUsingHalforcCrits() {
+    return sel("#orc-crits").is(":checked")
 }
 
 //#endregion
