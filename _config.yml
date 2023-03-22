@@ -10,3 +10,6 @@ exclude:
   - "Gruntfile.coffee"
   - "test_local.bat"
   - ".github"
+collections:
+  - star
+date_locale: it

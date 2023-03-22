@@ -6,7 +6,7 @@
 
 ##### La compagnia del Pomello
 
-{% include_relative includes/campaign_index.md %}
+{% include star/campaign_index.md %}
 
 ## Timeline
 

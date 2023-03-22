@@ -76,3 +76,5 @@ Alcuni contadini di Verdebosco, salvati dal gruppo mentre erano in visita a Eltu
 **Meepo.** Coboldo nella Cittadella senza Sole. Ha ripreso il suo onore recuperando col party il drago della tribù.
 
 **Erky Timbers.** Accolito di Torm, nativo di Elturel. Salvato dal party dalla Cittadella Senza Sole.
+
+**Estellesn Sohl.** Maga in lutto, ha perso tutto dopo il caos nella città di Elturel. Ha ucciso diavoli a destra e a manca.

@@ -54,6 +54,7 @@ group :jekyll_plugins do
   gem "jekyll-theme-time-machine"
   gem "jekyll-titles-from-headings"
   gem "jemoji"
+  gem 'jekyll-date-localization'
 end
 
 gem "kramdown-parser-gfm"
