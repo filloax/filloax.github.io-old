@@ -1,0 +1,95 @@
+AR:
+  name: armatura
+
+WI:
+  name: oggetto meraviglioso
+
+A:
+  name: Ammunition
+
+AF:
+  name: Ammunition (futuristic)
+
+AT:
+  name: Artisan Tool
+
+EM:
+  name: Eldritch Machine
+
+EXP:
+  name: Explosive
+
+G:
+  name: Adventuring Gear
+
+GS:
+  name: Gaming Set
+
+HA:
+  name: Heavy Armor
+
+INS:
+  name: Instrument
+
+LA:
+  name: Light Armor
+
+M:
+  name: Melee Weapon
+
+MA:
+  name: Medium Armor
+
+MNT:
+  name: Mount
+
+GV:
+  name: Generic Variant
+
+P:
+  name: Potion
+
+R:
+  name: Ranged Weapon
+
+RD:
+  name: Rod
+
+RG:
+  name: Ring
+
+S:
+  name: Shield
+
+SC:
+  name: Scroll
+
+SCF:
+  name: Spellcasting Focus
+
+OTH:
+  name: Other
+
+T:
+  name: Tool
+
+TAH:
+  name: Tack and Harness
+
+TG:
+  name: Trade Good
+
+"$":
+  name: Treasure
+
+VEH:
+  name: Vehicle (land)
+
+SHP:
+  name: Vehicle (water)
+
+AIR:
+  name: Vehicle (air)
+
+WD:
+  name: Wand

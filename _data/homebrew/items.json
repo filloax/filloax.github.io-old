@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Magehunter Armor",
+        "entries": [
+            "(Variante di un armatura normale qualunque, oggetto è di un tipo specifico)",
+            "This magical armor has 3 charges. When you are subjected to a magical effect that allows you to make a saving throw to take only half damage, you can expend a charge to instead take no damage on a success and only half as much damage on a failure. The armor regains all expended charges at dusk.",
+            "Additionally, while you are attuned to this armor and wearing it, acid, cold, fire, lightning, and thunder damage you take from magical sources, as well as magical healing you receive, is reduced by 3. When you take damage from a magical melee weapon, the attacker must roll a {@dice d20}. On a 10 or lower, the weapon's magic is suppressed for 1 hour, causing it to temporarily become mundane."
+        ],
+        "source": "VSS",
+        "reqAttune": true,
+        "rarity": 4,
+        "type": "AR"
+    },
+    {
+        "name": "Smoking pipe of Dragon's Breath",
+        "source": "VSS",
+        "rarity": 3,
+        "reqAttune": true,
+        "entries": [
+            "This pipe has 2 charges and regains 1 expended charge daily at dawn. If the pipe is full of one ounce of smoking herb, you can use an action and expend 1 charge to inhale deeply from it and exhale dragon's flame. Each creature in a 30-foot-radius cone must make a DC 15 Dexterity saving throw or take {@damage 8d6} fire damage, or half as much on a successful one."
+        ],
+        "type": "WI"
+    },
+    {
+        "name": "Exploding Armor",
+        "entries": [
+            "(Variante di un armatura normale qualunque, oggetto è di un tipo specifico)",
+            "While wearing this armor, you can use your action to cast {@spell fireball} (save DC 15), centered on yourself. You take no damage from this spell. The armor can't be used this way again until the next dawn."
+        ],
+        "source": "VSS",
+        "rarity": 3,
+        "type": "AR"
+    },
+    {
+        "name": "Boots of the Trail",
+        "source": "VSS",
+        "rarity": 2,
+        "entries": [
+            "Until they are worn, the boots of the trail appear to be in grave disrepair. When you lace them up, the illusion fades: they are immaculate hiking boots with gold clasps and silk laces. While wearing these boots, you leave behind no tracks or other traces of your passage, and can't be tracked except by magical means. You can march for twice as long before suffering levels of {@condition exhaustion}.",
+            "Additionally, you can remove the boots and speak a command word as an action to cause the boots to walk alone, leaving a false trail in any direction for up to one mile. The boots then teleport back to your feet."
+        ],
+        "type": "WI"
+    },
+    {
+        "name": "Leaden Manacles",
+        "source": "VSS",
+        "rarity": 2,
+        "entries": [
+            "These manacles behave the same as normal manacles with the following addition: a creature that attempts to cast a spell while wearing the manacles must make a DC 12 ability check using its spellcasting ability. On a failure, the spell fails and has no effect; the spell slot is expended, the action is wasted, and the manacled creature takes {@damage 1d6} fire damage per level of the spell slot expended. On a success, the creature takes half as much damage and the spell is cast successfully."
+        ],
+        "type": "WI"
+    }
+]

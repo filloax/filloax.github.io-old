@@ -55,6 +55,7 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jemoji"
   gem 'jekyll-date-localization'
+  gem 'jekyll-regex-replace'
 end
 
 gem "kramdown-parser-gfm"
