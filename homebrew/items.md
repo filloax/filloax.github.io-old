@@ -20,18 +20,41 @@
 }
 </style>
 
-{{ '1-a-test' | regex_replace: '^([0-9]*)-a', '\1' }}
-
 ## Oggetti homebrew
+
+<table>
+<thead>
+    <tr>
+        <td>Oggetto</td>
+        <td>Rarità</td>
+    </tr>
+</thead>
+<tbody>
 
 <!-- Rarity first, name second -->
 {% assign sorted_items = site.data.homebrew.items | sort: "name", "last" %}
 {% for rarity in site.data.homebrew.rarity %}
 {% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == forloop.index0" %}
-
 {% for item in sorted_rarity_items %}
 
-### {{ item.name }}
+<tr>
+    <td><a href="#{{ item.name | slugify }}">{{ item.name }}</a></td>
+    {% assign it_rarity = site.data.homebrew.rarity[item.rarity] %}
+    <td>{{ it_rarity }}</td>
+</tr>
+
+{% endfor %}
+{% endfor %}
+
+</tbody>
+</table>
+
+<!-- Rarity first, name second -->
+{% for rarity in site.data.homebrew.rarity %}
+{% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == forloop.index0" %}
+{% for item in sorted_rarity_items %}
+
+<h3 id="{{ item.name | slugify }}">{{ item.name }}</h3>
 
 {% assign src_data = site.data.homebrew.sources[item.source]  %}
 {% assign it_type = site.data.homebrew.item_types[item.type].name  %}
