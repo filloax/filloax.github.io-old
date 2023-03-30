@@ -21,7 +21,7 @@
 
 <tr>
     <td><a href="#{{ item.name | slugify }}">{{ item.name }}</a></td>
-    {% assign it_rarity = site.data.homebrew.rarity[item.rarity] %}
+    {% assign it_rarity = site.data.homebrew.strings.rarity[item.rarity] %}
     <td>{{ it_rarity }}</td>
 </tr>
 
