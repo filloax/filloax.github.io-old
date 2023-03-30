@@ -12,4 +12,5 @@ exclude:
   - ".github"
 collections:
   - star
+  - xho
 date_locale: it

@@ -5,7 +5,6 @@
 
 Riassunti delle sessioni.
 
-
 {% assign recap_pages = site.star | where_exp: "page", "page.path contains 'sessions'" %}
 
 {% for page in recap_pages %}
