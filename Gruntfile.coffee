@@ -72,13 +72,18 @@ module.exports = (grunt) ->
           host: "0.0.0.0"
 
 
-
   grunt.registerTask "build", [
     "copy"
     "exec:jekyll"
   ]
 
   grunt.registerTask "serve", [
+    "build"
+    "jekyll:serve"
+    "watch"
+  ]
+
+  grunt.registerTask "servetrace", [
     "build"
     "jekyll:serve"
     "watch"

@@ -1,0 +1,6 @@
+comp_verbal: V
+comp_somatic: S
+comp_material: M
+range_self: auto
+duration_dispel: "Finchè non viene dissolto"
+concentration: concentrazione

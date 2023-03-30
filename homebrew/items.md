@@ -1,24 +1,6 @@
 [Torna a indice](/homebrew/index)
 
-<style>
-.hb-source {
-    font-style: italic;
-    opacity: 90%;
-    font-size: 0.9em;
-}
-.hb-damage {
-    font-weight: bold;
-}
-.hb-dice {
-    font-weight: bold;
-}
-.hb-spell {
-    font-style: italic;
-}
-.hb-condition {
-    font-style: italic;
-}
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/homebrew.css' | relative_url }}">
 
 ## Oggetti homebrew
 
@@ -33,7 +15,7 @@
 
 <!-- Rarity first, name second -->
 {% assign sorted_items = site.data.homebrew.items | sort: "name", "last" %}
-{% for rarity in site.data.homebrew.rarity %}
+{% for rarity in site.data.homebrew.strings.rarity %}
 {% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == forloop.index0" %}
 {% for item in sorted_rarity_items %}
 
@@ -50,15 +32,15 @@
 </table>
 
 <!-- Rarity first, name second -->
-{% for rarity in site.data.homebrew.rarity %}
+{% for rarity in site.data.homebrew.strings.rarity %}
 {% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == forloop.index0" %}
 {% for item in sorted_rarity_items %}
 
 <h3 id="{{ item.name | slugify }}">{{ item.name }}</h3>
 
-{% assign src_data = site.data.homebrew.sources[item.source]  %}
-{% assign it_type = site.data.homebrew.item_types[item.type].name  %}
-{% assign it_rarity = site.data.homebrew.rarity[item.rarity]  %}
+{% assign src_data = site.data.homebrew.strings.sources[item.source]  %}
+{% assign it_type = site.data.homebrew.strings.item_types[item.type].name  %}
+{% assign it_rarity = site.data.homebrew.strings.rarity[item.rarity]  %}
 
 <p class="hb-source">Da {{ src_data.name }}</p>
 

@@ -1,0 +1,27 @@
+miles:
+  singular: miglio
+  plural: miglia
+
+km:
+  singular: chilometro
+  plural: chilometri
+
+ft:
+  singular: piede
+  plural: piedi
+
+mt:
+  singular: metro
+  plural: metri
+
+hour:
+  singular: ora
+  plural: ore
+
+minute:
+  singular: minuto
+  plural: minuti
+
+action:
+  singular: azione
+  plural: azioni
