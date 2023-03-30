@@ -73,5 +73,7 @@
 
 {% endfor %}
 
+*Classe: {{ spell.classes | json_class }}*
+
 {% endfor %}
 {% endfor %}

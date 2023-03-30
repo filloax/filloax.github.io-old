@@ -145,6 +145,25 @@ module Jekyll::CustomFilter
       return input["items"].map { |item| "- #{item}" }.join("\n")
     end
   end
+
+  def json_class(input)
+    class_strings = @context.registers[:site].data["homebrew"]["strings"]["classes"]
+
+    out = []
+
+    if input.key?("fromClassList") then
+      input["fromClassList"].each do |cls|
+        classKey = cls["name"].downcase()
+        if class_strings.key?(classKey) then
+          out.push(class_strings[classKey]["name"])
+        else
+          out.push("\"#{classKey}\"")
+        end
+      end
+    end
+
+    return out.join(", ")
+  end
 end
 
 Liquid::Template.register_filter(Jekyll::CustomFilter)

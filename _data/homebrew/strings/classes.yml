@@ -1,0 +1,11 @@
+druid:
+  name: druido
+
+sorcerer:
+  name: stregone
+
+warlock:
+  name: warlock
+
+wizard:
+  name: mago

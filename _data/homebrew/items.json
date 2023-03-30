@@ -54,7 +54,7 @@
         "name": "Potion of Spell Recovery",
         "source": "tgs1",
         "type": "P",
-        "rarity": "rare",
+        "rarity": 3,
         "entries": [
             "When you drink this potion, you recover expended spells slots with a combined level that is equal to or less than {@dice 1d3 + 3}, and none of the slots can be 6th level or higher."
         ],
@@ -63,7 +63,7 @@
     {
         "name": "Replica Clay",
         "source": "VSS",
-        "rarity": "rare",
+        "rarity": 3,
         "type": "WI",
         "entries": [
             "When you touch this lump of clay to an object that can fit within a 5-foot cube, the clay shifts and molds into an exact replica with the same color and texture. The replica even mimics visual magical elements, such as glowing runes. Touching the replica reveals it to be made of clay, as it yields under any significant force, but it is impossible to distinguish with a visual inspection. Once the clay is shaped into a replica, it becomes nonmagical."
@@ -73,7 +73,7 @@
         "name": "Arrow of Explosions",
         "source": "VSS",
         "type": "A",
-        "rarity": "very rare",
+        "rarity": 4,
         "entries": [
             "When this arrow strikes a solid surface, be it a creature, object, wall, or floor, it explodes with a fiery blast. Each creature within 20 feet of the point of impact must make a DC 17 Dexterity saving throw. A creature takes {@damage 8d6} fire damage on a failed save, or half as much on a successful one. The arrow is destroyed in the blast."
         ]
