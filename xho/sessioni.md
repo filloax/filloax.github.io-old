@@ -19,8 +19,9 @@ Riassunti delle sessioni.
 {% assign title_num_part = page.title | split: " - " | first %}
 {% assign title_title_part = page.title | split: " - " | last %}
 
+<span id="{{title_num_part | slugify}}"><!-- Link rapido a sessione --></span>
 <button type="button" class="collapsible coll-primary" id="{{page.title | slugify}}">{{title_num_part}} - <span class="recap-title">{{title_title_part}}</span></button>
-<div class="collapsible-content" markdown="1">
+<div class="collapsible-content hidden" markdown="1">
 
 ##### {{page.date | localize: '%d %b %Y'}}
 

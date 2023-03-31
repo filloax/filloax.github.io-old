@@ -31,11 +31,14 @@ Una squadra di nove mercenari, dotata di armamenti tecno-arcani avanzati costrui
 - Occhio: una mezzelfa con un cappello a tesa larga, e dall'aspetto "polinesiano", in termini reali. Estremamente rude.
 - Ambasciatore: un elfo estremamente furtivo, anche grazie a dei gadget realizzati da Testa.
 
-### L'Orsogufo
+### Brigata Darrington
 
-[The Owlbear su Critical Role Wiki](https://criticalrole.fandom.com/wiki/The_Owlbear)
+Una compagna di avventurieri "non profit", guidata dal temerario e fanfarone Sir Taryon Darrington.
 
-TODO
+- [L'Orsogufo](https://criticalrole.fandom.com/wiki/The_Owlbear): combattente notturno, Batman ma orsogufo, barba-ladro.
+- [Buddy](https://criticalrole.fandom.com/wiki/Buddy): ogre con enormi occhiali, porta Macaroni su portantina
+- [Macaroni Samsonite](https://criticalrole.fandom.com/wiki/Macaroni_Samsonite): halfling chierico selvaggio
+- Altri non conosciuti
 
 ### Minori
 

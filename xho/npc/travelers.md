@@ -49,18 +49,57 @@ Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre
 
 *Goblin M, druido stravagante*
 
+*Ex-PG (Fede)*
+
 Abitante del villaggio semovente di [Urzin](/xho/luoghi#urzin) nella Palude di Velofranto. Riesce in qualche modo a navigare perfettamente nella palude leccando e mangiando piante, e lo fa per cercare funghi. Ama fare amicizia con gli animali. Decisamente poco schizzinoso con il cibo. Un individuo quantomento particolare.
 
-### Nadeem Saade
-
-TODO
+<br>
+<br>
+<br>
 
 ### Hwyn Atrith
 
-TODO
+<div style="width: 25%; background-image: url('https://i.imgur.com/suFiWgL.jpg'); background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/suFiWgL.jpg" class="fill-div"></a></div>
+
+*Mezzelfa F, nobile avventuriera*
+
+*Ex-PG (Fede)*
+
+Giovane nobildonna di Gwardan, Costa delle Meraviglie. Sua madre è Vasan Atrith, marchese della città, e la voleva spingere a un matrimonio combinato per ragioni politiche, cosa che ha portato Hwyn alla fuga e a diversi mesi di avventura, con il gruppo di avventurieri del Vento Ardente. 
+
+Questi mesi si sono conclusi con gli eventi di 7 anni fa a Port Damali, dove un entità non meglio definita ha cercato di portare la "Sublimazione" cosiddetta del mondo, da quel che lei riferisce, e legati all'unione di echi di altri universi in questo di cui tanto si parla nell'ultimo decennio, e che ha reso rosso temporaneamente il cielo in tutto il mondo oltre a creare le Nebbie del Lutto.
+
+Warlock che ha un patto con la sua arma, che contiene un ex-maggiordomo antico della famiglia, Willikins, legato alla Regina dei Corvi.
+
+Attualmente sposata con Nadeem Saade. Carnagione scura, capelli neri, vestita bene e vestiti scuri, vino.
+
+### Nadeem Saade
+
+<div style="width: 25%; background-image: url('https://i.imgur.com/L66tWUU.png'); background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/L66tWUU.png" class="fill-div"></a></div>
+
+*Umano M, guerriero terrestre*
+
+Marito di Hwyn e anche guardia del corpo. Guerriero ma anche amante di libri e studioso della magia, specializzato in magie terrestri ma non solo. Molto educato.
+
+Carnagione poco scura (discendente di immigrati Marquesiani), vestiti chiari.
+
+<br>
+<br>
+<br>
+<br>
 
 ### Caduceus Clay
 
+<div style="width: 25%; background-image: url('https://i.imgur.com/UeRIYZM.png'); background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/UeRIYZM.png" class="fill-div"></a></div>
+
 [Caduceus Clay su Critical Role Wiki](https://criticalrole.fandom.com/wiki/Caduceus_Clay)
 
-TODO
+*Firbolg M, custode di cimitero*
+
+Un chierico di Melora, la Selvamadre, e ex-membro del gruppo di avventurieri Mighty Nein. Ha sempre del tè da offrire, che dice di crescere sopra alle tombe del cimitero a cui fa da guardiano con la sua numerosa famiglia. Molto attento all'ordine naturale, e estremamente educato ma diretto.
+
+Alto (firbolg), capelli rosa, armatura di chitina e metallo, con elementi muschiosi e fungini.
+
+<br>
+<br>
+<br>

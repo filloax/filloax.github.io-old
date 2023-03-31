@@ -149,3 +149,11 @@
 	* Arrivo a accampamento alla base dei Picchi Cinerei
 * 26/06/843
 	* Assalto al Verstglade
+	* Inizio [Sessione 26](/xho/sessioni#sessione-26)
+	* Scontro con Hec'mal
+	* Ingresso per la prima volta nei laboratori antichi di Vecna
+* 27/06/843
+	* Distruzione di Hec'mal
+	* Inizio trasporto bottino, e gestioni finali varie
+* 9/07/843, **9 Sydenstar**
+	* Ritorno ad Asarius e teletrasporto alla gilda

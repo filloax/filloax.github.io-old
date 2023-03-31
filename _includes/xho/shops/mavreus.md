@@ -23,7 +23,7 @@ _Artefice tiefling decisamente impulsivo_
 
 <h4 class="collapsible coll-blank">Informazioni</h4>
 
-<div class="collapsible-content bordered" markdown="1">
+<div class="collapsible-content bordered hidden" markdown="1">
 
 Può costruire diversi tipi di oggetti magici e affini. Ricette e prezzi per gli oggetti di questo tipo stanno sotto, in ordine, alle sezioni di
 

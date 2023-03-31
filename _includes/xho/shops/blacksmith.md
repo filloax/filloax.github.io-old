@@ -19,7 +19,7 @@ Lavoratore della gilda: offre sconto o extra a membri della gilda.
 
 <h4 class="collapsible coll-blank">Informazioni</h4>
 
-<div class="collapsible-content bordered" markdown="1">
+<div class="collapsible-content bordered hidden" markdown="1">
 
 Ricette e prezzi da fabbro a **pg. 43** del [PDF gratuito](pdf/crafting_free_version_reddit.pdf), o in alternativa pagina 219 sul manuale completo.
 
@@ -88,7 +88,7 @@ Esempi di materiali speciali sono il ferronero, che da vantaggio all'ombra, o lo
 
 <h4 class="collapsible coll-blank">Altri oggetti</h4>
 
-<div class="collapsible-content bordered" markdown="1">
+<div class="collapsible-content bordered hidden" markdown="1">
 
 Oggetti trovabili normalmente da un fabbro:
 

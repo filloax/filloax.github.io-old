@@ -23,7 +23,7 @@ Gli oggetti sono presenti o sul pdf del crafting gratuito linkato sopra, oppure 
 
 <h3 class="collapsible coll-blank">Negozianti costruttori</h3>
 
-<div class="collapsible-content bordered" markdown="1">
+<div class="collapsible-content bordered hidden" markdown="1">
 
 Alcuni negozianti sono in grado di costruire oggetti usando il sistema spiegato a [regole/costruzione](regole.md#costruzione).
 

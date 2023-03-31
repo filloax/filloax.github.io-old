@@ -25,24 +25,18 @@ function searchFor(_selector, _subject) {
 
 addEventListener("load", function() {
     var i;
-    var collCnt = document.getElementsByClassName("collapsible-content");
-
-    for (i = 0; i < collCnt.length; i++) {
-        collCnt[i].style["display"] = "none"
-    }
-    console.log("test")
-
     var coll = document.getElementsByClassName("collapsible");
 
     for (i = 0; i < coll.length; i++) {
         coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
+            /** @type {JQuery} */
             let content = nextInDOM(".collapsible-content", $(this))
             while (content) {
-                if (content.css("display") != "none") {
-                    content.css("display", "none");
+                if (content.hasClass("hidden")) {
+                    content.removeClass("hidden");
                 } else {
-                    content.css("display", "");
+                    content.addClass("hidden");
                 }
                 content = content.next()
                 if (!content.hasClass("collapsible-content")) {
@@ -75,8 +69,13 @@ addEventListener("load", function() {
     }
 
     // Apertura da altra pagina
-    var hash = window.location.hash.substr(1);
+    var hash = window.location.hash.substring(1);
     const targ = document.getElementById(hash);
-    if (targ && targ.click)
+    if (targ && targ.tagName === "BUTTON") {
         targ.click();
+        console.log("Clicked", targ, "from", hash)
+    } else if (targ && targ.nextElementSibling && targ.nextElementSibling.tagName === "BUTTON") {
+        targ.nextElementSibling.click();
+        console.log("Clicked", targ.nextElementSibling, "from", hash)
+    }
 });

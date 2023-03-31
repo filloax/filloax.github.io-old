@@ -74,7 +74,7 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
         <td></td><td></td><td></td><td></td>
     </tr>
     {% for row in sabSold %}
-        <tr class="collapsible-content">
+        <tr class="collapsible-content hidden">
             <td>
             {% if row["new"] %}<span class="new"></span>{% endif %}
             {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
