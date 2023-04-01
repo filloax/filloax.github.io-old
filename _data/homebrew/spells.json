@@ -41,6 +41,10 @@
                 {
                     "name": "Wizard",
                     "source": "PHB"
+                },
+                {
+                    "name": "Necromancer",
+                    "source": "VSS"
                 }
             ]
         }
