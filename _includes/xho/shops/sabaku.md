@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="{{ '/assets/css/sabaku.css' | relative_url }}">
+<script src="/assets/js/sabaku.js"></script>
+
 ## Il Grifone del Deserto
 
 _Studioso e mercante di oggetti magici_
@@ -14,7 +17,6 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
 
 {% 
     assign sabMain = site.data.shops.xho.sabaku 
-    | where_exp: "row", "row.rarity != 'comune'" 
     | where_exp: "row", "row.sold != true" 
 %}
 {% 
@@ -26,55 +28,53 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
     assign sabSold = site.data.shops.xho.sabaku 
     | where: "sold", "true"
 %}
+{%
+    assign rarities = site.data.shops.xho.sabaku
+    | map: "rarity"
+    | uniq | compact
+%}
 
-<table>
+<ul>
+{% for rarity in rarities %}
+<li>{{rarity}}</li>
+{% endfor %}
+</ul>
+<table class="sab">
     <tr>
         <th>Nome</th>
-        <th>Descrizione</th>
-        <th>Sintonia</th>
-        <th>Prezzo</th>
-        <th>Rarità</th>
+        <th class="sab-itemdesc-header">Descrizione</th>
+        <th style="text-align: center">Sintonia</th>
+        <th class="col-price">Prezzo</th>
+        <!-- <th>Rarità</th> -->
     </tr>
-    {% for row in sabMain %}
-        <tr>
-            <td>
-            {% if row["new"] %}<span class="new"></span>{% endif %}
-            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
-            {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
-            <span markdown="1">{{ row["name"] }}</span>
-            {% if row["link"] %}</a>{% endif %}
-            </td>
-            <td><span markdown="1">_{{ row["desc"] }}_</span></td>
-            <td style="text-align:center">{{ row["attunement"] }}</td>
-            <td style="text-align:center">{{ row["price"] }}</td>
-            <td style="text-align:center">{{ row["rarity"] }}</td>
+    {% for rarity in rarities %}
+        {% assign matching = sabMain | where_exp: "item","item.rarity == rarity" %}
+        <tr class="tablesep">
+            <td><strong>{{rarity | capitalize}}</strong></td>
+            <td class="sab-itemdesc-header"></td><td></td><td></td><td></td>
         </tr>
-    {% endfor %}
-    <tr class="tablesep">
-        <td><strong>Comuni</strong></td>
-        <td></td><td></td><td></td><td></td>
-    </tr>
-    {% for row in sabCommon %}
-        <tr>
-            <td>
-            {% if row["new"] %}<span class="new"></span>{% endif %}
-            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
-            {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
-            <span markdown="1">{{ row["name"] }}</span>
-            {% if row["link"] %}</a>{% endif %}
-            </td>
-            <td><span markdown="1">_{{ row["desc"] }}_</span></td>
-            <td style="text-align:center">{{ row["attunement"] }}</td>
-            <td style="text-align:center">{{ row["price"] }}</td>
-            <td style="text-align:center">{{ row["rarity"] }}</td>
-        </tr>
+        {% for row in matching %}
+            <tr class="sab-item sab-hidden">
+                <td>
+                    {% if row["new"] %}<span class="new"></span>{% endif %}
+                    {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
+                    {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
+                    <span markdown="1">{{ row["name"] }}</span>
+                    {% if row["link"] %}</a>{% endif %}
+                </td>
+                <td class="sab-itemdesc"><div>{{ row["desc"] | replace: "||","<br>" | markdownify }}</div></td>
+                <td style="text-align:center">{{ row["attunement"] }}</td>
+                <td class="col-price">{{ row["price"] }}</td>
+                <!-- <td style="text-align:center">{{ row["rarity"] }}</td> -->
+            </tr>
+        {% endfor %}
     {% endfor %}
     <tr class="tablesep collapsible coll-blank">
         <td><strong>Venduti</strong></td>
-        <td></td><td></td><td></td><td></td>
+        <td class="sab-itemdesc-header"></td><td></td><td></td><td></td>
     </tr>
     {% for row in sabSold %}
-        <tr class="collapsible-content hidden">
+        <tr class="collapsible-content hidden sab-item sab-hidden">
             <td>
             {% if row["new"] %}<span class="new"></span>{% endif %}
             {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
@@ -82,10 +82,11 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
             <span markdown="1">~~{{ row["name"] }}~~</span>
             {% if row["link"] %}</a>{% endif %}
             </td>
-            <td><span markdown="1">_{{ row["desc"] }}_</span></td>
+            <td class="sab-itemdesc"><div>{{ row["desc"] | replace: "||","<br>" | markdownify }}</div></td>
             <td style="text-align:center">{{ row["attunement"] }}</td>
             <td style="text-align:center"><del>{{ row["price"] }}</del></td>
-            <td style="text-align:center">{{ row["rarity"] }}</td>
+            <!-- <td style="text-align:center">{{ row["rarity"] }}</td> -->
         </tr>
     {% endfor %}
+
 </table>

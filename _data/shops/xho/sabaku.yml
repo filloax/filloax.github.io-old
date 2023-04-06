@@ -3,14 +3,15 @@
   price: 5000
   rarity: leggendario
   new: true
-  desc: Arborea, il piano esterno del Caos e del Bene. Natura incontaminata, e si dice origine degli elfi e dell'Arcicuore. Questa mela speciale, cresciuta in quel luogo, può guarire da grandi mali, e prevenire la morte. Proprietà che persiste se inclusa in una pozione.
+  desc: Arborea è il piano esterno del Caos e del Bene. Natura incontaminata, e si dice origine degli elfi e dominio dell'Arcicuore.||Questa mela speciale, cresciuta in quel luogo, può guarire da grandi mali, e prevenire la morte. Proprietà che persiste se inclusa in una pozione.
   link: http://filloax.github.io/homebrew/items#apple-of-arborea
 - name: Armatura dell'Anima Valorosa
   price: 100000
   rarity: leggendario
   link: https://criticalrole.fandom.com/wiki/Armor_of_the_Valiant_Soul
   new: true
-  desc: Una delle Vestigia della Divergenza, armatura di giada di scaglie di drago nero e un tempo indossata da J'mon Sa'ord, Anima della Città dei Gioielli, e sovrano eterno di Ank'harel, fiore del deserto di Marquet. Il sovrano si fa raramente vedere, e non indossa più alcuna armatura, gioiello, preferendo vestiti da povero cittadino. La città a cui ha dato ordine sembra comunque in grado di essere l'orgoglio mondiale del commercio e dello sviluppo arcano, nonostante questo.
+  desc: Una delle Vestigia della Divergenza, armatura di giada e di scaglie di drago nero. Un tempo indossata da J'mon Sa'ord, Anima della Città dei Gioielli, e sovrano eterno di Ank'harel, fiore del deserto di Marquet.||Il sovrano si fa raramente vedere, e non indossa più alcuna armatura o gioiello, preferendo vestiti da povero cittadino. La città a cui ha dato ordine sembra comunque in grado di essere l'orgoglio mondiale del commercio e dello sviluppo arcano, nonostante questo.
+  attunement: x
 
 # Molto raro
 - name: Bracciali dell'arco spettrale
@@ -24,7 +25,7 @@
   attunement: x
   price: 8000
   rarity: molto raro
-  desc: "La marea, che tira alcuni e spinge altri, talvolta con estrema forza. Questo anello è intriso di Dunamanzia, la magia di tempo e gravità studiata in queste terre. Non fate quella faccia, ho avuto la possibilità di visitare i Tomi di Marmo: non è un segreto per me."
+  desc: "La marea, che tira alcuni e spinge altri, talvolta con estrema forza.||Questo anello è intriso di Dunamanzia, la magia di tempo e gravità studiata in queste terre. Non fate quella faccia, ho avuto la possibilità di visitare i Tomi di Marmo: non è un segreto per me."
 - name: Armatura completa di Novanite
   link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/gaxbft/the_griffons_saddlebag_novanite_armor_armorany/
   price: 10000
@@ -35,7 +36,7 @@
   price: 9000
   link: http://filloax.github.io/homebrew/items#ring-of-icebergs
   rarity: molto raro
-  desc: "Le fredde terre dell'isola di Eiselcross, sono origine di ogni mistero e meraviglia. Negli ultimi anni, spedizioni nella città di Aeor hanno portato a numerose scoperte di tecnologia dell'Epoca Arcana, ancora segrete ai più a parte rare fughe di notizie. Ma non è solo dalle città perdute che si possono trovare meraviglie: a volte, il mero freddo di quel luogo può essere sfruttato per i propri vantaggi."
+  desc: "Le fredde terre dell'isola di Eiselcross sono origine di ogni mistero e meraviglia. Negli ultimi anni, spedizioni nella città di Aeor hanno portato a numerose scoperte di tecnologia dell'Epoca Arcana, ancora segrete ai più a parte rare fughe di notizie.||Ma non è solo dalle città perdute che si possono trovare meraviglie: a volte, il mero freddo di quel luogo può essere sfruttato per i propri vantaggi."
   new: true
 - name: Bastone dei Crateri
   price: 6500
@@ -45,9 +46,10 @@
   new: true
 - name: Lama del Ki
   price: 15000
+  rarity: molto raro
   attunement: monaco
   link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/oq3mft/the_griffons_saddlebag_ki_blade_weapon_shortsword/
-  desc: "Il ki è il nome dato da alcune scuole all'energia vitale di ogni essere vivente, ma non è un concetto in sè esclusivo di esse. I monaci dotati di enorme forza di volontà lo possono manipolare per compiere manovre incredibili. Ma questa capacità è innata nell'essere vivente e sbloccata dall'allenamento, o viene da qualcosa di più?"
+  desc: "Il ki è il nome dato da alcune scuole all'energia vitale di ogni essere vivente, ma non è un concetto in sè esclusivo di esse.||I monaci dotati di enorme forza di volontà lo possono manipolare per compiere manovre incredibili.||Ma questa capacità è innata nell'essere vivente e sbloccata dall'allenamento, o viene da qualcosa di più?"
   new: true
 
 # Raro
@@ -84,14 +86,16 @@
 - name: Frammento Astrale
   link: http://dnd5e.wikidot.com/wondrous-items:astral-shard
   price: 3500
+  rarity: raro
   attunement: stregone
-  desc: "Il Piano Astrale, dove ogni pensiero è realta, e la realtà è pensiero. La forza di volontà permette di spostarsi in luoghi che qua possiamo solo immaginare. E, in questi tempi dove si dice che le menti vaghino tra le nebbie, chissà se non sia più affollato del solito."
+  desc: "Il Piano Astrale, o Mare Astrale, dove ogni pensiero è realtà, e la realtà è pensiero. La forza di volontà permette di spostarsi in luoghi che qua possiamo solo immaginare.||E, in questi tempi dove si dice che le menti vaghino tra le nebbie, chissà se non sia più affollato del solito."
   new: true
 - name: Diadema Aviario
   link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/b6y5a6/the_griffons_saddlebag_avian_circlet_wondrous_item/
   price: 2000
   desc: "\"Me lo ha detto un uccellino\" è una frase comune, ma è in realtà possibile, con certe capacità. Questo diadema lo rende molto più facile. Solo un avvertimento: non è piacevole scoprire di cosa cantano normalmente gli uccellini."
   new: true
+  rarity: raro
 
 # Non comune
 - name: Balestra leggera +1

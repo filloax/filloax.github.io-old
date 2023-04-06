@@ -1,0 +1,63 @@
+---
+---
+
+table.sab {
+    // table-layout: fixed;
+    width: 100%;
+
+    .col-price {
+        width: 100px;
+        text-align: center;
+    }
+}
+
+.sab-item {
+    cursor: pointer;
+    &:hover {
+        background-color: #3b3b55 !important;
+    }
+}
+
+$desc-base-width: 33%;
+
+.sab-itemdesc-header {
+    text-overflow: ellipsis;
+    overflow: hidden;    
+    width: $desc-base-width;
+    max-width: 0;
+} 
+
+.sab-itemdesc {
+    * {
+        font-style: italic;
+    }
+    emph,i,it { 
+        font-style: normal;
+    }
+}
+
+.sab-item {
+    .sab-itemdesc {
+        width: 50vh;
+        // max-width: 0;
+    }
+    &.sab-hidden {         
+        .sab-itemdesc {
+            width: $desc-base-width;
+            max-width: 0;
+            > div {
+                overflow: hidden;
+                white-space: nowrap;
+                * {
+                    text-overflow: ellipsis;
+                }
+                max-height: 1em;
+            }
+        }
+    }
+
+    p {
+        padding: 0;
+        margin: 0 !important;
+    }
+}
