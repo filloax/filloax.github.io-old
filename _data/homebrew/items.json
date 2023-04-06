@@ -102,5 +102,51 @@
             "Consuming this apple has the effect of {@spell greater restoration} cast upon the person that consumes it. If the creature that consumes it is Good aligned, they gain the benefit of {@spell death ward} until they finish a long rest.",
             "Adding it to a potion makes that potion confer the effects of eating it, but has no alignment restrictions."
         ]
+    },
+    {
+        "name": "Flintlock",
+        "type": "R",
+        "weapon": true,
+        "firearm": true,
+        "age": "renaissance",
+        "weaponCategory": "simple",
+        "rarity": 0,
+        "value": 7500,
+        "weight": 6,
+        "dmg1": "2d6",
+        "dmgType": "P",
+        "property": [
+            "A",
+            "DR",
+            "L",
+            "LD",
+            "MS"
+        ],
+        "range": "30/120",
+        "source": "VSS",
+        "entries": [
+            "Nota: variante di Valda's Spire of Secrets invece che della guida del master, è più originale."
+        ]
+    },
+    {
+        "name": "Twinbow",
+        "type": "R",
+        "weapon": true,
+        "weaponCategory": "exotic",
+        "rarity": 0,
+        "value": 20000,
+        "weight": 4,
+        "bow": true,
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "property": [
+            "A",
+            "H",
+            "TW",
+            "2H"
+        ],
+        "range": "100/400",
+        "source": "VSS",
+        "entries": []
     }
 ]

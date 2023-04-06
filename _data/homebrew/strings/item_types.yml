@@ -35,7 +35,7 @@ LA:
   name: Light Armor
 
 M:
-  name: Melee Weapon
+  name: arma ravvicinata
 
 MA:
   name: Medium Armor
@@ -50,7 +50,7 @@ P:
   name: pozione
 
 R:
-  name: Ranged Weapon
+  name: arma a distanza
 
 RD:
   name: Rod

@@ -1,20 +1,25 @@
 name,link,desc,price,rarity,amount,magicspecific,attunement,new,restocked,special
-Lanterna a lente sporgente,,luce cono 18m fioca 36m,10,comune,5,,,,,
-Lanterna coperta,,luce 9m fioca 18m,5,comune,5,,,,,
+Lanterna a lente sporgente,,luce cono 18m fioca 36m,10,-,5,,,,,
+Lanterna coperta,,luce 9m fioca 18m,5,-,5,,,,,
+Pistola,https://filloax.github.io/homebrew/items#flintlock,"2d6, leggera, ricarica, misfire 1",250,-,1,,,x,,x
+Arco gemello,https://filloax.github.io/homebrew/items#twinbow,"1d8, colpisci due creature adiacenti, exo",200,-,1,,,x,,x
 Ordinario bastone da passeggio,https://dungeon_strugglers.artstation.com/projects/rAnvkm,bastone/balestra,180,comune,1,x,,,,x
 Rampino,/xho/oggetti#rampino,aggancia oggetti o creature,7,comune,7,,,,,
 Rampino migliorato,/xho/oggetti#rampino,^,100,non com.,1,,,,,
+Bardo-in-scatola,https://old.reddit.com/r/UnearthedArcana/comments/aewwlo/the_griffons_saddlebag_bardinabox_wondrous_item/,Riproduce musica,80,comune,2,x,,x,,x
 Armi +1 (qualunque arma),,+1 a TPC e danni,base + 500,non com.,6,,,,,
 Borsa conservante,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/borsa-conservante/,più grande all'interno,1000,non com.,,x,,,,
-Borsa dei trucchi,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/borsa-dei-trucchi/,creature casuali,520,non com.,3,x,,,x,
-Guanti del potere orchesco,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/guanti-del-potere-orchesco/,19 FOR,500,non com.,0,x,x,,,
+Borsa dei trucchi,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/borsa-dei-trucchi/,creature casuali,520,non com.,3,x,,,,
+Guanti del potere orchesco,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/guanti-del-potere-orchesco/,19 FOR,500,non com.,2,x,x,,,
 Stivali elfici,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/stivali-elfici/,vant. furtività suono,470,non com.,1,x,,,,
-Runa dell'Abilità,/xho/oggetti#runa-dellabilità,competenza in abilità e vantaggio 1/giorno,550,non com.,2,x,x,,,x
-Lenti dell'aquila,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/lenti-dellaquila/,,550,non com.,1,x,x,,,
+Runa dell'Abilità,/xho/oggetti#runa-dellabilità,competenza in abilità e vantaggio 1/giorno,500,non com.,2,x,x,,,x
+Lenti dell'aquila,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/lenti-dellaquila/,,500,non com.,1,x,x,,,
 Stivali alati,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/stivali-alati/,,1500,non com.,1,x,x,,,
 Lanciafiamme dell'alchimista,https://old.reddit.com/r/TheGriffonsSaddlebag/comments/udwzsx/the_griffons_saddlebag_alchemists_firethrower/,,1000,raro,1,x,,,,x
 Fuoco dell'alchimista,https://roll20.net/compendium/dnd5e/Alchemist%27s%20Fire#content,,20,comune,9,,,,,
-Mantello della protezione,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/mantello-della-protezione/,,1600,raro,2,x,x,,,
+Mantello della protezione,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/mantello-della-protezione/,,2000,raro,2,x,x,,,
 Scudo +2,,,2000,raro,1,,,,,
+Arpione a vapore,https://old.reddit.com/r/TheGriffonsSaddlebag/comments/l5h0q6/the_griffons_saddlebag_steam_harpoon_weapon_spear/,"+1, e attacco speciale per tirare gente",1600,raro,1,x,,x,,x
+Balestra a fuoco rapido,https://old.reddit.com/r/DnDHomebrew/comments/o0pdhl/rapidfire_heavy_crossbow_weapon_crossbow_heavy/,"+2, attacco bonus extra","6500 ",molto raro,1,x,x,x,,x
 Scudo anti-incantesimi,https://dungeonedraghi.it/compendio/oggetti-magici/armature/scudo-anti-incantesimi/,,2800,molto raro,0,x,x,,,
 Munizioni avanzate,,,varia,---,---,,,,,x

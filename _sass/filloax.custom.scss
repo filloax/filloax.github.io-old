@@ -194,13 +194,13 @@ a.fill-div {
 .new::before {
     content: "▶  ";
     color: #44ff55;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .restocked::before {
     content: "▶  ";
     color: #ff8112;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 @mixin no-indent {
