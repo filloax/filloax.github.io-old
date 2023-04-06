@@ -56,7 +56,7 @@ RD:
   name: Rod
 
 RG:
-  name: Ring
+  name: anello
 
 S:
   name: Shield
@@ -93,3 +93,6 @@ AIR:
 
 WD:
   name: Wand
+
+Comp:
+  name: componente da crafting
