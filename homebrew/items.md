@@ -1,6 +1,6 @@
 [Torna a indice](/homebrew/index)
 
-<script src="/assets/js/items.js"></script>
+<script src="/assets/js/homebrew.js"></script>
 <link rel="stylesheet" href="{{ '/assets/css/homebrew.css' | relative_url }}">
 
 ## Oggetti homebrew
@@ -37,14 +37,14 @@
     <label for="showone">Mostra uno alla volta</label>
 </form>
 
-<div class="itemcard-container">
+<div class="card-container">
 
 <!-- Rarity first, name second -->
 {% for rarity in site.data.homebrew.strings.rarity %}
 {% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == forloop.index0" %}
 {% for item in sorted_rarity_items %}
 
-<div class="itemcard" markdown="1">
+<div class="card" markdown="1">
 
 {% include homebrew/itemcard.md item=item %}
 

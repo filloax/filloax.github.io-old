@@ -26,18 +26,18 @@ p {
     text-indent: 0 !important;
 }
 
-.itemcard-container {
+.card-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
 
-    .itemcard {
+    .card {
         width: 48%;
     }
 
     @media (max-width: 800px) {
-        div.itemcard {
+        div.card {
             width: 100%;
         }
     }

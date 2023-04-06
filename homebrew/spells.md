@@ -1,10 +1,11 @@
 [Torna a indice](/homebrew/index)
 
+<script src="/assets/js/homebrew.js"></script>
 <link rel="stylesheet" href="{{ '/assets/css/homebrew.css' | relative_url }}">
 
 ## Incantesimi homebrew
 
-<table>
+<table class="index">
 <thead>
     <tr>
         <td>Incantesimo</td>
@@ -32,48 +33,25 @@
 </tbody>
 </table>
 
+<form>
+    <input type="checkbox" id="showone" name="showone">
+    <label for="showone">Mostra uno alla volta</label>
+</form>
+
+<div class="card-container">
+
 <!-- Rarity first, name second -->
 {% for level in (0..9) %}
 {% assign sorted_rarity_spells = sorted_spells | where_exp: "spell","spell.level == level" %}
 {% for spell in sorted_rarity_spells %}
 
-<h3 id="{{ spell.name | slugify }}">{{ spell.name }}</h3>
+<div class="card" markdown="1">
 
-{% assign src = site.data.homebrew.strings.sources[spell.source].name  %}
-{% assign school = site.data.homebrew.strings.spell_schools[spell.school] %}
+{% include homebrew/spellcard.md spell=spell %}
 
-<p class="hb-source">Da {{ src }}</p>
-
-{% if spell.level == 0 %}
-*Trucchetto di {{ school }}*
-{% else %}
-*{{ school | capitalize }} di livello {{ spell.level }}*
-{% endif %}
-
-**Tempo di lancio:** {{ spell.time | json_time }}
-
-**Gittata:** {{ spell.range | json_range }}
-
-**Componenti:** {{ spell.components | json_components }}
-
-**Durata:** {{ spell.duration | json_duration }}
-
-{% for entry in spell.entries %}
-
-{% assign filtered_entry = entry 
-    | json_entry
-    | regex_replace: '{@damage (.*)}', '<span class="hb-damage">\1</span>' 
-    | regex_replace: '{@dice (.*)}', '<span class="hb-dice">\1</span>' 
-    | regex_replace: '{@spell (.*)}', '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e/\1">\1</a></span>' 
-    | regex_replace: '{@condition (.*)}', '<span class="hb-condition"><a href="https://roll20.net/compendium/dnd5e/Conditions">\1</a></span>' 
-    | regex_replace: '{@creature ([^\|]+)\|([^\|]+)\|([^\|]+)}', '<span class="hb-creature">\3</span>' 
-    | regex_replace: '{@creature ([^\|]+)\|([^\|]+)}', '<span class="hb-creature">\1</span>' 
-%}
-{{ filtered_entry }}
-
-{% endfor %}
-
-*Classe: {{ spell.classes | json_class }}*
+</div>
 
 {% endfor %}
 {% endfor %}
+
+</div>

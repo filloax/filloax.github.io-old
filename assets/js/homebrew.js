@@ -3,7 +3,7 @@ const windowMediaQuery = window.matchMedia("(max-width: 800px)")
 var currentlyShowing = "";
 
 function onChange(ev) {
-    const container = document.querySelector(".itemcard-container");
+    const container = document.querySelector(".card-container");
     console.log("Media query changed:", windowMediaQuery.matches);
     if (!windowMediaQuery.matches) {
         container.style.height = `${container.clientHeight / 2 + 100}px`;
@@ -36,17 +36,17 @@ function isShowingOne() {
 
 function updateShown() {
     if (isShowingOne()) {
-        document.querySelectorAll(".itemcard").forEach(el => {
+        document.querySelectorAll(".card").forEach(el => {
             el.style.display = "none";
         });
         if (currentlyShowing !== "") {
-            const current = document.querySelector(`#${currentlyShowing}`).closest(".itemcard");
+            const current = document.querySelector(`#${currentlyShowing}`).closest(".card");
             if (current) {
                 current.style.display = "initial";
             }
         }
     } else {
-        document.querySelectorAll(".itemcard").forEach(el => {
+        document.querySelectorAll(".card").forEach(el => {
             el.style.display = "initial";
         });
     }
