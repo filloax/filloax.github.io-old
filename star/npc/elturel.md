@@ -46,12 +46,23 @@ Nobile di Elturel, pubblicamente un filantropo, che tiene nascosto l’essere il
 
 Uno dei due ordini cavallereschi della città, insieme all'Ordine del Compagno. Fanno in parte anche da milizia/guardia del regno. Come gli altri ordini, giurano il Credo Risoluto.
 
+#### Klav Ikaia
+
+![](https://i.imgur.com/E0YWZml.jpg){: width="200px" }
+
+*Umano (vampiro), cavaliere passato*
+
+Il lord vampiro, il cui tentato colpo di stato 50 anni fa nella Notte del Tradimento Rosso ha portato l'allora Alta Osservatrice a fare il patto che portò il compagno a Elturel, e dannò la città. Si credeva morto dopo l'evento.
+
+- Sta dirigendo i sopravvissuti nella Piazza di Shiarra durante il disastro di Elturel.
+
 #### Reya Mantlemorn
 
 <div style="width: 20%; background-image: url('https://5e.tools/img/adventure/BGDIA/155-mzc8l-f-01-reya.png'); background-position: top 0% right 60%; background-size: 300%; float: left;" class="portrait"> <a href="https://5e.tools/img/adventure/BGDIA/155-mzc8l-f-01-reya.png" class="fill-div"></a></div>
 
 Giovane cavalleressa, dopo la caduta della città ha giurato vendetta contro il culto di Zariel, sentendo le voci del loro coinvolgimento. Scoprendo dal gruppo che la città è ancora salvabile, ha giurato di seguirli fino agli inferi, se necessario.
 
+<br>
 <br>
 <br>
 <br>
