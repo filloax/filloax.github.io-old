@@ -1,0 +1,58 @@
+A:
+  name: munizioni
+
+L:
+  name: leggero
+
+LD:
+  name: carica
+  desc: Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
+
+H:
+  name: pesante
+
+2H:
+  name: a due mani
+
+T:
+  name: lancio
+
+V:
+  name: versatile
+
+F:
+  name: accurato
+
+R:
+  name: portata
+
+S:
+  name: speciale
+
+AF:
+  name: munizioni (futuristiche)
+
+RLD:
+  name: ricarica
+
+BF:
+  name: colpo a raffica
+
+# Homebrew
+TW:
+  name: colpo gemello
+  desc: Once on each of your turns when you make an attack with this weapon, you can make another attack with it against a different creature that is within 5 feet of the original target and within range of the weapon.
+  showdesc: true
+  homebrew: true
+
+DR:
+  name: secco
+  desc: If this weapon is ever submerged in water or doused with a significant quantity of water, it jams. A jammed firearm can't be used to make an attack until a creature uses its action to clear the weapon malfunction.
+  showdesc: true
+  homebrew: true
+
+MS:
+  name: inceppante
+  desc: When you roll a 1 on the d20 for an attack roll with this weapon, it jams. A jammed weapon can't be used to make an attack until a creature uses its action to clear the weapon malfunction.
+  showdesc: true
+  homebrew: true

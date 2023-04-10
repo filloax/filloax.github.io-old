@@ -25,3 +25,41 @@
 p {
     text-indent: 0 !important;
 }
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .card {
+        width: 48%;
+    }
+
+    @media (max-width: 800px) {
+        div.card {
+            width: 100%;
+        }
+    }
+}
+
+.weapontags {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d29a38;
+    margin-bottom: 10px;
+
+    div {
+        display: inline-block;
+    }
+    div:first-child {
+        width: 25%;
+    }
+    div:nth-child(2) {
+        width: 74%;
+        text-align: right;
+    }
+}

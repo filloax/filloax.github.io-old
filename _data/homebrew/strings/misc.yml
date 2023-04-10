@@ -4,3 +4,9 @@ comp_material: M
 range_self: auto
 duration_dispel: "Finchè non viene dissolto"
 concentration: concentrazione
+age:
+  renaissance: rinascimentale
+wep_category:
+  simple: arma semplice
+  martial: arma marziale
+  exotic: arma esotica

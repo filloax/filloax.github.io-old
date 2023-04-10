@@ -1,10 +1,11 @@
 [Torna a indice](/homebrew/index)
 
+<script src="/assets/js/homebrew.js"></script>
 <link rel="stylesheet" href="{{ '/assets/css/homebrew.css' | relative_url }}">
 
 ## Oggetti homebrew
 
-<table>
+<table class="index">
 <thead>
     <tr>
         <td>Oggetto</td>
@@ -31,32 +32,25 @@
 </tbody>
 </table>
 
+<form>
+    <input type="checkbox" id="showone" name="showone">
+    <label for="showone">Mostra uno alla volta</label>
+</form>
+
+<div class="card-container">
+
 <!-- Rarity first, name second -->
 {% for rarity in site.data.homebrew.strings.rarity %}
 {% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == forloop.index0" %}
 {% for item in sorted_rarity_items %}
 
-<h3 id="{{ item.name | slugify }}">{{ item.name }}</h3>
+<div class="card" markdown="1">
 
-{% assign src_data = site.data.homebrew.strings.sources[item.source]  %}
-{% assign it_type = site.data.homebrew.strings.item_types[item.type].name  %}
-{% assign it_rarity = site.data.homebrew.strings.rarity[item.rarity]  %}
+{% include homebrew/itemcard.md item=item %}
 
-<p class="hb-source">Da {{ src_data.name }}</p>
-
-*{{ it_type | capitalize }}, {{ it_rarity }}{% if item.reqAttune %} (richiede sintonia){% endif %}*
-
-{% for entry in item.entries %}
-
-{% assign filtered_entry = entry 
-    | regex_replace: '{@damage (.*)}', '<span class="hb-damage">\1</span>' 
-    | regex_replace: '{@dice (.*)}', '<span class="hb-dice">\1</span>' 
-    | regex_replace: '{@spell (.*)}', '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e/\1">\1</a></span>' 
-    | regex_replace: '{@condition (.*)}', '<span class="hb-condition"><a href="https://roll20.net/compendium/dnd5e/Conditions">\1</a></span>' 
-%}
-{{ filtered_entry }}
-
-{% endfor %}
+</div>
 
 {% endfor %}
 {% endfor %}
+
+</div>

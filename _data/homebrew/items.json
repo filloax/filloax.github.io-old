@@ -77,5 +77,76 @@
         "entries": [
             "When this arrow strikes a solid surface, be it a creature, object, wall, or floor, it explodes with a fiery blast. Each creature within 20 feet of the point of impact must make a DC 17 Dexterity saving throw. A creature takes {@damage 8d6} fire damage on a failed save, or half as much on a successful one. The arrow is destroyed in the blast."
         ]
+    },
+    {
+        "name": "Ring of Icebergs",
+        "source": "VSS",
+        "type": "RG",
+        "rarity": 4,
+        "entries": [
+            "As a bonus action, or a reaction to being hit by an attacker you can see, you can spin the ring's jewel, causing it to expand into a hollow block of clear ice that completely surrounds you. This iceberg occupies your space and pushes creatures within your space to the nearest unoccupied area, ending any grapple in which you are involved. There is enough room within the iceberg to move around, but you can't move more than 6 inches in any direction. Spells and other magical effects can't extend through the iceberg or be cast through it.",
+            "The iceberg is an object with AC 10 and 100 HP. If it was activated as a reaction, it takes as much of the triggering damage as possible. The iceberg has immunity to cold, poison, and psychic damage, and vulnerability to fire damage. The icy tomb lasts for up to 1 minute, until it is destroyed, or until you use a bonus action to cease the jewel's spinning.",
+            "Once you spin the ring to create an iceberg, you can't do so again until the following dawn."
+        ]
+    },
+    {
+        "name": "Apple of Arborea",
+        "source": "KTKCG",
+        "rarity": 5,
+        "type": "Comp",
+        "property": [
+            "Exo"
+        ],
+        "diff": 6,
+        "entries": [
+            "Consuming this apple has the effect of {@spell greater restoration} cast upon the person that consumes it. If the creature that consumes it is Good aligned, they gain the benefit of {@spell death ward} until they finish a long rest.",
+            "Adding it to a potion makes that potion confer the effects of eating it, but has no alignment restrictions."
+        ]
+    },
+    {
+        "name": "Flintlock",
+        "type": "R",
+        "weapon": true,
+        "firearm": true,
+        "age": "renaissance",
+        "weaponCategory": "simple",
+        "rarity": 0,
+        "value": 7500,
+        "weight": 6,
+        "dmg1": "2d6",
+        "dmgType": "P",
+        "property": [
+            "A",
+            "DR",
+            "L",
+            "LD",
+            "MS"
+        ],
+        "range": "30/120",
+        "source": "VSS",
+        "entries": [
+            "Nota: variante di Valda's Spire of Secrets invece che della guida del master, è più originale."
+        ]
+    },
+    {
+        "name": "Twinbow",
+        "type": "R",
+        "weapon": true,
+        "weaponCategory": "exotic",
+        "rarity": 0,
+        "value": 20000,
+        "weight": 4,
+        "bow": true,
+        "dmg1": "1d8",
+        "dmgType": "P",
+        "property": [
+            "A",
+            "H",
+            "TW",
+            "2H"
+        ],
+        "range": "100/400",
+        "source": "VSS",
+        "entries": []
     }
 ]

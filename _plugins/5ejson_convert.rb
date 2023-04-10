@@ -1,20 +1,24 @@
 # Declare module of your plugin under Jekyll module
 module Jekyll::CustomFilter
 
+  def conv_unit(amount, unit)
+    if unit == "ft" then
+      unit = "mt"
+      amount = amount * 1.5 / 5
+    elsif unit == "miles" then
+      unit = "km"
+      amount = amount * 1.6
+    elsif unit == "lb" then
+      return (amount / 2.205).round(1), "kg"
+    end
+    return amount, unit
+  end
+
   # Each method of the module creates a custom Jekyll filter
   def json_dist(input)
     unit_strings = @context.registers[:site].data["homebrew"]["strings"]["units"]
     if unit_strings.key?(input["unit"]) then
-      unit = input["unit"]
-      amount = input["amount"]
-
-      if unit == "ft" then
-        unit = "mt"
-        amount = amount * 1.5 / 5
-      elsif unit == "miles" then
-        unit = "km"
-        amount = amount * 1.6
-      end
+      amount, unit = conv_unit(input["amount"], input["unit"])
 
       if amount == 1 then
         "#{amount} #{unit_strings[unit]["singular"]}"
@@ -24,6 +28,20 @@ module Jekyll::CustomFilter
     else
       "#{amount} #{unit}"
     end
+  end
+
+  def stripintfloat(num)
+    return num.to_s.sub(/\.?0+$/, '')
+  end
+
+  def json_weprange(input)
+    min, max = input.split('/')
+    minn = min.to_i
+    maxn = max.to_i
+  
+    minconv, _ = conv_unit(minn, "ft")
+    maxconv, _ = conv_unit(maxn, "ft")
+    return "(#{stripintfloat(minconv)}/#{stripintfloat(maxconv)} mt.)"
   end
 
   def json_range(input)
@@ -163,6 +181,16 @@ module Jekyll::CustomFilter
     end
 
     return out.join(", ")
+  end
+
+  def json_money(input)
+    if input % 100 == 0 then
+      return "#{(input / 100).to_s} mo"
+    elsif input % 10 == 0 then
+      return "#{(input / 10).to_s} ma"
+    else
+      return "#{input} mr"
+    end
   end
 end
 
