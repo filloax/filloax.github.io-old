@@ -34,13 +34,16 @@ Bibliotecario, smilzo e occhialuto. Piuttosto ansioso e impacciato con le person
 
 Celestiale per “Spazzini”. Organizzazione malavitosa situata ad Elturel, sotto la protezione e il comando di Lord Mikhail. Controllano, tra le varie, contrabbando e smercio di droga.
 
-#### Lord Mikhail
+#### Lord Mikhail Manthar
 
 *Aasimar (???), nobile criminale*
 
-![](https://i.imgur.com/scxSo4u.jpg){: width="250px" }
+![](https://i.imgur.com/scxSo4u.jpg){: height="250px" } ![](https://i.imgur.com/bzm9FAJ.jpg){: height="250px" }
 
 Nobile di Elturel, pubblicamente un filantropo, che tiene nascosto l’essere il leader degli Ekeden. Pelle vagamente dorata, occhi apparentemente brillanti di azzurro.
+
+- In passato era un vigilante contro i vampiri rimasti in città, e criminali vari.
+- La sua famiglia è stata uccisa nel colpo di stato dell'Alto Cavaliere Klav Ikaia.
 
 ### Cavalieri Infernali
 

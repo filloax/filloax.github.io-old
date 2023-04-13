@@ -30,6 +30,12 @@ Oggetti vari che non sono nel manuale base o facilmente trovabili su internet.
 - In caso di critico, infligge 1d8 danni psichici extra, e il bersaglio ha svantaggio a tutti i tiri per colpire nel suo prossimo turno. *(modificato)*
 - Il possessore può usare 20 PF (+20 per ogni livello in più) della sua Imposizione delle Mani per lanciare l'incantesimo [*fortezza dell'intelletto*](http://dnd5e.wikidot.com/spell:intellect-fortress) attraverso di essa. La concentrazione per questo incantesimo, se lanciato in questo modo, è mantenuta separatamente dagli altri.
 - Permette di "leggere l'anima" delle creature, ed è apparentemente in parte senziente, comunicando telepaticamente con il portatore. Può influenzare le creature soggiogate da entità ideali esterne, come la Stella Nera.
+- **Analisi rapida.** Come azione bonus, Psykos può analizzare un aspetto di una creatura, fornendo una di queste informazioni:
+    - Resistenze
+    - Immunità
+    - Vulnerabilità
+    - Caratteristica più alta e bassa
+    - Informazioni su ideali/legami/ecc., ciò che può "toccare" il personaggio
 
 *Spada del leggendario paladino Ser Darian, che fu cruciale nel respingere gli Illithid secoli fa. Avvicinarla alla testa fa sentire uno strano rumore di fondo mentale.*  
 *"Per sconfiggere il tuo nemico devi saper pensare come lui."*
