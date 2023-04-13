@@ -1,12 +1,12 @@
 name,link,desc,price,rarity,amount,magicspecific,attunement,new,restocked,special
 Lanterna a lente sporgente,,luce cono 18m fioca 36m,10,-,5,,,,,
 Lanterna coperta,,luce 9m fioca 18m,5,-,5,,,,,
-Pistola,https://filloax.github.io/homebrew/items#flintlock,"2d6, leggera, ricarica, misfire 1",250,-,1,,,x,,x
-Arco gemello,https://filloax.github.io/homebrew/items#twinbow,"1d8, colpisci due creature adiacenti, exo",200,-,1,,,x,,x
+Pistola,https://filloax.github.io/homebrew/items#flintlock,"2d6, leggera, ricarica, misfire 1",250,-,0,,,x,,x
+Arco gemello,https://filloax.github.io/homebrew/items#twinbow,"1d8, colpisci due creature adiacenti, exo",200,-,0,,,x,,x
 Ordinario bastone da passeggio,https://dungeon_strugglers.artstation.com/projects/rAnvkm,bastone/balestra,180,comune,1,x,,,,x
 Rampino,/xho/oggetti#rampino,aggancia oggetti o creature,7,comune,7,,,,,
 Rampino migliorato,/xho/oggetti#rampino,^,100,non com.,1,,,,,
-Bardo-in-scatola,https://old.reddit.com/r/UnearthedArcana/comments/aewwlo/the_griffons_saddlebag_bardinabox_wondrous_item/,Riproduce musica,80,comune,2,x,,x,,x
+Bardo-in-scatola,https://old.reddit.com/r/UnearthedArcana/comments/aewwlo/the_griffons_saddlebag_bardinabox_wondrous_item/,Riproduce musica,80,comune,0,x,,x,,x
 Armi +1 (qualunque arma),,+1 a TPC e danni,base + 500,non com.,6,,,,,
 Borsa conservante,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/borsa-conservante/,più grande all'interno,1000,non com.,,x,,,,
 Borsa dei trucchi,https://dungeonedraghi.it/compendio/oggetti-magici/oggetti-meravigliosi/borsa-dei-trucchi/,creature casuali,520,non com.,3,x,,,,
