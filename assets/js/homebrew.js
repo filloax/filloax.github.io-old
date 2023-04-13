@@ -4,7 +4,15 @@ function onChange(ev) {
     const container = document.querySelector(".card-container");
     console.log("Media query changed:", windowMediaQuery.matches);
     if (!windowMediaQuery.matches) {
-        container.style.height = `${container.clientHeight / 2 + 100}px`;
+        let maxHeight;
+
+        document.querySelectorAll(".card").forEach(el => {
+            if (!maxHeight || el.clientHeight > maxHeight) {
+                maxHeight = el.clientHeight;
+            }
+        });
+
+        container.style.height = `${container.clientHeight / 2 + maxHeight}px`;
     } else {
         container.style.height = "";
     }
