@@ -148,5 +148,93 @@
         "range": "100/400",
         "source": "VSS",
         "entries": []
+    },
+    {
+        "name": "Bracciali reattivi",
+        "source": "EsploratoriNebbia",
+        "page": 0,
+        "rarity": 3,
+        "wondrous": true,
+        "type": "WI",
+        "entries": [
+            "Quando indossi questi bracciali, puoi usare una reazione anche se ne hai già usata una prima dell'inizio del tuo turno successivo. In base al numero di volte in cui usi questo effetto in una giornata, ha diverse conseguenze:",
+            {
+                "type": "list",
+                "items": [
+                    "La prima volta in cui lo usi prima di un riposo lungo, non hai ulteriori conseguenze.",
+                    "Successivamente, dopo ogni uso fai un tiro salvezza su Costituzione: se fallito, subisci un livello di sfinimento. La CD inizialmente è 10, e aumenta di 1 per ogni successo a questo tiro salvezza prima del prossimo riposo lungo."
+                ]
+            },
+            "É possibile, una volta per riposo lungo, compiere una seconda reazione aggiuntiva oltre alla prima garantita da questo oggetto, subendo un livello di sfinimento."
+        ]
     }
+    ,
+    {
+        "name": "Sfera catturante",
+        "source": "EsploratoriNebbia",
+        "page": 0,
+        "rarity": 3,
+        "reqAttune": true,
+        "wondrous": true,
+        "entries": [
+            "Questa sfera è in sintonia con un semipiano univoco per ogni utente, e permette di catturare creature al suo interno. Entrare in sintonia con una di queste sfere permette di entrare in sintonia con altre 2 sfere catturanti, senza che contino per il numero di oggetti magici in sintonia.",
+            {
+                "type": "entries",
+                "name": "Cattura",
+                "entries": [
+                    "Può essere lanciata come azione a una creatura che ne rispetta i requisiti. Se colpita, tira un dado cattura, che è un {@dice d8}. Se superi il GS della creatura, la creatura viene catturata nel semipiano, ed è affascinata ({@condition charmed}) da te, come da un incantesimo amicizia su animali (animal friendship) di livello 3. Altrimenti, la sfera cade ai piedi della creatura, essa recupera 3 dadi vita, e perde lo stato di incosciente, se presente. Se il risultato è 1, il tiro fallisce, e la sfera si rompe."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Rilascio",
+                "entries": [
+                    "Come azione, è possibile fare uscire la creatura dalla sfera. Finchè è affascinata, seguirà i tuoi comandi, finchè essi non arrechino danno a sè stessa. Se subisce danni da te o dai tuoi compagni, può tentare un tiro salvezza su Saggezza a CD 15 per liberarsi dall'effetto. Puoi fare rientrare la creatura nella sfera come azione bonus se è ancora affascinata. Se il suo GS è superiore al tuo livello, può tentare il tiro salvezza per liberarsi anche prima di rientrare nella sfera."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Liberare",
+                "entries": [
+                    "Una creatura all'interno della sfera può essere permanentemente liberata come azione. Non sarà più affascinata da te."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Requisiti",
+                "entries": [
+                    "Possono essere catturate solo creature di tipo bestia, mostruosità, pianta o melma, con Intelligenza pari o inferiore a 4. Devono essere incoscienti, paralizzate o sotto 20 punti ferita. Se non sono incoscienti, il tiro del dado cattura è fatto con svantaggio. La sfera non può catturare creature sapienti, a discrezione del DM (sei in grado di capire magicamente se una creatura sia catturabile)."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Varianti",
+                "entries": [
+                    "L'oggetto ha varianti più potenti, distinguibili dalla rarità:",
+                    {
+                        "type": "list",
+                        "items": [
+                            "Molto raro. Il dado cattura diventa {@dice 1d12}, e la sfera può catturare anche creature di tipo costrutto, elementale, folletto, drago e immondo. Il limite di Intelligenza diventa 6, e il requisito dei PF per la cattura aumenta a 30. La CD del tiro per liberarsi diventa 18. L'effetto magico è considerato come di livello 5.",
+                            "Leggendario. Il dado cattura diventa {@dice 1d20}, e la sfera può catturare creature di ogni tipo tranne umanoide e gigante. Il limite di Intelligenza diventa 8, e il requisito dei PF per la cattura aumenta a 40. La  CD del tiro per liberarsi diventa 21. L'effetto magico è considerato come di livello 7."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "WI"
+    }
+    ,
+    {
+        "name": "Sfera catturante suprema",
+        "source": "EsploratoriNebbia",
+        "page": 0,
+        "rarity": 6,
+        "reqAttune": true,
+        "wondrous": true,
+        "type": "WI",
+        "entries": [
+            "Questa speciale {@item sfera catturante} permette di catturare ogni tipo di creatura, eccetto creature sapienti a discrezione del DM. Non occorre tirare un dado cattura: ogni cattura ha un successo assicurato, e l'effetto è considerato pari ad un incantesimo di livello 9. Per tutto il resto è considerata analoga alla variante leggendaria dell'oggetto."
+        ]
+    }
+
 ]

@@ -45,7 +45,7 @@
 
 {% for entry in item.entries %}
 
-{% assign filtered_entry = entry 
+{% assign filtered_entry = entry | json_entry 
     | regex_replace: '{@damage ([^}]+)}', '<span class="hb-damage">\1</span>' 
     | regex_replace: '{@dice ([^}]+)}', '<span class="hb-dice">\1</span>' 
     | regex_replace: '{@spell ([^}]+?)}', '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e/\1">\1</a></span>' 
