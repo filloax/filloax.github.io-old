@@ -161,6 +161,13 @@ module Jekyll::CustomFilter
       return input
     elsif input["type"] == "list" then
       return input["items"].map { |item| "- #{item}" }.join("\n")
+    elsif input["type"] == "entries" then
+      out = ""
+      if input.key?("name") then
+        out += "**#{input["name"]}.** "
+      end
+      out += input["entries"].map { |entry| json_entry(entry) }.join("\n")
+      return out
     end
   end
 
