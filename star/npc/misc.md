@@ -18,9 +18,23 @@ Sente di essere destinato a forgiare un artefatto leggendario, qualcosa che port
 
 #### Lulu
 
-*Hollyphant, ???*
+*Olifante, commilitona di Zariel*
 
 ![](https://5e.tools/img/adventure/BGDIA/167-0iruv-f-02-lulu.png){: width="250px" }
+
+Un piccolo elefante dorato e alato, e dal carattere semplice e pieno d'entusiasmo. Lulu è un olifante o gaudiofante, una creatura celestiale, che ha perso la memoria dopo una battaglia nell'Avernus insieme al suo angelo compagno, che si è scoperto essere Zariel, ora arciduchessa dell'Avernus e decisamente poco angelica. Sta man mano recuperando i suoi ricordi.
+
+#### Ontharr Frume
+
+<div style="width: 20%; background-image: url('https://www.worldanvil.com/uploads/images/25332886080dd58184c85ad32cc0d46a.jpg'); background-position: top 0% right 50%; background-size: 200%; float: none;" class="portrait"> <a href="https://www.worldanvil.com/uploads/images/25332886080dd58184c85ad32cc0d46a.jpg" class="fill-div"></a></div>
+
+*Nano M, paladino di Torm*
+
+Paladino gioviale e valoros di Torm, membro dell'Ordine del Guanto a lui sacro. Ha aiutato il gruppo nella città caduta di Elturel, trovandosi lì al momento della caduta.
+
+[Su Forgotten Realms Wiki](https://dungeonsanddragons.fandom.com/it/wiki/Ontharr_Frume_(Forgotten_Realms))
+
+*(Nota: canonicamente è umano, ma dall'immagine mi sembrava un nano, quindi ops.)*
 
 ### Candlekeep
 
