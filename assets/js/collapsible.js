@@ -35,6 +35,7 @@ addEventListener("load", function() {
             while (content) {
                 if (content.hasClass("hidden")) {
                     content.removeClass("hidden");
+                    loadLazyImages(content.get(0));
                 } else {
                     content.addClass("hidden");
                 }
@@ -78,4 +79,27 @@ addEventListener("load", function() {
         targ.nextElementSibling.click();
         console.log("Clicked", targ.nextElementSibling, "from", hash)
     }
+    loadLazyImages();
 });
+
+// if element or its parent is hidden
+function isHidden(element) {
+    return $(element).is(":hidden")
+}
+
+/** @param {HTMLElement} fromNode */
+function loadLazyImages(fromNode) {
+    if (!fromNode) {
+        fromNode = document;
+    }
+    /** @type {Array<HTMLElement>} */
+    const lazyImages = [...fromNode.querySelectorAll(".lazy-img")];
+    console.log("LazyImages:", lazyImages)
+    lazyImages.forEach (e => {
+        if (!isHidden(e)) {
+            console.log("Loading img", e, e.dataset.src)
+            e.src = e.dataset.src
+            e.classList.remove("lazy-img")
+        }
+    });
+}
