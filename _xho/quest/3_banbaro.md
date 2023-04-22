@@ -1,7 +1,7 @@
 ---
 title: Banbaro
 location: Alpi della Penombra, parte separata a nord  
-reward: 2500mo
+reward: 3000mo
 giver: Gilda
 ---
 <div class="dialogue">

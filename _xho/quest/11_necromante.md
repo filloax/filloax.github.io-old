@@ -3,6 +3,7 @@ title: Lich tra i Monti
 location: Picchi Cinerei, Verstglade
 reward: 2000 mo a testa + bottino
 giver: Compagnia Atrith
+completed: true
 ---
 <div class="quest-paper">
     <p>Cerchiamo i migliori avventurieri, incantatori e guerrieri per debellare una grave minaccia di non morte. <em>-H. Atrith</em></p>

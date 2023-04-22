@@ -1,7 +1,7 @@
 ---
 title: Il Segreto dei Vermi Purpurei
 location: Impero Dwendaliano (Windandyr Ovest)
-reward: 6000 mo
+reward: 2500 mo a testa
 giver: Den Fres'tynn
 ---
 <div class="dialogue">

@@ -1,7 +1,7 @@
 ---
 title: Tiranno delle montagne
 location: Alpi della Penombra, parte separata a nord  
-reward: 3000mo
+reward: 2000mo a testa
 giver: Gilda
 ---
 <div class="dialogue">

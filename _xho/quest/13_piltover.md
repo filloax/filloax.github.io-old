@@ -1,8 +1,9 @@
 ---
 title: Volo a Piltover, Tal'dorei
 location: Tal'dorei, Piltover
-reward: 3000mo, punto di viaggio
+reward: 1500mo a testa, punto di viaggio
 giver: Gilda
+running: true
 ---
 <div class="dialogue">
     <div class="icon kynthea"></div>
