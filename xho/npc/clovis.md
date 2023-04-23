@@ -1,3 +1,5 @@
+[Torna a NPC](../npc)
+
 ## Concordia di Clovis
 
 NPC della Concordia di Clovis, alleanza di città-stato-circa nella Costa delle Meraviglie, a sud dell'Impero Dwendaliano e a ovest della Dinastia Kryn.

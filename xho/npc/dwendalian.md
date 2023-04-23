@@ -1,3 +1,5 @@
+[Torna a NPC](../npc)
+
 ## Impero Dwendaliano
 
 NPC dell'Impero Dwendaliano, fredda nazione che è stata 7 anni fa in una breve ma cruenta guerra con la Dinastia Kryn. Governata da un Re, nonostante si dichiari un Impero.
