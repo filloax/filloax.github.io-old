@@ -4,7 +4,9 @@
 
 ### Kynthea Fres'tynn
 
-<div style="width: 40%; background-image: url('/assets/img/bolo_kynthea_frestynn.webp');    background-position: top;   background-size: 150%;" class="portrait"> <a href="https://i.imgur.com/iMZXT38.jpg" class="fill-div"></a></div>
+{% imgc %}
+![](/assets/img/bolo_kynthea_frestynn.webp){: width="40%" size="150%" pos="top" float="right" }
+{% endimgc %}
 
 *Drow F, studiosa di creature magiche*
 
@@ -15,7 +17,7 @@ La convergenza e le nebbie del lutto hanno esteso in modo entusiasmante le poten
 #### Creature di Kynthea
 {:.no_toc}
 
-![](../assets/img/garchomp.webp){: width="200" }
+![](/assets/img/garchomp.webp){: width="200" }
 
 **Anken.** Un esemplare di *kaburias* addomesticato, cosa molto rara.
 
@@ -31,11 +33,15 @@ La convergenza e le nebbie del lutto hanno esteso in modo entusiasmante le poten
 Servitore di clan, come suo padre e il padre di suo padre. 
 Da tradizione del clan serve scienziati e studiosi... particolari. Il trisnonno serviva Noxis, nonna di Kynthea.
 
-Lo avete aiutato con un artefatto importante da lui accidentalmente fatto cadere, che ha liberato spiriti di ogni sorta.
+- Lo avete aiutato con un artefatto importante da lui accidentalmente fatto cadere, che ha liberato spiriti di ogni sorta.
+
+<div markdown="1">
 
 ### Chestibor
 
-<div style="width: 33%; background-image: url('/assets/img/chestibor.webp');    background-position: top 0 right 40%;   background-size: 250%;" class="portrait"> <a href="../assets/img/chestibor.webp" class="fill-div"></a></div>
+{% imgc %}
+![](/assets/img/chestibor.webp){: width="33%" max-width="180px" size="250%" pos="top 0 right 40%" float="left" }
+{% endimgc %}
 
 *Bugbear M, esploratore*
 
@@ -44,6 +50,8 @@ Bugbear dal pelo scuro, quasi nero. 54 anni. Non ha una gamba ma ha una gamba di
 È l'esploratore di ricognizione della gilda, molto fedele a Kynthea per la gamba magica, e cerca informazioni su creature particolari sparse per Xhorhas.
 
 Menziona spesso delle regole del "bravo esploratore".
+
+</div>
 
 ### Mastro Ner Tör
 *Tiefling (mutante, orco) M, fabbro*
@@ -84,7 +92,10 @@ Altri membri della casata.
 Nonna di Kynthea, uccisa 200 anni fa da folla inferocita (prima ancora che agisse la Guardia dell'Aurora) dati i suoi esperimenti a dir poco non etici con creature mostruose. È stata causa di brutte figure per della famiglia. Possedeva la villa ad Ardeal, il Castello Fres'tynn.
 
 ### Houx Fres'tynn
-<div style="width: 25%; background-image: url('https://i.imgur.com/3wPt9Kn.png'); background-position: top 0 right 60%; background-size: 300%;" class="portrait"> <a href="https://imgur.com/3wPt9Kn" class="fill-div"></a></div>
+
+{% imgc %}
+![](https://i.imgur.com/3wPt9Kn.png){: width="33%" max-width="150px" size="300%" pos="top 0 right 60%" float="left" }
+{% endimgc %}
 
 *Drow M, magnate della seta*
 

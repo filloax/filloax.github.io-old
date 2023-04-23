@@ -4,32 +4,29 @@
 
 NPC correlati al fenomeno delle Nebbie del Lutto.
 
-<h3 id="colui-che-vede">???</h3>
+### Il Tessistorie <span id="colui-che-vede"></span>
 
-<div style="width: 50%; background-image: url('https://i.imgur.com/DiX1dUq.jpg');    background-position: top;   background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/DiX1dUq.jpg" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/DiX1dUq.jpg){: width="50%" min-width="300px" size="100%" }
+{% endimgc %}
 
 *???*
 
-Misteriosa entità che è evidentemente correlata in qualche modo al fenomeno delle Nebbie del Lutto. Parla di una "sublimazione" che migliorerà il mondo.
+*"Colui che vede", "Il Tessistorie"*. Misteriosa entità che è evidentemente correlata in qualche modo al fenomeno delle Nebbie del Lutto. Parla di una "sublimazione" che migliorerà il mondo.
 
 Per ora apparso solo in sogno dentro la nebbia, come una figura visibile davanti a del "rumore" di fondo. Ha uno squarcio su un occhio, almeno visibile come negativo sulla sua sagoma.
 
 *"Colui che vede ogni memoria"*.
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ### Aldia, studioso della Nebbia
 
-<div style="width: 33%; background-image: url('https://i.imgur.com/DhQalMW.png');    background-position: top 0 left -95px;   background-size: 170%;" class="portrait"> <a href="https://i.imgur.com/DhQalMW.png" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/DhQalMW.png){: width="33%" min-width="200px" size="170%" pos="top 0 left -95px" }
+{% endimgc %}
 
 *???*
 
-Aldia, così presentatosi, un "sapiente da un altro mondo", ora un eco di memoria apparentemente più senziente. È in grado di manifestarsi vicino ad un fuoco davanti a persone che di recente sono state vicine alle falde della realtà, con l'aspetto di una testa fatta di legno, fuoco, e buchi nella realtà.
+Aldia, così presentatosi, un "sapiente da un altro mondo", ora un eco di memoria apparentemente più senziente degli altri. È in grado di manifestarsi vicino ad un fuoco davanti a persone che di recente sono state vicine alle falde della realtà, con l'aspetto di una testa fatta di legno, fuoco, e buchi nella realtà.
 
 Non sembra apprezzare "colui che vede ogni memoria".
 

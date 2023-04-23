@@ -4,7 +4,9 @@
 
 ### Mavreus Vessac
 
-<div style="width: 33%; background-image: url('https://i.imgur.com/zfsX6Ow.png');    background-position: top;   background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/zfsX6Ow.png" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/zfsX6Ow.png){: width="33%" min-width="250px" }
+{% endimgc %}
 
 *Tiefling M, artefice*
 
@@ -23,7 +25,9 @@ Fratello gemello di [Maza Vessac](#maza-vessac).
 
 ### Shaba-ku di Marquet
 
-<div style="width: 33%; background-image: url('/assets/img/Alaloth-Sabaku-Shaba-Ku.webp');    background-position: top;   background-size: 280%;" class="portrait"> <a href="/assets/img/Alaloth-Sabaku-Shaba-Ku.webp" class="fill-div"></a></div>
+{% imgc %}
+![](/assets/img/Alaloth-Sabaku-Shaba-Ku.webp){: width="33%" min-width="250px" pos="top" size="280%" }
+{% endimgc %}
 
 *Umano M, mercante di oggetti magici*
 

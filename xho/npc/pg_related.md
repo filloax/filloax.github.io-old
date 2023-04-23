@@ -4,7 +4,9 @@
 
 ### Tariss
 
-<div class="portrait" style="  width: 33%;   background-image: url('/assets/img/tariss.webp');   background-position: top;   background-size: 150%;   aspect-ratio: 1/1;"> <a href="/assets/img/tariss.webp" class="fill-div"></a></div>
+{% imgc %}
+![](/assets/img/tariss.webp){: width="33%" size="150%" pos="top" }
+{% endimgc %}
 
 *Drow F, figlia di Xandra*
 

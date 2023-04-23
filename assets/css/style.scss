@@ -38,6 +38,10 @@ strong {
         visibility: visible !important;
         margin: 20px 0 20px;
     }
+
+    ul,ol {
+        overflow: hidden;
+    }
 }
 
 h6 {

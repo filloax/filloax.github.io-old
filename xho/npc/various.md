@@ -4,18 +4,13 @@
 
 ### Maza Vessac
 
-<div style="width: 25%; background-image: url('https://i.imgur.com/nXVqxIi.jpg'); background-position: top 10% right 45%; background-size: 200%;" class="portrait"> <a href="https://i.imgur.com/nXVqxIi.jpg" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/nXVqxIi.jpg){: width="25%" min-width="200px" pos="top 10% right 45%" size="200%" }
+{% endimgc %}
 
 *Tiefling F, barda dotata*
 
 Affascinante tiefling rossa, sorella gemella di [Mavreus Vessac](#mavreus-vessac). Ha le corna intere, a differenza del fratello, ma come lui occhi da serpente. Viaggia abbastanza.
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ### La Seconda Rocca
 
@@ -33,7 +28,7 @@ Una squadra di nove mercenari, dotata di armamenti tecno-arcani avanzati costrui
 
 ### Brigata Darrington
 
-Una compagna di avventurieri "non profit", guidata dal temerario e fanfarone Sir Taryon Darrington.
+Una compagna di avventurieri Dwendaliani "non profit", guidata dal temerario e fanfarone Sir Taryon Darrington.
 
 - [L'Orsogufo](https://criticalrole.fandom.com/wiki/The_Owlbear): combattente notturno, Batman ma orsogufo, barba-ladro.
 - [Buddy](https://criticalrole.fandom.com/wiki/Buddy): ogre con enormi occhiali, porta Macaroni su portantina

@@ -49,8 +49,16 @@ module Jekyll
         CopyKeys = [
             "width",
             "height",
+            "max-width",
+            "max-height",
+            "min-width",
+            "min-height",
             "float",
         ]
+        RenameKeys = {
+            "size" => "background-size",
+            "pos" => "background-position",
+        }
 
         def initialize(tag_name, input, tokens)
             super
@@ -73,14 +81,18 @@ module Jekyll
                 portrait_div = html_content.document.create_element "div"
 
                 style = {}
-                if img["size"] then
-                    style["background-size"] = img["size"]
+                if img["style"] then
+                    img["style"].split(/\s*;\s*/).each do |val|
+                        pair = val.split(/\s*:\s*/)
+                        style[pair[0]] = pair[1]
+                    end
                 end
-                if img["pos"] then
-                    style["background-position"] = img["pos"]
+                CopyKeys.each do |key| 
+                    if img[key] then style[key] = img[key] end    
                 end
-
-                CopyKeys.each { |key| if img[key] then style[key] = img[key] end }
+                RenameKeys.each_pair do |key, value| 
+                    if img[key] then style[value] = img[key] end
+                end 
 
                 if !img.key?("float") then
                     style["float"] = "none"
@@ -91,11 +103,24 @@ module Jekyll
                 portrait_div["style"] = style.map{|k,v| "#{k}: #{v}"}.join('; ')
                 portrait_div["class"] = "portrait"
 
-                link = portrait_div.add_child "<a class=\"fill-div\" href=\"#{src}\"></a>"
+                link = img.key?("altlink") ? img["altlink"] : src
+
+                portrait_div.add_child "<a class=\"fill-div\" href=\"#{link}\"></a>"
                 
                 img.replace portrait_div
+
+                if portrait_div.parent.name == 'p' then
+                    portrait_div.parent = portrait_div.parent.parent
+                end
             end
 
+            html_content.css("p").each do |p|
+                if p.children().empty? then
+                    p.remove
+                end
+            end
+
+            # print("text: #{text}")
             # print("converted: #{html_content.to_s}")
 
             return html_content.to_s

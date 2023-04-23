@@ -82,6 +82,11 @@ addEventListener("load", function() {
     loadLazyImages();
 });
 
+addEventListener("resize", function() {
+    console.log("Resized");
+    loadLazyImages();
+})
+
 // if element or its parent is hidden
 function isHidden(element) {
     return $(element).is(":hidden")

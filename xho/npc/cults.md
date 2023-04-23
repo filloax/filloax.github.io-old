@@ -16,19 +16,15 @@ La benedizione (o maledizione) di Lolth, li ha mutati, con una pelle grigia/nera
 
 ### Shayis, di Hellfire
 
-<div style="width: 27%; background-image: url('https://i.imgur.com/jslIQlN.png');    background-position: top 0 left -65px;   background-size: 170%;" class="portrait"> <a href="https://i.imgur.com/jslIQlN.png" class="fill-div"></a></div>
+*Elfa F (tiefling), monaca infernale e portatrice di Ego Astrale*
 
-*Elfa F (tiefling), neutrale malvagia*
-*351, monaca infernale e portatrice di Ego Astrale*
+{% imgc %}
+![](https://i.imgur.com/jslIQlN.png){: width="27%" min-width="150px" pos="top 0 left 45%" size="170%" } ![](https://64.media.tumblr.com/cf4e65d3240e89e0d1bddd7aee6df05b/tumblr_pc3sg1Rlco1ruwbq8o1_1280.png){: width="27%" min-width="150px" pos="top" size="110%" }
+{% endimgc %}
 
 Discepola della scuola dell'Ego Perfetto, una delle migliori seguaci del maestro Solomon. Abbastanza stronza e sicura di sè.
 Vestiti relativamente moderni, crop top, braghe simil-indiane "gonfie". Piccole corna. Bella.
 Il suo ego astrale, Hellfire, ha l'aspetto di un guerriero in armatura con fiamme visibili all'interno, e senza armatura di uno scheletro infuocato di spine, armato con una ruota occhiuta costituita dai pezzi dell'armatura.
-
-<br>
-<br>
-
-<div style="width: 27%; background-image: url('https://64.media.tumblr.com/cf4e65d3240e89e0d1bddd7aee6df05b/tumblr_pc3sg1Rlco1ruwbq8o1_1280.png');    background-position: top;   background-size: 110%;" class="portrait"> <a href="https://64.media.tumblr.com/cf4e65d3240e89e0d1bddd7aee6df05b/tumblr_pc3sg1Rlco1ruwbq8o1_1280.png" class="fill-div"></a></div>
 
 Come monaca e seguace dell'Ego Perfetto, conosce l'arte dell'ego astrale, usando il Carisma per farlo, ed è in grado di influenzare le menti, oltre a evocare le fiamme degli inferi.
 

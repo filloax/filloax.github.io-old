@@ -4,7 +4,9 @@
 
 ### Mano d'ombra Essek Thelyss
 
-<div class="portrait" style="  width: 33%;   background-image: url('/assets/img/essek.webp');   background-position: top;   background-size: 150%;   aspect-ratio: 1/1;"> <a href="/assets/img/essek.webp" class="fill-div"></a></div>
+{% imgc %}
+![](/assets/img/essek.webp){: width="33%" size="150%" pos="top" }
+{% endimgc %}
 
 *Drow M, prodigio della dunamanzia*
 
@@ -20,7 +22,9 @@ La casata capeggiata dalla Regina Radiosa, Leylas Kryn, e centrale al governo de
 
 ### Olomon Frangisole
 
-<div class="portrait" style="  width: 33%;   background-image: url('https://i.imgur.com/K2fOTxn.png');   background-position: top;   background-size: 150%;   aspect-ratio: 1/1;"> <a href="https://i.imgur.com/K2fOTxn.png" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/K2fOTxn.png){: width="33%" size="150%" pos="top" float="left" }
+{% endimgc %}
 
 *Minotauro M, generale in pensione*
 

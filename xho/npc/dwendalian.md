@@ -32,7 +32,9 @@ Organizzazione un tempo segreta di agenti magici, una sorta di CIA/KGB, che sta 
 
 #### Achilles, "Piccolo Principe"
 
-<div style="width: 25%; background-image: url('https://i.imgur.com/OuNs0Cc.jpg'); background-position: top 0% right 50%; background-size: 200%; float: none;" class="portrait"> <a href="https://i.imgur.com/OuNs0Cc.jpg" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/p1eFrhw.jpg){: width="25%" size="200%" pos="top 0% right 50%" }
+{% endimgc %}
 
 
 *umano, volstrucker assetato di battaglia*

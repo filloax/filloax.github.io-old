@@ -6,26 +6,22 @@ NPC importanti (o comunque non minori) incontrati come parte delle missioni.
 
 ### Nepheli Loux
 
-<div style="width: 25%; background-image: url('https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium');    background-position: top -10px right -50px;   background-size: 150%;" class="portrait"> <a href="https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium" class="fill-div"></a></div>
+{% imgc %}
+![](https://pbs.twimg.com/media/FPzLDcQX0AUmmt9?format=jpg&name=medium){: width="25%" min-width="200px" pos="top 15% right 60%" size="150%" }
+{% endimgc %}
 
 *Umana F, barbara tribale*
 
 Forzuta umana, ha offerto l'incarico della *bestia psionica*. Membro del nomade Clan della Luca, e figlia di Hoarah Loux, il suo capo.
 
-**Interazioni**
-
 - Ha ingaggiato il gruppo per scacciare una creatura psichica ([Eldenser](#eldenser)) dall'Isola Senzamare, che la sua tribù ambiva raggiungere.
 - Li ha aiutati durante la suddetta missione.
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 ### Hoarah Loux
-<div style="width: 25%; background-image: url('https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg'); background-position: top 10% right 55%; background-size: 300%;" class="portrait"> <a href="https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg" class="fill-div"></a></div>
+
+{% imgc %}
+![](https://s1.zerochan.net/Hoarah.Loux.600.3598352.jpg){: width="25%" min-width="200px" pos="top 10% right 55%" size="300%" }
+{% endimgc %}
 
 *Umano M, capo del clan*
 
@@ -35,17 +31,16 @@ Un enorme umano, incredibilmente forzuto, anche se i capelli bianchi fanno capir
 
 - Dopo la missione della Bestia Psionica, ha ringraziato (a modo suo) il gruppo, e fatto un accordo per lasciargli il cubo magico.
 
-<br>
-<br>
-<br>
-
 ### Bralae Jhalaeir
 *Drow F, maga dei fulmini*
 
 Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre da queste parti. Mandante della [missione del Behir](./quest.md#behir). Estremamente bella, a parte che per i capelli ormai permanentemente sparati dati gli esperimenti. Molto entusiasta, forse troppo, riguardo a fulmini e affini. Si potrebbe dire persino fulminata.
 
 ### Bibo
-<div style="width: 25%; background-image: url('https://i.imgur.com/eInBERC.png'); background-position: top 25% right 50%; background-size: 300%;" class="portrait"> <a href="https://i.imgur.com/eInBERC.png" class="fill-div"></a></div>
+
+{% imgc %}
+![](https://i.imgur.com/eInBERC.png){: width="25%" min-width="200px" pos="top 25% right 50%" size="300%" }
+{% endimgc %}
 
 *Goblin M, druido stravagante*
 
@@ -59,7 +54,9 @@ Abitante del villaggio semovente di [Urzin](/xho/luoghi#urzin) nella Palude di V
 
 ### Caduceus Clay
 
-<div style="width: 25%; background-image: url('https://i.imgur.com/UeRIYZM.png'); background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/UeRIYZM.png" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/UeRIYZM.png){: width="25%" min-width="200px" }
+{% endimgc %}
 
 [Caduceus Clay su Critical Role Wiki](https://criticalrole.fandom.com/wiki/Caduceus_Clay)
 

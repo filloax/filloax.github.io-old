@@ -10,15 +10,35 @@ Port Damali è la città principale, ed è famosa per molte cose, tra cui i suoi
 
 #### Marchese Havelock Lapidus
 
+{% imgc %}
+![](https://i.redd.it/tsq283fharj91.png){: width="25%" min-width="200px" }
+{% endimgc %}
+
 *umano, machiavellico governatore* 
+
+Il governatore di Port Damali, machiavellico politico che vede l'efficenza e il buon funzionamento della città come priorità su tutto. Si dice che sia estremamente poco interessato ai beni personali, oltre il necessario per mantnere la sua posizione. Grande e apatico calcolatore, anche se talvolta dopo dosi sufficenti del vino che tanto apprezza non è chiaro quali siano criptiche ma significative frasi e quali sproloqui etilici.
+
+Ha uno stormo di "contabili" che raddoppiano come agenti e sue orecchie.
 
 #### Comandante Sir [ecc.] Horace Vimes
 
-*umano, cinismo ambulante*
+{% imgc %}
+![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8bad0c71-ad9f-4436-89a3-efa67aeab5cf/d4fucfr-5a893195-700f-48dc-bfad-0cfd7b1c0b00.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhiYWQwYzcxLWFkOWYtNDQzNi04OWEzLWVmYTY3YWVhYjVjZlwvZDRmdWNmci01YTg5MzE5NS03MDBmLTQ4ZGMtYmZhZC0wY2ZkN2IxYzBiMDAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.F6jjyfSoVP4EB0GJwan6v8C7AJgvShlXUGprEcAiDN4){: width="25%" min-width="200px" size="200%" pos="top 20% right 60%" altlink="https://www.deviantart.com/zazb/art/Sam-Vimes-268474743" }
+{% endimgc %}
+
+*umano, antielitario d'elite*
+
+Comandante (ex-capitano) degli zhelezo, negli ultimi 7 anni sotto la sua guida sono cresciuti e diventati più rinomati come un tempo, anche grazie all'aiuto di alcuni avventurieri negli eventi che hanno scosso la città con la fallita "sublimazione" e il cielo che bruciò. Sotto di lui le guardie sono efficenti e si sono fatte riconoscere per risolvere anche casi di altre città.
+
+Estremamente anti-autoritario di natura, il che lo mette in uno strano zen tra questo e l'essere il super-capo delle guardie. Non si esime dal criticare il Marchese quando lo ritiene necessario, e si ritrova non di rado confuso da alcune sue decisioni che decide di non spiegare. Lo si vede sempre con il suo sigaro.
 
 #### Sergente Angua Lorelei
 
+![](https://i.imgur.com/4hMy20v.png){: width="25%" min-width="200px" }
+
 *umana (licantropo), cane guardia*
+
+Un sergente degli zhelezo cittadini, proviene dall'Impero. Si dice sia un licantropo, e non fa niente per smentire le voci.
 
 #### Altri
 
@@ -38,7 +58,9 @@ NPC della città elfica di Gwardan, nell'ovest della costa.
 
 ### Hwyn Atrith
 
-<div style="width: 25%; background-image: url('https://i.imgur.com/suFiWgL.jpg'); background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/suFiWgL.jpg" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/suFiWgL.jpg){: width="33%" min-width="200px" float="right" }
+{% endimgc %}
 
 *Mezzelfa F, nobile avventuriera*
 
@@ -54,7 +76,9 @@ Attualmente sposata con Nadeem Saade. Carnagione scura, capelli neri, vestita be
 
 ### Nadeem Saade
 
-<div style="width: 25%; background-image: url('https://i.imgur.com/L66tWUU.png'); background-size: 100%;" class="portrait"> <a href="https://i.imgur.com/L66tWUU.png" class="fill-div"></a></div>
+{% imgc %}
+![](https://i.imgur.com/L66tWUU.png){: width="25%" size="125%" pos="top 10% right 60%" float="right" }
+{% endimgc %}
 
 *Umano M, guerriero terrestre*
 
@@ -62,6 +86,7 @@ Marito di Hwyn e anche guardia del corpo. Guerriero ma anche amante di libri e s
 
 Carnagione poco scura (discendente di immigrati Marquesiani), vestiti chiari.
 
+<br>
 <br>
 <br>
 <br>
