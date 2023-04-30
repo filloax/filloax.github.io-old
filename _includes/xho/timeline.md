@@ -157,3 +157,17 @@
 	* Inizio trasporto bottino, e gestioni finali varie
 * 9/07/843, **9 Sydenstar**
 	* Ritorno ad Asarius e teletrasporto alla gilda
+* 10/07/843 - 22/07/843
+	* [Sessione 28](/xho/sessioni#sessione-28)
+	* [Sessione 27](/xho/sessioni#sessione-27)
+		* 1 settimana andata viaggio, 5 giorni ritorno
+* 18/07/843 - 18/08/843
+	* Fine downtime di [Sessione 29](/xho/sessioni#sessione-29), che include visita del governo
+	* Partenza per Piltover
+* 26/08/843
+	* Inizio Fiera del Domani (prima dell'arrivo dei PG)
+* 1/09/843
+	* Arrivo a Piltover, Fiera del Domani
+	* [Sessione 30](/xho/sessioni#sessione-30)
+* 3/09/843
+	* Esposizione finale Fiera del Domani

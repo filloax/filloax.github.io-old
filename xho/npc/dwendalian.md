@@ -44,3 +44,5 @@ Vero nome Achilles, nome in codice "Piccolo Principe" (suo malgrado). Apparentem
 Molto alto (per un umano), capelli rossi, più magro di quanto non ci si aspetterebbe dalla forza. Braccia coperte.
 
 - Nikolaya sa il suo nome, e che 3 anni prima sia stato l'unico sopravvissuto di una spedizione nell'isola a nord di Eiselcross, dalla quale si dice sia tornato cambiato. Ora è uno dei più forti tra i Volstrucker.
+
+- Ha provato a offrire stanze che si erano liberate nell'albergo dove stava la spedizione da Xhorhas, ma il gruppo non ci stava.

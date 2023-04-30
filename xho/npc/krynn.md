@@ -1,11 +1,17 @@
 [Torna a NPC](../npc)
 
-## Den Thelyss
+## Dinastia Kryn
 
-### Mano d'ombra Essek Thelyss
+NPC del resto della dinastia Kryn, o associati al governo in qualche modo.
+
+### Den Thelyss
+
+Una delle tre casate governative, dedita a ricerca, conoscenza, e informazione.
+
+#### Mano d'ombra Essek Thelyss
 
 {% imgc %}
-![](/assets/img/essek.webp){: width="33%" size="150%" pos="top" }
+![](/assets/img/essek.webp){: width="25%" size="150%" pos="top" }
 {% endimgc %}
 
 *Drow M, prodigio della dunamanzia*
@@ -16,14 +22,14 @@ Prodigio della dunamanzia (magia della realtà, gravità e tempo), nonostante l'
 
 Ha in qualche modo conoscenze su cose riguardanti il passato di Camelia. Ma per quale motivo?
 
-## Den Kryn
+### Den Kryn
 
-La casata capeggiata dalla Regina Radiosa, Leylas Kryn, e centrale al governo della Dinastia. Gestisce governo e clero.
+Una delle tre casate governative, capeggiata dalla Regina Radiosa, Leylas Kryn, e centrale al governo della Dinastia. Gestisce governo e clero.
 
-### Olomon Frangisole
+#### Olomon Frangisole
 
 {% imgc %}
-![](https://i.imgur.com/K2fOTxn.png){: width="33%" size="150%" pos="top" float="left" }
+![](https://i.imgur.com/K2fOTxn.png){: width="25%" size="150%" pos="top" }
 {% endimgc %}
 
 *Minotauro M, generale in pensione*
@@ -34,57 +40,60 @@ Uno dei fondatori della dinastia, giunto a una tarda età di questa vita (infatt
 
 Attualmente un enorme e imponente minotauro, a quanto pare è molto popolare popolare tra le donne nella dinastia, almeno per quanto riguarda l'ammirazione da una distanza di sicurezza. In realtà abbastanza tranquillo.
 
-## Den Hythenos
+### Den Mirimm
 
-Include NPC del Faro Radiante.
+Una delle tre casate governative, che gestisce esercito e protezione civile.
 
-### Sergente Bharren Coboryn
+#### Zaraenya Mirimm
+
+{% imgc %}
+![](https://i.redd.it/ljq74c4m6ov51.jpg){: width="25%" minwidth="200px" size="400%" pos="top 5% right 45%" }
+{% endimgc %}
+
+*drow, cercasole della Lente*
+
+Un'agente di medio-alto rango della Lente, un Cercasole. Ha simboli sacri oltre che del Luxon di Avandra, dea del cambiamento.
+
+- Ha dato alcune informazioni al gruppo riguardo alle questioni del mondo recenti, nebbie, ecc.
+
+### Den Hythenos
+
+Casata che gestisce molti mercenari e avventurieri, cercatori di tesori, e investigatori. Include NPC del Faro Radiante.
+
+#### Sergente Bharren Coboryn
 *Duergar NB, ufficiale del Faro*
 
 325 anni. Tra i più abili guerrieri sotto il casato Hythenos, sono passati molti decenni dai suoi tempi sul campo. Ha ricevuto l'incarico di verificare gli adepti all'appena fondato Faro Radiante. Si diverte con poco, specie a vedere dei dilettanti combattere.
 
 Tante cicatrici, occhio spento, piercing in tinta con lega-barba, cresta.
 
-### Talastree Hythenos
+#### Talastree Hythenos
 
 *Drow F, rampolla Hythenos*
 
 Evidentemente ha un ruolo di leadership o controllo con il Faro. Abiti estremamente costosi.
 
-### Membri del Faro
+#### Membri del Faro
 
 Info miste
 - Jenor, Kyria, Tazennin, Biggy e Frilysta sono un gruppo di esplorazione della nebbia, incontrato dal gruppo B.
 
-#### Jenor Hythenos
-{:.no_toc}
-*Drow M, avventuriero spocchioso*
-
-Giovane rampollo del Den Hythenos, molto spocchioso per la nobiltà. Si è iscritto per fare il figo, fondamentalmente. 
+- **Jenor Hythenos.** Avventuriero spocchioso. Giovane rampollo del Den Hythenos, molto spocchioso per la nobiltà. Si è iscritto per fare il figo, fondamentalmente. 
 Incontrato dal gruppo principale all'inizio, e dal gruppo B nella foresta.
-
-#### Kyria Ti'irn
-{:.no_toc}
-*Drow F, stregone della magia selvaggia*
-Attualmente ha la pelle di un verde acceso ha causa di una reazione passata. Capelli corti e un po' bruciati.
+- **Kyria Ti'irn.** Drow F, stregone della magia selvaggia. Attualmente ha la pelle di un verde acceso ha causa di una reazione passata. Capelli corti e un po' bruciati.
 Incontrata dal gruppo principale all'inizio, e dal gruppo B nella foresta.
+- **Tazennin Mizzrym.** Drow M, protettore. Viaggia per proteggere "Lady Kyria", come da lavoro.
+- **Biggy Ogg.** Goblin M, mago. Mago, poco sveglio oltre allo studio.
+- **Frilysta.** Tiefling F, blood hunter. Tiefling viola, corna dritte, molto strana.
 
-#### Tazennin Mizzrym
-{:.no_toc}
-*Drow M, protettore*  
-Viaggia per proteggere "Lady Kyria", come da lavoro.
 
-#### Biggy Ogg
-{:.no_toc}
-*Goblin M, mago*
-Mago, poco sveglio oltre allo studio.
+### Altri
 
-#### Frilysta
-{:.no_toc}
-*Tiefling F, guerriera strana?*  
-Tiefling viola, corna dritte, molto strana.
+Partecipanti alla spedizione a Tal'dorei
 
-<br>
-<br>
-<br>
-<br>
+- **Kresìmira Wizzlesprocket.** Goblin, F, decisamente vecchia, studiosa dei Tomi di Marmo. Ha spiegato al gruppo vicende riguardanti la Convergenza.
+- **Vaelenar Caerdonel.** Tiefling (drow), marchio scriba, F, assistende di Kresimira. Occhiali.
+- **Damaia Kryn.** Drow, F, diplomatica.
+- **Karg Bilyan.** Orco, M, nobile che ha spinto per la spedizione. Entusiasta delle cose estere.
+- **Rurik Duendalos.** Duergar, M, nobile dedito a gestire intrattenimento.
+- Altri non menzionati.

@@ -4,4 +4,4 @@
 
 {% include_relative includes/campaign_index.md %}
 
-{% include_relative includes/timeline.md %}
+{% include xho/timeline.md %}
