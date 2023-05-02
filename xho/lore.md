@@ -26,6 +26,10 @@ Informazioni di mondo varie ed eventuali, almeno quelle rilevanti in più di una
 > --- [Colui che Vede](/xho/npc/fog#asterius-il-tessistorie)
 {: class="introquote" }
 
+<br>
+
+![]({{site.data.img.convergence}}){: style="margin: auto" }
+
 ### Unione di altri universi
 
 Da diversi decenni si è scoperto che diversi elementi del mondo, che ne hanno sempre fatto parte, sono in realtà **derivanti del tutto o in parte da altri universi**. Elementi di diverso tipo: da semplici idee, a materiali come le Gemme Draconiche, a persone, a creature, a tecnologie, a intere città come nel caso di Piltover e parte di Port Damali, tutti **echi** di parti di altri universi. Questo fenomeno è detto la **Convergenza**.
@@ -58,6 +62,15 @@ Le **gemme draconiche** sono gemme molto utili per realizzare oggetti e costruzi
 > --- [Kanenas Sophokleptes](/xho/npc/dwendalian#kanenas), "Il Cielo Bruciò: Saggio sulla Convergenza e la Sublimazione"
 {: class="introquote" }
 
+<br>
+
+<div class="nomobile" markdown="1">
+![]({{site.data.img.fog}}){: width="25%" style="float: left; margin: 10px" }
+</div>
+<div class="mobileonly" markdown="1">
+![]({{site.data.img.fog}}){: width="100%" style="margin: 10px" }
+</div>
+
 ### Centro della Convergenza
 
 7 anni fa il cielo è diventato rosso in tutto il mondo, e nel continente di Wildemount le persone hanno sentito echi di voci di altri mondi. Nel mentre, hanno cominciato a espandersi in diverse aree del mondo, soprattutto nel continente, aree di nebbia magica, arrestate nella loro espansione quando il gruppo di avventurieri del Vento Ardente ha interrotto il processo, iniziato a Port Damali*. Queste nebbie sono state nominate **Nebbie del Lutto**.
@@ -66,7 +79,7 @@ Queste aree di nebbia subiscono il femomeno della **Convergenza in modo estremam
 
 La realtà stessa è molto labile, al punto che sono presenti aree dove la magia e altre leggi della realtà funzionano male o diversamente, si formano fenomeni che mutano gli animali locali, e ogni altro genere di "corruzione" ed errori della realtà.
 
-\* Eventi della campagna precedente
+*\* Eventi della campagna precedente*
 
 ### Sublimazione
 
