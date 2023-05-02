@@ -56,7 +56,7 @@ Un sergente degli zhelezo cittadini, proviene dall'Impero. Si dice sia un licant
 
 NPC della città elfica di Gwardan, nell'ovest della costa.
 
-### Hwyn Atrith
+#### Hwyn Atrith
 
 {% imgc %}
 ![](https://i.imgur.com/suFiWgL.jpg){: width="33%" min-width="200px" float="right" }
@@ -74,7 +74,7 @@ Warlock che ha un patto con la sua arma, che contiene un ex-maggiordomo antico d
 
 Attualmente sposata con Nadeem Saade. Carnagione scura, capelli neri, vestita bene e vestiti scuri, vino.
 
-### Nadeem Saade
+#### Nadeem Saade
 
 {% imgc %}
 ![](https://i.imgur.com/L66tWUU.png){: width="25%" size="125%" pos="top 10% right 60%" float="right" }
@@ -92,8 +92,25 @@ Carnagione poco scura (discendente di immigrati Marquesiani), vestiti chiari.
 <br>
 <br>
 
-### Marchese Vasan Atrith
+#### Marchese Vasan Atrith
 
 *elfa, marchese*
 
 Madre di Hwyn, si finge meno sveglia con chi la conosce meno per farsi sottovalutare. Mette il bene della città e della casata prima di tutto, o quasi.
+
+### Nicodranas
+
+Città più piccola di Port Damali, ma non meno colorata, e meta turistica frequente per chi si può permettere il turismo.
+
+#### Yussa Errenis
+
+{% imgc %}
+![](https://pbs.twimg.com/media/DxK-ahnUwAAT5P6?format=jpg&name=large){: width="25%" min-width="200px" pos="top" size="110%" }
+{% endimgc %}
+
+*elfo, arcimago solitario*
+
+Arcimago che possiede un distretto di Nicodranas, e ha ottime connessioni con il resto. Sta nella sua torre, e si fa vedere fuori molto raramente, e per buone ragioni. Fa parte dell'organizzazione internazionale di maghi del Pansofico Arcano.
+
+Sempre vestito di colori dorati, in qualche modo senza risultare pacchiano.
+

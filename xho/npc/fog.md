@@ -21,7 +21,7 @@ Per ora apparso solo in sogno dentro la nebbia, come una figura visibile davanti
 - Secondo _"Il Cielo Bruciò, Saggio sulla Convergenza e la Sublimazione di Kanenas Sophokleptes"_, disse di chiamarsi Wolfgang Gottfried Asterius quando comparve negli eventi di Port Damali di 7 anni fa.
 
 <div style="margin: auto" markdown="1">
-![](https://i.imgur.com/rxdo0rt.jpg){: height="300px" } ![](https://i.imgur.com/oU9XmtN.jpg){: height="300px" }
+![]({{site.data.img.asterius_normal}}){: height="300px" } ![]({{site.data.img.asterius_mad}}){: height="300px" }
 </div>
 
 - Comparso in forma umana o comunque umanoide durante gli eventi alla fine della Fiera del Domani di Piltover, vestito con un abito nero in due pezzi.
