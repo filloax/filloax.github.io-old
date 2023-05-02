@@ -89,7 +89,7 @@ Incontrata dal gruppo principale all'inizio, e dal gruppo B nella foresta.
 
 ### Altri
 
-Partecipanti alla spedizione a Tal'dorei
+#### Partecipanti alla spedizione a Tal'dorei
 
 - **Kresìmira Wizzlesprocket.** Goblin, F, decisamente vecchia, studiosa dei Tomi di Marmo. Ha spiegato al gruppo vicende riguardanti la Convergenza.
 - **Vaelenar Caerdonel.** Tiefling (drow), marchio scriba, F, assistende di Kresimira. Occhiali.

@@ -232,3 +232,11 @@ blockquote, blockquote * {
 tr.tablesep {
     background-color: #11351c !important;
 }
+
+blockquote.introquote {
+    max-width: 500px;
+    margin: auto;
+    * {
+        font-size: 16px !important;
+    }
+}
