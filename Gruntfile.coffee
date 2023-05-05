@@ -44,9 +44,9 @@ module.exports = (grunt) ->
       jekyllIncr:
         command: "bundle exec jekyll build --trace --incremental"
       attXho:
-        command: 'python _scripts/countplayers.py _xho/sessions -s -o "assets/img/gen/xho_attendance.webp" --dpi 150 --colorseed 220 --debug'
+        command: 'python _scripts/countplayers.py _xho/sessions -s -o "assets/img/gen/xho_attendance.webp" --dpi 150 --colorseed 220'
       attStar:
-        command: 'python _scripts/countplayers.py _star/sessions -s -o "assets/img/gen/star_attendance.webp" --dpi 150 --colorseed 523 --debug'
+        command: 'python _scripts/countplayers.py _star/sessions -s -o "assets/img/gen/star_attendance.webp" --dpi 150 --colorseed 523'
 
     watch:
       options:
