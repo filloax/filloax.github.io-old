@@ -6,7 +6,8 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-connect"
   grunt.loadNpmTasks "grunt-contrib-copy"
   grunt.loadNpmTasks "grunt-contrib-watch"
-  grunt.loadNpmTasks "grunt-exec"
+  grunt.loadNpmTasks "grunt-shell"
+  grunt.loadNpmTasks "grunt-browser-sync"
   grunt.loadNpmTasks "grunt-jekyll"
 
   grunt.initConfig
@@ -37,13 +38,15 @@ module.exports = (grunt) ->
           },
        ]
 
-    exec:
+    shell:
       jekyll:
-        cmd: "bundle exec jekyll build --trace"
-      att_xho:
-        cmd: 'python _scripts/countplayers.py _xho/sessions -s -o "assets/img/gen/xho_attendance.webp" --dpi 150'
-      att_star:
-        cmd: 'python _scripts/countplayers.py _star/sessions -s -o "assets/img/gen/star_attendance.webp" --dpi 150 --colorseed 523'
+        command: "bundle exec jekyll build --trace"
+      jekyllIncr:
+        command: "bundle exec jekyll build --trace --incremental"
+      attXho:
+        command: 'python _scripts/countplayers.py _xho/sessions -s -o "assets/img/gen/xho_attendance.webp" --dpi 150 --colorseed 220'
+      attStar:
+        command: 'python _scripts/countplayers.py _star/sessions -s -o "assets/img/gen/star_attendance.webp" --dpi 150 --colorseed 523'
 
     watch:
       options:
@@ -54,16 +57,36 @@ module.exports = (grunt) ->
           "_includes/**/*"
           "_layouts/**/*"
           "_posts/**/*"
-          "css/**/*"
-          "js/**/*"
+          "_plugins/**"
+          "_sass/**"
+          "_data/**"
+          "_scripts/**"
+          "_xho/**"
+          "_star/**"
           "_config.yml"
-          "*.html"
+          "assets/**"
+          "**.html"
           "*.md"
+          "xho/**"
+          "star/**"
+          "homebrew/**"
+          "Gruntfile.coffee"
         ]
         tasks: [
           "runscripts"
-          "exec:jekyll"
+          "shell:jekyllIncr"
         ]
+    browserSync:
+      dev:
+        bsFiles:
+          src : [
+            '_site/**/*.*'
+          ]
+        options:
+          port: 4000
+          watchTask: true,
+          server: './_site'
+          extensions: ['html']
 
     jekyll:
       options:
@@ -76,26 +99,25 @@ module.exports = (grunt) ->
           host: "0.0.0.0"
 
   grunt.registerTask "runscripts", [
-    "exec:att_star"
-    "exec:att_xho"
+    "shell:attStar"
+    "shell:attXho"
   ]
 
   grunt.registerTask "build", [
     "runscripts"
     "copy"
-    "exec:jekyll"
+    "shell:jekyll"
+  ]
+
+  grunt.registerTask "serveReload", [
+    "build"
+    "browserSync"
+    "watch"
   ]
 
   grunt.registerTask "serve", [
     "build"
     "jekyll:serve"
-    "watch"
-  ]
-
-  grunt.registerTask "servetrace", [
-    "build"
-    "jekyll:serve"
-    "watch"
   ]
 
   grunt.registerTask "default", [

@@ -2,7 +2,7 @@ import os
 import argparse
 import re
 import datetime
-import pandas as pd
+# import pandas as pd
 import copy
 from matplotlib import pyplot as plt
 from matplotlib import colors
@@ -66,19 +66,30 @@ def get_folder_data(dir) -> "list[dict]":
         session_data.append(data)
     return session_data
 
-def get_simplified_data_df(session_data: list[dict]) -> pd.DataFrame:
+# def get_simplified_data_df(session_data: list[dict]) -> pd.DataFrame:
+#     simplified_data = copy.deepcopy(session_data)
+
+#     for data in simplified_data:
+#         for player in data["players"]:
+#             data[player["player"]] = player["name"]
+#         del data["players"]
+
+#     return pd.DataFrame(simplified_data).set_index("number")
+
+def get_simplified_data_cols(session_data: list[dict]) -> list[dict]:
     simplified_data = copy.deepcopy(session_data)
+    players = []
 
     for data in simplified_data:
         for player in data["players"]:
             data[player["player"]] = player["name"]
+            if player["player"] not in players:
+                players.append(player["player"])
         del data["players"]
 
-    return pd.DataFrame(simplified_data).set_index("number")
+    return simplified_data, players
 
-def draw_attendance_plot(df: pd.DataFrame, drawseps = True, seed = 845, char_colors: dict = {}, show=True, figsize=(10, 6)):
-    att_df = df.drop(["date", "title"], axis=1)
-
+def draw_attendance_plot(sim_data: list[dict], columns: list[str], drawseps = True, seed = 845, char_colors: dict = {}, show=True, figsize=(10, 6)):
     # Plot colored table
     plt.style.use('dark_background')
     fig, ax = plt.subplots(figsize=figsize)
@@ -90,20 +101,25 @@ def draw_attendance_plot(df: pd.DataFrame, drawseps = True, seed = 845, char_col
     char_col_offset = rand.randrange(0, 360)
     char_colors = char_colors.copy()
 
-    for i, col in enumerate(att_df):
+    counts = {name: 0 for name in columns}
+    char_counts = {}
+
+    for i, col in enumerate(columns):
         last = None
-        for j, idx in enumerate(df.index):
-            value = df.loc[idx, col]
+        for j, ses_data in enumerate(sim_data):
+            value = ses_data.get(col, None)
             is_diff = value != last
             last = value
-            if not pd.isna(value):
+            if value:
+                counts[col] += 1
+                char_counts[value] = char_counts.get(value, 0) + 1
                 # color = string_to_colour(value, saturation=1, value=0.6, shift=545)
                 color = None
                 if value in char_colors:
                     color = char_colors[value]
                 else:
                     color = colors.hsv_to_rgb(np.array([char_col_offset / 360., 0.75, 0.6]))
-                    char_col_offset = (char_col_offset + rand.randrange(90, 150)) % 360
+                    char_col_offset = (char_col_offset + rand.randrange(90, 180)) % 360
                     char_colors[value] = color
                 ax.add_patch(plt.Rectangle((i, j), 1, 1, 
                                         color=color, 
@@ -114,10 +130,10 @@ def draw_attendance_plot(df: pd.DataFrame, drawseps = True, seed = 845, char_col
                     ax.plot([i, i+1], [j, j], color=sepcol, lw=0.5)
                 if is_diff:
                     ax.text(i+0.5, j+0.45, value, ha='center', va='center', color='white')
-    ax.set_xticks(np.arange(len(att_df.columns))+0.5)
-    ax.set_xticklabels(att_df.columns)
-    ax.set_yticks(np.arange(len(df.index))+0.5)
-    ax.set_yticklabels(df.index)
+    ax.set_xticks(np.arange(len(columns))+0.5)
+    ax.set_xticklabels(columns)
+    ax.set_yticks(np.arange(len(sim_data))+0.5)
+    ax.set_yticklabels(np.arange(len(sim_data), dtype=int) + 1)
     ax.set_title('Gente e PG a sessione')
     ax.margins(0.01)
 
@@ -125,8 +141,8 @@ def draw_attendance_plot(df: pd.DataFrame, drawseps = True, seed = 845, char_col
     ax.set_yticklabels('')
     # Customize minor tick labels
     plt.yticks(
-        [int(x) - 0.5 for x in df.index], 
-        labels=df.index,
+        [x + 0.5 for x in range(len(sim_data))], 
+        labels=[x + 1 for x in range(len(sim_data))],
         minor=True,
     )
     ax.tick_params(axis='y', which='minor', length=0, pad=8)
@@ -141,15 +157,21 @@ def draw_attendance_plot(df: pd.DataFrame, drawseps = True, seed = 845, char_col
     if show:
         plt.show()
 
+    print("Drawn graph, counts:")
+    print("Players:", counts)
+    print("Characters:", char_counts)
+
     return ax, fig
 
 def main(args):
     all_data = get_folder_data(os.path.abspath(args.path))
-    df = get_simplified_data_df(all_data)
+    # df = get_simplified_data_df(all_data)
+    simple_data, cols = get_simplified_data_cols(all_data)
     extraargs = {}
     if args.colorseed:
         extraargs["seed"] = args.colorseed
-    ax, fig = draw_attendance_plot(df, show=not args.silent, **extraargs)
+    # ax, fig = draw_attendance_plot(df, show=not args.silent, **extraargs)
+    ax, fig = draw_attendance_plot(simple_data, cols, show=not args.silent, **extraargs)
 
     if args.out:
         extraargs_save = {}

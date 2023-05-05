@@ -29,8 +29,8 @@
 	* Viaggio verso Catena della Penombra (nord-ovest)
 * 11/02/843, **11 Misuthar**
 	* Arrivo a Catena della Penombra (nord-ovest)
-	* Missione [[Behir]], in caverna
-	* Inizio [[Sessione 6]]
+	* Missione [Behir](/xho/quest#behir), in caverna
+	* Inizio [Sessione 6](/xho/sessioni#sessione-6)
 	* Arrivo Mavreus ad Ardeal
 	* Inizio popolamento Ardeal
 * 11/02/843 -> 14/02/843, **11->14 Misuthar**

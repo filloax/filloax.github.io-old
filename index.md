@@ -6,7 +6,7 @@
 
 # Indice
 
-Questo sito contiene informazioni su campagne varie, al momento solo Esploratori della Nebbia.
+Questo sito contiene informazioni su campagne varie, e mie o altrui homebrew per riferimento nelle mie campagne.
 
 **Campagne**
 
