@@ -25,6 +25,8 @@ parser.add_argument("-s", "--silent", action="store_true", help="Avoid rendering
 parser.add_argument("--colorseed", type=int, help="Seed for random colors")
 parser.add_argument("--debug", action="store_true", help="Print debug info")
 
+debug = False
+
 def get_data(filepath):
     data = {}
     players = []
@@ -92,6 +94,8 @@ def get_simplified_data_cols(session_data: list[dict]) -> list[dict]:
     return simplified_data, players
 
 def draw_attendance_plot(sim_data: list[dict], columns: list[str], drawseps = True, seed = 845, char_colors: dict = {}, show=True, figsize=(10, 6)):
+    global debug
+    
     # Plot colored table
     plt.style.use('dark_background')
     fig, ax = plt.subplots(figsize=figsize)
@@ -106,9 +110,11 @@ def draw_attendance_plot(sim_data: list[dict], columns: list[str], drawseps = Tr
     counts = {name: 0 for name in columns}
     char_counts = {}
 
-    for i, col in enumerate(columns):
+    for i, col in enumerate(columns):           
         last = None
         for j, ses_data in enumerate(sim_data):
+            if debug:
+                print("[DEBUG]", "{:10}".format(col) ,"| Doing session {:2d}".format(ses_data["number"]), ses_data["title"])
             value = ses_data.get(col, None)
             is_diff = value != last
             last = value
@@ -166,7 +172,10 @@ def draw_attendance_plot(sim_data: list[dict], columns: list[str], drawseps = Tr
     return ax, fig
 
 def main(args):
+    global debug
     if args.debug:
+        debug = True
+    if debug:
         print("[DEBUG] Matplotlib backend:", matplotlib.get_backend())
 
     all_data = get_folder_data(os.path.abspath(args.path))
