@@ -6,3 +6,5 @@ vendor
 _sass/midnight.scss
 /node_modules/
 /vendor/
+_scripts/*.webp
+**.pyc
