@@ -155,6 +155,14 @@ def main(args):
         extraargs_save = {}
         if args.dpi:
             extraargs_save["dpi"] = args.dpi
+
+        out = os.path.abspath(args.out)
+        outdir = os.path.dirname(out)
+
+        if not os.path.exists(outdir):
+            os.makedirs(outdir)
+            print("Created directory", outdir)
+
         plt.savefig(args.out, transparent=True, bbox_inches='tight', **extraargs_save)
 
 if __name__ == "__main__":
