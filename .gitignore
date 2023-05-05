@@ -8,3 +8,4 @@ _sass/midnight.scss
 /vendor/
 _scripts/*.webp
 **.pyc
+assets/img/gen/**

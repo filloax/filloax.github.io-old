@@ -43,6 +43,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: npm setup
         uses: ng-easy/npm-setup@v1.7.2
+      - name: python setup
+        uses: py-actions/py-dependency-install@v4
       - name: Build with Jekyll (Using grunt)
         # Outputs to the './_site' directory by default
         # run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"

@@ -10,7 +10,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-jekyll"
 
   grunt.initConfig
-
     copy:
       jquery:
         files: [{
@@ -41,6 +40,10 @@ module.exports = (grunt) ->
     exec:
       jekyll:
         cmd: "bundle exec jekyll build --trace"
+      att_xho:
+        cmd: 'python _scripts/countplayers.py _xho/sessions -s -o "assets/img/gen/xho_attendance.webp" --dpi 150'
+      att_star:
+        cmd: 'python _scripts/countplayers.py _star/sessions -s -o "assets/img/gen/star_attendance.webp" --dpi 150 --colorseed 523'
 
     watch:
       options:
@@ -58,6 +61,7 @@ module.exports = (grunt) ->
           "*.md"
         ]
         tasks: [
+          "runscripts"
           "exec:jekyll"
         ]
 
@@ -71,8 +75,13 @@ module.exports = (grunt) ->
           livereload: true
           host: "0.0.0.0"
 
+  grunt.registerTask "runscripts", [
+    "exec:att_star"
+    "exec:att_xho"
+  ]
 
   grunt.registerTask "build", [
+    "runscripts"
     "copy"
     "exec:jekyll"
   ]

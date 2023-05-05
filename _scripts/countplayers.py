@@ -1,16 +1,13 @@
 import os
 import argparse
-import sys
 import re
 import datetime
 import pandas as pd
 import copy
-import matplotlib
 from matplotlib import pyplot as plt
 from matplotlib import colors
 import numpy as np
 import random
-from PIL import Image
 
 PATTERN_PLAYERS = r'^Partecipano: '
 PATTERN_GUEST = r'^Ospite: '
@@ -24,6 +21,7 @@ parser.add_argument("path", help="Path to folder containing session recaps")
 parser.add_argument("-o", "--out", default=None, help="Output plot image")
 parser.add_argument("--dpi", type=int, default=None, help="Output image DPI")
 parser.add_argument("-s", "--silent", action="store_true", help="Avoid rendering plot to window")
+parser.add_argument("--colorseed", type=int, help="Seed for random colors")
 
 def get_data(filepath):
     data = {}
@@ -148,10 +146,16 @@ def draw_attendance_plot(df: pd.DataFrame, drawseps = True, seed = 845, char_col
 def main(args):
     all_data = get_folder_data(os.path.abspath(args.path))
     df = get_simplified_data_df(all_data)
-    ax, fig = draw_attendance_plot(df, show=not args.silent)
+    extraargs = {}
+    if args.colorseed:
+        extraargs["seed"] = args.colorseed
+    ax, fig = draw_attendance_plot(df, show=not args.silent, **extraargs)
 
     if args.out:
-        plt.savefig(args.out, transparent=True, bbox_inches='tight', dpi=args.dpi or "figure")
+        extraargs_save = {}
+        if args.dpi:
+            extraargs_save["dpi"] = args.dpi
+        plt.savefig(args.out, transparent=True, bbox_inches='tight', **extraargs_save)
 
 if __name__ == "__main__":
     args = parser.parse_args()
