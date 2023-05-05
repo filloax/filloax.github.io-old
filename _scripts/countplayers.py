@@ -4,6 +4,7 @@ import re
 import datetime
 # import pandas as pd
 import copy
+import matplotlib
 from matplotlib import pyplot as plt
 from matplotlib import colors
 import numpy as np
@@ -22,6 +23,7 @@ parser.add_argument("-o", "--out", default=None, help="Output plot image")
 parser.add_argument("--dpi", type=int, default=None, help="Output image DPI")
 parser.add_argument("-s", "--silent", action="store_true", help="Avoid rendering plot to window")
 parser.add_argument("--colorseed", type=int, help="Seed for random colors")
+parser.add_argument("--debug", action="store_true", help="Print debug info")
 
 def get_data(filepath):
     data = {}
@@ -164,6 +166,9 @@ def draw_attendance_plot(sim_data: list[dict], columns: list[str], drawseps = Tr
     return ax, fig
 
 def main(args):
+    if args.debug:
+        print("[DEBUG] Matplotlib backend:", matplotlib.get_backend())
+
     all_data = get_folder_data(os.path.abspath(args.path))
     # df = get_simplified_data_df(all_data)
     simple_data, cols = get_simplified_data_cols(all_data)
