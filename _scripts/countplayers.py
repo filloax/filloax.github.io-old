@@ -68,6 +68,9 @@ def get_folder_data(dir) -> "list[dict]":
     for file in os.listdir(dir):
         data = get_data(os.path.join(dir, file))
         session_data.append(data)
+
+    session_data.sort(key=lambda data: data["number"])
+
     return session_data
 
 # def get_simplified_data_df(session_data: list[dict]) -> pd.DataFrame:
