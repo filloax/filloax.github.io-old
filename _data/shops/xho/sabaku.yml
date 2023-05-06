@@ -44,13 +44,6 @@
   link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/bf0404/the_griffons_saddlebag_cratering_quarterstaff/
   desc: "Il primo errore che il nemico della monaca ashari Lyara la Cenere era dirle che non poteva riuscire a sollevare quel bastone. Il secondo errore era dirle che doveva metterlo giù."
   new: true
-- name: Lama del Ki
-  price: 15000
-  rarity: molto raro
-  attunement: monaco
-  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/oq3mft/the_griffons_saddlebag_ki_blade_weapon_shortsword/
-  desc: "Il ki è il nome dato da alcune scuole all'energia vitale di ogni essere vivente, ma non è un concetto in sè esclusivo di esse.||I monaci dotati di enorme forza di volontà lo possono manipolare per compiere manovre incredibili.||Ma questa capacità è innata nell'essere vivente e sbloccata dall'allenamento, o viene da qualcosa di più?"
-  new: true
 
 # Raro
 - name: Giacca del capitano
@@ -208,4 +201,12 @@
   price: 1500
   rarity: raro
   desc: La Tregua del Viandante. Una locanda leggendaria, che si dice fluttui nel Mare Astrale, pronta ad accogliere avventurieri bisognosi. Si dice che queste medaglie con la parola d'ordine giusta permettano di andarci, una volta alla settimana, ma purtroppo la parola è segreta ai più. Anche se magie di divinazione potenti potrebbero probabilmente aiutare.
+  sold: true
+- name: Lama del Ki
+  price: 15000
+  rarity: molto raro
+  attunement: monaco
+  link: https://old.reddit.com/r/TheGriffonsSaddlebag/comments/oq3mft/the_griffons_saddlebag_ki_blade_weapon_shortsword/
+  desc: "Il ki è il nome dato da alcune scuole all'energia vitale di ogni essere vivente, ma non è un concetto in sè esclusivo di esse.||I monaci dotati di enorme forza di volontà lo possono manipolare per compiere manovre incredibili.||Ma questa capacità è innata nell'essere vivente e sbloccata dall'allenamento, o viene da qualcosa di più?"
+  new: true
   sold: true
