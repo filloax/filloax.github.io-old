@@ -1,0 +1,1722 @@
+[
+	{
+		"name": "Wand of Web",
+		"source": "DMG",
+		"page": 212,
+		"srd": true,
+		"type": "WD",
+		"tier": "major",
+		"rarity": "uncommon",
+		"reqAttune": "by a spellcaster",
+		"reqAttuneTags": [
+			{
+				"spellcasting": true
+			}
+		],
+		"weight": 1,
+		"recharge": "dawn",
+		"rechargeAmount": "{@dice 1d6 + 1}",
+		"charges": 7,
+		"entries": [
+			"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the {@spell web} spell (save DC 15) from it.",
+			"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
+		],
+		"attachedSpells": [
+			"web"
+		],
+		"lootTables": [
+			"Magic Item Table F"
+		],
+		"hasFluffImages": true,
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wand"
+		],
+		"_typeHtml": "wand",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement by a spellcaster)",
+		"_attunementCategory": "Requires Attunement By...",
+		"_fSources": "DMG",
+		"_fProperties": [],
+		"_fMisc": [
+			"SRD",
+			"Has Images",
+			"Magic",
+			"Charges"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"major"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"Requires Attunement By...",
+			"Spellcaster"
+		]
+	},
+	{
+		"name": "Borbos's Joyous Wand of Color",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"type": "WD",
+		"rarity": "common",
+		"entries": [
+			"This crystalline, prismatic wand can channel the illustrative intent of its wielder. While holding the wand, you can cause the end to leave behind an arcane pigment of your choice, allowing you to draw in midair or on any surface the end of the wand touches. The effect is illusory, visibly magic, radiates dim light out to 5 feet, and dissipates after one hour of completing a drawing."
+		],
+		"fluff": {
+			"entries": [
+				"You tend to make little whooshing sounds when you use it."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/blgqouke46g21.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wand"
+		],
+		"_typeHtml": "wand",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [],
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Lesser Wand of Cantrip",
+		"source": "KTKCG",
+		"page": 102,
+		"rarity": "common",
+		"value": 3000,
+		"type": "WD",
+		"charges": 3,
+		"recharge": "special",
+		"entries": [
+			"This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter's Wand DC.",
+			"The wand doesn't regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+			{
+				"type": "statblock",
+				"tag": "variantrule",
+				"source": "KTKCG",
+				"name": "Recharging Lesser Wands",
+				"page": 99,
+				"collapsed": true
+			}
+		],
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "KibblesTasty; Kibbles' Crafting Guide.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wand"
+		],
+		"_typeHtml": "wand",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "KTKCG",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic",
+			"Charges"
+		],
+		"_fValue": 3000,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Potion of Maximum Power",
+		"source": "EGW",
+		"page": 268,
+		"type": "P",
+		"rarity": "rare",
+		"entries": [
+			"The first time you cast a damage-dealing spell of 4th level or lower within 1 minute after drinking the potion, instead of rolling dice to determine the damage dealt, you can instead use the highest number possible for each die.",
+			"This glowing purple liquid smells of sugar and plum, but it has a muddy taste."
+		],
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"potion"
+		],
+		"_typeHtml": "potion",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "EGW",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Potion of Speed",
+		"source": "DMG",
+		"page": 188,
+		"srd": true,
+		"type": "P",
+		"tier": "minor",
+		"rarity": "very rare",
+		"entries": [
+			"When you drink this potion, you gain the effect of the {@spell haste} spell for 1 minute (no {@status concentration} required). The potion's yellow fluid is streaked with black and swirls on its own."
+		],
+		"attachedSpells": [
+			"haste"
+		],
+		"lootTables": [
+			"Magic Item Table D"
+		],
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"potion"
+		],
+		"_typeHtml": "potion",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "DMG",
+		"_fProperties": [],
+		"_fMisc": [
+			"SRD",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"minor"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Potion of Spell Recovery (Potion)",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"type": "P",
+		"rarity": "rare",
+		"entries": [
+			"You regain {@dice 1d3 + 3} expended spell slot levels. You can recover a total number of combined spell slot levels equal to or less than the number you roll when you drink this potion. None of the slots can be 6th level or higher."
+		],
+		"fluff": {
+			"entries": [
+				"\"Tastes like chicken. Well, a chicken that's been boiled in magic. Have you ever tried that before?\""
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/cwgbc4opmol31.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"potion"
+		],
+		"_typeHtml": "potion",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [],
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Chi-Balancing Tea (Potion)",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"type": "P",
+		"rarity": "rare",
+		"entries": [
+			"This potion is specially brewed by the monks of Durheim using a unique leaf found only in their gardens. The tea remains magically warm while inside its traditional porcelain bottle. The potion's flavor is deep and smoky, and leaves a sour aftertaste like the air after a storm.",
+			"When you drink this potion, it cures any short-term madness afflicting you, and removes the {@condition charmed} and {@condition frightened} conditions. In addition, if you have 2 or more levels in the monk class, you regain {@dice 1d4 + 1} expended ki points."
+		],
+		"fluff": {
+			"entries": [
+				"A good tea can restore your mind, body, and spirit."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/z15qjcfij1a51.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"potion"
+		],
+		"_typeHtml": "potion",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [],
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Siege Staff",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"srd": true,
+		"basicRules": true,
+		"type": "M",
+		"rarity": "rare",
+		"reqAttune": "by a bard, cleric, druid, sorcerer, warlock, or wizard",
+		"reqAttuneTags": [
+			{
+				"class": "bard"
+			},
+			{
+				"class": "cleric"
+			},
+			{
+				"class": "druid"
+			},
+			{
+				"class": "sorcerer"
+			},
+			{
+				"class": "warlock"
+			},
+			{
+				"class": "wizard"
+			}
+		],
+		"weight": 4,
+		"weaponCategory": "simple",
+		"property": [
+			"V"
+		],
+		"dmg1": "1d6",
+		"dmgType": "B",
+		"dmg2": "1d8",
+		"recharge": "dawn",
+		"charges": 10,
+		"staff": true,
+		"entries": [
+			"This stony staff has been carved into the shape of a castle tower. The staff has 10 charges for the following properties, which use your spell save DC and spell attack bonus, and regains {@dice 1d8 + 2} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, a the staff crumbles into rubble and is destroyed.",
+			{
+				"type": "entries",
+				"name": "Battering Strike",
+				"entries": [
+					"This staff can be wielded as a magic quarterstaff. When you hit with a melee attack using this staff, you can expend 1 of its charges to cause the target to take an extra {@damage 1d6} bludgeoning damage. If the target is a creature, it's also pushed 5 feet away from you. In addition, when you attack an object with the staff and hit, maximize your weapon damage dice against the target."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Fire Pot",
+				"entries": [
+					"While holding the staff, you can use an action and expend 1 or more charges to cast the {@spell grease} spell from it. You can increase the size of the square covered by the spell by 5 feet for each additional charge you expend in this way (up to a 20-foot square). When you expend 2 or more charges to cast the spell in this way, creatures also take {@damage 2d6} fire damage on a failed save, or half as much damage on a successful one."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Trebuchet",
+				"entries": [
+					"While holding the staff, you can use an action and expend 3 charges to magically create and fling a boulder at a point you can see within 60 feet of you. Any target within 5 feet of the point must make a Dexterity saving throw. On a failed save, a target takes {@damage 4d8} bludgeoning damage, and if it's Medium or smaller, it is also pushed 10 feet away from the point. On a successful save, a target takes half as much bludgeoning damage and isn't pushed. Maximize the bludgeoning damage dice against any object or structure hit by the boulder. After it lands, the boulder disappears."
+				]
+			}
+		],
+		"attachedSpells": [
+			"grease"
+		],
+		"fluff": {
+			"entries": [
+				"When threatened by invading forces, her ladyship did not back down. She stayed comfortable indoors while the battalions drew close outside, choosing instead to rain her favorite siege options down upon the assailants from her window. She was fearless and cunning, to say the least."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/l2sdqntmimy51.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_fullEntries": [
+			"This stony staff has been carved into the shape of a castle tower. The staff has 10 charges for the following properties, which use your spell save DC and spell attack bonus, and regains {@dice 1d8 + 2} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, a the staff crumbles into rubble and is destroyed.",
+			{
+				"type": "entries",
+				"name": "Battering Strike",
+				"entries": [
+					"This staff can be wielded as a magic quarterstaff. When you hit with a melee attack using this staff, you can expend 1 of its charges to cause the target to take an extra {@damage 1d6} bludgeoning damage. If the target is a creature, it's also pushed 5 feet away from you. In addition, when you attack an object with the staff and hit, maximize your weapon damage dice against the target."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Fire Pot",
+				"entries": [
+					"While holding the staff, you can use an action and expend 1 or more charges to cast the {@spell grease} spell from it. You can increase the size of the square covered by the spell by 5 feet for each additional charge you expend in this way (up to a 20-foot square). When you expend 2 or more charges to cast the spell in this way, creatures also take {@damage 2d6} fire damage on a failed save, or half as much damage on a successful one."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Trebuchet",
+				"entries": [
+					"While holding the staff, you can use an action and expend 3 charges to magically create and fling a boulder at a point you can see within 60 feet of you. Any target within 5 feet of the point must make a Dexterity saving throw. On a failed save, a target takes {@damage 4d8} bludgeoning damage, and if it's Medium or smaller, it is also pushed 10 feet away from the point. On a successful save, a target takes half as much bludgeoning damage and isn't pushed. Maximize the bludgeoning damage dice against any object or structure hit by the boulder. After it lands, the boulder disappears."
+				]
+			},
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "property"
+				}
+			}
+		],
+		"_typeListText": [
+			"staff",
+			"simple weapon",
+			"melee weapon"
+		],
+		"_typeHtml": "staff, weapon",
+		"_subTypeHtml": "simple weapon, melee weapon",
+		"_attunement": "(requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)",
+		"_attunementCategory": "Requires Attunement By...",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [
+			"versatile"
+		],
+		"_fMisc": [
+			"SRD",
+			"Basic Rules",
+			"Has Info",
+			"Has Images",
+			"Magic",
+			"Charges"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [
+			"1d6",
+			"1d8"
+		],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"Requires Attunement By...",
+			"Class: Bard",
+			"Class: Cleric",
+			"Class: Druid",
+			"Class: Sorcerer",
+			"Class: Warlock",
+			"Class: Wizard"
+		]
+	},
+	{
+		"name": "Wand of Wonder",
+		"source": "DMG",
+		"page": 212,
+		"srd": true,
+		"type": "WD",
+		"tier": "major",
+		"rarity": "rare",
+		"reqAttune": "by a spellcaster",
+		"reqAttuneTags": [
+			{
+				"spellcasting": true
+			}
+		],
+		"weight": 1,
+		"recharge": "dawn",
+		"rechargeAmount": "{@dice 1d6 + 1}",
+		"charges": 7,
+		"entries": [
+			"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll {@dice d100} and consult the following table to discover what happens.",
+			"If the effect causes you to cast a spell from the wand, the spell's save DC is 15. If the spell normally has a range expressed in feet, its range becomes 120 feet if it isn't already.",
+			"If an effect covers an area, you must center the spell on and include the target. If an effect has multiple possible subjects, the DM randomly determines which ones are affected.",
+			"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into dust and is destroyed.",
+			{
+				"type": "table",
+				"colLabels": [
+					"{@dice d100}",
+					"Effect"
+				],
+				"colStyles": [
+					"col-1 text-center",
+					"col-11"
+				],
+				"rows": [
+					[
+						"01-05",
+						"You cast {@spell slow}."
+					],
+					[
+						"06-10",
+						"You cast {@spell faerie fire}."
+					],
+					[
+						"11-15",
+						"You are {@condition stunned} until the start of your next turn, believing something awesome just happened."
+					],
+					[
+						"16-20",
+						"You cast {@spell gust of wind}."
+					],
+					[
+						"21-25",
+						"You cast {@spell detect thoughts} on the target you chose. If you didn't target a creature, you instead take {@damage 1d6} psychic damage."
+					],
+					[
+						"26-30",
+						"You cast {@spell stinking cloud}."
+					],
+					[
+						"31-33",
+						"Heavy rain falls in a 60-foot radius centered on the target. The area becomes lightly obscured. The rain falls until the start of your next turn."
+					],
+					[
+						"34-36",
+						"An animal appears in the unoccupied space nearest the target. The animal isn't under your control and acts as it normally would. Roll a {@dice d100} to determine which animal appears. On a 01-25, a {@creature rhinoceros} appears; on a 26-50, an {@creature elephant} appears; and on a 51-100, a {@creature rat} appears."
+					],
+					[
+						"37-46",
+						"You cast {@spell lightning bolt}."
+					],
+					[
+						"47-49",
+						"A cloud of 600 oversized butterflies fills a 30-foot radius centered on the target. The area becomes heavily obscured. The butterflies remain for 10 minutes."
+					],
+					[
+						"50-53",
+						"You enlarge the target as if you had cast {@spell enlarge/reduce}. If the target can't be affected by that spell or if you didn't target a creature, you become the target."
+					],
+					[
+						"54-58",
+						"You cast {@spell darkness}."
+					],
+					[
+						"59-62",
+						"Grass grows on the ground in a 60-foot radius centered on the target. If grass is already there, it grows to ten times its normal size and remains overgrown for 1 minute."
+					],
+					[
+						"63-65",
+						"An object of the DM's choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the target, and no larger than 10 feet in any dimension."
+					],
+					[
+						"66-69",
+						"You shrink yourself as if you had cast {@spell enlarge/reduce} on yourself."
+					],
+					[
+						"70-79",
+						"You cast {@spell fireball}."
+					],
+					[
+						"80-84",
+						"You cast {@spell invisibility} on yourself."
+					],
+					[
+						"85-87",
+						"Leaves grow from the target. If you chose a point in space as the target, leaves sprout from the creature nearest to that point. Unless they are picked off, the leaves turn brown and fall off after 24 hours."
+					],
+					[
+						"88-90",
+						"A stream of {@dice 1d4 × 10} gems, each worth 1 gp, shoots from the wand's tip in a line 30 feet long and 5 feet wide. Each gem deals 1 bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the line."
+					],
+					[
+						"91-95",
+						"A burst of colorful shimmering light extends from you in a 30-foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					],
+					[
+						"96-97",
+						"The target's skin turns bright blue for {@dice 1d10} days. If you chose a point in space, the creature nearest to that point is affected."
+					],
+					[
+						"98-00",
+						"If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly {@condition petrified}. On any other failed save, the target is {@condition restrained} and begins to turn to stone. While {@condition restrained} in this way, the target must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the target is freed by the {@spell greater restoration} spell or similar magic."
+					]
+				]
+			}
+		],
+		"attachedSpells": [
+			"slow",
+			"faerie fire",
+			"gust of wind",
+			"detect thoughts",
+			"stinking cloud",
+			"lightning bolt",
+			"enlarge/reduce",
+			"darkness",
+			"fireball",
+			"invisibility"
+		],
+		"lootTables": [
+			"Magic Item Table G"
+		],
+		"hasFluffImages": true,
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wand"
+		],
+		"_typeHtml": "wand",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement by a spellcaster)",
+		"_attunementCategory": "Requires Attunement By...",
+		"_fSources": "DMG",
+		"_fProperties": [],
+		"_fMisc": [
+			"SRD",
+			"Has Images",
+			"Magic",
+			"Charges"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"major"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"Requires Attunement By...",
+			"Spellcaster"
+		]
+	},
+	{
+		"name": "Staff of the Mirage",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"srd": true,
+		"basicRules": true,
+		"type": "M",
+		"rarity": "rare",
+		"reqAttune": "by a wizard",
+		"reqAttuneTags": [
+			{
+				"class": "wizard"
+			}
+		],
+		"weight": 4,
+		"weaponCategory": "simple",
+		"property": [
+			"V"
+		],
+		"dmg1": "1d6",
+		"dmgType": "B",
+		"dmg2": "1d8",
+		"recharge": "dawn",
+		"charges": 10,
+		"staff": true,
+		"entries": [
+			"This magical staff has 10 charges that can be used to cast the following spells. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
+			{
+				"type": "entries",
+				"name": "Spells",
+				"entries": [
+					"You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC + 2 for these spells: {@spell disguise self} (1 charge), {@spell hallucinatory terrain} (4 charges), {@spell invisibility} (2 charges), {@spell mirror image} (2 charges), {@spell mislead} (5 charges), {@spell silent image} (1 charges)."
+				]
+			}
+		],
+		"attachedSpells": [
+			"disguise self",
+			"hallucinatory terrain",
+			"invisibility",
+			"mirror image",
+			"mislead",
+			"silent image"
+		],
+		"fluff": {
+			"entries": [
+				"\"The mind is easily misled. It's easily tricked. Am I who I say I am, or somebody else?\""
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/r9np73x1qnp21.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_fullEntries": [
+			"This magical staff has 10 charges that can be used to cast the following spells. It regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
+			{
+				"type": "entries",
+				"name": "Spells",
+				"entries": [
+					"You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC + 2 for these spells: {@spell disguise self} (1 charge), {@spell hallucinatory terrain} (4 charges), {@spell invisibility} (2 charges), {@spell mirror image} (2 charges), {@spell mislead} (5 charges), {@spell silent image} (1 charges)."
+				]
+			},
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack."
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "property"
+				}
+			}
+		],
+		"_typeListText": [
+			"staff",
+			"simple weapon",
+			"melee weapon"
+		],
+		"_typeHtml": "staff, weapon",
+		"_subTypeHtml": "simple weapon, melee weapon",
+		"_attunement": "(requires attunement by a wizard)",
+		"_attunementCategory": "Requires Attunement By...",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [
+			"versatile"
+		],
+		"_fMisc": [
+			"SRD",
+			"Basic Rules",
+			"Has Info",
+			"Has Images",
+			"Magic",
+			"Charges"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [
+			"1d6",
+			"1d8"
+		],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"Requires Attunement By...",
+			"Class: Wizard"
+		]
+	},
+	{
+		"name": "Emberlit Boots",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"resist": [
+			"fire"
+		],
+		"rarity": "rare",
+		"reqAttune": true,
+		"wondrous": true,
+		"recharge": "dawn",
+		"charges": 10,
+		"entries": [
+			"These heavy boots' volcanic stones rearrange themselves to better fit your feet once you attune to them. Despite their appearance, the stones are remarkably light and comfortable, keeping your feet at a pleasant and consistent temperature. While wearing the boots on your feet, you can walk across dangerously hot surfaces (such as burning coals or shallow pools of magma) without harm. You have resistance to fire damage while you're attuned to the boots and wearing them.",
+			"In addition, these boots have 10 charges and regain {@dice 1d6 + 4} expended charges each day at dawn. When you walk 5 or more feet on your turn, you can expend 1 or more charges to set the ground alight behind you. For each expended charge, the ground in a 5-foot space in which you moved through begins to smolder and crackle with hot embers. Until the start of your next turn, any creature that enters or starts their turn in a space that you've set alight in this way must succeed on a DC 15 Dexterity saving throw or take {@damage 2d6} fire damage. The affected ground can't be a creature, must be solid, and can't be covered in water. Creatures that hover or fly through this terrain are immune to this effect, and any small, nonmagical plant growing there is incinerated."
+		],
+		"fluff": {
+			"entries": [
+				"You cannot walk the same path I lead. I leave only ashes in my wake."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/bacbfbxnjmu21.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement)",
+		"_attunementCategory": "Requires Attunement",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [],
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"Magic",
+			"Charges"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"Requires Attunement"
+		]
+	},
+	{
+		"name": "Blast Disk (Rare)",
+		"source": "ExploringEberron",
+		"page": 20,
+		"rarity": "rare",
+		"wondrous": true,
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Payload",
+				"entries": [
+					"When the blast disk is triggered, it produces one of the following magical effects, chosen when it was manufactured:",
+					{
+						"type": "list",
+						"style": "list-hang-notitle",
+						"items": [
+							{
+								"type": "item",
+								"name": "Spell Effect.",
+								"entry": "The disk produces a spell effect when triggered. The effect must target either a single creature—whoever triggers the disk—or an area of effect centered on the disk. The level of the spell in the disk determines the saving throw DC and attack bonus, as well as the item's rarity, as shown on the Blast Disk Power table."
+							}
+						]
+					},
+					{
+						"type": "table",
+						"caption": "Blast Disk Power",
+						"colLabels": [
+							"Spell Level",
+							"Rarity",
+							"Save DC",
+							"Attack Bonus"
+						],
+						"colStyles": [
+							"col-3 text-center",
+							"col-3 text-center",
+							"col-3 text-center",
+							"col-3 text-center"
+						],
+						"rows": [
+							[
+								"4th-5th",
+								"Rare",
+								"16",
+								"{@hit 8}"
+							]
+						]
+					}
+				]
+			}
+		],
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "Keith Baker; Exploring Eberron.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "ExploringEberron",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Edible Book of Recipes",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"rarity": "very rare",
+		"wondrous": true,
+		"entries": [
+			"This tome of cooking recipes is magically enchanted to turn sheets of fine paper into delectable meals. You can write a simple recipe on one of the book's pages over the course of 1 minute. As you do, the paper becomes aromatic, smelling like the cuisine you're writing. You can eat the sheet of paper as an action and find that it has the taste, texture, and smell of the food described on its page. The sheet of paper takes the place of one meal.",
+			"If you add a more complex recipe to the book that takes at least 10 minutes to writeâ€”potentially using sensory language, descriptions of fine ingredients, or illustrations of the dishâ€”eating the delicious sheet of paper provides enough nourishment to sustain a creature for one day. A creature that eats from the book using one of these complex recipes gains and has their hit point maximum increase by {@dice 1d10} + their proficiency bonus until they finish a long rest. In addition, if the creature is diseased or {@condition poisoned}, it can reattempt the saving throw in order to resist it. A creature can only gain the benefits of a complex recipe in these ways once every 24 hours.",
+			"In addition, you can use this book as a spellcasting focus when casting the create food and water spell should you know it. When you do, the food and drink you create can be aromatic and flavorful, recreating dishes from the book of your choice.",
+			"The book can hold up to 50 pages. It comes with {@dice 3d10 + 10} blank pages as well as {@dice 1d10} filled pages containing complex recipes.",
+			"When all the pages are removed from the book or you attempt to rebind it, roll a {@dice d20}. On a 1, the tome bursts into fire and leaves the air in a 20 foot radius smelling like wine and fine cooking. The smell remains for 30 days. In addition upon rolling a 1, the book's tattered remains transform into a bountiful meal, conjuring a heroes' feast as if cast. The book is then destroyed. On any roll other than a 1, the book can be rebound using fine paper costing no less than 5 gp per page.",
+			"This has to be the best flavor text you've ever written. It tastes amazing."
+		],
+		"fluff": {
+			"entries": [
+				"See imbalance? Let's fix it! Leave a comment with that you're seeing wrong with the item design. Items change for the better over the course of a few days here on Reddit because of your feedback!",
+				"Get unmarked, hi-resolution item Art, Cards, and full Compendiums when you [support the effort on Patreon](https://www.patreon.com/the_griffons_saddlebag)!",
+				"Credits. Art and item design by me: please credit The Griffon's Saddlebag if you repost elsewhere!"
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/d48g6fyl1xk21.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [],
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Dark Fathom Armor",
+		"source": "KTKCG",
+		"page": 87,
+		"baseItem": "studded leather armor|PHB",
+		"type": "LA",
+		"rarity": "very rare",
+		"reqAttune": true,
+		"weight": 13,
+		"ac": 12,
+		"bonusAc": "+1",
+		"value": 1100000,
+		"entries": [
+			"This dark, sea-soaked suit of armor smells of brine and is covered in eldritch runes. You have a +1 bonus to AC and can breathe normally underwater while wearing this armor.",
+			"In addition, while wearing this armor, you can use an action to cast the {@spell evard's black tentacles} spell (save {@dc 15}) from it. When cast in this way, the spell targets a 15-foot square centered on your location that does not follow you when you move. In addition, you do not need to {@condition concentration|PHB|concentrate} on the spell and are immune to its effects when cast in this way. Once this property has been used, it can't be used again until the next dusk.",
+			"Item and art by {@link Griffon's Saddlebag|https://www.thegriffonssaddlebag.com/}"
+		],
+		"attachedSpells": [
+			"Evard's black tentacles"
+		],
+		"fluff": {
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/KibblesTasty/KTKCG/DarkFathomArmor.webp"
+					},
+					"title": "Art by: {@link Griffon's Saddlebag|https://www.thegriffonssaddlebag.com/}"
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "KibblesTasty; Kibbles' Crafting Guide.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"light armor"
+		],
+		"_typeHtml": "light armor (<a href=\"items.html#studded%20leather%20armor_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\" data-vet-page=\"items.html\" data-vet-source=\"PHB\" data-vet-hash=\"studded%20leather%20armor_phb\"   ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >studded leather armor</a>)",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement)",
+		"_attunementCategory": "Requires Attunement",
+		"_fSources": "KTKCG",
+		"_fProperties": [],
+		"_fMisc": [
+			"Has Images",
+			"Magic"
+		],
+		"_fValue": 1100000,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [
+			"studded leather armor__phb"
+		],
+		"_fBaseItemAll": [
+			"studded leather armor__phb"
+		],
+		"_fBonus": [
+			"Armor Class"
+		],
+		"_fAttunement": [
+			"Requires Attunement"
+		]
+	},
+	{
+		"name": "Ring of Barrels",
+		"source": "VSS",
+		"page": 302,
+		"type": "RG",
+		"rarity": "uncommon",
+		"reqAttune": true,
+		"charges": 6,
+		"entries": [
+			"This ring has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the ring, you can use an action and expend 1 to 3 of its charges to summon a number of empty barrels in spaces adjacent to you equal to the number of charges expended. The barrels are large, fully 6-feet high and 4-feet in diameter, occupying the same space as a Medium creature and providing three-quarters cover from ranged attacks. Barrels weigh 150 pounds and can be moved with an action.",
+			"You can summon the barrel around {@condition incapacitated} Medium creatures, restraining them, or around Small or smaller creatures, trapping them inside. A creature can break free of a barrel by making a DC 22 Strength check."
+		],
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "Mage Hand Press; Valda's Spire of Secrets.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"ring"
+		],
+		"_typeHtml": "ring",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement)",
+		"_attunementCategory": "Requires Attunement",
+		"_fSources": "VSS",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic",
+			"Charges"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"Requires Attunement"
+		]
+	},
+	{
+		"name": "Ring of Lightning Resistance",
+		"source": "DMG",
+		"page": 192,
+		"srd": true,
+		"basicRules": true,
+		"type": "RG",
+		"resist": [
+			"lightning"
+		],
+		"detail1": "citrine",
+		"tier": "major",
+		"rarity": "rare",
+		"reqAttune": true,
+		"hasRefs": true,
+		"entries": [
+			"You have resistance to lightning damage while wearing this ring. The ring is set with citrine."
+		],
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"ring"
+		],
+		"_typeHtml": "ring",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement)",
+		"_attunementCategory": "Requires Attunement",
+		"_fSources": "DMG",
+		"_fProperties": [],
+		"_fMisc": [
+			"SRD",
+			"Basic Rules",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"major"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"Requires Attunement"
+		]
+	},
+	{
+		"name": "Ring of Salvation",
+		"source": "VSS",
+		"page": 302,
+		"type": "RG",
+		"rarity": "uncommon",
+		"reqAttune": true,
+		"entries": [
+			"If you fail a saving throw while attuned to this ring, you can choose to succeed it instead. Once you use this ability, you can't do so again until the next dawn."
+		],
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "Mage Hand Press; Valda's Spire of Secrets.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"ring"
+		],
+		"_typeHtml": "ring",
+		"_subTypeHtml": "",
+		"_attunement": "(requires attunement)",
+		"_attunementCategory": "Requires Attunement",
+		"_fSources": "VSS",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"Requires Attunement"
+		]
+	},
+	{
+		"name": "Ring of Swimming",
+		"source": "DMG",
+		"page": 193,
+		"srd": true,
+		"type": "RG",
+		"tier": "minor",
+		"rarity": "uncommon",
+		"modifySpeed": {
+			"static": {
+				"swim": 40
+			}
+		},
+		"entries": [
+			"You have a swimming speed of 40 feet while wearing this ring."
+		],
+		"lootTables": [
+			"Magic Item Table B"
+		],
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"ring"
+		],
+		"_typeHtml": "ring",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "DMG",
+		"_fProperties": [],
+		"_fMisc": [
+			"SRD",
+			"Magic",
+			"Speed Adjustment"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"minor"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Waterskin of Voices",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"rarity": "uncommon",
+		"wondrous": true,
+		"entries": [
+			"This leather waterskin has a magical beverage inside that allows you to briefly alter your voice. When found, the waterskin has {@dice 1d6 + 4} servings. You can drink 1 of the servings while holding the waterskin using an action. When you do, choose a voice from a creature you've heard or one from your imagination. The next 25 words you speak within 10 minutes sound virtually indistinguishable from the voice you chose, though a successful DC 20 Wisdom ({@skill Insight}) check reveals that the voice is magically altered. If the voice you chose belongs to another creature, that creature automatically knows that the voice is altered."
+		],
+		"fluff": {
+			"entries": [
+				"The deep, commanding voice of the king practically leapt from the gnome's mouth, \"I, too, enjoy sunbathing in the nude. Save for my socks: those must remain on for optimum comfort. This I officially decree, as the king.\"",
+				"The rest of the group giggled once more, but quickly turned to raucous laughter.",
+				"\"Okay, okay, okay,\" wheezed the gnome, wiping tears of laughter from her eyes. \"Just one more. We don't have a bunch of swigs left of this.\"",
+				"An outpouring of suggestions and pleas sprang from her companions. Despite their best intentions, one drink turned to 4, and the waterskin became empty all-too quickly.",
+				"\"Worth every gold piece,\" sighed the gnome. Her face was flushed, and the rest of the room was in disarray. Most of the room's furniture had, of course, been used as props over the course of the evening. The inn had thin walls, but was surprisingly well furnished.",
+				"Little did the party know, but they were single-handedly responsible for an untold number of future rumors about the king's supposedly peculiar sunbathing habits. The accidental slander would, over years, result in a cataclysmic uprising and overthrowing of the royal family."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/tkkh2xhdw6b71.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [],
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Harvest",
+		"source": "GriffonsReddit",
+		"page": 0,
+		"baseItem": "sickle|PHB",
+		"type": "M",
+		"rarity": "uncommon",
+		"weight": 2,
+		"weaponCategory": "simple",
+		"property": [
+			"L"
+		],
+		"dmg1": "1d4",
+		"dmgType": "S",
+		"weapon": true,
+		"entries": [
+			"This classic farmer's heirloom depicts wheat and field designs. When you hit a plant creature with an attack using this magic weapon, the target takes an extra {@damage 1d6} slashing damage. In addition, any nonmagical plant harvested with this sickle remains fresh for an extra 7 days."
+		],
+		"fluff": {
+			"entries": [
+				"Every life, whether human, beast, or plant, must come to an end. It's all temporary. Everything has its own grim reaper, and today, I'm ready to reap what's been sown."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://i.redd.it/dtbekeisx8951.png"
+					}
+				}
+			]
+		},
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "griffons-reddit.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_fullEntries": [
+			"This classic farmer's heirloom depicts wheat and field designs. When you hit a plant creature with an attack using this magic weapon, the target takes an extra {@damage 1d6} slashing damage. In addition, any nonmagical plant harvested with this sickle remains fresh for an extra 7 days.",
+			{
+				"type": "wrapper",
+				"wrapped": {
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+					]
+				},
+				"data": {
+					"item__mergedEntryTag": "property"
+				}
+			}
+		],
+		"_typeListText": [
+			"simple weapon",
+			"melee weapon"
+		],
+		"_typeHtml": "weapon (<a href=\"items.html#sickle_phb\"  onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\" data-vet-page=\"items.html\" data-vet-source=\"PHB\" data-vet-hash=\"sickle_phb\"   ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >sickle</a>)",
+		"_subTypeHtml": "simple weapon, melee weapon",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "GriffonsReddit",
+		"_fProperties": [
+			"light"
+		],
+		"_fMisc": [
+			"Has Info",
+			"Has Images",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [
+			"1d4"
+		],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [
+			"sickle__phb"
+		],
+		"_fBaseItemAll": [
+			"sickle__phb"
+		],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Cloak of Many Fashions",
+		"source": "XGE",
+		"page": 136,
+		"tier": "minor",
+		"rarity": "common",
+		"wondrous": true,
+		"entries": [
+			"While wearing this cloak, you can use a bonus action to change the style, color, and apparent quality of the garment. The cloak's weight doesn't change. Regardless of its appearance, the cloak can't be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn't gain their magical properties."
+		],
+		"hasFluffImages": true,
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "XGE",
+		"_fProperties": [],
+		"_fMisc": [
+			"Has Images",
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"minor"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Perfume of Bewitching",
+		"source": "XGE",
+		"page": 138,
+		"tier": "minor",
+		"rarity": "common",
+		"wondrous": true,
+		"entries": [
+			"This tiny vial contains magic perfume, enough for one use. You can use an action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have advantage on all Charisma checks directed at humanoids of challenge rating 1 or lower. Those subjected to the perfume's effect are not aware that they've been influenced by magic."
+		],
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "XGE",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"minor"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Heward's Handy Spice Pouch",
+		"source": "XGE",
+		"page": 137,
+		"tier": "minor",
+		"rarity": "common",
+		"wondrous": true,
+		"recharge": "dawn",
+		"rechargeAmount": "{@dice 1d6 + 4}",
+		"charges": 10,
+		"entries": [
+			"This belt pouch appears empty and has 10 charges. While holding the pouch, you can use an action to expend 1 of its charges, speak the name of any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains {@dice 1d6 + 4} expended charges daily at dawn."
+		],
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "XGE",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic",
+			"Charges"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"minor"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Antimagic Bell",
+		"source": "VSS",
+		"page": 302,
+		"rarity": "common",
+		"wondrous": true,
+		"entries": [
+			"This round bell is enchanted to be perfectly silent.",
+			"It only rings when its magic is disrupted, such as within an {@spell antimagic field}."
+		],
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "Mage Hand Press; Valda's Spire of Secrets.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "VSS",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Tankard of Sobriety",
+		"source": "XGE",
+		"page": 139,
+		"tier": "minor",
+		"rarity": "common",
+		"wondrous": true,
+		"entries": [
+			"This tankard has a stern face sculpted into one side. You can drink ale, wine, or any other nonmagical alcoholic beverage poured into it without becoming inebriated. The tankard has no effect on magical liquids or harmful substances such as poison."
+		],
+		"__prop": "item",
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"wondrous item"
+		],
+		"_typeHtml": "wondrous item",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "XGE",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"minor"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	},
+	{
+		"name": "Battle Rod",
+		"source": "ExploringEberron",
+		"page": 221,
+		"type": "RD",
+		"rarity": "common",
+		"focus": true,
+		"entries": [
+			"The battle rod was developed as an alternative to the longer war staff, and has gained popularity with wandslingers across Khorvaire. The battle rod serves as a spellcasting focus and can be used by any spellcaster who can use a rod as a focus.",
+			"When held in two hands, you can use the rod to cast cantrips at up to twice the standard range. However, when you cast a cantrip beyond the standard range, your attack rolls have disadvantage, and other creatures have advantage on any saving throws made against your cantrip. So a {@spell fire bolt|phb} cast using a battle rod has a range of 240 feet, but attack rolls against targets more than 120 feet away are made at disadvantage."
+		],
+		"__prop": "item",
+		"__diagnostic": {
+			"filename": "Keith Baker; Exploring Eberron.json"
+		},
+		"_isEnhanced": true,
+		"_category": "Other",
+		"_typeListText": [
+			"rod"
+		],
+		"_typeHtml": "rod",
+		"_subTypeHtml": "",
+		"_attunement": null,
+		"_attunementCategory": "No Attunement Required",
+		"_fSources": "ExploringEberron",
+		"_fProperties": [],
+		"_fMisc": [
+			"Magic"
+		],
+		"_fFocus": [
+			"Artificer",
+			"Bard",
+			"Cleric",
+			"Druid",
+			"Paladin",
+			"Ranger",
+			"Sorcerer",
+			"Warlock",
+			"Wizard"
+		],
+		"_fValue": 0,
+		"_fDamageDice": [],
+		"_fMastery": null,
+		"_fTier": [
+			"none"
+		],
+		"_fIsMundane": false,
+		"_fBaseItem": [],
+		"_fBaseItemAll": [],
+		"_fBonus": [],
+		"_fAttunement": [
+			"No Attunement Required"
+		]
+	}
+]

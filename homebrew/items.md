@@ -1,3 +1,14 @@
+---
+rarity_order:
+    - none
+    - common
+    - uncommon
+    - rare
+    - very rare
+    - legendary
+    - artifact
+---
+
 [Torna a indice](/homebrew/index)
 
 <script src="/assets/js/homebrew.js"></script>
@@ -14,10 +25,12 @@
 </thead>
 <tbody>
 
+{% assign all_items = site.data.homebrew.items %}
+
 <!-- Rarity first, name second -->
-{% assign sorted_items = site.data.homebrew.items | sort: "name", "last" %}
-{% for rarity in site.data.homebrew.strings.rarity %}
-{% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == forloop.index0" %}
+{% assign sorted_items = all_items | sort: "name", "last" %}
+{% for rarity in page.rarity_order %}
+{% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == rarity" %}
 {% for item in sorted_rarity_items %}
 
 <tr>
@@ -40,8 +53,8 @@
 <div class="card-container">
 
 <!-- Rarity first, name second -->
-{% for rarity in site.data.homebrew.strings.rarity %}
-{% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == forloop.index0" %}
+{% for rarity in page.rarity_order %}
+{% assign sorted_rarity_items = sorted_items | where_exp: "item","item.rarity == rarity" %}
 {% for item in sorted_rarity_items %}
 
 <div class="card" markdown="1">

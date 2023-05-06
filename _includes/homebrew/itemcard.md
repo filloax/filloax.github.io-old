@@ -3,12 +3,18 @@
 <h3 id="{{ item.name | slugify }}">{{ item.name }}</h3>
 
 {% assign src_data = site.data.homebrew.strings.sources[item.source]  %}
-{% assign it_type = site.data.homebrew.strings.item_types[item.type].name  %}
+{% if item.type %}
+    {% assign it_type = site.data.homebrew.strings.item_types[item.type].name  %}
+{% elsif item.wondrous %}
+    {% assign it_type = site.data.homebrew.strings.item_types["WI"].name  %}
+{% else %}
+    {% assign it_type = ""  %}
+{% endif %}
 {% assign it_rarity = site.data.homebrew.strings.rarity[item.rarity]  %}
 
 <p class="hb-source">Da {{ src_data.name }}</p>
 
-{% if item.rarity == 0 %}
+{% if item.rarity == "none" %}
 *{{ it_type | capitalize }}{% if item.reqAttune %} (richiede sintonia){% endif %}*
 {% else %}
 *{{ it_type | capitalize }}, {{ it_rarity }}{% if item.reqAttune %} (richiede sintonia){% endif %}*

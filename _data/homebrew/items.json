@@ -8,18 +8,20 @@
         ],
         "source": "VSS",
         "reqAttune": true,
-        "rarity": 4,
+        "rarity": "very rare",
         "type": "AR"
     },
     {
         "name": "Smoking pipe of Dragon's Breath",
         "source": "VSS",
-        "rarity": 3,
+        "page": 302,
+        "rarity": "rare",
         "reqAttune": true,
+        "wondrous": true,
+        "charges": 2,
         "entries": [
             "This pipe has 2 charges and regains 1 expended charge daily at dawn. If the pipe is full of one ounce of smoking herb, you can use an action and expend 1 charge to inhale deeply from it and exhale dragon's flame. Each creature in a 30-foot-radius cone must make a DC 15 Dexterity saving throw or take {@damage 8d6} fire damage, or half as much on a successful one."
-        ],
-        "type": "WI"
+        ]
     },
     {
         "name": "Exploding Armor",
@@ -28,33 +30,33 @@
             "While wearing this armor, you can use your action to cast {@spell fireball} (save DC 15), centered on yourself. You take no damage from this spell. The armor can't be used this way again until the next dawn."
         ],
         "source": "VSS",
-        "rarity": 3,
+        "rarity": "rare",
         "type": "AR"
     },
     {
         "name": "Boots of the Trail",
         "source": "VSS",
-        "rarity": 2,
+        "rarity": "uncommon",
         "entries": [
             "Until they are worn, the boots of the trail appear to be in grave disrepair. When you lace them up, the illusion fades: they are immaculate hiking boots with gold clasps and silk laces. While wearing these boots, you leave behind no tracks or other traces of your passage, and can't be tracked except by magical means. You can march for twice as long before suffering levels of {@condition exhaustion}.",
             "Additionally, you can remove the boots and speak a command word as an action to cause the boots to walk alone, leaving a false trail in any direction for up to one mile. The boots then teleport back to your feet."
         ],
-        "type": "WI"
+        "wondrous": true
     },
     {
         "name": "Leaden Manacles",
         "source": "VSS",
-        "rarity": 2,
+        "rarity": "uncommon",
         "entries": [
             "These manacles behave the same as normal manacles with the following addition: a creature that attempts to cast a spell while wearing the manacles must make a DC 12 ability check using its spellcasting ability. On a failure, the spell fails and has no effect; the spell slot is expended, the action is wasted, and the manacled creature takes {@damage 1d6} fire damage per level of the spell slot expended. On a success, the creature takes half as much damage and the spell is cast successfully."
         ],
-        "type": "WI"
+        "wondrous": true
     },
     {
         "name": "Potion of Spell Recovery",
         "source": "tgs1",
         "type": "P",
-        "rarity": 3,
+        "rarity": "rare",
         "entries": [
             "When you drink this potion, you recover expended spells slots with a combined level that is equal to or less than {@dice 1d3 + 3}, and none of the slots can be 6th level or higher."
         ],
@@ -63,8 +65,8 @@
     {
         "name": "Replica Clay",
         "source": "VSS",
-        "rarity": 3,
-        "type": "WI",
+        "rarity": "rare",
+        "wondrous": true,
         "entries": [
             "When you touch this lump of clay to an object that can fit within a 5-foot cube, the clay shifts and molds into an exact replica with the same color and texture. The replica even mimics visual magical elements, such as glowing runes. Touching the replica reveals it to be made of clay, as it yields under any significant force, but it is impossible to distinguish with a visual inspection. Once the clay is shaped into a replica, it becomes nonmagical."
         ]
@@ -73,7 +75,7 @@
         "name": "Arrow of Explosions",
         "source": "VSS",
         "type": "A",
-        "rarity": 4,
+        "rarity": "very rare",
         "entries": [
             "When this arrow strikes a solid surface, be it a creature, object, wall, or floor, it explodes with a fiery blast. Each creature within 20 feet of the point of impact must make a DC 17 Dexterity saving throw. A creature takes {@damage 8d6} fire damage on a failed save, or half as much on a successful one. The arrow is destroyed in the blast."
         ]
@@ -82,7 +84,7 @@
         "name": "Ring of Icebergs",
         "source": "VSS",
         "type": "RG",
-        "rarity": 4,
+        "rarity": "very rare",
         "entries": [
             "As a bonus action, or a reaction to being hit by an attacker you can see, you can spin the ring's jewel, causing it to expand into a hollow block of clear ice that completely surrounds you. This iceberg occupies your space and pushes creatures within your space to the nearest unoccupied area, ending any grapple in which you are involved. There is enough room within the iceberg to move around, but you can't move more than 6 inches in any direction. Spells and other magical effects can't extend through the iceberg or be cast through it.",
             "The iceberg is an object with AC 10 and 100 HP. If it was activated as a reaction, it takes as much of the triggering damage as possible. The iceberg has immunity to cold, poison, and psychic damage, and vulnerability to fire damage. The icy tomb lasts for up to 1 minute, until it is destroyed, or until you use a bonus action to cease the jewel's spinning.",
@@ -92,7 +94,7 @@
     {
         "name": "Apple of Arborea",
         "source": "KTKCG",
-        "rarity": 5,
+        "rarity": "legendary",
         "type": "Comp",
         "property": [
             "Exo"
@@ -110,7 +112,7 @@
         "firearm": true,
         "age": "renaissance",
         "weaponCategory": "simple",
-        "rarity": 0,
+        "rarity": "none",
         "value": 7500,
         "weight": 6,
         "dmg1": "2d6",
@@ -133,7 +135,7 @@
         "type": "R",
         "weapon": true,
         "weaponCategory": "exotic",
-        "rarity": 0,
+        "rarity": "none",
         "value": 20000,
         "weight": 4,
         "bow": true,
@@ -153,9 +155,8 @@
         "name": "Bracciali reattivi",
         "source": "EsploratoriNebbia",
         "page": 0,
-        "rarity": 3,
+        "rarity": "rare",
         "wondrous": true,
-        "type": "WI",
         "entries": [
             "Quando indossi questi bracciali, puoi usare una reazione anche se ne hai già usata una prima dell'inizio del tuo turno successivo. In base al numero di volte in cui usi questo effetto in una giornata, ha diverse conseguenze:",
             {
@@ -167,15 +168,13 @@
             },
             "É possibile, una volta per riposo lungo, compiere una seconda reazione aggiuntiva oltre alla prima garantita da questo oggetto, subendo un livello di sfinimento."
         ]
-    }
-    ,
+    },
     {
         "name": "Sfera catturante",
         "source": "EsploratoriNebbia",
         "page": 0,
-        "rarity": 3,
+        "rarity": "rare",
         "reqAttune": true,
-        "wondrous": true,
         "entries": [
             "Questa sfera è in sintonia con un semipiano univoco per ogni utente, e permette di catturare creature al suo interno. Entrare in sintonia con una di queste sfere permette di entrare in sintonia con altre 2 sfere catturanti, senza che contino per il numero di oggetti magici in sintonia.",
             {
@@ -221,17 +220,16 @@
                 ]
             }
         ],
-        "type": "WI"
+        "wondrous": true
     }
     ,
     {
         "name": "Sfera catturante suprema",
         "source": "EsploratoriNebbia",
         "page": 0,
-        "rarity": 6,
+        "rarity": "artifact",
         "reqAttune": true,
         "wondrous": true,
-        "type": "WI",
         "entries": [
             "Questa speciale {@item sfera catturante} permette di catturare ogni tipo di creatura, eccetto creature sapienti a discrezione del DM. Non occorre tirare un dado cattura: ogni cattura ha un successo assicurato, e l'effetto è considerato pari ad un incantesimo di livello 9. Per tutto il resto è considerata analoga alla variante leggendaria dell'oggetto."
         ]
