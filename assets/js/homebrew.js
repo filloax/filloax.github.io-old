@@ -1,9 +1,9 @@
 const windowMediaQuery = window.matchMedia("(max-width: 800px)")
 
-function onChange(ev) {
+function onChange() {
     const container = document.querySelector(".card-container");
     console.log("Media query changed:", windowMediaQuery.matches);
-    if (!windowMediaQuery.matches) {
+    if (!windowMediaQuery.matches && !isShowingOne()) {
         let maxHeight;
 
         document.querySelectorAll(".card").forEach(el => {
@@ -24,13 +24,13 @@ addEventListener("load", onChange);
 addEventListener("load", function(ev) {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    let showone = this.document.getElementById("showone");
-    showone.checked = urlParams.has("showone")
-    showone.addEventListener("change", ev => {
+    let showall = this.document.getElementById("showall");
+    showall.checked = urlParams.has("showall")
+    showall.addEventListener("change", ev => {
         updateShown()
     });
 
-    this.document.querySelectorAll("table.index a").forEach(el => el.addEventListener("click", ev => {
+    this.document.querySelectorAll(".index table a").forEach(el => el.addEventListener("click", ev => {
         if (isShowingOne()) {
             ev.preventDefault();
             let currentlyShowing = el.href.split("#").slice(-1)[0];
@@ -43,11 +43,13 @@ addEventListener("load", function(ev) {
 });
 
 function isShowingOne() {
-    return document.getElementById("showone").checked
+    return !document.getElementById("showall").checked
 }
 
 function updateShown() {
     if (isShowingOne()) {
+        document.querySelector("#homebrew-container").classList.add("showone")
+
         let currentlyShowing = getCurrentCard();
         if (currentlyShowing === "" || !currentlyShowing) {
             setCurrentCard(document.querySelector(".card").querySelector("h3").id);
@@ -55,17 +57,20 @@ function updateShown() {
         }
 
         document.querySelectorAll(".card").forEach(el => {
-            el.style.display = "none";
+            el.classList.add("hidden")
         });
         const current = document.querySelector(`#${currentlyShowing}`).closest(".card");
         if (current) {
-            current.style.display = "initial";
+            current.classList.remove("hidden")
         }
     } else {
+        document.querySelector("#homebrew-container").classList.remove("showone")
+
         document.querySelectorAll(".card").forEach(el => {
-            el.style.display = "initial";
+            el.classList.remove("hidden")
         });
-    }
+    }    
+    onChange()
 }
 
 function getCurrentCard() {

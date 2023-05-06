@@ -65,6 +65,7 @@ module.exports = (grunt) ->
           "_star/**"
           "_config.yml"
           "assets/**"
+          "!assets/img/gen/*"
           "**.html"
           "*.md"
           "xho/**"
@@ -74,7 +75,7 @@ module.exports = (grunt) ->
         ]
         tasks: [
           "runscripts"
-          "shell:jekyllIncr"
+          "shell:jekyll"
         ]
     browserSync:
       dev:

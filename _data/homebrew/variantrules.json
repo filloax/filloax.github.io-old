@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Recharging Lesser Wands",
+        "source": "KTKCG",
+        "page": 99,
+        "entries": [
+            "Recharging lesser wands is fairly simple; you can either expend 1 essence of the rarity required to craft that wand and perform a ritual that takes 2 hours, expending the essence and restoring all charges to the Lesser Wand (this only works with Lesser Wands), or you can expend 2 spell slots equal to the level of the spell the wand can cast (1st level for cantrip) during this ritual to recharge a single charge; you can repeat this ritual to recharge the wand multiple times, up to its maximum charges."
+        ]
+    }
+]

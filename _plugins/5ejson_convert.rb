@@ -156,18 +156,98 @@ module Jekyll::CustomFilter
     out.join(", ")
   end
 
+  def format_single_entry(entry)
+    print(entry, "\n")
+    entry = entry.gsub(/\{@dice ([^\}]+)\}/, '<span class="hb-dice">\1</span>' )
+    entry = entry.gsub(/\{@spell ([^\|\}]+?)(?:\s*\|\s*([^\}]+))\}/, '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e/\1">\1</a></span>' )
+    entry = entry.gsub(/\{@condition ([^\}]+)\}/, '<span class="hb-condition"><a href="https://roll20.net/compendium/dnd5e/Conditions">\1</a></span>')
+    entry = entry.gsub(/\{@damage ([^\}]+)\}/, '<span class="hb-damage">\1</span>')
+    entry = entry.gsub(/\{@item ([^\|\}]+)(?:\s*\|\s*([^\}]+))\}/, '<span class="hb-item">\1</span> <span class="hb-item-src">(from \2)</span>')
+    entry = entry.gsub(/\{@skill ([^\}]+)\}/, '<span class="hb-skill">\1</span>')
+    entry = entry.gsub(/\{@dc ([^\}]+)\}/, 'DC \1')
+    entry = entry.gsub(/\{@hit ([^\}]+)\}/, '<span class="hb-hit">+\1</span>')
+    return entry
+  end
+
+  def table_cell(content, col, table)
+    if table.key?("colStyles") then
+      return "<td style=\"#{table["colStyles"][col]}\">#{format_single_entry(content)}</td>"
+    else
+      return "<td>#{format_single_entry(content)}</td>"
+    end
+  end
+
   def json_entry(input)
     if input.is_a? String then
-      return input
+      return format_single_entry(input)
     elsif input["type"] == "list" then
-      return input["items"].map { |item| "- #{item}" }.join("\n")
+      return input["items"].map { |item| "- #{json_entry(item)}" }.join("\n")
     elsif input["type"] == "entries" then
       out = ""
       if input.key?("name") then
-        out += "**#{input["name"]}.** "
+        out += "**#{format_single_entry(input["name"])}.** "
       end
       out += input["entries"].map { |entry| json_entry(entry) }.join("\n")
       return out
+    elsif input["type"] == "item" then
+      out = ""
+      if input.key?("name") then
+        out += "**#{format_single_entry(input["name"])}.** "
+      end
+      out += json_entry(input["entry"])
+      return out
+    elsif input["type"] == "table" then
+      out = "<table>"
+      if input.key?("caption") then
+        out += "<caption>#{input["caption"]}</caption>"
+      end
+      if input.key?("colLabels") then
+        out += "<thead><tr>"
+        input["colLabels"].each_with_index do |label, i|
+          out += table_cell(label, i, input)
+        end
+        out += "</tr></thead>"
+      end
+      out += "<tbody>"
+      input["rows"].each do |row|
+        out += "<tr>"
+        row.each_with_index do |cell, i|
+          out += table_cell(cell, i, input)
+        end
+        out += "</tr>"
+      end
+      out += "</tbody>"
+      out += "</table>"
+      return out
+    elsif input["type"] == "statblock" then
+      src_strings = @context.registers[:site].data["homebrew"]["strings"]["sources"]
+
+      tag = input["tag"]
+      src = input["source"]
+      src_name = src_strings["src"] ? src_strings["src"]["name"] : src
+      name = input["name"]
+      statblock_repo = nil
+
+      if tag == "variantrule" then
+        statblock_repo = @context.registers[:site].data["homebrew"]["variantrules"]
+      else
+        print("[WARN] Unknown statblock tag #{tag} for #{input}\n")
+        return input
+      end
+
+      statblock = statblock_repo.find {|s| s["name"] == name and s["source"] == src}
+      if not statblock then
+        print("[WARN] Statblock #{name} of #{tag} not found\n")
+        return input
+      end
+
+      block = "**#{name}**\n\n"
+      block += statblock["entries"].map { |entry| json_entry(entry) }.join("\n\n")
+
+      block = block.gsub(/^/, "> ")
+    else
+      print("[WARN] Could not convert #{input}\n")
+      return input 
     end
   end
 
@@ -191,6 +271,9 @@ module Jekyll::CustomFilter
   end
 
   def json_money(input)
+    if not input then
+      return
+    end
     if input % 100 == 0 then
       return "#{(input / 100).to_s} mo"
     elsif input % 10 == 0 then

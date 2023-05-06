@@ -3,6 +3,12 @@
 <h3 id="{{ item.name | slugify }}">{{ item.name }}</h3>
 
 {% assign src_data = site.data.homebrew.strings.sources[item.source]  %}
+{% if src_data %}
+    {% assign src_name = src_data.name %}
+{% else %}
+    {% assign src_name = item.source %}
+{% endif %}
+
 {% if item.type %}
     {% assign it_type = site.data.homebrew.strings.item_types[item.type].name  %}
 {% elsif item.wondrous %}
@@ -12,7 +18,7 @@
 {% endif %}
 {% assign it_rarity = site.data.homebrew.strings.rarity[item.rarity]  %}
 
-<p class="hb-source">Da {{ src_data.name }}</p>
+<p class="hb-source">Da {{ src_name }}</p>
 
 {% if item.rarity == "none" %}
 *{{ it_type | capitalize }}{% if item.reqAttune %} (richiede sintonia){% endif %}*
@@ -51,12 +57,7 @@
 
 {% for entry in item.entries %}
 
-{% assign filtered_entry = entry | json_entry 
-    | regex_replace: '{@damage ([^}]+)}', '<span class="hb-damage">\1</span>' 
-    | regex_replace: '{@dice ([^}]+)}', '<span class="hb-dice">\1</span>' 
-    | regex_replace: '{@spell ([^}]+?)}', '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e/\1">\1</a></span>' 
-    | regex_replace: '{@condition ([^}]+)}', '<span class="hb-condition"><a href="https://roll20.net/compendium/dnd5e/Conditions">\1</a></span>' 
-%}
+{% assign filtered_entry = entry | json_entry %}
 {{ filtered_entry }}
 
 {% endfor %}

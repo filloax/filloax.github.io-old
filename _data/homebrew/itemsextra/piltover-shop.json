@@ -259,64 +259,7 @@
 		]
 	},
 	{
-		"name": "Potion of Spell Recovery (Potion)",
-		"source": "GriffonsReddit",
-		"page": 0,
-		"type": "P",
-		"rarity": "rare",
-		"entries": [
-			"You regain {@dice 1d3 + 3} expended spell slot levels. You can recover a total number of combined spell slot levels equal to or less than the number you roll when you drink this potion. None of the slots can be 6th level or higher."
-		],
-		"fluff": {
-			"entries": [
-				"\"Tastes like chicken. Well, a chicken that's been boiled in magic. Have you ever tried that before?\""
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://i.redd.it/cwgbc4opmol31.png"
-					}
-				}
-			]
-		},
-		"__prop": "item",
-		"__diagnostic": {
-			"filename": "griffons-reddit.json"
-		},
-		"_isEnhanced": true,
-		"_category": "Other",
-		"_typeListText": [
-			"potion"
-		],
-		"_typeHtml": "potion",
-		"_subTypeHtml": "",
-		"_attunement": null,
-		"_attunementCategory": "No Attunement Required",
-		"_fSources": "GriffonsReddit",
-		"_fProperties": [],
-		"_fMisc": [
-			"Has Info",
-			"Has Images",
-			"Magic"
-		],
-		"_fValue": 0,
-		"_fDamageDice": [],
-		"_fMastery": null,
-		"_fTier": [
-			"none"
-		],
-		"_fIsMundane": false,
-		"_fBaseItem": [],
-		"_fBaseItemAll": [],
-		"_fBonus": [],
-		"_fAttunement": [
-			"No Attunement Required"
-		]
-	},
-	{
-		"name": "Chi-Balancing Tea (Potion)",
+		"name": "Chi-Balancing Tea",
 		"source": "GriffonsReddit",
 		"page": 0,
 		"type": "P",
@@ -906,12 +849,55 @@
 		]
 	},
 	{
-		"name": "Blast Disk (Rare)",
+		"name": "Blast Disk",
 		"source": "ExploringEberron",
 		"page": 20,
-		"rarity": "rare",
+		"rarity": "varies",
 		"wondrous": true,
+		"items": [
+			"Blast Disk (Common)|ExploringEberron",
+			"Blast Disk (Uncommon)|ExploringEberron",
+			"Blast Disk (Rare)|ExploringEberron"
+		],
 		"entries": [
+			"Multiple variations of this item exist, as listed below:",
+			{
+				"type": "list",
+				"items": [
+					"{@item Blast Disk (Common)|ExploringEberron}",
+					"{@item Blast Disk (Uncommon)|ExploringEberron}",
+					"{@item Blast Disk (Rare)|ExploringEberron}"
+				]
+			},
+			"A blast disk holds destructive arcane power. A typical blast disk is about nine inches in diameter and one inch thick, made from layers of different metal; dragonshards are embedded in the surface of the disk and arcane symbols are engraved in its surface. Anyone studying the surface of the disk can make an Intelligence ({@skill Arcana}) check corresponding to the save DC of the disk. On a success, they identify the spell effect contained within the disk. There are three elements to a blast disk: the trigger, payload, and charge. Each effect is selected at the time it is created.",
+			{
+				"type": "entries",
+				"name": "Trigger",
+				"entries": [
+					"A spellcaster touching a blast disk can use an action to activate it. However, generally you don't want to be holding a blast disk when it goes off. A blast disk can be created with one of the following triggers, or with a more complex trigger of the creator's choosing (e.g. to detonate when a certain word is spoken, when a specific object comes within range, etc.):",
+					{
+						"type": "list",
+						"style": "list-hang-notitle",
+						"items": [
+							{
+								"type": "item",
+								"name": "Time",
+								"entry": "When the disk is activated, the user can set a time delay of up to 10 minutes before it releases its effect."
+							},
+							{
+								"type": "item",
+								"name": "Proximity",
+								"entry": "30 sectons after the disk is activated, it can trigger when someone comes within a certain distance of the disk or when someone first makes contact with the disk, then breaks that contact."
+							},
+							{
+								"type": "item",
+								"name": "Impact",
+								"entry": "The activated disk can be set to detonate on impact, then used by throwing or dropping it."
+							}
+						]
+					}
+				]
+			},
 			{
 				"type": "entries",
 				"name": "Payload",
@@ -921,6 +907,11 @@
 						"type": "list",
 						"style": "list-hang-notitle",
 						"items": [
+							{
+								"type": "item",
+								"name": "Explosive.",
+								"entry": "This creates an explosion in a 20-foot radius centered on the disk. Each creature in the area must make a {@dc 13} Dexterity saving throw, taking 11 ({@damage 2d10}) damage on a failed save, or half as much damage on a successful one. An explosive blast disk deals triple damage to objects or structures. The damage type is set when the disk is created."
+							},
 							{
 								"type": "item",
 								"name": "Spell Effect.",
@@ -945,6 +936,18 @@
 						],
 						"rows": [
 							[
+								"Explosive",
+								"Common",
+								"13",
+								"-"
+							],
+							[
+								"1st-3rd",
+								"Uncommon",
+								"14",
+								"{@hit 6}"
+							],
+							[
 								"4th-5th",
 								"Rare",
 								"16",
@@ -953,38 +956,21 @@
 						]
 					}
 				]
+			},
+			{
+				"type": "entries",
+				"name": "Charge",
+				"entries": [
+					"A typical blast disk holds a single charge, the dragonshards shattering when the effect is triggered. However, more advanced blast disks recharge at dawn; this increases the rarity of the disk by one category."
+				]
+			},
+			{
+				"type": "entries",
+				"name": "Disarming a Disk",
+				"entries": [
+					"When used on the battlefield, blast disks are typically buried or hidden. Finding the disk requires a successful Intelligence ({@skill Investigation}) check, with a DC equal to the ability check that was used when it was hidden, such as Wisdom ({@skill Nature}) or Dexterity ({@skill Sleight of Hand}). To disarm a blast disk, a character with proficiency in {@skill Arcana} must succeed on a Dexterity check using {@item thieves' tools|phb}, with a DC equal to the save DC of the disk. If the check is failed by 5 or more, the disk detonates as if it were triggered. Successfully disarming a blast disk expends one charge, meaning most blast disks will be rendered inert after disarming."
+				]
 			}
-		],
-		"__prop": "item",
-		"__diagnostic": {
-			"filename": "Keith Baker; Exploring Eberron.json"
-		},
-		"_isEnhanced": true,
-		"_category": "Other",
-		"_typeListText": [
-			"wondrous item"
-		],
-		"_typeHtml": "wondrous item",
-		"_subTypeHtml": "",
-		"_attunement": null,
-		"_attunementCategory": "No Attunement Required",
-		"_fSources": "ExploringEberron",
-		"_fProperties": [],
-		"_fMisc": [
-			"Magic"
-		],
-		"_fValue": 0,
-		"_fDamageDice": [],
-		"_fMastery": null,
-		"_fTier": [
-			"none"
-		],
-		"_fIsMundane": false,
-		"_fBaseItem": [],
-		"_fBaseItemAll": [],
-		"_fBonus": [],
-		"_fAttunement": [
-			"No Attunement Required"
 		]
 	},
 	{

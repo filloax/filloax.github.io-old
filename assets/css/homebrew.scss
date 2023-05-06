@@ -1,6 +1,46 @@
 ---
 ---
 
+div.index {
+    width: 100%;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+#homebrew-container.showone {
+    display: flex;
+    justify-content: space-between;
+
+    .index {
+        display: inline-block;
+        width: 48%;
+    }
+    .card-container {
+        display: inline-block;
+        width: 50%;
+        overflow-y: scroll;
+
+        .card {
+            width: 100%;
+            overflow-y: initial;
+        }
+    }
+    .hidden {
+        display: none;
+    }
+
+    @media screen and (max-width: 800px) {
+        flex-direction: column-reverse;
+
+        .index {
+            width: 100%;
+        }
+        .card-container {
+            width: 100%;
+        }
+    }
+}
+
 .hb-source {
     font-style: italic;
     opacity: 90%;
@@ -9,8 +49,14 @@
 .hb-damage {
     font-weight: bold;
 }
+.hb-hit {
+    font-weight: bold;
+}
 .hb-dice {
     font-weight: bold;
+}
+.hb-skill {
+    font-style: italic;
 }
 .hb-spell {
     font-style: italic;
@@ -21,6 +67,13 @@
 .hb-creature {
     font-style: italic;
     font-weight: bold;
+}
+.hb-item {
+    font-style: italic;
+    font-weight: bold;
+}
+.hb-item-src {
+    font-style: italic;
 }
 p {
     text-indent: 0 !important;
@@ -34,6 +87,8 @@ p {
 
     .card {
         width: 48%;
+        max-height: 650px;
+        overflow-y: scroll;
     }
 
     @media (max-width: 800px) {

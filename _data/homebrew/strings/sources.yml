@@ -4,6 +4,9 @@ VSS:
 TGS:
   name: The Griffon's Saddlebag
 
+GriffonsReddit:
+  name: The Griffon's Saddlebag
+
 tgs1:
   name: The Griffon's Saddlebag - Book 1
 
@@ -18,3 +21,6 @@ KTKCG:
 
 EsploratoriNebbia:
   name: Personalizzato (Esploratori della Nebbia)
+
+TDCSR:
+  name: Tal' Dorei Campaign Setting Reborn

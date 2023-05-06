@@ -34,8 +34,8 @@
 </table>
 
 <form>
-    <input type="checkbox" id="showone" name="showone">
-    <label for="showone">Mostra uno alla volta</label>
+    <input type="checkbox" id="showall" name="showall">
+    <label for="showall">Mostra tutti</label>
 </form>
 
 <div class="card-container">
