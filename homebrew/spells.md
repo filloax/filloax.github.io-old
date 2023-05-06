@@ -5,7 +5,15 @@
 
 ## Incantesimi homebrew
 
-<table class="index">
+<form class="showall">
+    <input type="checkbox" id="showall" name="showall">
+    <label for="showall">Mostra tutti</label>
+</form>
+
+<div id="homebrew-container" class="showone">
+
+<div class="index">
+<table>
 <thead>
     <tr>
         <td>Incantesimo</td>
@@ -32,11 +40,7 @@
 
 </tbody>
 </table>
-
-<form>
-    <input type="checkbox" id="showall" name="showall">
-    <label for="showall">Mostra tutti</label>
-</form>
+</div>
 
 <div class="card-container">
 
@@ -45,7 +49,7 @@
 {% assign sorted_rarity_spells = sorted_spells | where_exp: "spell","spell.level == level" %}
 {% for spell in sorted_rarity_spells %}
 
-<div class="card" markdown="1">
+<div class="card hidden" markdown="1">
 
 {% include homebrew/spellcard.md spell=spell %}
 
@@ -53,5 +57,7 @@
 
 {% endfor %}
 {% endfor %}
+
+</div>
 
 </div>

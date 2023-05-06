@@ -51,6 +51,7 @@ module.exports = (grunt) ->
     watch:
       options:
         livereload: true
+        interrupt: true
       source:
         files: [
           "_drafts/**/*"
@@ -64,8 +65,10 @@ module.exports = (grunt) ->
           "_xho/**"
           "_star/**"
           "_config.yml"
-          "assets/**"
-          "!assets/img/gen/*"
+          "assets/css/**"
+          "assets/js/**"
+          "assets/img/*"
+          "assets/img/pg/**"
           "**.html"
           "*.md"
           "xho/**"

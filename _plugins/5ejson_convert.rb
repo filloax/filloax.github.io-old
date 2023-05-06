@@ -156,16 +156,24 @@ module Jekyll::CustomFilter
     out.join(", ")
   end
 
+  # replace: /#cnt for content, /#src for source (where applicable), /#id for id
+  # @param str [String]
+  def sub_5et_tag(str, tagname, replace)
+    # {@tagname content<|source<|text>>}
+    pattern = /\{@#{tagname}\s+([^\\|}]+?)\s*(?:\|([^\}\|]+?)\s*)?(?:\|([^\}]+?)\s*)?\}/
+    return str.gsub(pattern) { |m| mat = $~; replace.gsub("/#cnt", (mat[3] or mat[1])).gsub("/#src", "#{mat[2]}").gsub("/#id", mat[1])  }
+  end
+
   def format_single_entry(entry)
-    print(entry, "\n")
-    entry = entry.gsub(/\{@dice ([^\}]+)\}/, '<span class="hb-dice">\1</span>' )
-    entry = entry.gsub(/\{@spell ([^\|\}]+?)(?:\s*\|\s*([^\}]+))\}/, '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e/\1">\1</a></span>' )
-    entry = entry.gsub(/\{@condition ([^\}]+)\}/, '<span class="hb-condition"><a href="https://roll20.net/compendium/dnd5e/Conditions">\1</a></span>')
-    entry = entry.gsub(/\{@damage ([^\}]+)\}/, '<span class="hb-damage">\1</span>')
-    entry = entry.gsub(/\{@item ([^\|\}]+)(?:\s*\|\s*([^\}]+))\}/, '<span class="hb-item">\1</span> <span class="hb-item-src">(from \2)</span>')
-    entry = entry.gsub(/\{@skill ([^\}]+)\}/, '<span class="hb-skill">\1</span>')
-    entry = entry.gsub(/\{@dc ([^\}]+)\}/, 'DC \1')
-    entry = entry.gsub(/\{@hit ([^\}]+)\}/, '<span class="hb-hit">+\1</span>')
+    entry = sub_5et_tag(entry, "dice", '<span class="hb-dice">/#cnt</span>' )
+    entry = sub_5et_tag(entry, "spell", '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e//#id">/#cnt</a></span>' )
+    entry = sub_5et_tag(entry, "condition", '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e/Conditions">/#cnt</a></span>' )
+    entry = sub_5et_tag(entry, "creature", '<span class="hb-creature">/#cnt</span>' )
+    entry = sub_5et_tag(entry, "book", '*/#cnt*' )
+    entry = sub_5et_tag(entry, "damage", '<span class="hb-damage">/#cnt</span>' )
+    entry = sub_5et_tag(entry, "skill", '<span class="hb-skill">/#cnt</span>' )
+    entry = sub_5et_tag(entry, "dc", '<span class="hb-dc">DC /#cnt</span>' )
+    entry = sub_5et_tag(entry, "hit", '<span class="hb-hit">+/#cnt</span>' )
     return entry
   end
 
