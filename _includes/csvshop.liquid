@@ -1,0 +1,145 @@
+{% if include.sort %}
+  {% assign rarityOrder = "artifact|varies|legendary|very rare|rare|uncommon|common|none" | split: "|" %}
+  {% assign csv = "" | split: "|" %}
+  {% assign byRarity = include.csv | group_by: "rarity" %}
+
+  {% for rarity in rarityOrder %}
+    {% assign rarityGroup = byRarity | find: "name", rarity %}
+    {% if rarityGroup %}
+      {% assign byName = rarityGroup.items | sort: "name" %}
+      {% for item in byName %}
+        {% assign csv = csv | push: item %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% assign csv = include.csv %}
+{% endif %}
+
+<div class="shop-table">
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Descrizione</th>
+      <th>Prezzo</th>
+      <th>Rarità</th>
+      <th>Quantità</th>
+    </tr>
+    {% for row in csv %}
+      <tr>
+        <td>
+          {% if row["new"] %}
+            <span class="new"></span>
+          {% endif %}
+          {% if row["restocked"] %}
+            <span class="restocked"></span>
+          {% endif %}
+          {% if row["link"] %}
+            <a href="{{ row['link'] }}">
+            {% endif %}
+            {% if row["amount"] == "0" %}
+              <del>
+              {% endif %}
+              {% if row["magicspecific"] %}
+                <em>
+                {% endif %}
+                {% if row["special"] %}
+                  <strong>
+                  {% endif %}
+                  <span markdown="1">{{ row["name"] }}</span>
+                  {% if row["special"] %}
+                  </strong>
+                {% endif %}
+                {% if row["magicspecific"] %}
+                </em>
+              {% endif %}
+              {% if row["amount"] == "0" %}
+              </del>
+            {% endif %}
+            {% if row["link"] %}
+            </a>
+          {% endif %}
+          {% if row["spell"] %}
+            <span markdown="1">*({{ row["spell"] }})*</span>
+          {% endif %}
+        </td>
+        <td>{{ row["desc"] }}
+          {% if row["attunement"] %}(s){% endif %}
+        </td>
+        <td style="text-align:center">{{ row["price"] }}</td>
+        <td style="text-align:center">{{ row["rarity"] }}</td>
+        <td style="text-align:center">{{ row["amount"] }}</td>
+      </tr>
+    {% endfor %}
+    {% if include.secondary_csv %}
+      <tr>
+        <td>—</td>
+        <td>—</td>
+        <td style="text-align:center">—</td>
+        <td style="text-align:center">—</td>
+        <td style="text-align:center">—</td>
+      </tr>
+      {% for row in include.secondary_csv %}
+          <tr>
+              <td>
+              {% if row["new"] %}<span class="new"></span>{% endif %}
+              {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
+              {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
+              {% if row["amount"] == "0" %}<del>{% endif %}
+              {% if row["magicspecific"] %}<em>{% endif %}
+              {% if row["special"] %}<strong>{% endif %}
+              <span markdown="1">{{ row["name"] }}</span>
+              {% if row["special"] %}</strong>{% endif %}
+              {% if row["magicspecific"] %}</em>{% endif %}
+              {% if row["amount"] == "0" %}</del>{% endif %}
+              {% if row["link"] %}</a>{% endif %}
+              </td>
+              <td>{{ row["desc"] }} {% if row["attunement"] %}(s){% endif %}</td>
+              <td style="text-align:center">{{ row["price"] }}</td>
+              <td style="text-align:center">{{ row["rarity"] }}</td>
+              <td style="text-align:center">{{ row["amount"] }}</td>
+          </tr>
+      {% endfor %}
+    {% endif %}
+    {% if include.materials_csv %}
+      <tr class="tablesep">
+        <td>
+          <strong>Materiali</strong>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      {% for row in include.materials_csv %}
+        <tr>
+          <td>
+            {% if row["new"] %}
+              <span class="new"></span>
+            {% endif %}
+            {% if row["restocked"] %}
+              <span class="restocked"></span>
+            {% endif %}
+            {% if row["link"] %}
+              <a href="{{ row['link'] }}">
+              {% endif %}
+              {% if row["amount"] == "0" %}
+                <del>
+                {% endif %}
+                <span markdown="1">{{ row["name"] }}</span>
+                {% if row["amount"] == "0" %}
+                </del>
+              {% endif %}
+              {% if row["link"] %}
+              </a>
+            {% endif %}
+          </td>
+          <td>-</td>
+          <td style="text-align:center">{{ row["price"] }}</td>
+          <td style="text-align:center">{{ row["rarity"] }}</td>
+          <td style="text-align:center">{{ row["amount"] }}</td>
+        </tr>
+      {% endfor %}
+    {% endif %}
+  </table>  
+</div>

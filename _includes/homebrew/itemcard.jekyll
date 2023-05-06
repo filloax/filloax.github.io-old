@@ -11,20 +11,25 @@
 
 {% if item.type %}
     {% assign it_type = site.data.homebrew.strings.item_types[item.type].name  %}
+    {% unless it_type %}
+        {% capture it_type %}oggetto sconosciuto ({{ item.type }}){%endcapture%}
+    {% endunless %}
 {% elsif item.wondrous %}
     {% assign it_type = site.data.homebrew.strings.item_types["WI"].name  %}
 {% else %}
-    {% assign it_type = ""  %}
+    {% assign it_type = "oggetto"  %}
 {% endif %}
 {% assign it_rarity = site.data.homebrew.strings.rarity[item.rarity]  %}
 
 <p class="hb-source">Da {{ src_name }}</p>
 
+<p>
 {% if item.rarity == "none" %}
-*{{ it_type | capitalize }}{% if item.reqAttune %} (richiede sintonia){% endif %}*
+<em>{{ it_type | capitalize }}{% if item.reqAttune %} (richiede sintonia){% endif %}</em>
 {% else %}
-*{{ it_type | capitalize }}, {{ it_rarity }}{% if item.reqAttune %} (richiede sintonia){% endif %}*
+<em>{{ it_type | capitalize }}, {{ it_rarity }}{% if item.reqAttune %} (richiede sintonia){% endif %}</em>
 {% endif %}
+</p>
 
 {% if item.weapon %}
 
@@ -34,7 +39,7 @@
 {{ site.data.homebrew.strings.misc.wep_category[item.weaponCategory] }}
 {%- endcapture -%}
 
-*{{ tags | capitalize }}*
+<p><em>{{ tags | capitalize }}</em></p>
 
 <div class="weapontags">
 <div>
@@ -46,9 +51,9 @@
 {%- if item.property -%}{%- capture props -%}-{%- for prop in item.property -%}
 {%- assign propd = site.data.homebrew.strings.weapon_properties[prop] -%}
 {%- if forloop.index0 > 0 -%},{%- endif -%}{{ " " }}
-{%- if propd.homebrew -%}*{%- endif -%}
+{%- if propd.homebrew -%}<em>{%- endif -%}
 {{- propd.name -}}
-{%- if propd.homebrew -%}*{%- endif -%}
+{%- if propd.homebrew -%}</em>{%- endif -%}
 {%- endfor -%}{%- endcapture -%}{%- endif -%}
 {{ item.dmg1 }} {{ dmgtype }} {{ range }} <span markdown="1">{{ props }}</span>
 </div>
@@ -58,7 +63,7 @@
 {% for entry in item.entries %}
 
 {% assign filtered_entry = entry | json_entry %}
-{{ filtered_entry }}
+<p>{{ filtered_entry }}</p>
 
 {% endfor %}
 
@@ -66,7 +71,7 @@
     {% for prop in item.property %}
         {% assign propdata = site.data.homebrew.strings.weapon_properties[prop] %}
         {% if propdata.desc %}
-**{{ propdata.name | capitalize }}.** {{ propdata.desc }}
+<p><strong>{{ propdata.name | capitalize }}.</strong> {{ propdata.desc }}</p>
         {% endif %}
     {% endfor %}
 {% endif %}

@@ -40,7 +40,7 @@ La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che 
 <li>{{rarity}}</li>
 {% endfor %}
 </ul>
-<table class="sab">
+<table class="sab shop-table">
     <tr>
         <th class="col-name">Nome</th>
         <th class="sab-itemdesc-header col-desc">Descrizione</th>

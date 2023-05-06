@@ -156,12 +156,16 @@ module Jekyll::CustomFilter
     out.join(", ")
   end
 
-  # replace: /#cnt for content, /#src for source (where applicable), /#id for id
+  # replace: /#cnt for content, /#src for source (where applicable), /#id for id, /#extra for fourth pipe element (ex:. book)
   # @param str [String]
   def sub_5et_tag(str, tagname, replace)
     # {@tagname content<|source<|text>>}
-    pattern = /\{@#{tagname}\s+([^\\|}]+?)\s*(?:\|([^\}\|]+?)\s*)?(?:\|([^\}]+?)\s*)?\}/
-    return str.gsub(pattern) { |m| mat = $~; replace.gsub("/#cnt", (mat[3] or mat[1])).gsub("/#src", "#{mat[2]}").gsub("/#id", mat[1])  }
+    pattern = /\{@#{tagname}\s+([^\\|}]+?)\s*(?:\|([^\}\|]+?)\s*)?(?:\|([^\}\|]+?)\s*)?(?:\|([^\}]+?)\s*)?\}/
+    return str.gsub(pattern) { |m| mat = $~; replace.gsub("/#cnt", (mat[3] or mat[1]))
+                                                    .gsub("/#src", "#{mat[2]}")
+                                                    .gsub("/#id", mat[1])  
+                                                    .gsub("/#extra", "#{mat[4]}")  
+                                                  }
   end
 
   def format_single_entry(entry)
@@ -169,7 +173,7 @@ module Jekyll::CustomFilter
     entry = sub_5et_tag(entry, "spell", '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e//#id">/#cnt</a></span>' )
     entry = sub_5et_tag(entry, "condition", '<span class="hb-spell"><a href="https://roll20.net/compendium/dnd5e/Conditions">/#cnt</a></span>' )
     entry = sub_5et_tag(entry, "creature", '<span class="hb-creature">/#cnt</span>' )
-    entry = sub_5et_tag(entry, "book", '*/#cnt*' )
+    entry = sub_5et_tag(entry, "book", '<em>/#extra</em>' )
     entry = sub_5et_tag(entry, "damage", '<span class="hb-damage">/#cnt</span>' )
     entry = sub_5et_tag(entry, "skill", '<span class="hb-skill">/#cnt</span>' )
     entry = sub_5et_tag(entry, "dc", '<span class="hb-dc">DC /#cnt</span>' )
@@ -189,18 +193,21 @@ module Jekyll::CustomFilter
     if input.is_a? String then
       return format_single_entry(input)
     elsif input["type"] == "list" then
-      return input["items"].map { |item| "- #{json_entry(item)}" }.join("\n")
+      out = "<ul>"
+      out += input["items"].map { |item| "<li>#{json_entry(item)}</li>" }.join("")
+      out += "</ul>"
+      return out
     elsif input["type"] == "entries" then
       out = ""
       if input.key?("name") then
-        out += "**#{format_single_entry(input["name"])}.** "
+        out += "<p><strong>#{format_single_entry(input["name"])}.</strong></p>"
       end
-      out += input["entries"].map { |entry| json_entry(entry) }.join("\n")
+      out += input["entries"].map { |entry| "<p>#{json_entry(entry)}</p>" }.join("")
       return out
     elsif input["type"] == "item" then
       out = ""
       if input.key?("name") then
-        out += "**#{format_single_entry(input["name"])}.** "
+        out += "<strong>#{format_single_entry(input["name"])}.</strong> "
       end
       out += json_entry(input["entry"])
       return out
@@ -249,10 +256,13 @@ module Jekyll::CustomFilter
         return input
       end
 
-      block = "**#{name}**\n\n"
-      block += statblock["entries"].map { |entry| json_entry(entry) }.join("\n\n")
+      block = "<blockquote>"
 
-      block = block.gsub(/^/, "> ")
+      block += "<p><strong>#{name}</strong></p>"
+      block += statblock["entries"].map { |entry| "<p>#{json_entry(entry)}</p>" }.join("")
+
+      block += "</blockquote>"
+      return block
     else
       print("[WARN] Could not convert #{input}\n")
       return input 

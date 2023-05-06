@@ -40,54 +40,6 @@ Utili meno spesso _woodcarving_, roba di legno varia, _engineering_, creazione d
 
 ### Negozio
 
-<table>
-    <tr>
-        <th>Nome</th>
-        <th>Descrizione</th>
-        <th>Prezzo</th>
-        <th>Rarità</th>
-        <th>Quantità</th>
-    </tr>
-    {% for row in site.data.shops.xho.mavreus %}
-        <tr>
-            <td>
-            {% if row["new"] %}<span class="new"></span>{% endif %}
-            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
-            {% if row["link"] %}<a href="{{ row['link'] }}">{% endif %}
-            {% if row["amount"] == "0" %}<del>{% endif %}
-            {% if row["magicspecific"] %}<em>{% endif %}
-            {% if row["special"] %}<strong>{% endif %}
-                {{ row["name"] }}
-            {% if row["special"] %}</strong>{% endif %}
-            {% if row["magicspecific"] %}</em>{% endif %}
-            {% if row["amount"] == "0" %}</del>{% endif %}
-            {% if row["link"] %}</a>{% endif %}
-            </td>
-            <td>{{ row["desc"] }} {% if row["attunement"] %}(s){% endif %}</td>
-            <td style="text-align:center">{{ row["price"] }}</td>
-            <td style="text-align:center">{{ row["rarity"] }}</td>
-            <td style="text-align:center">{{ row["amount"] }}</td>
-        </tr>
-    {% endfor %}
-    <tr class="tablesep">
-        <td><strong>Materiali</strong></td>
-        <td></td><td></td><td></td><td></td>
-    </tr>
-    {% for row in site.data.shops.xho.mavreus_materials %}
-        <tr>
-            <td>
-            {% if row["new"] %}<span class="new"></span>{% endif %}
-            {% if row["restocked"] %}<span class="restocked"></span>{% endif %}
-            {% if row["amount"] == "0" %}<del>{% endif %}
-            {{ row["name"] }}
-            {% if row["amount"] == "0" %}</del>{% endif %}
-            </td>
-            <td>-</td>
-            <td style="text-align:center">{{ row["price"] }}</td>
-            <td style="text-align:center">{{ row["rarity"] }}</td>
-            <td style="text-align:center">{{ row["amount"] }}</td>
-        </tr>
-    {% endfor %}
-</table>
+{% include csvshop.liquid csv=site.data.shops.xho.mavreus materials_csv=site.data.shops.xho.mavreus_materials %}
 
 Oltre a quelli elencati vende anche tutti gli oggetti di basso prezzo nella sezione _tinkering_ del manuale completo del crafting.

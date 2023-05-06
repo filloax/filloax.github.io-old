@@ -122,5 +122,509 @@
                 }
             ]
         }
-    }
+    },
+	{
+		"name": "Decaying Touch",
+		"source": "KibblesTasty:CC",
+		"page": 15,
+		"level": 0,
+		"school": "T",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "powdered remains of a dead animal"
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"You wreath your hand in necrotic decay that causes anything you touch to wither and die. Make a melee spell attack against the target. On hit, the targets takes {@damage 1d6} necrotic damage is starts to flake and decay. The first time they take damage from another source before the start of your next turn, they take an additional {@damage 1d6} necrotic damage. Targets immune to diseases are immune to this effect.",
+			"The both the initial and secondary damage of the spell increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+		],
+		"scalingLevelDice": {
+			"label": "necrotic damage",
+			"scaling": {
+				"1": "1d6",
+				"5": "2d6",
+				"11": "3d6",
+				"17": "4d6"
+			}
+		},
+		"damageInflict": [
+			"necrotic"
+		],
+		"spellAttack": [
+			"M"
+		],
+		"miscTags": [
+			"SCL"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "KibblesTasty; Kibbles' Casting Compendium.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Warden",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Soulblood Shaman",
+						"shortName": "Soulblood Shaman",
+						"source": "VSS"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 1,
+		"_fSources": "KibblesTasty:CC",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic",
+			"Material",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Warden: Soulblood Shaman (VSS)",
+				"nest": "Warden",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Touch",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Stone Forming",
+		"source": "KibblesTasty:CC",
+		"page": 30,
+		"level": 0,
+		"school": "T",
+		"time": [
+			{
+				"number": 1,
+				"unit": "bonus"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"You touch a stone surface or the ground, and call forth stone that shapes itself to your command. You can make any roughly shaped Small or Tiny item from the stone, including functional simple or martial melee weapons (for Medium or smaller creatures). Items made this way lose any magical durability after one hour, and become easily broken if they would not normally be functional in that shape."
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Occultist",
+					"source": "KT:O"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "KibblesTasty; Kibbles' Casting Compendium.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Warden",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Soulblood Shaman",
+						"shortName": "Soulblood Shaman",
+						"source": "VSS"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 2,
+		"_normalisedRange": 1,
+		"_fSources": "KibblesTasty:CC",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic"
+		],
+		"_fClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Occultist",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Warden: Soulblood Shaman (VSS)",
+				"nest": "Warden",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Occultist",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"bonus"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Touch",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Candy Blast",
+		"source": "VSS",
+		"page": 332,
+		"level": 0,
+		"school": "C",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"You summon a handful of hard candy—boiled sweets, mints, jelly beans, etc.—and hurl them at a target you can see within range. Make a ranged spell attack roll. On a hit, the target takes {@damage 1d8} bludgeoning damage, and the space it is standing in, up to a 5-foot square, becomes difficult terrain until a creature uses an action to gather up the fallen candy. The candy produced by this spell is edible, but has no nutritional value.",
+			"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+		],
+		"damageInflict": [
+			"bludgeoning"
+		],
+		"spellAttack": [
+			"R"
+		],
+		"miscTags": [
+			"SCL",
+			"SGT"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				}
+			]
+		}
+	},
+	{
+		"name": "Illusionary Dart",
+		"source": "KibblesTasty:CC",
+		"page": 28,
+		"level": 0,
+		"school": "I",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"You create and throw an illusionary dart at a creature you can see within range. Make a ranged spell attack. On hit, they take {@damage 1d8} psychic damage. The number of darts you can throw with this spell increases when you reach 5th level (2 darts), 11th (3 darts), and 17th level (4 darts). You can direct the dart at the same target or at different ones. Make a separate attack roll for each dart."
+		],
+		"damageInflict": [
+			"psychic"
+		],
+		"spellAttack": [
+			"R"
+		],
+		"miscTags": [
+			"SGT"
+		],
+		"areaTags": [
+			"MT"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				}
+			]
+		}
+	}
 ]

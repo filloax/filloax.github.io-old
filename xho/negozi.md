@@ -12,6 +12,9 @@
     -   [Il Grifone del Deserto (Oggetti rari)](#il-grifone-del-deserto)
     -   [Mastro Ner Tör (Fabbro)](#mastro-ner-tör)
     -   [Alchimia botanica (Alchimista)](#alchimia-botanica)
+    - <span class="new"></span> Speciali!
+        - <span class="new"></span> [Negozi a Port Damali](#negozi-port-damali)
+        - <span class="new"></span> [Negozi a Piltover](#negozi-piltover)
 
 Alcune merci sono "su richiesta" perchè sono di uso comune, ma generalmente possono craftare tutte le altre cose craftabili se avete materiali ecc.
 
@@ -69,3 +72,11 @@ maggior parte degli oggetti magici.
 {% include xho/shops/blacksmith.md %}
 
 {% include xho/shops/druid.md %}
+
+---
+
+**Negozi temporanei**
+
+{% include xho/shops/piltover.md %}
+
+{% include xho/shops/damali.md %}

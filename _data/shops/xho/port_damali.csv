@@ -1,0 +1,16 @@
+name,link,spell,desc,price,rarity,amount,magicspecific,attunement,new,restocked,special
+Wand of Puppetry,/homebrew/items#wand-of-puppetry,,fili per debuffare umanoide o domina persona,10200,very rare,1,x,x,,,x
+Knight's Standard of Vigor,/homebrew/items#knight-s-standard-of-vigor,,"picca, +1, comp vs veleno, cura extra",1000,rare,1,x,x,,,
+Coat of the Crest,/homebrew/items#coat-of-the-crest,,"+1 CA, cariche per res come reaz",1500,rare,2,x,x,,,
+Gravity,/homebrew/items#gravity,,"runa: no danni caduta, levitare 1/rl",320,uncommon,3,x,x,,,
+Potent Contact Poison,/homebrew/items#potent-contact-poison,,4d4 + avvelenato,100,uncommon,1,x,,,,
+Bag of Tricks (Gray),http://dnd5e.wikidot.com/wondrous-items:bag-of-tricks,,spawna creature,520,uncommon,1,x,,,,
+Bag of Tricks (Rust),http://dnd5e.wikidot.com/wondrous-items:bag-of-tricks,,spawna creature,520,uncommon,1,x,,,,
+Bag of Holding,http://dnd5e.wikidot.com/wondrous-items:bag-of-holding,,la sola e unica,1000,uncommon,3,x,,,,
+Lesser Wand of Cantrip,/homebrew/items#lesser-wand-of-cantrip,[candy blast](/homebrew/spells#candy-blast),3 cariche,30,common,1,x,,,,
+Lesser Wand of Cantrip,/homebrew/items#lesser-wand-of-cantrip,[illusionary dart](/homebrew/spells#illusionary-dart),3 cariche,30,common,1,x,,,,
+Prism Glasses,/homebrew/items#prism-glasses,,"colore scurovisione, fix daltonismo",90,common,4,x,,,,
+Flickering Ruby,/homebrew/items#flickering-ruby,,"socket arma, 1 minuto 1d4 fuoco 1/rl",125,common,1,x,,,,
+Wand of Chores,/homebrew/items#wand-of-chores,,prestidigigigitazione,160,common,2,x,,,,
+Medal of Wit,/homebrew/items#medal-of-wit,,"vant int 1 ora, monouso",20,common,1,x,,,,
+Talyard the Great's Wand of Power,/homebrew/items#talyard-the-great-s-wand-of-power,,"magie, funziona da ubriaco soltanto",180,uncommon,1,x,,,,

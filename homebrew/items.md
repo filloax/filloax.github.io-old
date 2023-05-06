@@ -78,7 +78,7 @@ exclude_sources:
 
 <div class="card hidden" markdown="1">
 
-{% include homebrew/itemcard.md item=item %}
+{% include homebrew/itemcard.jekyll item=item %}
 
 </div>
 

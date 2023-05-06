@@ -9,3 +9,4 @@ _sass/midnight.scss
 _scripts/*.webp
 **.pyc
 assets/img/gen/**
+_scripts/data/**
