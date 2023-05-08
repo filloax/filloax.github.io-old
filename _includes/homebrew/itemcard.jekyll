@@ -43,7 +43,7 @@
 
 <div class="weapontags">
 <div>
-{{ item.value | json_money }}, {{ item.weight | conv_unit: "lb" }}
+{%- if item.value -%}{{ item.value | json_money }},{% endif %} {{ item.weight | conv_unit: "lb" }}
 </div>
 <div>
 {% assign dmgtype = site.data.homebrew.strings.damage_types[item.dmgType]  %}
