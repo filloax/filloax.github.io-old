@@ -2,14 +2,14 @@ name,link,spell,desc,price,rarity,amount,magicspecific,attunement,new,restocked,
 Spellwrought Tattoo (1st Level),http://dnd5e.wikidot.com/wondrous-items:spellwrought-tattoo,,1 cast magia lv1,300,common,-,,,,,
 Spellwrought Tattoo (2nd Level),http://dnd5e.wikidot.com/wondrous-items:spellwrought-tattoo,,1 casta magia vl2,600,uncommon,-,,,,,
 Spellwrought Tattoo (3rd Level),http://dnd5e.wikidot.com/wondrous-items:spellwrought-tattoo,,1 cast magia lv3,1000,uncommon,-,,,,,
-Spellwrought Tattoo (4th Level),http://dnd5e.wikidot.com/wondrous-items:spellwrought-tattoo,,1 cast magia lv4,1600,rare,5,,,,,
-Barrier Tattoo (Large),http://dnd5e.wikidot.com/wondrous-items:barrier-tattoo,,18 CA,19000,very rare,-,x,x,,,
-Barrier Tattoo (Medium),http://dnd5e.wikidot.com/wondrous-items:barrier-tattoo,,"15 + min(Des,2) CA",10000,rare,5,x,x,,,
+Spellwrought Tattoo (4th Level),http://dnd5e.wikidot.com/wondrous-items:spellwrought-tattoo,,1 cast magia lv4,1600,rare,-,,,,,
+Barrier Tattoo (Large),http://dnd5e.wikidot.com/wondrous-items:barrier-tattoo,,18 CA,19000,very rare,5,x,x,,,
+Barrier Tattoo (Medium),http://dnd5e.wikidot.com/wondrous-items:barrier-tattoo,,"15 + min(Des,2) CA",10000,rare,.,x,x,,,
 Barrier Tattoo (Small),http://dnd5e.wikidot.com/wondrous-items:barrier-tattoo,,12 + Des CA,2000,uncommon,-,x,x,,,
 Coiling Grasp Tattoo,http://dnd5e.wikidot.com/wondrous-items:coiling-grasp-tattoo,,tentacoli grabbini,700,uncommon,-,x,x,,,x
 Eldritch Claw Tattoo,http://dnd5e.wikidot.com/wondrous-items:eldritch-claw-tattoo,,ravvicinato range extra + 1d6 danni extra,1000,uncommon,-,x,x,,,x
-Lifewell Tattoo,http://dnd5e.wikidot.com/wondrous-items:lifewell-tattoo,,"res necrotici, res orchesca 1/RL",6000,very rare,-,x,x,,,x
+Lifewell Tattoo,http://dnd5e.wikidot.com/wondrous-items:lifewell-tattoo,,"res necrotici, res orchesca 1/RL",6000,very rare,5,x,x,,,x
 Shadowfell Brand Tattoo,http://dnd5e.wikidot.com/wondrous-items:shadowfell-brand-tattoo,,scurovis + reaz per 1/2 danni,2000,rare,5,x,x,,,x
 Illuminator's Tattoo,http://dnd5e.wikidot.com/wondrous-items:illuminators-tattoo,,"scrivi con dita, opz invisibile",500,common,-,x,x,,,x
 Masquerade Tattoo,http://dnd5e.wikidot.com/wondrous-items:masquerade-tattoo,,disguise self 1/RL,500,common,-,x,x,,,x
-Ghost Step Tattoo,http://dnd5e.wikidot.com/wondrous-items:ghost-step-tattoo,,bonus -> incorporeo 1 turno,3000,very rare,-,x,x,,,x
+Ghost Step Tattoo,http://dnd5e.wikidot.com/wondrous-items:ghost-step-tattoo,,bonus -> incorporeo 1 turno,3000,very rare,5,x,x,,,x
