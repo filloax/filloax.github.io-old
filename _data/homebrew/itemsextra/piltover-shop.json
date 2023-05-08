@@ -860,15 +860,6 @@
 			"Blast Disk (Rare)|ExploringEberron"
 		],
 		"entries": [
-			"Multiple variations of this item exist, as listed below:",
-			{
-				"type": "list",
-				"items": [
-					"{@item Blast Disk (Common)|ExploringEberron}",
-					"{@item Blast Disk (Uncommon)|ExploringEberron}",
-					"{@item Blast Disk (Rare)|ExploringEberron}"
-				]
-			},
 			"A blast disk holds destructive arcane power. A typical blast disk is about nine inches in diameter and one inch thick, made from layers of different metal; dragonshards are embedded in the surface of the disk and arcane symbols are engraved in its surface. Anyone studying the surface of the disk can make an Intelligence ({@skill Arcana}) check corresponding to the save DC of the disk. On a success, they identify the spell effect contained within the disk. There are three elements to a blast disk: the trigger, payload, and charge. Each effect is selected at the time it is created.",
 			{
 				"type": "entries",
