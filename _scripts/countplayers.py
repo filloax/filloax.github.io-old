@@ -1,13 +1,9 @@
-import os
+import os, sys
 import argparse
 import re
 import datetime
 # import pandas as pd
 import copy
-import matplotlib
-from matplotlib import pyplot as plt
-from matplotlib import colors
-import numpy as np
 import random
 
 PATTERN_PLAYERS = r'^Partecipano: '
@@ -16,14 +12,22 @@ PATTERN_PLAYER = r'([^\()]+?)\s*\(([^\)]+)\)'
 PATTERN_TITLE = r'^title: '
 PATTERN_DATE = r'^date: '
 
-parser = argparse.ArgumentParser()
+shared_parser = argparse.ArgumentParser(add_help=False)
+shared_parser.add_argument("-o", "--out", default=None, help="Output plot image")
+shared_parser.add_argument("--debug", action="store_true", help="Print debug info")
+parser = argparse.ArgumentParser(parents=[shared_parser])
+subparsers = parser.add_subparsers(dest='mode', help='Program mode')
+# add in subparsers to have proper order
+path_arg = (("path",), {'help': "Path to folder containing session recaps"})
 
-parser.add_argument("path", help="Path to folder containing session recaps")
-parser.add_argument("-o", "--out", default=None, help="Output plot image")
-parser.add_argument("--dpi", type=int, default=None, help="Output image DPI")
-parser.add_argument("-s", "--silent", action="store_true", help="Avoid rendering plot to window")
-parser.add_argument("--colorseed", type=int, help="Seed for random colors")
-parser.add_argument("--debug", action="store_true", help="Print debug info")
+plot_parser = subparsers.add_parser("plot", parents=[shared_parser])
+plot_parser.add_argument(*path_arg[0], **path_arg[1])
+plot_parser.add_argument("--dpi", type=int, default=None, help="Output image DPI")
+plot_parser.add_argument("-s", "--silent", action="store_true", help="Avoid rendering plot to window")
+plot_parser.add_argument("--colorseed", type=int, help="Seed for random colors")
+
+stats_parser = subparsers.add_parser("stats", parents=[shared_parser])
+stats_parser.add_argument(*path_arg[0], **path_arg[1])
 
 debug = False
 
@@ -174,16 +178,7 @@ def draw_attendance_plot(sim_data: list[dict], columns: list[str], drawseps = Tr
 
     return ax, fig
 
-def main(args):
-    global debug
-    if args.debug:
-        debug = True
-    if debug:
-        print("[DEBUG] Matplotlib backend:", matplotlib.get_backend())
-
-    all_data = get_folder_data(os.path.abspath(args.path))
-    # df = get_simplified_data_df(all_data)
-    simple_data, cols = get_simplified_data_cols(all_data)
+def plot(args, simple_data: list[dict], cols: list):
     extraargs = {}
     if args.colorseed:
         extraargs["seed"] = args.colorseed
@@ -204,6 +199,71 @@ def main(args):
 
         plt.savefig(args.out, transparent=True, bbox_inches='tight', **extraargs_save)
 
+def stats(args, all_data: "list[dict]"):
+    global debug
+    
+    attcount = {}
+    ptotals = {}
+    total = len(all_data)
+    
+    for data in all_data:
+        for pname in ptotals:
+            ptotals[pname] += 1
+        for player in data["players"]:
+            pname = player["player"]
+            # first player session
+            if pname not in attcount:
+                ptotals[pname] = 1
+            attcount[pname] = attcount.get(pname, 0) + 1
+    
+    file = sys.stdout
+    if args.out:
+        file = open(args.out, "w")
+    
+    try:
+        print(",".join(["pname", "count", "total", "pct", "pcttotal"]), file=file)
+        if debug:
+            print(f"Total sessions: {total}")
+        for pname in attcount:
+            pct = round(100 * attcount[pname] / ptotals[pname], 2)
+            pct_total = round(100 * attcount[pname] / total, 2)
+            print(",".join([pname, f"{attcount[pname]}", f"{ptotals[pname]}", f"{pct}", f"{pct_total}"]), file=file)
+            
+            if debug:
+                print((f"P {pname:10s}: {attcount[pname]:2d}/{ptotals[pname]:2d}, "
+                        f"{pct:>6.2f}%, {pct_total:>6.2f}% total"
+                    ),  file=sys.stderr)    
+    finally:
+        file.close()
+
+def main(args):
+    global debug
+    if args.debug:
+        debug = True
+
+    all_data = get_folder_data(os.path.abspath(args.path))
+    # df = get_simplified_data_df(all_data)
+    simple_data, cols = get_simplified_data_cols(all_data)
+    
+    if args.mode == 'stats':
+        stats(args, all_data)
+    elif args.mode == 'plot':
+        plot(args, simple_data, cols)
+    else:
+        print("Unkown mode or no mode set!", file=sys.stderr)
+        sys.exit(-1)
+
 if __name__ == "__main__":
     args = parser.parse_args()
+    
+    if args.mode == 'plot':
+        import matplotlib
+        from matplotlib import pyplot as plt
+        from matplotlib import colors
+        import numpy as np
+        
+    if 'mode' not in args:
+        print("No mode set!", file=sys.stderr)
+        sys.exit(-1)
+
     main(args)
