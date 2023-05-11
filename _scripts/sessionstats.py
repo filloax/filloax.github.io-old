@@ -18,7 +18,7 @@ subparsers = parser.add_subparsers(dest='mode', help='Program mode')
 # add in subparsers to have proper order
 path_arg = (("path",), {'help': "Path to folder containing session recaps"})
 
-plot_parser = subparsers.add_parser("plot", parents=[shared_parser])
+plot_parser = subparsers.add_parser("plot", parents=[shared_parser], help="Generate various analysis graphs")
 plot_parser.add_argument(*path_arg[0], **path_arg[1])
 plot_parser.add_argument("-m", "--pmode", choices=['att', 'a', 'levelup', 'l'], default="att", help="Kind of graph")
 plot_parser.add_argument("--dpi", type=int, default=None, help="Output image DPI")
@@ -26,8 +26,15 @@ plot_parser.add_argument("-s", "--silent", action="store_true", help="Avoid rend
 plot_parser.add_argument("--colorseed", type=int, help="Seed for random colors")
 plot_parser.add_argument("--cmap", type=str, help="Color map to use (from matplotlib)")
 
-stats_parser = subparsers.add_parser("stats", parents=[shared_parser])
+stats_parser = subparsers.add_parser("stats", parents=[shared_parser], help="Text-format statistics")
 stats_parser.add_argument(*path_arg[0], **path_arg[1])
+
+multi_parser = subparsers.add_parser("multi", parents=[shared_parser], help="Generate multiple graphs with default settings (outputs to folder in webp format)")
+multi_parser.add_argument(*path_arg[0], **path_arg[1])
+multi_parser.add_argument("-P", "--prefix", type=str, required=True, help="Output image prefix")
+multi_parser.add_argument("--dpi", type=int, default=None, help="Output image DPI")
+multi_parser.add_argument("--colorseed", type=int, help="Seed for random colors")
+multi_parser.add_argument("--cmap", type=str, help="Color map to use (from matplotlib)")
 
 debug = False
 
@@ -208,10 +215,10 @@ def draw_levelup_plot(session_data: list[dict], cmap='plasma', show=True, figsiz
     ax.set_title("Level-up")
     ax.set_yticklabels([])
     xticks = [1, max(numbers)]
-    for i in np.arange(5, max(numbers), 5.0):
+    for i in np.arange(5, max(numbers), 5.0, dtype=int):
         xticks.append(i)
     for i, data in enumerate(session_data):
-        if 'levelup' in data and not i in xticks:
+        if 'levelup' in data:
             xticks.append(data['number'])
     xticks.sort()
     plt.xticks(xticks)
@@ -232,21 +239,23 @@ def draw_levelup_plot(session_data: list[dict], cmap='plasma', show=True, figsiz
             
     if show:
         plt.show()
+        
+    return fig, ax
     
 
 def plot(args, simple_data: list[dict], cols: list):
     extraargs = {}
-    if 'colorseed' in args and args.colorseed:
-        extraargs["seed"] = args.colorseed
-    if 'cmap' in args and args.cmap:
-        extraargs["cmap"] = args.cmap
     extraargs["show"] = not args.silent
     
     plt.style.use('dark_background')
     
     if args.pmode in ['a', 'att']:
+        if 'colorseed' in args and args.colorseed:
+            extraargs["seed"] = args.colorseed
         draw_attendance_plot(simple_data, cols, **extraargs)
     elif args.pmode in ['l', 'levelup']:
+        if 'cmap' in args and args.cmap:
+            extraargs["cmap"] = args.cmap
         draw_levelup_plot(simple_data, **extraargs)
     else:
         print("Unknown mode", args.pmode, file=sys.stderr)
@@ -303,6 +312,43 @@ def stats(args, all_data: "list[dict]"):
     finally:
         file.close()
 
+def multi(args, simple_data, cols):
+    extraargs = {}
+    extraargs["show"] = False
+    
+    if not args.out:
+        print("Output folder must be specified!", file=sys.stderr)
+        sys.exit(-4)
+
+    outdir = os.path.abspath(args.out)
+    prefix = args.prefix
+    if os.path.exists(outdir) and not os.path.isdir(outdir):
+        print("Output folder must be a directory!", file=sys.stderr)
+        sys.exit(-5)
+    elif not os.path.exists(outdir):
+        os.makedirs(outdir)
+        print("Created directory", outdir)
+
+    extraargs_save = {}
+    if args.dpi:
+        extraargs_save["dpi"] = args.dpi
+    
+    plt.style.use('dark_background')
+    
+    if 'colorseed' in args and args.colorseed:
+        extraargs["seed"] = args.colorseed
+    draw_attendance_plot(simple_data, cols, **extraargs)
+    plt.savefig(os.path.join(outdir, f"{prefix}_attendance.webp"), transparent=True, bbox_inches='tight', **extraargs_save)
+    print(f"Saved {os.path.join(outdir, f'{prefix}_attendance.webp')}")
+    if 'seed' in extraargs: del extraargs['seed']
+    
+    if 'cmap' in args and args.cmap:
+        extraargs["cmap"] = args.cmap
+    draw_levelup_plot(simple_data, **extraargs)
+    plt.savefig(os.path.join(outdir, f"{prefix}_levelup.webp"), transparent=True, bbox_inches='tight', **extraargs_save)
+    print(f"Saved {os.path.join(outdir, f'{prefix}_levelup.webp')}")
+    if 'cmap' in extraargs: del extraargs['cmap']
+
 def main(args):
     global debug
     if args.debug:
@@ -316,14 +362,16 @@ def main(args):
         stats(args, all_data)
     elif args.mode == 'plot':
         plot(args, simple_data, cols)
+    elif args.mode == 'multi':
+        multi(args, simple_data, cols)
     else:
-        print("Unkown mode or no mode set!", file=sys.stderr)
+        print("Unkown mode or no mode set!", args.mode, file=sys.stderr)
         sys.exit(-1)
 
 if __name__ == "__main__":
     args = parser.parse_args()
     
-    if args.mode == 'plot':
+    if args.mode in ['plot', 'multi']:
         import matplotlib
         from matplotlib import pyplot as plt
         from matplotlib import colors

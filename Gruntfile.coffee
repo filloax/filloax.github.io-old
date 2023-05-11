@@ -43,10 +43,10 @@ module.exports = (grunt) ->
         command: "bundle exec jekyll build --trace"
       jekyllIncr:
         command: "bundle exec jekyll build --trace --incremental"
-      attXho:
-        command: 'python _scripts/sessionstats.py plot _xho/sessions -s -o "assets/img/gen/xho_attendance.webp" --dpi 150 --colorseed 220'
-      attStar:
-        command: 'python _scripts/sessionstats.py plot _star/sessions -s -o "assets/img/gen/star_attendance.webp" --dpi 150 --colorseed 523'
+      graphsXho:
+        command: 'python _scripts/sessionstats.py multi _xho/sessions -o "assets/img/gen/" -P xho --dpi 150 --colorseed 220'
+      graphsStar:
+        command: 'python _scripts/sessionstats.py multi _star/sessions -o "assets/img/gen/" -P star --dpi 150 --colorseed 523'
 
     watch:
       options:
@@ -103,8 +103,8 @@ module.exports = (grunt) ->
           host: "0.0.0.0"
 
   grunt.registerTask "runscripts", [
-    "shell:attStar"
-    "shell:attXho"
+    "shell:graphsStar"
+    "shell:graphsXho"
   ]
 
   grunt.registerTask "build", [

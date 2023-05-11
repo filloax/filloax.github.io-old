@@ -5,6 +5,6 @@
 
 Riassunti delle sessioni.
 
-{% include session_stats.md attendance="star_attendance.webp" %}
+{% include session_stats.md prefix="star_" %}
 
 {% include session_page.md folder=site.star %}
