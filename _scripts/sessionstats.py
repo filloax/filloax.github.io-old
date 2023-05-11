@@ -9,8 +9,6 @@ import random
 PATTERN_PLAYERS = r'^Partecipano: '
 PATTERN_GUEST = r'^Ospite: '
 PATTERN_PLAYER = r'([^\()]+?)\s*\(([^\)]+)\)'
-PATTERN_TITLE = r'^title: '
-PATTERN_DATE = r'^date: '
 
 shared_parser = argparse.ArgumentParser(add_help=False)
 shared_parser.add_argument("-o", "--out", default=None, help="Output plot image")
@@ -22,9 +20,11 @@ path_arg = (("path",), {'help': "Path to folder containing session recaps"})
 
 plot_parser = subparsers.add_parser("plot", parents=[shared_parser])
 plot_parser.add_argument(*path_arg[0], **path_arg[1])
+plot_parser.add_argument("-m", "--pmode", choices=['att', 'a', 'levelup', 'l'], default="att", help="Kind of graph")
 plot_parser.add_argument("--dpi", type=int, default=None, help="Output image DPI")
 plot_parser.add_argument("-s", "--silent", action="store_true", help="Avoid rendering plot to window")
 plot_parser.add_argument("--colorseed", type=int, help="Seed for random colors")
+plot_parser.add_argument("--cmap", type=str, help="Color map to use (from matplotlib)")
 
 stats_parser = subparsers.add_parser("stats", parents=[shared_parser])
 stats_parser.add_argument(*path_arg[0], **path_arg[1])
@@ -37,11 +37,39 @@ def get_data(filepath):
     data["players"] = players
     with open(filepath, 'r') as f:
         lines = f.readlines()
+        reading_yaml = False
+        read_yaml = False
         for line in lines:
+            if line.strip() == '---':
+                if not reading_yaml and not read_yaml:
+                    reading_yaml = True
+                elif reading_yaml:
+                    reading_yaml = False
+                    read_yaml = True
+                continue
+            
+            if reading_yaml:
+                split = re.split(r'\s*:\s*', line)
+                if len(split) > 1:
+                    id, value = split[0].strip(), split[1].strip()
+                    if id == 'title':
+                        split = re.split(r'\s*-\s*', value, maxsplit=1)
+                        title = split[1].strip()
+                        number = int(re.sub(r'Sessione', '', split[0]).strip())
+                        data["title"] = title
+                        data["number"] = number
+                    elif id == 'date':
+                        data["date"] = datetime.datetime.strptime(value, "%d/%m/%Y")
+                    elif re.match(r'\d+', value):
+                        data[id] = int(value)
+                    elif value.isnumeric():
+                        data[id] = float(value)
+                    else:
+                        data[id] = value
+
+            
             players_match = re.search(PATTERN_PLAYERS, line)
             guest_match = re.search(PATTERN_GUEST, line)
-            title_match = re.search(PATTERN_TITLE, line)
-            date_match = re.search(PATTERN_DATE, line)
             if players_match or guest_match:
                 end = players_match.end() if players_match else guest_match.end()
                 split = re.split(r'\s*,\s*', line[end:])
@@ -55,15 +83,6 @@ def get_data(filepath):
                         })
                     else:
                         print(f"[WARN] File {filepath}: Player formatted wrong: {pair}")
-            if title_match:
-                split = re.split(r'\s*-\s*', line[title_match.end():], maxsplit=1)
-                title = split[1].strip()
-                number = int(re.sub(r'Sessione', '', split[0]).strip())
-                data["title"] = title
-                data["number"] = number
-            if date_match:
-                datestr = line[date_match.end():].strip()
-                data["date"] = datetime.datetime.strptime(datestr, "%d/%m/%Y")
                         
     return data
 
@@ -104,7 +123,6 @@ def draw_attendance_plot(sim_data: list[dict], columns: list[str], drawseps = Tr
     global debug
     
     # Plot colored table
-    plt.style.use('dark_background')
     fig, ax = plt.subplots(figsize=figsize)
 
     sepcol = [*ax.get_facecolor()]
@@ -178,12 +196,61 @@ def draw_attendance_plot(sim_data: list[dict], columns: list[str], drawseps = Tr
 
     return ax, fig
 
+def draw_levelup_plot(session_data: list[dict], cmap='plasma', show=True, figsize=(10, 6)):
+    global debug
+    
+    numbers = [x['number'] for x in session_data]
+    plot_y = [1 if 'levelup' in x else 0 for x in session_data]
+    fig, ax = plt.subplots(figsize=figsize)
+    plt.bar(numbers, plot_y)
+
+    ax.set_xlabel("Numero sessione")
+    ax.set_title("Level-up")
+    ax.set_yticklabels([])
+    xticks = [1, max(numbers)]
+    for i in np.arange(5, max(numbers), 5.0):
+        xticks.append(i)
+    for i, data in enumerate(session_data):
+        if 'levelup' in data and not i in xticks:
+            xticks.append(data['number'])
+    xticks.sort()
+    plt.xticks(xticks)
+    ax.tick_params(axis='y', length=0)
+
+    cmap_obj = plt.get_cmap(cmap)
+
+    for i, p in enumerate(ax.patches):
+        ses_num = i
+        if p.get_height() > 0:
+            val = session_data[ses_num]['levelup']
+            val_str = str(val)
+            date = session_data[ses_num]['date']
+            date_str = date.strftime("%d/%m/%y")
+            ax.annotate(val_str, (p.get_x() + p.get_width() + 0.15, p.get_height() * 0.75), ha='left', size=15)
+            ax.annotate(date_str, (p.get_x() + p.get_width() + 0.15, p.get_height() * 0.25), rotation=45, ha='left')
+            p.set(color=cmap_obj(ses_num / numbers[-1]))
+            
+    if show:
+        plt.show()
+    
+
 def plot(args, simple_data: list[dict], cols: list):
     extraargs = {}
-    if args.colorseed:
+    if 'colorseed' in args and args.colorseed:
         extraargs["seed"] = args.colorseed
-    # ax, fig = draw_attendance_plot(df, show=not args.silent, **extraargs)
-    ax, fig = draw_attendance_plot(simple_data, cols, show=not args.silent, **extraargs)
+    if 'cmap' in args and args.cmap:
+        extraargs["cmap"] = args.cmap
+    extraargs["show"] = not args.silent
+    
+    plt.style.use('dark_background')
+    
+    if args.pmode in ['a', 'att']:
+        draw_attendance_plot(simple_data, cols, **extraargs)
+    elif args.pmode in ['l', 'levelup']:
+        draw_levelup_plot(simple_data, **extraargs)
+    else:
+        print("Unknown mode", args.pmode, file=sys.stderr)
+        sys.exit(-3)
 
     if args.out:
         extraargs_save = {}
