@@ -50,11 +50,33 @@ Un piccolo elefante dorato e alato, e dal carattere semplice e pieno d'entusiasm
 
 #### Zariel
 
+![](https://i.imgur.com/STYcZZj.png){: height="400px" } ![](https://i.imgur.com/RRuTsiN.png){: height="400px" }
+
 *arcidiavolo, angelo caduto*
+
+Un tempo angelo solar di Celestia, ora arcidiavolo e Arciduca dell'Avernus. Era scesa in aiuto dei mortali durante l'invasione del lord demoniaco Yeenoghu di alcune terre tra cui il villaggio di Idyllglen, e le battaglie che ne conseguirono la portarono a subire un tradimento nell'Avernus, dove cadde e divenne un arcidiavolo, che nei secoli divenne arciduchessa del semi-piano. La sua cavalcatura, amica, e compagna di battaglie era Lulu.
+
+- Il battaglione era entrato nell'Avernus dopo che Yeenoghu aveva catturato Yael; la sconfitta iniziò quando il plotone di Jander Sunstar (sotto) fuggì nel panico per il terreno ostile, e per l'attacco di demoni da un lato e diavoli dall'altro.
+
+- Sognava di sconfiggere la minaccia del caos dell'Abisso (demoni), rompendo l'equilibrio della Guerra del Sangue (guerra tra diavoli (legge) e demoni (caos)), data la sofferenza che portava nell'universo, ispirata anche dai mortali. Disobbedì ai suoi superiori per farlo.
+
+- È stata tradita da "Ashmedai", un altro angelo, in passato.
 
 #### Yael
 
+![](https://i.pinimg.com/originals/d2/69/dd/d269ddec623629aa2f1ffc3905acc1a8.jpg){: style="width: 240px; position: top 0" height="400px" }
+
 *umana, paladina sognatrice*
+
+Una dei tre generali alleati di Zariel nella battaglia contro i demoni che avevano invaso delle terre del Piano Materiale. Nativa di uno di questi villaggi, furono le sue preghiere a essere risposte da Zariel. Capelli neri, armatura.
+
+"Sogniamo un po' più in grande."
+
+- Nelle versioni romanzate odierne, la storia dei cavalieri infernali parla di una Yael, amante di lord Olanthius, che fu corteggiata da un diavolo e portata agli inferi, dove il lord la inseguì. Ha un vago elemento di verità.
+
+- In verità fu catturata da Yeenoghu, il signore demoniaco, durante la battaglia, che poi fuggì in un portale; il portale per qualche motivo finì nell'Avernus, e l'inseguimento del demone da parte delle truppe di Zariel fu l'inizio della loro sconfitta.
+
+- Le fu affidata la Spada di Zariel da Zariel stessa durante la rotta nell'Avernus, e alla fine in una disperata preghiera agli dei si è sacrificata per creare un luogo sicuro dove proteggerla.
 
 #### Haruman
 
@@ -64,19 +86,31 @@ Un piccolo elefante dorato e alato, e dal carattere semplice e pieno d'entusiasm
 
 *diavolo (narzugon, ex-umano), cavaliere tradito*
 
+Uno dei tre generali di Zariel, in vita "Lord Cavaliere dei Colli Lontani". Adesso un "vero" cavaliere infernale, un narzugon.
+
 #### Olanthius
 
+{% imgc %}
+![](https://i.imgur.com/XDsM6oV.jpg){: width="200px" size="300%" pos="top 15% right 40%" }
+{% endimgc %}
+
 *non morto (cavaliere della morte, ex-umano), cavaliere distrutto*
+
+Uno dei tre generali di Zariel, in vita un uomo barbuto e signore di Elturel. Adesso un cavaliere della morte, dall'aspetto scheletrico, e dal dialogo faticoso.
 
 #### Jander Sunstar
 
 *???, cavaliere codardo*
+
+Il tenente del plotone che fuggì nel panico dall'Avernus, diventando i progenitori degli attuali Cavalieri Infernali, e condannando i loro compagni alla sconfitta e alla caduta.
 
 ### Signori della guerra
 
 I vari capibanda delle bande che scorrazzano per l'Avernus.
 
 #### Raggadragga e gli Squarciabudella
+
+![](https://5e.tools/img/adventure/BGDIA/055-1ivlr-03-07.png){: width="250px" }
 
 #### Princeps Kovik e i Rimanenti dell'Ottava
 

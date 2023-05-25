@@ -26,7 +26,7 @@ Il gruppo si riposa, subendo cambi di allineamento dall'inferno prontamente guar
     "Chi di noi vede più chiaramente?"  
     Zariel:"Il signore demoniaco fugge, e con uno dei nostri! Carica!"  
     "Mia *amica*, vedrai che l'Emporio ha tutto ciò che puoi desiderare."  
-    Zariel:"Potrà sembrare follia. Ma lotterai con me?" Yael:"Sì. Sognamo un po' più in grande."
+    Zariel:"Potrà sembrare follia. Ma lotterai con me?" Yael:"Sì. Sogniamo un po' più in grande."
 
 - Lulu e Yael su una barca nello Stige, circondate da demoni. Yael evoca degli spiriti (i giocatori), ma non basta. Lulu la porta via in volo.
 - Diverse scene di Lulu e Zariel, su una spiaggia nel piano divino di Mercuria. Zariel che parla del suo sogno di liberare l'universo dall'infinito male e caos demoniaco, ispirata dai mortali, e Lulu che la incoraggia. "Rompere l'equilibrio della Guerra del Sangue". "Il tuo sogno è troppo grande!" "Forse, ma lo sogneremo insieme".
