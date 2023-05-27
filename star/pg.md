@@ -82,3 +82,11 @@ Il viaggio nel Piano dell'Acqua gli ha fatto trovare [altre persone](./npc/water
 ![](https://i.imgur.com/qZPIjfr.png){: width="250" }
 
 Lucertoloide membro della [Tribù della Palude](./npc/korplactz.md#tribù-della-palude), uno dei suoi più grandi guerrieri. In comune si può tradurre come "Green Day".
+
+## Marat
+
+*harengon, barbaro meccanico*
+
+INSERIRE IMMAGINE
+
+Un harengon, barbaro sotto contratto da [Maggie la Pazza](/star/npc/avernus#maggie-la-pazza) nell'Avernus. Sembra un'esperto di macchine e meccanismi, e abbastanza gagliardo.

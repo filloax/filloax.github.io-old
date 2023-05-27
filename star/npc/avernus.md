@@ -44,7 +44,7 @@ Il golem di carne (Frankenstein) di diavolo costruito da Maggie, lo tratta come 
 
 *Olifante, commilitona di Zariel*
 
-![](https://5e.tools/img/adventure/BGDIA/167-0iruv-f-02-lulu.png){: width="250px" }
+![](https://5e.tools/img/adventure/BGDIA/167-0iruv-f-02-lulu.png){: height="300px" } ![](https://i.imgur.com/zuKCVeH.png){: height="300px" }
 
 Un piccolo elefante dorato e alato, e dal carattere semplice e pieno d'entusiasmo. Lulu è un olifante o gaudiofante, una creatura celestiale, che ha perso la memoria dopo una battaglia nell'Avernus insieme al suo angelo compagno, che si è scoperto essere Zariel, ora arciduchessa dell'Avernus e decisamente poco angelica. Sta man mano recuperando i suoi ricordi.
 
@@ -112,9 +112,13 @@ I vari capibanda delle bande che scorrazzano per l'Avernus.
 
 ![](https://5e.tools/img/adventure/BGDIA/055-1ivlr-03-07.png){: width="250px" }
 
+Capo di una banda di licantropi, che hanno di recente perso una base.
+
 #### Princeps Kovik e i Rimanenti dell'Ottava
 
 ![](https://5e.tools/img/adventure/BGDIA/059-kyqim-03-11.png){: width="250px" }
+
+Ex-tenente di una legione infernale, che dopo la mala gestione si è separata ed è diventata una banda, e lui uno dei signori della guerra dell'Avernus.
 
 #### Thalamra la Sterminabande
 

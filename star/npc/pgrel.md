@@ -66,6 +66,15 @@ Ex-secondo di Ishtar, gli ha rubato la nave perché voleva fare più soldi. Ha l
 
 A un certo punto, ha organizzato un colpo alla Città delle Mille Perle, con la ciurma di Undyne, ma li ha venduti. Attualmente fa lavori di quel tipo, aggregandosi a ciurme per contribuire, appropriarsene, e tradire in generale.
 
+#### Psykos
+
+![](https://i.imgur.com/y15BEaF.png){: width="250px" }
+
+*Spirito della spada*
+
+Spirito dell'omonima spada posseduta ora da Astolfo, un tempo da Ser Darian. Ha una personalità che in termini moderni sarebbe definibile robotica, 
+parlando spesso di percentuali di probabilità di certe azioni e corsi d'opera.
+
 ### Compagni di Pteris
 
 #### Solanum

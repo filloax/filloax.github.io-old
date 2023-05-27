@@ -24,7 +24,7 @@ Sembra poter comparire e teletrasportarsi quasi a piacimento.
 
 *Elfa pallida*
 
-![](https://i.imgur.com/ZQuWbsD.jpg)
+![](https://i.imgur.com/ZQuWbsD.jpg){: height="350px" }
 
 Una dei tenenti di Kanalath, elfa cresciuta da una vita difficile dove ha imparato, principalmente, a diffondere il caos. L' "idea superiore" costituita dalla stella nera, più l'affinità del culto all'idea che si era già fatta del mondo e della vita, la ha fatta aderire con molto zelo. Ha diffuso informazioni false contro il gruppo, ma è stata catturata dopo che Astolfo le ha toccato l'anima invertendo una grottesca trasformazione, nella Città di Vetro.
 
@@ -32,7 +32,7 @@ Una dei tenenti di Kanalath, elfa cresciuta da una vita difficile dove ha impara
 
 *Tortuga*
 
-![](https://cdnb.artstation.com/p/assets/images/images/028/248/145/large/max-dunbar-krull-concept-02-facepaint-03-resized.jpg)
+![](https://cdnb.artstation.com/p/assets/images/images/028/248/145/large/max-dunbar-krull-concept-02-facepaint-03-resized.jpg){: height="250px" }
 
 Un chierico, dall'aspetto molto inquietante, apparentemente muto seppur non sordo. Per ora sempre visto insieme a Kanalath, che ha trasportato dopo i vari attacchi.
 
@@ -60,6 +60,8 @@ Arrestato dal party.
 Anziana ma comunque vigorosa, questa ex-contadina ascesa al potere è, come tutta la sua famiglia, segretamente una cultista di Zariel. Guidava il culto di Baldur's Gate, e collaborava con Thavius Kreeg per portare a cadere anche quella città. Ha cambiato tre mariti, ogni suo figlio da uno di essi.
 
 È stata uccisa dal party, mentre i suoi figli arrestati. Ha promesso che "si rivedranno all'inferno".
+
+- Effettivamente all'inferno si sono rivisti: è stata promossa da Zariel dopo la morte a *deathlock*, warlock non morto, ed è stata incaricata di distruggere o tenere sotto controllo i vari signori della guerra.
 
 #### Resto della famiglia Vanthampur
 
