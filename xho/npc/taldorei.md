@@ -11,7 +11,7 @@ Città nel nord, governata dalla famiglia De Rolo un tempo e ora da un consiglio
 #### Lord Percival De Rolo
 
 {% imgc %}
-![](https://pbs.twimg.com/media/CyypQcnWIAkXAQ1?format=jpg&name=4096x4096){: width="25%" min-width="200px" altlink="https://twitter.com/TillaSeger/status/805205970313998337/photo/1" }
+![]({{site.data.img.oldpercy}}){: width="25%" min-width="200px" altlink="https://twitter.com/TillaSeger/status/805205970313998337/photo/1" }
 {% endimgc %}
 
 *umano, ex-avventuriero inventore*
@@ -27,9 +27,15 @@ Piltover è una grande città nella costa orientale di Tal'dorei, finora indipen
 #### Iason Cannith
 
 {% imgc %}
-![](https://pbs.twimg.com/media/FCEibwZWEAgEZcs?format=jpg&name=4096x4096){: width="25%" min-width="200px" size="400%" pos="top 0 right 45%" }
+![]({{site.data.img.iason_jayce}}){: width="25%" min-width="200px" size="400%" pos="top 0 right 45%" }
 {% endimgc %}
 
 *umano (marchio creazione), icona del progresso*
 
 Illustre inventore di Piltover, da una famiglia di artefici, ha realizzato una forma più semplice da utilizzare delle pietre draconiche. In poco meno di un decennio, e relativamente molto giovane, è diventato il volto del progresso della città, soprattutto ora che la città cerca figure a cui aggrapparsi per creare una propria storia.
+
+#### Altri
+
+**Katrina Deneith.** *Comandante delle guardie, umana F.* Capelli blu, fucile grande, di nobile lignaggio.
+
+**??? (Ragazza dai capelli blu).** Faceva esplodere cose.

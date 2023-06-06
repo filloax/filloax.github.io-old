@@ -1,9 +1,9 @@
 ---
 title: Volo a Piltover, Tal'dorei
 location: Tal'dorei, Piltover
-reward: 1500mo a testa, punto di viaggio
+reward: 2000mo a testa, punto di viaggio
 giver: Gilda
-running: true
+completed: true
 ---
 <div class="dialogue">
     <div class="icon kynthea"></div>
@@ -18,3 +18,9 @@ running: true
     <p>Questo è vero: Piltover è un'intera città-stato, con una lunga storia e tutto, che in realtà è stata retroattivamente inserita nel mondo durante la Convergenza degli ultimi decenni, cosa scoperta solo dopo gli eventi nella Costa di 7 anni fa che hanno fatto iniziare ricerche in tutto il mondo a riguardo. E, come le nebbie hanno creato numerose specie divergenti a causa di questo, anche la città e le zone circostanti sono molto interessanti per i nostri scopi.</p>
 </div>
 
+Completata durante le sessioni:
+- [Sessione 29](/xho/sessioni#sessione-29)
+- [Sessione 30](/xho/sessioni#sessione-30)
+- [Sessione 31](/xho/sessioni#sessione-31)
+
+A causa del pericolo maggiore del previsto, la paga è stata aumentata di 500mo dalle 1500 originali.

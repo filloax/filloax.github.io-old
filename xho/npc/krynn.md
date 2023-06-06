@@ -47,7 +47,7 @@ Una delle tre casate governative, che gestisce esercito e protezione civile.
 #### Zaraenya Mirimm
 
 {% imgc %}
-![](https://i.redd.it/ljq74c4m6ov51.jpg){: width="25%" minwidth="200px" size="400%" pos="top 5% right 45%" }
+![]({{site.data.img.zaerenya}}){: width="25%" minwidth="200px" size="400%" pos="top 5% right 45%" }
 {% endimgc %}
 
 *drow, cercasole della Lente*

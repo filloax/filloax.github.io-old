@@ -16,11 +16,16 @@ Attuale direttrice dei Volstrucker, un tempo lei stessa parte dell'organizzazion
 
 #### Athesias Uludan, Arcimago dell'Unione Diplomatica
 
+![]({{site.data.img.athesias_uludan}})
+
 *umano, diplomatico vanesio*
 
 Il suo compito è mantenere relazioni positive con persone di potere dentro e fuori dai confini.
 
 [Wiki CR](https://criticalrole.fandom.com/wiki/Athesias_Uludan)
+
+- Potrebbe essere un drago di ametista, come ha intuito il gruppo dopo gli [eventi di Piltover](/xho/sessioni#sessione-31).
+
 
 #### Altri
 
@@ -46,3 +51,19 @@ Molto alto (per un umano), capelli rossi, più magro di quanto non ci si aspette
 - Nikolaya sa il suo nome, e che 3 anni prima sia stato l'unico sopravvissuto di una spedizione nell'isola a nord di Eiselcross, dalla quale si dice sia tornato cambiato. Ora è uno dei più forti tra i Volstrucker.
 
 - Ha provato a offrire stanze che si erano liberate nell'albergo dove stava la spedizione da Xhorhas, ma il gruppo non ci stava.
+
+### Vari
+
+#### Kanenas
+
+{% imgc %}
+![]({{site.data.img.kanenas}}){: width="25%" }
+{% endimgc %}
+
+*umano, ladro-warlock caotico e studioso della Convergenza*
+
+*Ex-PG (Camilla)*
+
+Nome completo: Kanenas Sophokleptes. Ladro caotico, segnato dagli eventi di Port Damali di 7 anni prima si è dato alla ricerca per evitare che riaccadano.
+
+- Conosciuto dal party come autore di un libro sugli eventi che hanno creato le nebbie 7 anni fa: "Il Cielo Bruciò: Saggio sulla Convergenza e la Sublimazione". Lo hanno pure incontrato a Piltover, dove ha detto che li contatterà per vicende correlate.

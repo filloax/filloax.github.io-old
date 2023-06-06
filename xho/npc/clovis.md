@@ -23,7 +23,7 @@ Ha uno stormo di "contabili" che raddoppiano come agenti e sue orecchie.
 #### Comandante Sir [ecc.] Horace Vimes
 
 {% imgc %}
-![](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8bad0c71-ad9f-4436-89a3-efa67aeab5cf/d4fucfr-5a893195-700f-48dc-bfad-0cfd7b1c0b00.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhiYWQwYzcxLWFkOWYtNDQzNi04OWEzLWVmYTY3YWVhYjVjZlwvZDRmdWNmci01YTg5MzE5NS03MDBmLTQ4ZGMtYmZhZC0wY2ZkN2IxYzBiMDAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.F6jjyfSoVP4EB0GJwan6v8C7AJgvShlXUGprEcAiDN4){: width="25%" min-width="200px" size="200%" pos="top 20% right 60%" altlink="https://www.deviantart.com/zazb/art/Sam-Vimes-268474743" }
+![]({{site.data.img.vimes}}){: width="25%" min-width="200px" size="200%" pos="top 20% right 60%" altlink="https://www.deviantart.com/zazb/art/Sam-Vimes-268474743" }
 {% endimgc %}
 
 *umano, antielitario d'elite*
@@ -105,12 +105,13 @@ Città più piccola di Port Damali, ma non meno colorata, e meta turistica frequ
 #### Yussa Errenis
 
 {% imgc %}
-![](https://pbs.twimg.com/media/DxK-ahnUwAAT5P6?format=jpg&name=large){: width="25%" min-width="200px" pos="top" size="110%" }
+![]({{site.data.img.yussa}}){: width="25%" min-width="200px" pos="top" size="110%" }
 {% endimgc %}
 
 *elfo, arcimago solitario*
 
 Arcimago che possiede un distretto di Nicodranas, e ha ottime connessioni con il resto. Sta nella sua torre, e si fa vedere fuori molto raramente, e per buone ragioni. Fa parte dell'organizzazione internazionale di maghi del Pansofico Arcano.
 
-Sempre vestito di colori dorati, in qualche modo senza risultare pacchiano.
+Sempre vestito di colori dorati, in qualche modo senza risultare pacchiano. Estremamente neutro di emozioni sempre, anche se non in modo antipatico.
 
+- Potrebbe essere un drago dorato, come ha intuito il gruppo dopo gli [eventi di Piltover](/xho/sessioni#sessione-31).

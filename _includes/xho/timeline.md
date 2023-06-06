@@ -171,3 +171,10 @@
 	* [Sessione 30](/xho/sessioni#sessione-30)
 * 3/09/843
 	* Esposizione finale Fiera del Domani
+	* Caos di Piltover
+	* [Sessione 31](/xho/sessioni#sessione-31)
+	* Inizio [Sessione 32](/xho/sessioni#sessione-32)
+* 7/09/843
+	* Partenza verso Lago Varan
+* 9/09/843
+	* Arrivo a Lago Varan

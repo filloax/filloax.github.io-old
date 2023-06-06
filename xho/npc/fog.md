@@ -10,7 +10,7 @@ NPC correlati al fenomeno delle Nebbie del Lutto.
 ![](https://i.imgur.com/DiX1dUq.jpg){: width="50%" min-width="300px" size="100%" }
 {% endimgc %}
 
-*???*
+*entità fuori dal mondo, studioso dissolutore della realtà*
 
 *"Colui che vede", "Il Tessistorie"*. Misteriosa entità che è evidentemente correlata in qualche modo al fenomeno delle Nebbie del Lutto. Parla di una "sublimazione" che migliorerà il mondo.
 
@@ -25,6 +25,8 @@ Per ora apparso solo in sogno dentro la nebbia, come una figura visibile davanti
 </div>
 
 - Comparso in forma umana o comunque umanoide durante gli eventi alla fine della Fiera del Domani di Piltover, vestito con un abito nero in due pezzi.
+
+- Dice di voler "perfezionare" i mondi unendoli insieme per ottenerne uno solo stabile, non vulnerabile a una futura sfaldatura nella realtà che dice di aver calcolato nel futuro di ogni mondo. Un tempo era uno studioso della terra di "Eberron", ma un'arma a cui era stato incaricato di lavorare da "sovrani folli" ha distrutto il tessuto della realtà della sua nazione, e lui con essa.
 
 ### Aldia, studioso della Nebbia
 
