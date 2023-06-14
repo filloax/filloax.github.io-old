@@ -1,7 +1,7 @@
 ---
 title: Luxon rubato dai Mind Flayer
 location: Underdark (<?>)
-reward: -
+reward: '-'
 giver: Dinastia kryn
 ---
 

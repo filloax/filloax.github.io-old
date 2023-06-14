@@ -7,11 +7,11 @@
     align-items: center;
     justify-content: center;
     .cell {
-        max-width: 150px;
-        max-height: 150px;
+        //max-width: 150px;
+        //max-height: 150px;
         width: 100%;
         height: 100%;
-        flex: 0 0 20%;
+        flex: 0 0 21%;
         text-align: center;
         /*background: linear-gradient(45deg, #cccccc 0%, #dddddd 100%);*/
         color: black;
@@ -38,131 +38,156 @@
 
 /* PERSONAGGI */
 
-.pctable .cell.xian {
-    background-image: url("../img/pg/xian_faccia.webp");
-    background-image: url("../img/pg/xian_faccia.webp"),
-        linear-gradient(45deg, #bacebc 0%, #84a189 100%);
-    background-position: top;
-    background-size: cover;
-}
+.pctable {
+    .cell.xian {
+        background-image: url("/assets/img/pg/xian_faccia.webp");
+        background-image: url("/assets/img/pg/xian_faccia.webp"),
+            linear-gradient(45deg, #bacebc 0%, #84a189 100%);
+        background-position: top;
+        background-size: cover;
+    }
 
-.pctable .cell.xandra {
-    background-image: url("../img/pg/Xandra_C.webp");
-    background-image: url("../img/pg/Xandra_C.webp"),
-        linear-gradient(45deg, #bac8ce 0%, #848ca1 100%);
-    background-position: top 0 left 47%;
-    background-size: 250%;
-}
+    .cell.xandra {
+        background-image: url("/assets/img/pg/Xandra_C.webp");
+        background-image: url("/assets/img/pg/Xandra_C.webp"),
+            linear-gradient(45deg, #bac8ce 0%, #848ca1 100%);
+        background-position: top 0 left 47%;
+        background-size: 250%;
+    }
+    
+    .cell.aris {
+        background-image: url("https://64.media.tumblr.com/c0f0008254295a93b59fc0c2894a0efa/82bfbb4eb22aee44-a4/s1280x1920/f2d6371b9d367715b8b750f3b3e4489b669f158a.jpg");
+        background-image: url("https://64.media.tumblr.com/c0f0008254295a93b59fc0c2894a0efa/82bfbb4eb22aee44-a4/s1280x1920/f2d6371b9d367715b8b750f3b3e4489b669f158a.jpg"),
+            linear-gradient(45deg, #cebace 0%, #a1849f 100%);
+        background-position: top 42% right 55%;
+        background-size: 235%;
+    }
+    
+    .cell.kir {
+        background-image: url("https://i.imgur.com/aPuvxLI.jpg");
+        background-image: url("https://i.imgur.com/aPuvxLI.jpg"),
+            linear-gradient(45deg, #cebaba 0%, #a18484 100%);
+        background-position: top 5% left 47%;
+        background-size: 400%;
+    }
+    
+    .cell.kess {
+        background-image: url("/assets/img/pg/kess.webp");
+        background-image: url("/assets/img/pg/kess.webp"),
+            linear-gradient(45deg, #cec6ba 0%, #a19584 100%);
+        background-position: top;
+        background-size: 250%;
+    }
+    
+    .cell.willow {
+        background-image: url("/assets/img/pg/willow.jpg");
+        background-image: url("/assets/img/pg/willow.jpg"),
+            linear-gradient(45deg, #cbceba 0%, #9ea184 100%);
+        background-position: top 12% left 40%;
+        background-size: 320%;
+    }
+    
+    .cell.estia {
+        background-image: url("/assets/img/pg/estia.webp");
+        background-image: url("/assets/img/pg/estia.webp"),
+            linear-gradient(45deg, #cec5ba 0%, #a19484 100%);
+        background-position: top 0 left 5%;
+        background-size: 200%;
+    }
+    
+    .cell.nikolaya {
+        background-image: url("/assets/img/pg/Nikolaya.webp");
+        background-image: url("/assets/img/pg/Nikolaya.webp"),
+            linear-gradient(45deg, #bac3ce 0%, #8489a1 100%);
+        background-position: top;
+        background-size: 100%;
+    }
+    
+    .cell.kor {
+        background-image: url("https://i.imgur.com/q4oD74v.jpg");
+        background-image: url("https://i.imgur.com/q4oD74v.jpg"),
+            linear-gradient(45deg, #bac3ce 0%, #8489a1 100%);
+        background-position: top 20% right 50%;
+        background-size: 150%;
+    }
+    
+    
+    .cell.astolfo {
+        background-image: url("https://i.imgur.com/6QLsHFD.png");
+        background-image: url("https://i.imgur.com/6QLsHFD.png"),
+            linear-gradient(45deg, #b3f1ec 0%, #56797e 100%);
+        background-position: top 0% right 45%;
+        background-size: 300%;
+    }
+    
+    .cell.pgianni {
+        background-image: url("https://i.imgur.com/axahP4i.jpg");
+        background-image: url("https://i.imgur.com/axahP4i.jpg"),
+            linear-gradient(45deg, #b3c4f1 0%, #565a7e 100%);
+        background-position: top 10% right 60%;
+        background-size: 340%;
+    }
+    
+    .cell.ielenia {
+        background-image: url("https://i.imgur.com/F3plggF.png");
+        background-image: url("https://i.imgur.com/F3plggF.png"),
+            linear-gradient(45deg, #f1cfb3 0%, #7e6956 100%);
+        background-position: top 5% right 50%;
+        background-size: 200%;
+    }
+    
+    .cell.flynn {
+        background-image: url("https://i.imgur.com/RXmlUlH.png");
+        background-image: url("https://i.imgur.com/RXmlUlH.png"),
+            linear-gradient(45deg, #d0b3f1 0%, #6c567e 100%);
+        background-position: top 10% right 47%;
+        background-size: 320%;
+    }
+    
+    .cell.pteris {
+        background-image: url("https://i.imgur.com/m6BFOqB.png");
+        background-image: url("https://i.imgur.com/m6BFOqB.png"),
+            linear-gradient(45deg, #ccf1b3 0%, #224b19 100%);
+        background-position: top 5% right 47%;
+        background-size: 320%;
+    }
+    
+    .cell.ishtar {
+        background-image: url("https://i.imgur.com/oQR9qZJ.png");
+        background-image: url("https://i.imgur.com/oQR9qZJ.png"),
+            linear-gradient(45deg, #c4c4c4 0%, #424242 100%);
+        background-position: top 15% right 60%;
+        background-size: 150%;
+    }
+    
+    .cell.gryndarr {
+        background-image: url("https://i.imgur.com/qZPIjfr.png");
+        background-image: url("https://i.imgur.com/qZPIjfr.png"),
+            linear-gradient(45deg, #c4c4c4 0%, #424242 100%);
+        background-position: top 15% left 5%;
+        background-size: 330%;
+    }
+    
+    .cell.rath {
+        background-image: url("/assets/img/pg/rath_zoom.jpg");
+        background-position: top 15% left 50%;
+        background-size: 200%;
+    }
+    
+    .cell.kaizner {
+        background-image: url("/assets/img/pg/kaizner.jpg");
+        background-position: top 15% left 50%;
+        background-size: 200%;
+    }
+    
+    .cell.krieger {
+        background-image: url("/assets/img/pg/krieger.jpg");
+        background-position: top 2% left 45%;
+        background-size: 165%;
+    }
+} 
 
-.pctable .cell.aris {
-    background-image: url("https://64.media.tumblr.com/c0f0008254295a93b59fc0c2894a0efa/82bfbb4eb22aee44-a4/s1280x1920/f2d6371b9d367715b8b750f3b3e4489b669f158a.jpg");
-    background-image: url("https://64.media.tumblr.com/c0f0008254295a93b59fc0c2894a0efa/82bfbb4eb22aee44-a4/s1280x1920/f2d6371b9d367715b8b750f3b3e4489b669f158a.jpg"),
-        linear-gradient(45deg, #cebace 0%, #a1849f 100%);
-    background-position: top 42% right 55%;
-    background-size: 235%;
-}
-
-.pctable .cell.kir {
-    background-image: url("https://i.imgur.com/aPuvxLI.jpg");
-    background-image: url("https://i.imgur.com/aPuvxLI.jpg"),
-        linear-gradient(45deg, #cebaba 0%, #a18484 100%);
-    background-position: top 5% left 47%;
-    background-size: 400%;
-}
-
-.pctable .cell.kess {
-    background-image: url("../img/pg/kess.webp");
-    background-image: url("../img/pg/kess.webp"),
-        linear-gradient(45deg, #cec6ba 0%, #a19584 100%);
-    background-position: top;
-    background-size: 250%;
-}
-
-.pctable .cell.willow {
-    background-image: url("../img/pg/willow.jpg");
-    background-image: url("../img/pg/willow.jpg"),
-        linear-gradient(45deg, #cbceba 0%, #9ea184 100%);
-    background-position: top 12% left 40%;
-    background-size: 320%;
-}
-
-.pctable .cell.estia {
-    background-image: url("../img/pg/estia.webp");
-    background-image: url("../img/pg/estia.webp"),
-        linear-gradient(45deg, #cec5ba 0%, #a19484 100%);
-    background-position: top 0 left 5%;
-    background-size: 200%;
-}
-
-.pctable .cell.nikolaya {
-    background-image: url("../img/pg/Nikolaya.webp");
-    background-image: url("../img/pg/Nikolaya.webp"),
-        linear-gradient(45deg, #bac3ce 0%, #8489a1 100%);
-    background-position: top;
-    background-size: 100%;
-}
-
-.pctable .cell.kor {
-    background-image: url("https://i.imgur.com/q4oD74v.jpg");
-    background-image: url("https://i.imgur.com/q4oD74v.jpg"),
-        linear-gradient(45deg, #bac3ce 0%, #8489a1 100%);
-    background-position: top 20% right 50%;
-    background-size: 150%;
-}
-
-
-.pctable .cell.astolfo {
-    background-image: url("https://i.imgur.com/6QLsHFD.png");
-    background-image: url("https://i.imgur.com/6QLsHFD.png"),
-        linear-gradient(45deg, #b3f1ec 0%, #56797e 100%);
-    background-position: top 0% right 45%;
-    background-size: 300%;
-}
-
-.pctable .cell.pgianni {
-    background-image: url("https://i.imgur.com/axahP4i.jpg");
-    background-image: url("https://i.imgur.com/axahP4i.jpg"),
-        linear-gradient(45deg, #b3c4f1 0%, #565a7e 100%);
-    background-position: top 10% right 60%;
-    background-size: 340%;
-}
-
-.pctable .cell.ielenia {
-    background-image: url("https://i.imgur.com/F3plggF.png");
-    background-image: url("https://i.imgur.com/F3plggF.png"),
-        linear-gradient(45deg, #f1cfb3 0%, #7e6956 100%);
-    background-position: top 5% right 50%;
-    background-size: 200%;
-}
-
-.pctable .cell.flynn {
-    background-image: url("https://i.imgur.com/RXmlUlH.png");
-    background-image: url("https://i.imgur.com/RXmlUlH.png"),
-        linear-gradient(45deg, #d0b3f1 0%, #6c567e 100%);
-    background-position: top 10% right 47%;
-    background-size: 320%;
-}
-
-.pctable .cell.pteris {
-    background-image: url("https://i.imgur.com/m6BFOqB.png");
-    background-image: url("https://i.imgur.com/m6BFOqB.png"),
-        linear-gradient(45deg, #ccf1b3 0%, #224b19 100%);
-    background-position: top 5% right 47%;
-    background-size: 320%;
-}
-
-.pctable .cell.ishtar {
-    background-image: url("https://i.imgur.com/oQR9qZJ.png");
-    background-image: url("https://i.imgur.com/oQR9qZJ.png"),
-        linear-gradient(45deg, #c4c4c4 0%, #424242 100%);
-    background-position: top 15% right 60%;
-    background-size: 150%;
-}
-
-.pctable .cell.gryndarr {
-    background-image: url("https://i.imgur.com/qZPIjfr.png");
-    background-image: url("https://i.imgur.com/qZPIjfr.png"),
-        linear-gradient(45deg, #c4c4c4 0%, #424242 100%);
-    background-position: top 15% left 5%;
-    background-size: 330%;
+section.pcsection {
+    margin: 0;
+    padding: 10px 0;
 }
