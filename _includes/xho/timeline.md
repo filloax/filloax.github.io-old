@@ -175,6 +175,6 @@
 	* [Sessione 31](/xho/sessioni#sessione-31)
 	* Inizio [Sessione 32](/xho/sessioni#sessione-32)
 * 7/09/843
-	* Partenza verso Lago Varan
+	* Partenza verso Kymal in treno e Lago Varan
 * 9/09/843
 	* Arrivo a Lago Varan

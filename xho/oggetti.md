@@ -50,13 +50,29 @@ Infine, è possibile costruire un telescopio che possa focalizzare i poteri dell
 
 > Nota di regole: quando cambia la Costituzione nel mezzo di una giornata, cambiano i PF massimi, e i PF insieme a loro. Quello che rimane costante è quanti danni sono stati subiti: passare da 80 PF massimi a 100 per un cambio di costituzione, quando si avevano 60PF, porta ad avere 80 PF: 20 danni subiti rimangono costanti.
 
-### Pozioni
+### Pozioni e altri consumabili
 
 #### Pozione della Breve Carica
 
 _pozione, raro_
 
 Quando bevi questa pozione, tira 1d4+1. Per questo numero di round, la tua velocità raddoppia, ottieni +2 ai tiri per i danni, e i danni che subisci vengono ridotti di 2. Dopo questi round, la tua velocità è dimezzata, e ottieni -5 ai tiri per i danni, per la stessa durata.
+
+#### Stimolante HEX supremo
+
+_oggetto meraviglioso (consumabile), varia_
+
+Stimolanti arcani sperimentali realizzati a partire da gemme draconiche, [residuum](https://criticalrole.fandom.com/wiki/Residuum), e altre amenità. Effetti variabili in base al tipo. Possono essere usati con un'azione bonus, normalmente.
+
+| Tipo    | Effetto                                                                                                                                                                                                                                                                                                         |  Durata   | Rarità      |
+| :------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------: | ----------- |
+| HEX-VIS | Forza diventa 30.                                                                                                                                                                                                                                                                                               | 10 minuti | Leggendario |
+| HEX-REN | Recuperi 40 PF. Inoltre, recuperi 1 PF all'inizio di ogni tuo turno.                                                                                                                                                                                                                                            |   1 ora   | Molto raro  |
+| HEX-SAN | Perdi tutti i livello di sfinimento, e ogni veleno o malattia. Per la durata, recuperi il massimo da ogni dado vita.                                                                                                                                                                                            | 1 giorno  | Molto raro  |
+| HEX-ARC | Ogni volta che consumi uno slot incantesimo, lancia un d8. Se il risultato supera il livello dello slot, esso non viene consumato.                                                                                                                                                                              | 1 minuto  | Molto raro  |
+| HEX-TEM | Nel momento dell'uso, puoi fare un'azione aggiuntiva. All'inizio dei turni turni successivi, tira un d20. Se ottieni almeno 10, l'effetto si ripete. Se ottieni 20, puoi fare 3 azioni aggiuntive invece di 1, e ottieni 3 livelli di sfinimento, inoltre l'effetto si conclude. La tua velocità è raddoppiata. | 1 minuto  | Leggendario |
+
+Come per le pozioni, usare più di uno stimolante alla volta potrebbe avere effetti collaterali, ancora più marcati.
 
 ### Rune
 
