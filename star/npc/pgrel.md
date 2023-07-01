@@ -24,7 +24,7 @@ Contatto criminale di Ielenia. Abita nei bassifondi di Elturel, cosa piuttosto c
 
 #### Papagor Fumonero
 
-*Diavolo camuffato da tiefling (mezzuomo), cuoco*
+*Diavolo d'osso camuffato da tiefling (mezzuomo), cuoco*
 
 Cuoco e speziale dell’Abbazia della Luna a Irlaebor. Ha trovato per primo Prete Gianni in una cassetta di verdura, e lo ha cresciuto come un padre adottivo. Ha l’animo molto gentile, e condisce tutto con l’erba giusta.
 

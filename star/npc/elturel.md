@@ -6,13 +6,15 @@
 
 Università antica, illustre nella costa della spada, e una delle due cose per cui è nota Elturel insieme al secondo sole.
 
-#### Choh Avarur
+#### Elminster / Choh Avarur
 
 *Umano, rettore bambino*
 
 ![](https://i.imgur.com/6q3zj7Z.jpg){: width="250"}
 
 Rettore dell’Università, un esperimento molti anni prima lo ha fatto regredire fisicamente e come maturità all’età di un ragazzino. Possiede ancora le sue conoscenze, e la sua abilità magica, ma manca della disciplina per praticare molte di esse. 
+
+- Si è scoperto essere il famoso e potente arcimago [Elminster Aumar](https://forgottenrealms.fandom.com/wiki/Elminster), sotto una delle sue numerose identità nascoste, che in tarda età aveva deciso di inaugurare una accademia per nuovi maghi e poi ridotto in questo stato da un esperimento d'avanguardia fallito. Ha usato le sue energie vitali per alimentare l'incantesimo che ha protetto l'accademia agli inferi, cosa che lo ha portato a deperire rapidamente e morire di vecchiaia.
 
 
 #### Ryleth

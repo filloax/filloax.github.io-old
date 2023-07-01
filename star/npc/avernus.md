@@ -62,6 +62,10 @@ Un tempo angelo solar di Celestia, ora arcidiavolo e Arciduca dell'Avernus. Era 
 
 - È stata tradita da "Ashmedai", un altro angelo, in passato.
 
+- Ashmedai era [Asmodeus](/star/npc/evil#asmodeus), e il tradimento era strappare l'Avernus ai cieli per prenderlo per sè come regno infernale. Sempre Asmodeus la ha convinta, dopo la rotta dei cavalieri infernali, a combattere in eterno i demoni con lui.
+
+- Il gruppo la ha fatta redimere.
+
 #### Yael
 
 ![](https://i.pinimg.com/originals/d2/69/dd/d269ddec623629aa2f1ffc3905acc1a8.jpg){: style="width: 240px; position: top 0" height="400px" }
@@ -88,6 +92,8 @@ Una dei tre generali alleati di Zariel nella battaglia contro i demoni che aveva
 
 Uno dei tre generali di Zariel, in vita "Lord Cavaliere dei Colli Lontani". Adesso un "vero" cavaliere infernale, un narzugon.
 
+La sua forma attuale è stata ottenuta quando ha accettato la proposta di Zariel di combattere i demoni in eterno.
+
 #### Olanthius
 
 {% imgc %}
@@ -97,6 +103,8 @@ Uno dei tre generali di Zariel, in vita "Lord Cavaliere dei Colli Lontani". Ades
 *non morto (cavaliere della morte, ex-umano), cavaliere distrutto*
 
 Uno dei tre generali di Zariel, in vita un uomo barbuto e signore di Elturel. Adesso un cavaliere della morte, dall'aspetto scheletrico, e dal dialogo faticoso.
+
+E' stato forzatamente trasformato in cavaliere della morte non morto da Zariel caduta, dopo che si è ucciso per rifiutare la sua proposta di combattere i demoni in eterno con lei. Aveva probabilmente un legame con Yael più profondo, ma mai approfondito nella guerra.
 
 #### Jander Sunstar
 
