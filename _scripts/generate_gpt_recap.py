@@ -22,6 +22,10 @@ parser.add_argument("-K", "--api-key", default=os.path.join(rootdir, "_scripts",
 def main():
     args = parser.parse_args()
 
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        print("GPT Recap: In github actions env, aborting...")
+        return
+
     openai.api_key_path = args.api_key
 
     dir = os.path.join(rootdir, f"_{args.campaign}", "sessions")
