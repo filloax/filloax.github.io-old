@@ -1,3 +1,6 @@
 numpy
 argparse
 matplotlib
+python-frontmatter
+openai
+bs4

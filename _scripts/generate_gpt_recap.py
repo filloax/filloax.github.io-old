@@ -8,6 +8,7 @@ import re
 from markdown import Markdown
 from bs4 import BeautifulSoup, NavigableString, Tag
 import openai
+import frontmatter
 
 rootdir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -44,8 +45,15 @@ def update_plain_text(dir, outdir_text) -> list[str]:
         name = fn.replace(".md", "")
         path = os.path.join(dir, fn)
 
+        wip = False
         with open(path, 'r', encoding="utf-8") as f:
             content = f.read()
+            post = frontmatter.loads(content)
+            if 'wip' in post.keys():
+                wip = post['wip']
+
+        if wip:
+            continue
 
         content = re.sub(r'\{:[^\}]+\}', '', content)
         content = re.sub(r'\{%[^(?:%)]+%\}[.\n]*{%\s?end[^(?:%)]+%\}', '', content)
