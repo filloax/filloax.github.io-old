@@ -41,6 +41,8 @@ Un chierico, dall'aspetto molto inquietante, apparentemente muto seppur non sord
 
 Hanno in qualche modo orchestrato la caduta di Elturel, e tramite la famiglia Vanthampur pianificavano un destino simile per Baldur's Gate
 
+Personaggi rilevanti tra cui [Zariel](/star/npc/avernus#zariel) menzionati nella sezione [Avernus](/star/npc/avernus).
+
 #### Thavius Kreeg
 
 *Umano, alto osservatore traditore*
@@ -68,3 +70,15 @@ Anziana ma comunque vigorosa, questa ex-contadina ascesa al potere è, come tutt
 - **Thurstwell.** Un rachitico 40enne infermo, che osserva il mondo tramite i suoi imp.
 - **Amrik.** Il secondogenito, il preferito della madre, più bravo a mercanteggiare.
 - **Mortlock.** Il terzogenito, dalla faccia deforme. Ha abbandonato la città e la famiglia dopo che i fratelli ne hanno ordinato l'omicidio.
+
+### Asmodeus
+
+*Divinità, signore dei Nove Inferi*
+
+![](https://pbs.twimg.com/media/EerMRvtXYAAsz4B?format=png&name=medium)
+
+L'Arcidiavolo, un angelo caduto un tempo noto come Ashmedai che volle conquistare i paradisi dell'Avernus per sè, portandoli agli inferi. Nelle epoche a venire, è diventato il signore dei Nove Inferi, ha strappato la divinità a un dio minore ignoto, e ha architettato innumerevoli piani dalla durata spesso oltre le vite mortali. In epoca antica, è stato portato a processo dalle forze celestiali nel piano della neutralità, Mechanus, ma la sua astuzia gli ha permesso di uscirne vincitore.
+
+Risiede da qualche parte nel piano infernale di Nessus, ma si proietta negli inferi e nel piano mortale, dove corrompe anime per portare avanti i suoi piani; di solito preferisce agire tramite i suoi sottoposti. 
+
+Distinto per una bellezza leonina, imponente, lunghe corna, e una incredibile dote retorica.
