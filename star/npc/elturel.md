@@ -79,6 +79,12 @@ Giovane cavalleressa, dopo la caduta della città ha giurato vendetta contro il 
 
 ### Altri
 
+#### Pumat Sol
+
+Mercante di oggetti magici, uno dei pochi della spada, grazie al benemerito dell'Università e di altre figure misteriose. Un Firbolg adottato in civiltà.
+
+Ha 2 (un tempo 3) simulacri, che lo aiutano nel negozio.
+
 #### Arcidiacono Arod Greylzeri
 
 Arcidiacono del tempio di Amaunator (dio del sole) a Elturel, defunto qualche mese prima della caduta della città.
