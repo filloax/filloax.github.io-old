@@ -99,10 +99,11 @@ def update_gpt_recaps(outdir_text, outdir_gpt, changed, dry):
 
     for fn in os.listdir(outdir_text):
         name = fn.replace(".txt", "")
+        plain_fn = os.path.join(outdir_text, fn)
         out_fn = os.path.join(outdir_gpt, f"{name}.yml")
 
         try:
-            with open(os.path.join(outdir_text, fn), 'r', encoding='utf-8') as f:
+            with open(plain_fn, 'r', encoding='utf-8') as f:
                 big_recap = f.read()
         except Exception:
             return
@@ -121,9 +122,15 @@ def update_gpt_recaps(outdir_text, outdir_gpt, changed, dry):
                 print(f"{name}: Calling OpenAPI")
                 output = openai.ChatCompletion.create(model=model, messages=messages)
                 print(f"{name}: Done")
-                output_text = output.get("choices")[0]["message"]["content"]
-                with open(out_fn, 'w', encoding='utf-8') as of:
-                    of.write(output_text)
+                choice = output.get("choices")[0]
+                finish_reason = choice["finish_reason"]
+                if finish_reason == "stop":
+                    choice_text = choice["message"]["content"]
+                    with open(out_fn, 'w', encoding='utf-8') as of:
+                        of.write(choice_text)
+                else:
+                    print("Error in GPT API response, finish reason is:", finish_reason)
+                    os.path.remove(plain_fn)
 
 
 _inline_elements = {"a","span","em","strong","u","i","font","mark","label",

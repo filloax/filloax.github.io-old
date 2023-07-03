@@ -109,8 +109,8 @@ module.exports = (grunt) ->
   grunt.registerTask "runscripts", [
     "shell:graphsStar"
     "shell:graphsXho"
-    "shell:recapsXho"
-    "shell:recapsStar"
+    # "shell:recapsXho"
+    # "shell:recapsStar"
   ]
 
   grunt.registerTask "build", [
