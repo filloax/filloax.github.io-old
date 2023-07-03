@@ -106,7 +106,7 @@ def update_gpt_recaps(outdir_text, outdir_gpt, changed, dry):
         messages = [
             {"role": "system", "content": "Riassumi il testo scritto di seguito dall'utente in un paragrafo, senza cominciare "\
                                           "menzionando la composizione del gruppo, e crea un titolo per il testo. Mostra l'output "\
-                                          "in questo formato, analogo a YAML:\n\"\"\"\nrecap: \"<riassunto>\"\ntitle: <titolo>\n\"\"\""},
+                                          "in questo formato, analogo a YAML:\n\"\"\"\nrecap: \"<riassunto>\"\ntitle: \"<titolo>\"\n\"\"\""},
             {"role": "user", "content": big_recap},
         ]
 

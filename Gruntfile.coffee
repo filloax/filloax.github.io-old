@@ -47,6 +47,10 @@ module.exports = (grunt) ->
         command: 'python _scripts/sessionstats.py multi _xho/sessions -o "assets/img/gen/" -P xho --dpi 150 --colorseed 220'
       graphsStar:
         command: 'python _scripts/sessionstats.py multi _star/sessions -o "assets/img/gen/" -P star --dpi 150 --colorseed 523'
+      recapsXho:
+        command: 'python _scripts/generate_gpt_recap.py xho'
+      recapsStar:
+        command: 'python _scripts/generate_gpt_recap.py star'
 
     watch:
       options:
@@ -105,6 +109,8 @@ module.exports = (grunt) ->
   grunt.registerTask "runscripts", [
     "shell:graphsStar"
     "shell:graphsXho"
+    "shell:recapsXho"
+    "shell:recapsStar"
   ]
 
   grunt.registerTask "build", [
