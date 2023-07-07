@@ -9,6 +9,7 @@ from markdown import Markdown
 from bs4 import BeautifulSoup, NavigableString, Tag
 import openai
 import frontmatter
+import yaml
 
 rootdir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -18,6 +19,7 @@ parser.add_argument("campaign", help="campaign name to generate scripts for")
 parser.add_argument("-o", "--outdir", default=os.path.join(rootdir, "_data", "gpt"), help="Output directory")
 parser.add_argument("-d", "--dry-run", action='store_true', help="Do not run external APIs but print their call data")
 parser.add_argument("-K", "--api-key", default=os.path.join(rootdir, "_scripts", "data", "secret", "openai-api.key"), help="OpenAPI api key path")
+parser.add_argument("-P", "--post-process", action='store_true', help="Do post processing (fill missing things in out files)")
 
 def main():
     args = parser.parse_args()
@@ -35,6 +37,10 @@ def main():
 
     os.makedirs(outdir_text, exist_ok=True)
     os.makedirs(outdir_gpt, exist_ok=True)
+
+    if args.post_process:
+        post_process_output(outdir_gpt, args.dry_run)
+        return
 
     changed = update_plain_text(dir, outdir_text)
 
@@ -132,6 +138,30 @@ def update_gpt_recaps(outdir_text, outdir_gpt, changed, dry):
                     print("Error in GPT API response, finish reason is:", finish_reason)
                     os.path.remove(plain_fn)
 
+def post_process_output(outdir_gpt, dry):
+    for fname in os.listdir(outdir_gpt):
+        path = os.path.join(outdir_gpt, fname)
+        with open(path, 'r', encoding="utf-8") as fr:
+            try:
+                content = yaml.safe_load(fr)
+            except:
+                print(f"Error in parsing yaml in file {path}")
+                content = None
+
+        if content:
+            changed = False
+            if "title" not in content:
+                content["title"] = ""
+                changed = True
+                
+            if "recap" not in content:
+                print(f"Recap wasn't correctly produced for {path}")
+                
+            if not dry:
+                with open(path, 'w', encoding="utf-8") as fw:
+                    yaml.dump(content, fw, allow_unicode=True)
+            elif changed:
+                print(f"{fname}: {yaml.dump(content, allow_unicode=True)}")
 
 _inline_elements = {"a","span","em","strong","u","i","font","mark","label",
     "s","sub","sup","tt","bdo","button","cite","del","b","a","font",}

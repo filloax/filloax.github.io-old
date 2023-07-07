@@ -69,16 +69,30 @@ addEventListener("load", function() {
         });
     }
 
+    var parentClickers = document.getElementsByClassName("click-parent");
+    for (let i = 0; i < parentClickers.length; i++) {
+        const el = parentClickers[i]
+        el.addEventListener("click", function(event) {
+            const parent = findMatchingPrevious(event.currentTarget, ".collapsible")
+            if (!parent) return;
+            parent.click()
+        });
+        console.log(el);
+    }
+
     // Apertura da altra pagina
     var hash = window.location.hash.substring(1);
-    const targ = document.getElementById(hash);
-    if (targ && targ.tagName === "BUTTON") {
-        targ.click();
-        console.log("Clicked", targ, "from", hash)
-    } else if (targ && targ.nextElementSibling && targ.nextElementSibling.tagName === "BUTTON") {
-        targ.nextElementSibling.click();
-        console.log("Clicked", targ.nextElementSibling, "from", hash)
+    if (hash !== "") {
+        const targ = document.getElementById(hash);
+        if (targ && targ.tagName === "BUTTON") {
+            targ.click();
+            console.log("Clicked", targ, "from", hash)
+        } else if (targ && targ.nextElementSibling && targ.nextElementSibling.tagName === "BUTTON") {
+            targ.nextElementSibling.click();
+            console.log("Clicked", targ.nextElementSibling, "from", hash)
+        }
     }
+
     loadLazyImages();
 });
 
@@ -107,4 +121,23 @@ function loadLazyImages(fromNode) {
             e.classList.remove("lazy-img")
         }
     });
+}
+
+/**
+ * 
+ * @param {HTMLElement} element 
+ */
+function findMatchingPrevious(element, selector) {
+	// Get the next sibling element
+	var sibling = element.previousElementSibling;
+
+	// If there's no selector, return the first sibling
+	if (!selector) return sibling;
+
+	// If the sibling matches our selector, use it
+	// If not, jump to the next sibling and continue the loop
+	while (sibling) {
+		if (sibling.matches(selector)) return sibling;
+		sibling = sibling.previousElementSibling;
+	}
 }
