@@ -226,5 +226,16 @@
       left: 50%;
       transform: translate(-50%, 0);
     }
+
+    .close {
+      font-size: 3em;
+      color: white;
+      position: absolute;
+      right: 32px;
+      top: 32px;
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+    }
   }
 }

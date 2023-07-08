@@ -1,6 +1,15 @@
 var currentlyShowing = null
 
 addEventListener("load", function() {
+    this.document.body.addEventListener("click", function(ev) {
+        if (ev.target.closest(".item-details")) return;
+
+        if (currentlyShowing) {
+            hideDetails(currentlyShowing)
+            currentlyShowing = null
+        }
+    })
+
     const shopCards = this.document.getElementsByClassName("shop-card");
     
     for (let i = 0; i < shopCards.length; i++) {
@@ -13,14 +22,17 @@ addEventListener("load", function() {
         });
     }
 
-    this.document.body.addEventListener("click", function(ev) {
-        if (ev.target.closest(".item-details")) return;
+    const closeButtons = this.document.querySelectorAll(".item-details .close");
+    
+    for (let i = 0; i < closeButtons.length; i++) {
+        const el = closeButtons[i];
+        const parent = el.closest(".item-details")
 
-        if (currentlyShowing) {
-            hideDetails(currentlyShowing)
-            currentlyShowing = null
-        }
-    })
+        el.addEventListener("click", function(ev) {
+            hideDetails(parent)
+            ev.stopPropagation()
+        });
+    }
 });
 
 
