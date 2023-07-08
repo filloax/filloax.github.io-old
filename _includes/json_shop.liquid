@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="{{ '/assets/css/shop_cards.css' | relative_url }}">
+
+{% assign input = include.json %}
+{% assign rarityOrder = "artifact|varies|legendary|very rare|rare|uncommon|common|none" | split: "|" %}
+
+<div class="shop-rarities">
+{% for rarity in rarityOrder %}
+    {% assign rarityGroup = input[rarity] %}
+    {% if rarityGroup %}
+        <div class="rarity-group {{rarity}}">
+            <h3 class="collapsible active">Rarità: {{ site.data.homebrew.strings.rarity[rarity] | capitalize }}</h3>
+            <div class="items collapsible-content">
+            <ul>
+                {% for it in rarityGroup %}
+                    {% assign data = it.data %}
+                    {% if {{data.fluff.images[0].href.url}} %}
+                        {% assign img = data.fluff.images[0].href.url %}
+                        {% assign bg-img = data.fluff.images[0].href.url %}
+                    {% else %}
+                        {% assign icon = site.data.homebrew.icons[data.type] %}
+                        {% unless icon %}
+                            {% if data.wondrous %}
+                                {% assign icon = site.data.homebrew.icons.Wondrous %}
+                            {% else %}
+                                {% assign icon = site.data.homebrew.icons.Default %}
+                            {% endif %}
+                        {% endunless %}
+                        {% assign bg-img = "" %}
+                    {% capture img %}/assets/img/icons/{{icon}}{%endcapture%}
+                    {% endif %}
+                    {% assign value = data.value | json_money %}
+                    {% include shop/shop_card.liquid name=it.name img=img bg-img=bg-img value=value %}
+                {% endfor  %}
+            </ul>
+            </div>
+        </div>
+        <hr>
+    {% endif %}
+{% endfor %}
+</div>

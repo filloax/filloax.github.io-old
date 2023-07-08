@@ -1,0 +1,12 @@
+<li class="shop-card">
+<div class="details">
+    <h2>{{ include.name }}</h2>
+    <p>{{ include.value }}</p>
+    <div class="product">
+    <img src="{{ include.img }}">
+    {% if include.bg-img %}
+    <img class="bg-img" src="{{ include.bg-img }}">
+    {% endif %}
+    </div>
+</div>
+</li>

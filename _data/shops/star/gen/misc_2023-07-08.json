@@ -1,0 +1,725 @@
+{
+    "common": [
+        {
+            "name": "Shifter's Shine (Potion) (common)",
+            "count": 3,
+            "data": {
+                "name": "Shifter's Shine (Potion) (common)",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "type": "P",
+                "rarity": "common",
+                "entries": [
+                    "The typical shifter's shine, a common potion, is a specialty alcoholic beverage that causes your face to appear more glamorous. For 1 hour after drinking this potion, your skin's complexion clears, appears healthier, and grows more taut. Your face, while largely unchanged, is distinctly more attractive and exudes a weak aura of enchantment magic. When you make a Charisma check while under the effects of this potion, you can choose to forgo rolling the {@dice d20} to get a 10 on the die. Once you use this property, you can't use it again for the remainder of the potion's duration. The potion is a rich honey color and swirls lazily around, regardless of how it's handled. It can be found in any sort of vessel, though it is usually found in glass jars. The eye of a shapeshifter drifts along the potion's bottom, making it a daunting beverage for the average taverngoer to order. It has an extremely strong alcoholic taste with a hint of caramel. Due to its magical nature, the alcohol within this potion affects a creature twice as much as the alcohol within a nonmagical beverage.",
+                    "The following shifter's shine is an uncommon variant with additional properties. It also tastes better.",
+                    "When you drink this potion, you gain the effects of the alter self spell for 1 hour (no concentration required) or until you end the effect as a bonus action."
+                ],
+                "fluff": {
+                    "entries": [
+                        "Everyone seems to get more attractive when you drink. Especially you."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/jgaqp9wo5s741.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 3500,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Ear Horn of Hearing",
+            "count": 4,
+            "data": {
+                "name": "Ear Horn of Hearing",
+                "source": "XGE",
+                "page": 137,
+                "tier": "minor",
+                "rarity": "common",
+                "wondrous": true,
+                "entries": [
+                    "While held up to your ear, this horn suppresses the effects of the {@condition deafened} condition on you, allowing you to hear normally."
+                ],
+                "value": 3500,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Pot of Awakening",
+            "count": 7,
+            "data": {
+                "name": "Pot of Awakening",
+                "source": "XGE",
+                "page": 138,
+                "otherSources": [
+                    {
+                        "source": "IMR",
+                        "page": 95
+                    }
+                ],
+                "tier": "minor",
+                "rarity": "common",
+                "wondrous": true,
+                "entries": [
+                    "If you plant an ordinary shrub in this 10-pound clay pot and let it grow for 30 days, the shrub magically transforms into an {@creature awakened shrub} at the end of that time. When the shrub awakens, its roots break the pot, destroying it.",
+                    "The awakened shrub is friendly toward you. Absent commands from you, it does nothing."
+                ],
+                "value": 2500,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Wand of Scowls",
+            "count": 2,
+            "data": {
+                "name": "Wand of Scowls",
+                "source": "XGE",
+                "page": 140,
+                "type": "WD",
+                "tier": "minor",
+                "rarity": "common",
+                "weight": 1,
+                "recharge": "dawn",
+                "rechargeAmount": 3,
+                "charges": 3,
+                "entries": [
+                    "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute.",
+                    "The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of smiles|xge}."
+                ],
+                "value": 3000,
+                "value_estimated": true
+            }
+        }
+    ],
+    "uncommon": [
+        {
+            "name": "Overshield",
+            "count": 1,
+            "data": {
+                "name": "Overshield",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "shield|PHB",
+                "type": "S",
+                "rarity": "uncommon",
+                "reqAttune": true,
+                "weight": 6,
+                "ac": 2,
+                "bonusAc": "+1",
+                "entries": [
+                    "While holding this large shield, you gain a +1 bonus to your AC. This bonus is in addition to the shield's normal bonus to AC. The bonus becomes +2 while you have at least 1 temporary hit point. While you have temporary hit points, the shield emits a slight blue glow.",
+                    "In addition, you can channel the heroic resolve within the shield using an action to gain {@dice 1d6 + 8} temporary hit points. Once you've used this ability, you can't use it again until the following dawn."
+                ],
+                "fluff": {
+                    "entries": [
+                        "Where the sword struck him, there were no marks. His shield seemed to dance on his arm. In that moment, his blue-lit face betrayed a bored patience. I wasn't going to harm him, and this fight was meaningless from the start."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/yxf4laisj2o21.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 100000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Dramus' Wand of Noise",
+            "count": 1,
+            "data": {
+                "name": "Dramus' Wand of Noise",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "type": "WD",
+                "rarity": "uncommon",
+                "recharge": "dawn",
+                "charges": 3,
+                "entries": [
+                    "This wand has a flared tip that leads down into the center of it. The wand has 3 charges and regains all expended charges daily at dawn. While holding the wand, you can use an action to expend 1 of its charges to use one of the following properties:",
+                    {
+                        "type": "entries",
+                        "name": "Absorb Sound",
+                        "entries": [
+                            "You point the wand at a non-living object that you can see within 30 feet of you, which can be no larger than 3 feet in any dimension. Until the end of your next turn, that object makes no noise (such as a squeaky door hinge or tumbling boulder), and any noise that it would have made for the duration is stored in the wand. A sound stored in this way can be released by the wand by using an action, without expending an additional charge from it. When you release a sound, you must also point the wand at a point that you can see within 30 feet of you. The stored sound then emanates once from that point for up to 6 seconds, after which the sound is lost from the wand. Unused stored sounds are lost daily at dawn."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Thunderwave",
+                        "entries": [
+                            "You cast the {@spell thunderwave} spell from the wand (save DC 13)."
+                        ]
+                    }
+                ],
+                "attachedSpells": [
+                    "thunderwave"
+                ],
+                "fluff": {
+                    "entries": [
+                        "As the soliloquy reached its crescendo, the lead breathed in and prepared to pour his soul into those final lines\u2026",
+                        "\"Pprrpffrrppfff!\"",
+                        "Even as the sound exploded behind him and the play's illusion fell to pieces, the lead never noticed his rival hidden above the stage, stifling laughter."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/9mx39g2b47x71.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 27500,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Unstable Arkanite Cluster",
+            "count": 1,
+            "data": {
+                "name": "Unstable Arkanite Cluster",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "uncommon",
+                "wondrous": true,
+                "entries": [
+                    "Arkanite crystals are brittle red gems that are volatile when subjected to certain reagents. This cluster of arkanite is fused to a delicate glass vial of one such reagent. You can use an action to throw the cluster at a point you can see within 30 feet of you. When you do, the cluster and reagent vial shatter, resulting in an explosive reaction. Each creature within 20 feet of the point must make a DC 13 Dexterity saving throw, taking {@damage 4d6} piercing damage on a failed save, or half as much damage on a successful one.",
+                    "Immediately following the reaction, a single red crystal grows from the point of impact. The crystal grows in a cylinder that is 20 feet tall with a 5-foot radius, centered on the point where the vial shattered. It has 20 hit points, AC 13, and resistance to all damage except thunder damage or damage from siege weapons. The crystal is transparent, but heavily obscures everything seen through it. It remains for 1 hour or until it drops to 0 hit points. At the end of the duration, the crystal crumbles to dust and vanishes into smoke as it finishes its reactive process. A creature in the area of the crystal when it appears is either pushed to the nearest unoccupied space within 5 feet of it or is lifted on top of the crystal (its choice)."
+                ],
+                "fluff": {
+                    "entries": [
+                        "\"Shh!\" hissed the alchemist.",
+                        "The sound of footsteps could be faintly heard from the far side of the house. Floorboards gently groaned as the intruders quietly made their way towards the laboratory.",
+                        "\"Gimme that thing,\" he whispered to the apprentice. He gestured wildly toward the messy workbench nearby.",
+                        "\"Which thing?\" he whispered back. Fear had begun to visibly creep over him.",
+                        "\"The crystals there, the one with the bottle fused to \u2014 yes, that! Give it here.\"",
+                        "The young apprentice shakily passed the glimmering cluster of gemstones to the alchemist. The footsteps were louder now.",
+                        "\"What's that going to do?\" said the apprentice.",
+                        "\"It's going to teach you a lesson in reagents and housekeeping. Now stay quiet and watch.\""
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/akdobyn4hzz71.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 11500,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Eyes of the Beheld",
+            "count": 2,
+            "data": {
+                "name": "Eyes of the Beheld",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "uncommon",
+                "wondrous": true,
+                "entries": [
+                    "These button-sized metal trinkets typically come in sets of two and resemble the fearsome visage of a one-eyed monster. As an action, you can place one firmly on a solid surface\u00e2\u20ac\u201dsuch as a wall, table, or boot\u00e2\u20ac\u201dwhere it remains until destroyed. While you're within 5 feet of one, you can use a bonus action to speak the command word to cause its eye to open. The opening is about the size of a keyhole, and by peering through it, you can open and see through another eye's opening of your choice. You choose which eye to look through the first time you peer into the hole and can change it again using a bonus action.",
+                    "The eyes you can choose to see through in this way must be a part of the set, be placed on a solid surface, and be on the same plane of existence as the one you're looking through. You can only see through one eye at a time, which operates both ways, and nothing can pass through the hole. If another eye attempts to look through one you're already using, the connection between the first two ends and is replaced by the new one. An eye closes when it's no longer being looked through.",
+                    "Each eye has AC 10 and 5 hit points. If it drops to 0 hit points, the eye is destroyed. If a target or area is immune to divination magic or can't be perceived through scrying sensors, it doesn't appear through the hole. If you find another eye of the beheld, you can connect it to an existing set by holding it against another eye from the set for 1 minute."
+                ],
+                "fluff": {
+                    "entries": [
+                        "He was called a stalker, a watcher, a psychopath. A maniac. He didn't try to correct them."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/kcku52ubewd61.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 27000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Spellwoven Robes",
+            "count": 1,
+            "data": {
+                "name": "Spellwoven Robes",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "uncommon",
+                "wondrous": true,
+                "entries": [
+                    "These robes are unique to the wearer and are spun from special, magic-sensitive threads. While wearing these robes, you gain an additional way to calculate your AC. Your AC equals 10 + your spellcasting ability modifier. Whenever you cast a spell of first level or higher, you can also change the apparent style, color, and apparent material of the robe. Regardless of its appearance, it is always a robe and its weight remains the same. Glowing, arcane glyphs appear on the robe's fabric when you cast a spell before fading away a moment later."
+                ],
+                "fluff": {
+                    "entries": [
+                        "\"Some bards choose to pattern their protective robes with glamorous imagery and flourishes of color. Clerics will oft depict symbols of their chosen deity or faith with colors to match. Me? Well, let's just say that I'm a woman of many tastes and shifting interests.\"",
+                        "-Overheard conversation between Omer the tavernkeep and the legendary sorceress Yahl-rutan."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/qhrwdqgtxom21.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 300000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Pipes of Haunting",
+            "count": 1,
+            "data": {
+                "name": "Pipes of Haunting",
+                "source": "DMG",
+                "page": 185,
+                "srd": true,
+                "type": "INS",
+                "tier": "major",
+                "rarity": "uncommon",
+                "wondrous": true,
+                "weight": 2,
+                "recharge": "dawn",
+                "rechargeAmount": "{@dice 1d3}",
+                "charges": 3,
+                "entries": [
+                    "You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain {@dice 1d3} expended charges daily at dawn."
+                ],
+                "optionalfeatures": [
+                    "replicate magic item|tce",
+                    "replicate magic item|uaartificerrevisited"
+                ],
+                "lootTables": [
+                    "Magic Item Table F"
+                ],
+                "hasFluffImages": true,
+                "value": 150000
+            }
+        }
+    ],
+    "rare": [
+        {
+            "name": "Robe of the Sunless",
+            "count": 1,
+            "data": {
+                "name": "Robe of the Sunless",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "rare",
+                "reqAttune": true,
+                "wondrous": true,
+                "entries": [
+                    "The folds of this robe are virtually undetectable, as any light that touches it is mysteriously absorbed. Whenever you take radiant damage while wearing this cloak, you can use your reaction to reduce that damage by {@dice 1d10 + 10}. If you have the Sunlight Sensitivity trait, you are unaffected by that trait while wearing the robe.",
+                    "In addition, you can use an action to cast either the pass without trace or unseen servant spell from the robe while wearing it. The unseen servant created by the robe appears as a shadowy figure in dim and bright light, but is {@condition invisible} in darkness. The servant remains for the duration of the spell, until it's reduced to 0 hit points, or until the cloak is used to cast the spell again. If the servant is destroyed, the robe can't be used to cast the spell again until the next dusk. Once the robe is used to cast {@spell pass without trace}, it can't do so again until the next dusk. Any spell cast from the robe ends early if you remove the robe."
+                ],
+                "attachedSpells": [
+                    "pass without trace"
+                ],
+                "fluff": {
+                    "entries": [
+                        "Aith Wren was most comfortable when unobtrusive. Few noticed the drow's slight form in the inn's darkest corner, shade rising to shroud her even as it took the edge off the sunlight pouring through the windows.",
+                        "Someday she'd build the courage to meet the surface folk; for now, she was content overhearing their simple woes, so different from those of her subterranean kin."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/5xgcf17069m91.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 250000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Helm of Heroes",
+            "count": 1,
+            "data": {
+                "name": "Helm of Heroes",
+                "source": "KTKCG",
+                "page": 89,
+                "rarity": "rare",
+                "reqAttune": true,
+                "wondrous": true,
+                "bonusAc": "+1",
+                "value": 139000,
+                "entries": [
+                    "You gain a +1 bonus to AC if you're wearing no armor while wearing this helmet. You can still use a {@item shield|PHB} and gain this benefit. In addition, while wearing no armor, the helm becomes suffused with glory and glimmers for 1 minute whenever you roll a 20 on an attack roll. While the helm is glimmering in this way, you gain temporary hit points at the start of each of your turns equal to half your level, and friendly creatures within 10 feet of you can't be {@condition frightened}.",
+                    "Item and art by {@link Griffon's Saddlebag|https://www.thegriffonssaddlebag.com/}"
+                ],
+                "fluff": {
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/KibblesTasty/KTKCG/HelmofHeroes.webp"
+                            },
+                            "title": "Art by: {@link Griffon's Saddlebag|https://www.thegriffonssaddlebag.com/}"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Powerful Explosive",
+            "count": 1,
+            "data": {
+                "name": "Powerful Explosive",
+                "source": "KTKCG",
+                "page": 36,
+                "type": "EXP",
+                "range": "20",
+                "rarity": "rare",
+                "dmg1": "4d8",
+                "dmg2": "4d8",
+                "dmgType": "F",
+                "value": 75000,
+                "entries": [
+                    "A bundled explosive alchemical preparation. It can be detonated by dealing 1 fire or lightning damage to it. As an action, a packet of this explosive can be accurately thrown 20 feet, but will not detonate on impact (usually). When it detonates, all creatures within 20 feet (for rare) of the target point must make a Dexterity saving throw with a DC equal to the crafter's Alchemy DC. On failure, they take {@damage 4d8} fire + {@damage 4d8} thunder damage, or half as much on a success. Creatures in range of more than one explosive take damage only from the highest damage effect."
+                ]
+            }
+        },
+        {
+            "name": "Ring of Acid Resistance",
+            "count": 1,
+            "data": {
+                "name": "Ring of Acid Resistance",
+                "source": "DMG",
+                "page": 192,
+                "srd": true,
+                "basicRules": true,
+                "type": "RG",
+                "resist": [
+                    "acid"
+                ],
+                "detail1": "pearl",
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "hasRefs": true,
+                "entries": [
+                    "{#itemEntry Ring of Resistance}"
+                ],
+                "value": 450000
+            }
+        },
+        {
+            "name": "Tremor Spike",
+            "count": 1,
+            "data": {
+                "name": "Tremor Spike",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "type": "RD",
+                "rarity": "rare",
+                "weight": 15,
+                "entries": [
+                    "This industrial hollow rod is 3 feet long and weighs 15 pounds. The rod has a tapered spike on one end and an open, tower-like chimney on the other. Three hinged legs unfold from the sides of the rod, allowing it to stand upright with its spiked end pointed downward. Standing or collapsing the rod in this way requires an action.",
+                    "The unfolded legs magically fasten the rod to the ground while its standing, but a creature can use its action to try to push it over with a successful DC 17 Strength check. Once the rod is no longer standing, it magically deactivates and collapses itself again.",
+                    "As a bonus action, you can press a button on the standing rod to cause its mechanisms to churn and whir, repeatedly sending its spike into the ground below it. Pressing the button again deactivates the rod. The spike sends out loud, {@item drum|PHB}-like shockwaves every 6 seconds. The waves are audible out to 300 feet, or 1200 feet if a creature has {@sense tremorsense}. If a creature has {@sense tremorsense}, its range is halved while it's within 300 feet of the active rod. A creature can't perceive anything within 30 feet of the active rod using its {@sense tremorsense}, but is aware that the disrupting shockwaves originate from that location."
+                ],
+                "fluff": {
+                    "entries": [
+                        "The dwarf laughed as he watched his apprentice frantically cover his ears to block out the deafening noise of the spike, his shouted words mixing with the steady beat as he said, \"If you think it's loud now, lad, just imagine how it'll be once we've riled the worms!\""
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/pyq7asme31b51.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 50000,
+                "value_estimated": true
+            }
+        }
+    ],
+    "very rare": [
+        {
+            "name": "Blood Pact Pendants",
+            "count": 1,
+            "data": {
+                "name": "Blood Pact Pendants",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "very rare",
+                "wondrous": true,
+                "entries": [
+                    "These iron pendants come in pairs and are connected by a powerful bond of self-sacrifice. In order to create this bond, you and a friendly creature with whom you are close perform a brief, 1 minute ritual to connect your destinies and forge a blood pact. When you create this blood pact, you must each agree on a number of hit points to permanently sacrifice, reducing your total maximum hit points (minimum 1). Once a pact has been forged, trickles of the bound creatures' blood are absorbed into the normally clear gem adorning the face of this pendant. While the gem is filled in this way, it seems to gently swirl and pulse in time with your heartbeat.",
+                    "While each bound creature is wearing their pendant and are on the same plane of existence, they're protected by this pact so long as one creature is still conscious. When a bound creature dies, they're immediately revived with {@dice 2d10} hit points plus twice the number of hit points previously sacrificed by the creature. When a creature is revived in this way, the other bound creature immediately falls to 0 hit points and is knocked {@condition unconscious}. This property ignores any effect that would normally prevent a creature from falling to 0 hit points. When this happens, both creatures' maximum hit points are returned to normal. Once the pact is ended in this way, the gems and pendants crack and are no longer magical."
+                ],
+                "fluff": {
+                    "entries": [
+                        "With this ritual we bind,",
+                        "Commit our ichor intertwined.",
+                        "Should you cross through shadow's door,",
+                        "Let my body hit the floor.",
+                        "I will fall so you can rise,",
+                        "And put an end to your demise."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/tzl8i2a00tg31.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 1500000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Festerwood Fungal Stave",
+            "count": 1,
+            "data": {
+                "name": "Festerwood Fungal Stave",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "srd": true,
+                "basicRules": true,
+                "type": "M",
+                "rarity": "very rare",
+                "reqAttune": "by a cleric, druid, or sorcerer",
+                "reqAttuneTags": [
+                    {
+                        "class": "cleric"
+                    },
+                    {
+                        "class": "druid"
+                    },
+                    {
+                        "class": "sorcerer"
+                    }
+                ],
+                "weight": 4,
+                "weaponCategory": "simple",
+                "property": [
+                    "V"
+                ],
+                "dmg1": "1d6",
+                "dmgType": "B",
+                "dmg2": "1d8",
+                "recharge": "dusk",
+                "charges": 25,
+                "staff": true,
+                "entries": [
+                    "This fungal staff has 25 charges and regains {@dice 1d10 + 15} expended charges each day at dusk. While holding the staff, you can expend 1 or more charges as an action to cause clusters of noxious mushrooms to magically appear in a number of unoccupied spaces equal to the number of charges you expend. The spaces must be on solid ground and within 60 feet of you. Each space becomes difficult terrain for the duration. When a creature moves into or within an space or area with these mushrooms, it takes {@damage 2d4} poison damage for every 5 feet it travels. The mushrooms live for 1 minute or until you dismiss them early (no action required).",
+                    "In addition, while holding the staff, you can expend 1 or more charges to cast one of the following spells from it, using your spell save DC: {@spell cloudkill} (5 charges), {@spell fog cloud} (1 charge), {@spell insect plague} (5 charges), or {@spell stinking cloud} (3 charges). These spells are cast using a bonus action instead of their normal casting time and must target a point adjacent to a space occupied by the mushrooms. In addition, these spells' duration becomes 1 round instead of their normal duration, ending at the end of your next turn, and do not require concentration.",
+                    "If you expend the last charge from the staff, roll a {@dice d20}. On a 1, the staff begins to violently overgrow, forcing you to drop it in an unoccupied space adjacent to you. If the staff is dropped on solid ground, a violet fungus (Monster Manual p. 138) grows in its place."
+                ],
+                "attachedSpells": [
+                    "cloudkill",
+                    "fog cloud",
+                    "insect plague",
+                    "stinking cloud"
+                ],
+                "fluff": {
+                    "entries": [
+                        "The festerwood's deep moss hides its ravenous flora. The carcasses in the woods are quickly pulled deeper into the undergrowth, feeding its unique breed of parasitic fungi. While you may think yourself alone in the festerwood: you are never safe."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/lmc02vql9ey21.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 1600000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Chronomancer's Eyepiece",
+            "count": 1,
+            "data": {
+                "name": "Chronomancer's Eyepiece",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "very rare",
+                "reqAttune": true,
+                "wondrous": true,
+                "recharge": "dawn",
+                "charges": 5,
+                "entries": [
+                    "This singular lens lets you faintly see and command the flow of time around a target. The eyepiece has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the eyepiece, you can expend 1 charge as a reaction at the end of another creature's turn to speak either of the eyepiece's two command words to warp the flow of time around that creature. You must be able to see the target, and it must be within 60 feet of you.",
+                    {
+                        "type": "entries",
+                        "name": "Past",
+                        "entries": [
+                            "If the target is willing, it is teleported back to the space it was at the beginning of its turn. If another creature or object is occupying the space, the target is teleported to nearest unoccupied space instead. An unwilling target must succeed on a DC 16 Charisma saving throw or be teleported in this way against its will."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Future",
+                        "entries": [
+                            "If the target is willing, it can immediately choose to move again, up to half its speed, without provoking opportunity attacks. After a target moves in this way, its speed is halved until the end of its next turn."
+                        ]
+                    }
+                ],
+                "fluff": {
+                    "entries": [
+                        "The flow of water can be dammed, but only for so long. So, too, can time. I can see that clearly now."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/py3769w1onz31.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 500000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Ghostbow Bracer",
+            "count": 1,
+            "data": {
+                "name": "Ghostbow Bracer",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "very rare",
+                "reqAttune": true,
+                "wondrous": true,
+                "bonusWeaponDamage": "+2",
+                "recharge": "dawn",
+                "charges": 4,
+                "entries": [
+                    "This leather bracer has a blue gemstone embedded on its wrist, which glimmers with an ethereal light. While wearing it, you gain a +2 bonus to damage rolls on ranged attacks made with longbows and shortbows.",
+                    {
+                        "type": "entries",
+                        "name": "Summon Bow",
+                        "entries": [
+                            "You can use a bonus action to summon a spectral longbow or shortbow from the bracer's gemstone. The bow is weightless, allowing you to ignore the longbow's normal heavy property while holding it. The bow remains until you're holding another weapon, until you drop it, or until you dismiss it (no action required). While the weapon persists, it sheds dim light in a 20-foot radius. It creates its own arrows, which magically appear in a knocked position whenever you draw the bow. Hit or miss, an arrow disappears after the attack or if you release the bowstring without firing the arrow.",
+                            "Regardless of what bow you summon, it deals force damage instead of piercing damage."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Charges",
+                        "entries": [
+                            "The bracer has 4 charges for the following properties. It regains all expended charges daily at dawn. The available properties are determined by the type of summoned bow."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Grim Shot (Longbow or Shortbow)",
+                        "entries": [
+                            "When you hit a target with an arrow that was created by the summoned bow, you can expend 1 charge to deal an extra {@damage 2d8} force damage to the target. This damage is in addition to the attack's normal damage."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Piercing Blast (Longbow)",
+                        "entries": [
+                            "When you take the {@action Attack} action using the summoned bow, you can replace one or more of your attacks with a special attack using the bow. You expend 2 charges per attack you replace in this way. When you do, you draw forth a cool beam of light from the weapon, instead of a spectral arrow. You fire this beam of light in a line from you that's 5 feet wide and 100 feet long. Each creature within the line must succeed on a DC 16 Dexterity saving throw or take {@damage 4d8} force damage."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Stepshot (Shortbow)",
+                        "entries": [
+                            "You can expend 1 charge as a bonus action to make one ranged attack against a creature using the summoned bow. On a hit, you teleport to an unoccupied space that you can see that's within 15 feet of you. You can't teleport to a space that's closer to the target of the attack in this way."
+                        ]
+                    }
+                ],
+                "fluff": {
+                    "entries": [
+                        "The wails from beyond cry out with every draw of its string."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/2o8gn0q2e42a1.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 600000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Force Absorbing Tattoo",
+            "count": 1,
+            "data": {
+                "name": "Force Absorbing Tattoo",
+                "source": "TCE",
+                "page": 119,
+                "resist": [
+                    "force"
+                ],
+                "detail1": "white",
+                "rarity": "very rare",
+                "reqAttune": true,
+                "wondrous": true,
+                "tattoo": true,
+                "hasRefs": true,
+                "entries": [
+                    "Produced by a special needle, this magic tattoo features designs that emphasize one color (white).",
+                    {
+                        "type": "entries",
+                        "name": "Tattoo Attunement",
+                        "entries": [
+                            "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+                            "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Damage Resistance",
+                        "entries": [
+                            "While the tattoo is on your skin, you have resistance to force damage."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Damage Absorption",
+                        "entries": [
+                            "When you take force damage, you can use your reaction to gain immunity against that instance of the damage, and you regain a number of hit points equal to half the damage you would have taken. Once this reaction is used, it can't be used again until the next dawn."
+                        ]
+                    }
+                ],
+                "value": 1440000
+            }
+        }
+    ]
+}
