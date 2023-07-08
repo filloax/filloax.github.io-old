@@ -4,3 +4,4 @@ matplotlib
 python-frontmatter
 openai
 bs4
+markdown

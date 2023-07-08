@@ -7,4 +7,4 @@ Riassunti delle sessioni.
 
 {% include session_stats.md prefix="xho_" %}
 
-{% include session_page.md folder=site.xho %}
+{% include session_page.md folder=site.xho recaps="xho" %}
