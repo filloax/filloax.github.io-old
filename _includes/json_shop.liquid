@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="{{ '/assets/css/shop_cards.css' | relative_url }}">
+<script src="{{ '/assets/js/shopcards.js' | relative_url }}"></script>
 
 {% assign input = include.json %}
 {% assign rarityOrder = "artifact|varies|legendary|very rare|rare|uncommon|common|none" | split: "|" %}
@@ -29,12 +30,41 @@
                     {% capture img %}/assets/img/icons/{{icon}}{%endcapture%}
                     {% endif %}
                     {% assign value = data.value | json_money %}
-                    {% include shop/shop_card.liquid name=it.name img=img bg-img=bg-img value=value %}
+                    {% assign id = it.name | slugify %}
+                    {% include shop/shop_card.liquid name=it.name img=img bg-img=bg-img value=value id=id %}
                 {% endfor  %}
             </ul>
             </div>
         </div>
-        <hr>
     {% endif %}
 {% endfor %}
+</div>
+
+<div class="shop-details">
+{% for rarity in rarityOrder %}
+    {% assign rarityGroup = input[rarity] %}
+    {% if rarityGroup %}
+        {% for it in rarityGroup %}
+            {% assign data = it.data %}
+            {% if {{data.fluff.images[0].href.url}} %}
+                {% assign img = data.fluff.images[0].href.url %}
+            {% else %}
+                {% assign icon = site.data.homebrew.icons[data.type] %}
+                {% unless icon %}
+                    {% if data.wondrous %}
+                        {% assign icon = site.data.homebrew.icons.Wondrous %}
+                    {% else %}
+                        {% assign icon = site.data.homebrew.icons.Default %}
+                    {% endif %}
+                {% endunless %}
+            {% capture img %}/assets/img/icons/{{icon}}{%endcapture%}
+            {% endif %}
+            {% assign value = data.value | json_money %}
+            <div class="item-details" id="details-{{it.name | slugify}}">
+                {% imgl %}<img src="{{img}}">{% endimgl %}
+                {% include homebrew/itemcard.jekyll item=data %}
+            </div>
+        {% endfor  %}
+    {% endif %}
+{% endfor %}    
 </div>
