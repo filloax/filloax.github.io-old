@@ -16,7 +16,7 @@ Attuale direttrice dei Volstrucker, un tempo lei stessa parte dell'organizzazion
 
 #### Athesias Uludan, Arcimago dell'Unione Diplomatica
 
-![]({{site.data.img.athesias_uludan}})
+![]({{site.data.img.athesias_uludan}}){: width="25%" }
 
 *umano, diplomatico vanesio*
 
@@ -38,7 +38,7 @@ Organizzazione un tempo segreta di agenti magici, una sorta di CIA/KGB, che sta 
 #### Achilles, "Piccolo Principe"
 
 {% imgc %}
-![](https://i.imgur.com/p1eFrhw.jpg){: width="25%" size="200%" pos="top 0% right 50%" }
+![]({{site.data.img.achilles}}){: width="25%" size="200%" pos="top 0% right 50%" }
 {% endimgc %}
 
 

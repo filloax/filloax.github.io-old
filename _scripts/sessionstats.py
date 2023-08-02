@@ -62,7 +62,8 @@ def get_data(filepath):
                     if id == 'title':
                         split = re.split(r'\s*-\s*', value, maxsplit=1)
                         title = split[1].strip()
-                        number = int(re.sub(r'Sessione', '', split[0]).strip())
+                        number_part = re.sub(r'\[.*\]', '', re.sub(r'Sessione', '', split[0]))
+                        number = int(number_part.strip())
                         data["title"] = title
                         data["number"] = number
                     elif id == 'date':
