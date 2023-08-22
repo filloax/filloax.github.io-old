@@ -1,3 +1,4 @@
+{{ include.indent }}* [Missioni principali]({{ include.dir | default: "." }}/mainquest)
 {{ include.indent }}* [Riassunto stagioni precedenti]({{ include.dir | default: "." }}/recapprec)
 {{ include.indent }}* Personaggi
 {{ include.indent }}  * [PG]({{ include.dir | default: "." }}/pg)

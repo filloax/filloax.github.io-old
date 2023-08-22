@@ -1,0 +1,33 @@
+---
+---
+
+@import 'font/childs-handwriting.scss';
+@import 'font/zatanna.scss';
+
+.phb .badwriting {
+    span {
+        font-size: 28px;
+        white-space: pre;
+    }
+    // font-size: var(--margin-mult);
+    font-family: 'Childs Handwriting';
+    margin-top: 5px;
+}
+
+.phb .notes, .phb .notes a {
+    span {
+        font-size: 15px;
+    }
+    // font-size: var(--margin-mult);
+    font-family: 'Zatanna Misdirection';
+}
+
+.big-notes {
+    font-size: 2em;
+    margin-top: 5px;
+}
+
+.check::before {
+    content: "✔";
+    color: green;
+}
