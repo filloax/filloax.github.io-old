@@ -52,6 +52,14 @@ Molto alto (per un umano), capelli rossi, più magro di quanto non ci si aspette
 
 - Ha provato a offrire stanze che si erano liberate nell'albergo dove stava la spedizione da Xhorhas, ma il gruppo non ci stava.
 
+- Ha combattuto il gruppo per lo Spirito della Volontà insieme a Zephyr, divertendosi forse troppo nel combattere.
+
+#### ???, "Zephyr"
+
+*elfa, volstrucker inquietante*
+
+Elfa con un inquietante maschera di porcellana (o quantomeno apparentemente), ha combattuto il gruppo per lo Spirito di Volontà. Sembra specializzata in portali e necromanzia, combattendo separando le sue braccia con dei portali, e animando arti aggiuntivi.
+
 ### Vari
 
 #### Kanenas
