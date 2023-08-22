@@ -34,6 +34,8 @@ Per gli effetti delle varie parole, consultate la sezione [oggetti](/star/oggett
 
 **COMPLETATO**
 
+![](/assets/img/poster-zekiel.jpg){: width="300px" }
+
 Sessioni
 - [Sessione 14](/star/sessioni#sessione-14) [13]
 - [Sessione 15](/star/sessioni#sessione-15) [13]
