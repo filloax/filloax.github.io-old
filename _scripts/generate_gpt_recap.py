@@ -124,7 +124,8 @@ def update_gpt_recaps(outdir_text, outdir_gpt, changed, dry):
                 "content": textwrap.dedent("""
                             Riassumi, in italiano, il testo scritto precedentemente dall'utente 
                             in un paragrafo, non troppo lungo se possibile. 
-                            Non cominciare menzionando la composizione del gruppo. 
+                            Non cominciare menzionando la composizione del gruppo, e non menzionare
+                            le eventuali ricompense.
                             Mostra l'output in questo formato, analogo a YAML:
                             ```
                             recap: "<riassunto>"
