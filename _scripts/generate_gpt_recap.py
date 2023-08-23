@@ -164,9 +164,9 @@ def post_process_output(outdir_gpt, dry):
 
         if content:
             changed = False
-            if "title" not in content:
-                content["title"] = ""
-                changed = True
+            # if "title" not in content:
+            #     content["title"] = ""
+            #     changed = True
                 
             if "recap" not in content:
                 print(f"Recap wasn't correctly produced for {path}")
