@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 import openai
 import frontmatter
 import yaml
+import textwrap
 
 rootdir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
@@ -88,10 +89,12 @@ def update_plain_text(dir, outdir_text) -> list[str]:
 
         should_update = True
         if os.path.exists(plainname):
+            simple_content = re.sub(r'[><!?\.,]', '', content)
             with open(plainname, 'r', encoding="utf-8") as of:
-                if content == of.read().strip():
+                simple_content_2 = re.sub(r'[><!?\.,]', '', of.read().strip())
+                if simple_content == simple_content_2:
                     should_update = False
-        
+    
         if should_update:
             with open(plainname, 'w', encoding="utf-8") as of:
                 print(content, file=of)
@@ -115,10 +118,20 @@ def update_gpt_recaps(outdir_text, outdir_gpt, changed, dry):
             return
         
         messages = [
-            {"role": "system", "content": "Riassumi il testo scritto di seguito dall'utente in un paragrafo, senza cominciare "\
-                                          "menzionando la composizione del gruppo, e crea un titolo per il testo. Mostra l'output "\
-                                          "in questo formato, analogo a YAML:\n\"\"\"\nrecap: \"<riassunto>\"\ntitle: \"<titolo>\"\n\"\"\""},
             {"role": "user", "content": big_recap},
+            {
+                "role": "system", 
+                "content": textwrap.dedent("""
+                            Riassumi, in italiano, il testo scritto precedentemente dall'utente 
+                            in un paragrafo, non troppo lungo se possibile. 
+                            Non cominciare menzionando la composizione del gruppo. 
+                            Mostra l'output in questo formato, analogo a YAML:
+                            ```
+                            recap: "<riassunto>"
+                            ```
+                            Assicurati di non inviare output incompleti o invalidi per il formato.
+                            """).strip()
+            },
         ]
 
         if name in changed:
