@@ -1,0 +1,3 @@
+[submodule "parse-drayano-docs"]
+	path = parse-drayano-docs
+	url = https://github.com/filloax/parse-drayano-docs

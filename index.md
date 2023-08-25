@@ -6,6 +6,10 @@
 
 # Indice
 
+**For the Pokemon tools, go [here](/poketools). The main website was first made as a catalogue of personal D&D stuff.**
+
+---
+
 Questo sito contiene informazioni su campagne varie, e mie o altrui homebrew per riferimento nelle mie campagne.
 
 **Campagne**
