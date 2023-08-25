@@ -2,6 +2,8 @@
 
 "use strict"
 
+submDrayanoDocs = "_parse-drayano-docs"
+
 module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-connect"
   grunt.loadNpmTasks "grunt-contrib-copy"
@@ -20,6 +22,35 @@ module.exports = (grunt) ->
           src: "jquery.min.js"
           dest: "vendor/js/"
         }]
+      drayano:
+        files: [
+          {
+            nonull: true
+            src: submDrayanoDocs + "/static/css/font.css"
+            dest: "assets-submodule/css/font/dsui.css"
+          },
+          {
+            nonull: true
+            expand: true
+            cwd: submDrayanoDocs + "/static/css"
+            src: "wild_enc.css"
+            dest: "assets-submodule/css"
+          },
+          {
+            nonull: true
+            expand: true
+            cwd: submDrayanoDocs + "/static/js"
+            src: "wild_enc_fill.js"
+            dest: "assets-submodule/js"
+          },
+          {
+            nonull: true
+            expand: true
+            cwd: submDrayanoDocs + "/static/data"
+            src: "*.json"
+            dest: "data/poketools/bbvw2/wildarea"
+          }
+        ]
       misc:
        files: [
           {
