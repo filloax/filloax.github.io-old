@@ -18,6 +18,8 @@ A Professor Oak challenge is a challenge run where you must catch all available 
 This is a (currently very simple) tracker with the encounter data as a table, and a checkbox for each Pokemon. The checkboxes are synced, meaning if you check a Pokemon all checkboxes for that Pokemon will be checked. This _should_ persist after closing the page, etc.
 </div>
 
+{% include poketools/wild-area-buttons.liquid %}
+
 ### Main story
 
 {% include poketools/wild-area-tracker.liquid id="main" %}
