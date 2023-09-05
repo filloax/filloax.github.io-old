@@ -14,14 +14,14 @@ Per gli effetti delle varie parole, consultate la sezione [oggetti](/star/oggett
 >
 > <p class="badwriting"><span>C I A O - O G R E B</span></p>
 
-| Nome                                                                                 | Compl. | Livello | Durata |
-| :----------------------------------------------------------------------------------- | :----: | :-----: | :----: |
-| [Il mago, Zekiel - I gemelli prodigio](#i-gemelli-prodigio)                          |  <span class="check"></span>  |   13    | 4 ses. |
-| [Il barbaro, Hakzrun - Il barbaro consumato dall'ira](#il-barbaro-consumato-dallira) |        |         |        |
-| [La ranger, Faroe - La regina fatata](#la-regina-fatata)                             |        |         |        |
-| [Il paladino, Darian - La luce vacillante](#la-luce-vacillante)                      |        |         |        |
-| [Il monaco, Iohannes - Brama e saggezza](#la-volontà-inesauribile)            |        |         |        |
-| [La druida, Makoro - La guida dei sogni](#la-guida-dei-sogni)                        |        |         |        |
+| Nome                                                                                 |           Parola            | Compl. | Livello | Durata |
+| :----------------------------------------------------------------------------------- | :-------------------------: | :----: | :-----: | ------ |
+| [Il mago, Zekiel - I gemelli prodigio](#i-gemelli-prodigio)              | <span class="incarnate-word">TORRE</span>            | <span class="check"></span> |   13   | 4 ses.  |        |
+| [Il barbaro, Hakzrun - Il barbaro consumato dall'ira](#il-barbaro-consumato-dallira) |                             |        |         |        |
+| [La ranger, Faroe - La regina fatata](#la-regina-fatata)                             |                             |        |         |        |
+| [Il paladino, Darian - La luce vacillante](#la-luce-vacillante)                      |                             |        |         |        |
+| [Il monaco, Iohannes - Brama e saggezza](#la-volontà-inesauribile)                   |                             |        |         |        |
+| [La druida, Makoro - La guida dei sogni](#la-guida-dei-sogni)                        |                             |        |         |        |
 
 *Nota: se una parte è più lunga delle altre non vuol dire che sia più importante, solo che sono stato più prolisso nello scriverla.*
 
@@ -30,7 +30,7 @@ Per gli effetti delle varie parole, consultate la sezione [oggetti](/star/oggett
 
 *Il mago, la disperata ricerca*
 
-*Possessore della parola TORRE*
+*Possessore della parola <span class="incarnate-word">TORRE</span>*
 
 **COMPLETATO**
 

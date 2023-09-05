@@ -11,6 +11,7 @@ Ovviamente sono state omesse le informazioni che non avete ancora.
 - [Elturel](/star/npc/elturel). Personaggi dell'accademia, e del resto della città.
 - [Baldur's Gate](/star/npc/baldursgate). Personaggi di Baldur's Gate.
 - [Waterdeep](/star/npc/waterdeep). Personaggi di Waterdeep.
+- [Thesk e Est](/star/npc/east). Personaggi dell'Est di Faerun e Toril.
 - [Kor'plactz](/star/npc/korplactz). Personaggi incontrati sull'isola tropicale.
 - [Piano dell'Acqua](/star/npc/waterplane). Personaggi incontrati durante le avventure nel Piano dell'Acqua.
 - [Misc](/star/npc/misc). Personaggi indipendenti, e altri personaggi.

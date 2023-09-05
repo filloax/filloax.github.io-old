@@ -65,6 +65,14 @@ Agente di Sylvyra, che lei manda sovente in giro a indagare su notizie di suo in
 
 ---
 
+#### Sha-ba'ku
+
+*umano, mercante studioso*
+
+Un mercante viandante di oggetti magici.
+
+---
+
 #### Famiglia di Verdebosco
 
 Alcuni contadini di Verdebosco, salvati dal gruppo mentre erano in visita a Elturel proprio quando è caduta.

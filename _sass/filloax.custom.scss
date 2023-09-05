@@ -251,3 +251,42 @@ div.shop-table {
 img {
     object-fit: cover !important;
 }
+
+.incarnate-word {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Times;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .letter-animation-quiver > span {
+        animation:
+            quiver 250ms ease
+            calc(var(--index) * 100 * 1ms)
+            infinite alternate;
+        display: inline-block;
+        transform-origin: 50% 50%;
+        text-indent: 0;
+    }
+    .letter-animation-quiver > span.squash-letter {
+        animation:
+            quiver-squash 250ms ease
+            calc(var(--index) * 100 * 1ms)
+            infinite alternate;
+    }
+}
+  
+@keyframes quiver {
+    0%  { transform: rotate(0deg)  translate(0, 0)      ; }
+    25% { transform: rotate(-10deg) translate(-0.1px, 0.1px) ; }
+    50% { transform: rotate(10deg)  translate(0.1px, 0.1px)  ; }
+    75% { transform: rotate(-10deg) translate(0.1px, -0.1px) ; }
+    100% { transform: rotate(0deg) translate(0, 0)      ; }
+}
+@keyframes quiver-squash {
+    0%  { transform: rotate(0deg)   scaleX(0.9) translate(0, 0)      ; }
+    25% { transform: rotate(-10deg) scaleX(0.9) translate(-0.1px, 0.1px) ; }
+    50% { transform: rotate(10deg)  scaleX(0.9) translate(0.1px, 0.1px)  ; }
+    75% { transform: rotate(-10deg) scaleX(0.9) translate(0.1px, -0.1px) ; }
+    100% { transform: rotate(0deg)  scaleX(0.9) translate(0, 0)      ; }
+}
