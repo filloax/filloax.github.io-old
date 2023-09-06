@@ -1,0 +1,534 @@
+{
+    "uncommon": [
+        {
+            "name": "Devil's Detail Eyepatch",
+            "count": 2,
+            "data": {
+                "name": "Devil's Detail Eyepatch",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "uncommon",
+                "wondrous": true,
+                "entries": [
+                    "This well worn leather eyepatch is enchanted with the illusion of a devil's eye on the front. While wearing this eyepatch over a missing eye, you can magically see as if you weren't missing one at all. The embroidered eye adorning the front of the patch swivels and moves as you look around while wearing it. You don't gain this benefit if you wear this patch over a working eye.",
+                    "In addition, while wearing the eyepatch over a missing eye, you can speak its command word as a bonus action to gain {@sense darkvision} out to a range of 60 feet for 1 hour. If you already have {@sense darkvision}, this effect increases its range by 60 feet. While this property is in effect, you can see through magical darkness as if it were normal darkness. Once this property of the eyepatch has been used, it can't be used again until the following dawn."
+                ],
+                "fluff": {
+                    "entries": [
+                        "\"The devil's in the details, as you\u2014and I\u2014can clearly see.\""
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/oa8y87vwd7j31.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 40000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Explosive Flail",
+            "count": 1,
+            "data": {
+                "name": "Explosive Flail",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "flail|PHB",
+                "type": "M",
+                "rarity": "uncommon",
+                "weight": 2,
+                "weaponCategory": "martial",
+                "dmg1": "1d8",
+                "dmgType": "B",
+                "weapon": true,
+                "entries": [
+                    "The head of this magic flail floats softly on its own, as if by a gentle current, and is covered in blunt metal prongs. The weapon's head releases a controlled explosion when it impacts a target. The first target you hit with this flail on each of your turns takes an extra {@damage 1d4} fire damage. If you roll a 4 on the fire damage die in this way, any creature within 5 feet of the target (other than you) also takes 4 fire damage."
+                ],
+                "fluff": {
+                    "entries": [
+                        "\"Boom!\""
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/chlb201dfej81.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 45000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Telescoping Bladelance",
+            "count": 3,
+            "data": {
+                "name": "Telescoping Bladelance",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "lance|PHB",
+                "type": "M",
+                "rarity": "uncommon",
+                "weight": 6,
+                "weaponCategory": "martial",
+                "property": [
+                    "R",
+                    "S"
+                ],
+                "dmg1": "1d12",
+                "dmgType": "P",
+                "weapon": true,
+                "entries": [
+                    "This mechanical lance has bladed edges on either side of the weapon's base and has the heavy property. You can use a bonus action on your turn to extend or retract the weapon by twisting the metallic band around the handle. While extended, the weapon behaves as a normal lance. While retracted, the end of the lance nests inside the wider, bladed base of the weapon and can be used as a makeshift greatsword instead. The damage die for the retracted lance is still a {@dice d12}, but deals slashing damage instead of piercing.",
+                    "You can choose to release the spring-loaded mechanism and extend the retracted lance using a bonus action following an attack. If the target is a creature no more than one size larger than you, it must succeed on a DC 14 Strength saving throw or be forced backward up to 5 feet. If you extend the lance immediately after successfully hitting the creature, the creature makes the saving throw with disadvantage."
+                ],
+                "fluff": {
+                    "entries": [
+                        "A true warrior is always ready."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/u27k1jnzrij21.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 36000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Driftglobe",
+            "count": 2,
+            "data": {
+                "name": "Driftglobe",
+                "source": "DMG",
+                "page": 166,
+                "tier": "minor",
+                "rarity": "uncommon",
+                "wondrous": true,
+                "weight": 1,
+                "entries": [
+                    "This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the {@spell light} or {@spell daylight} spell. Once used, the {@spell daylight} effect can't be used again until the next dawn.",
+                    "You can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out."
+                ],
+                "attachedSpells": [
+                    "light",
+                    "daylight"
+                ],
+                "lootTables": [
+                    "Magic Item Table A",
+                    "Magic Item Table B"
+                ],
+                "hasFluffImages": true,
+                "value": 40000
+            }
+        },
+        {
+            "name": "Clockwork Inkbeetle",
+            "count": 2,
+            "data": {
+                "name": "Clockwork Inkbeetle",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "uncommon",
+                "wondrous": true,
+                "entries": [
+                    "This minuscule, mechanical beetle is 1 inch long and quietly whirs with a mix of magical and mechanical forces. Placing the beetle on a piece of parchment you hold or carry causes it to spring to life and begin tracking your travels. As you move, so does the beetle. It leaves behind a small line of ink that it generates. The ink immediately dries and doesn't dissolve in water. In addition. the beetle's small frame allows it to move even while enclosed in a book or similar enclosure without losing its sense of movement or direction.",
+                    "The beetle has a dial on its underside. A creature can use the dial to select the scale in which the beetle moves. For each option, the beetle moves 1 inch in the same direction as you for every amount you move as shown on the dial, creating a map of your journey: 20 feet, 200 feet, 2 miles, or 20 miles. The beetle is immune to magical effects that would otherwise alter its sense of direction.",
+                    "The beetle always knows which direction is North. When placed on a piece of parchment for the first time, it crouches down to stamp a small compass rose on the sheet before beginning to move. If the beetle runs out of space on the parchment to travel, it stops moving in that direction and emits a clicking sound that can be heard by creatures within 5 feet of it.",
+                    "Attaching one band of the found and lost to the beetle while you wear the other allows the beetle to move and trace your movements in this way from afar so long as you are both on the same place of existence."
+                ],
+                "fluff": {
+                    "entries": [
+                        "The Cartographer's Guild of Antronec would hire small bands of adventurers to test their mettle on new and exciting expeditions provided they wear a single band of the found and lost. \"To make sure you're alright!\" they would say, with a smile. They always had the best smiles. Besides, the gold was always worth the request.",
+                        "In an enclosed room, well-guarded and hidden in the basement of the guild, the Cartographers would watch in earnest as these beetles would scurry across sheets of labeled parchment as bands of expendable mercenaries would plot the best\u2014and worst\u2014routes through the most dangerous places in the realm. Some maps were sold to the highest bidder. Others were used by Cartographers themselves to ransack the remains of their fallen hires and finish the job themselves."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/h6b8t3cq3zz21.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 13000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Rat King Crown",
+            "count": 1,
+            "data": {
+                "name": "Rat King Crown",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "uncommon",
+                "reqAttune": true,
+                "wondrous": true,
+                "entries": [
+                    "This dark silver circlet is embossed with the heads and tails of many rats. While wearing it, ordinary rats, giant rats, and swarms of rats are indifferent toward you and will not attack you unless you threaten or harm them.",
+                    "In addition, you can comprehend and verbally communicate with rats, as if by the speak with animals spell.",
+                    {
+                        "type": "entries",
+                        "name": "Mark of the Rat King",
+                        "entries": [
+                            "While you're attuned to one or more other items with \"rat king\" in its name, the crown gains the following additional property.",
+                            "Whenever you roll initiative, roll a {@dice d6}. On a 5 or 6, a swarm of rats gathers at your location, provided that enough rats are within a half mile of you (as determined by the GM). The swarm is friendly to you and your companions. It remains with you until the combat ends or you die. If the swarm is reduced to half its hit point maximum or less, it scatters and leaves early.",
+                            "The friendly swarm shares your initiative but takes its turn immediately after yours. On its turn, it attacks the nearest hostile creature within 30 feet of you. If there isn't a creature to attack, it shares your space and takes the {@action Dodge} action.",
+                            "The swarm becomes hostile if you remove the crown or if you or your companions harm it."
+                        ]
+                    }
+                ],
+                "fluff": {
+                    "entries": [
+                        "\"How often do you notice the rats? A few times each day? A harsh word and a kick all that you recall of it? Perhaps less, if you're foolish enough to believe you live in cleanliness.",
+                        "Now ask yourself, how often do you think the rats notice you?",
+                        "You may think them dirty. Pestilent. Sickly. If that be the case, then why would you ever see them?",
+                        "I know your dirty secrets. I know the filth of your soul. What the rats see, I am told. Think twice before lying to me, for you are speaking to the rat king.\""
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/a5zycucbayo81.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 45000,
+                "value_estimated": true
+            }
+        }
+    ],
+    "rare": [
+        {
+            "name": "Radiant Defender",
+            "count": 1,
+            "data": {
+                "name": "Radiant Defender",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "maul|PHB",
+                "type": "M",
+                "rarity": "rare",
+                "reqAttune": true,
+                "weight": 10,
+                "weaponCategory": "martial",
+                "property": [
+                    "H",
+                    "2H"
+                ],
+                "dmg1": "2d6",
+                "dmgType": "B",
+                "bonusWeapon": "+1",
+                "bonusAc": "+2",
+                "hammer": true,
+                "weapon": true,
+                "entries": [
+                    "This maul has a narrow shield covering its handle that can be rotated to protect the wielder's grip. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding this guarded maul, taking the {@action Dodge} action also gives you a +2 bonus to your AC until the start of your next turn. In addition, when you take the {@action Dodge} action and a creature misses you with a melee attack, you can use your reaction to make a melee weapon attack with the maul against that creature. If you hit, the attack deals an extra {@damage 1d8} radiant damage. Once you use your reaction to make an attack in this way, you lose the +2 bonus to your AC."
+                ],
+                "fluff": {
+                    "entries": [
+                        "While there is light, shadow will creep along its edge. When evil approaches, I will be there to banish it."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/ozvmz04pl3m21.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 100000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Wand of Fear",
+            "count": 1,
+            "data": {
+                "name": "Wand of Fear",
+                "source": "DMG",
+                "page": 210,
+                "srd": true,
+                "type": "WD",
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "weight": 1,
+                "recharge": "dawn",
+                "rechargeAmount": "{@dice 1d6 + 1}",
+                "charges": 7,
+                "entries": [
+                    "This wand has 7 charges for the following properties. It regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed.",
+                    {
+                        "name": "Command",
+                        "type": "entries",
+                        "entries": [
+                            "While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the {@spell command} spell (save DC 15)."
+                        ]
+                    },
+                    {
+                        "name": "Cone of Fear",
+                        "type": "entries",
+                        "entries": [
+                            "While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. While it is {@condition frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the {@action Dodge} action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success."
+                        ]
+                    }
+                ],
+                "attachedSpells": [
+                    "command"
+                ],
+                "lootTables": [
+                    "Magic Item Table G"
+                ],
+                "hasFluffImages": true,
+                "value": 1000000
+            }
+        },
+        {
+            "name": "Potion of Diminution",
+            "count": 1,
+            "data": {
+                "name": "Potion of Diminution",
+                "source": "DMG",
+                "page": 187,
+                "srd": true,
+                "type": "P",
+                "tier": "minor",
+                "rarity": "rare",
+                "entries": [
+                    "When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no {@status concentration} required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
+                ],
+                "attachedSpells": [
+                    "enlarge/reduce"
+                ],
+                "lootTables": [
+                    "Magic Item Table C"
+                ],
+                "value": 27000
+            }
+        }
+    ],
+    "very rare": [
+        {
+            "name": "Staff of Striking",
+            "count": 1,
+            "data": {
+                "name": "Staff of Striking",
+                "source": "DMG",
+                "page": 203,
+                "srd": true,
+                "tier": "major",
+                "rarity": "very rare",
+                "reqAttune": true,
+                "weight": 4,
+                "weaponCategory": "simple",
+                "property": [
+                    "V"
+                ],
+                "dmg1": "1d6",
+                "dmgType": "B",
+                "dmg2": "1d8",
+                "bonusWeapon": "+3",
+                "recharge": "dawn",
+                "rechargeAmount": "{@dice 1d6 + 4}",
+                "charges": 10,
+                "staff": true,
+                "entries": [
+                    "This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.",
+                    "The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra {@damage 1d6} force damage. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff becomes a nonmagical quarterstaff."
+                ],
+                "lootTables": [
+                    "Magic Item Table H"
+                ],
+                "value": 3600000
+            }
+        },
+        {
+            "name": "Cratering Quarterstaff",
+            "count": 1,
+            "data": {
+                "name": "Cratering Quarterstaff",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "quarterstaff|PHB",
+                "type": "M",
+                "rarity": "very rare",
+                "weight": 4,
+                "weaponCategory": "simple",
+                "property": [
+                    "V"
+                ],
+                "dmg1": "1d6",
+                "dmgType": "B",
+                "dmg2": "1d8",
+                "bonusWeapon": "+1",
+                "recharge": "dawn",
+                "charges": 6,
+                "weapon": true,
+                "entries": [
+                    "This thick, stony quarterstaff requires a Strength of 17 or higher to wield. Despite glowing with crackling embers, it feels comfortably warm in your grasp. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "The quarterstaff has 6 charges and regains {@dice 1d6} expended charges each day at dawn. Once per turn, you can expend a charge when you make a melee weapon attack using the quarterstaff. When you do, you make the attack as normal before slamming the weapon into the ground at your feet. Immediately following the attack, the ground in a 10-foot cone in the direction that the attack was made in shudders and briefly tears apart. Flames leap from the cracks in the ground, forcing any creature within the cone to make a DC 16 Dexterity saving throw. On a failed save, a creature takes {@damage 1d8} bludgeoning damage and {@damage 1d8} fire damage. If a creature that was hit by the initial melee weapon attack fails this saving throw, it is also knocked {@condition prone} if it is no more than one size larger than you.",
+                    "The ground magically mends itself following the attack, although faint cracks can be seen upon close inspection for the next 24 hours."
+                ],
+                "fluff": {
+                    "entries": [
+                        "The first mistake was telling her she couldn't lift it. The second was telling her to drop it."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/yuupzdngc8t21.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 200000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Belt of Frost Giant Strength",
+            "count": 1,
+            "data": {
+                "name": "Belt of Frost Giant Strength",
+                "source": "DMG",
+                "page": 155,
+                "srd": true,
+                "tier": "major",
+                "rarity": "very rare",
+                "reqAttune": true,
+                "wondrous": true,
+                "ability": {
+                    "static": {
+                        "str": 23
+                    }
+                },
+                "entries": [
+                    "While wearing this belt, your Strength score changes to 23. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score."
+                ],
+                "lootTables": [
+                    "Magic Item Table H"
+                ],
+                "value": 3000000,
+                "value_estimated": true
+            }
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Violet King's Promise",
+            "count": 1,
+            "data": {
+                "name": "Violet King's Promise",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "rapier|PHB",
+                "type": "M",
+                "rarity": "legendary",
+                "reqAttune": "by a bard, cleric, paladin, or ranger",
+                "reqAttuneTags": [
+                    {
+                        "class": "bard"
+                    },
+                    {
+                        "class": "cleric"
+                    },
+                    {
+                        "class": "paladin"
+                    },
+                    {
+                        "class": "ranger"
+                    }
+                ],
+                "weight": 2,
+                "weaponCategory": "martial",
+                "property": [
+                    "F"
+                ],
+                "dmg1": "1d8",
+                "dmgType": "P",
+                "recharge": "dawn",
+                "charges": 7,
+                "sword": true,
+                "weapon": true,
+                "entries": [
+                    "This elegant brass rapier was originally wielded by a beloved king, whose empathy and care for his subjects lives on within the blade. When you hit with an attack using this magic sword, the target takes an extra {@damage 1d8} fire damage. In addition, you can use this rapier as a spellcasting focus.",
+                    "The rapier has 7 charges and regains all expended charges daily at dawn. While holding it, a number of gems inside the guard equal to the weapon's remaining charges glow red. When you expend a charge from the rapier, it releases a plume of dark smoke from one of the gems.",
+                    "If an attacker makes a spell attack against you or a target within 5 feet of you while you're holding the rapier, you can use your reaction to impose disadvantage on the attack roll. If the attack misses and was a spell of 1st level or higher, you regain 1 expended charge.",
+                    "While holding the rapier, you can expend 1 or more of its charges to give one of three decrees that affect the flow of magic and battle:",
+                    {
+                        "type": "entries",
+                        "name": "Clemency",
+                        "entries": [
+                            "When you cast a spell of 1st level or higher that restores hit points to a single creature, you can use your reaction to expend 2 charges to cause a different creature within 10 feet of the original target to regain {@dice 1d8} hit points per spell level. When you do, both creatures have advantage on the next ability check or saving throw it makes before the end of its next turn."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Condemn",
+                        "entries": [
+                            "When you cast a spell that deals damage to a single creature, you can use your reaction to expend 2 charges to cause that target as well as a different creature within 10 feet of it to make a Charisma saving throw using your spell save DC. On a failed save, a creature takes {@damage 3d8} fire damage and has disadvantage on the next attack roll it makes before the end of its next turn. On a successful save, a creature takes half as much fire damage and makes its next attack roll as normal."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Overrule",
+                        "entries": [
+                            "After you roll dice to restore hit points to a single creature or roll damage for a spell attack or attack using this weapon, you can expend up to 2 charges (no action required) to change the result of those dice. For each charge you spend, you can use the highest number possible for two of those dice instead of the numbers you rolled."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Flaw",
+                        "entries": [
+                            "The Violet King's promise makes its wielder empathic and reluctant to resort to violence. While attuned to the weapon, you gain the following flaw: \"I am slow to resort to violence, even if it's at the cost of my own safety.\" In addition, if you are attuned to the weapon for 24 consecutive hours, your soft-heartedness causes you to lose your ferocity and battle-readiness. You have disadvantage on Charisma ({@skill Intimidation}) checks and suffer a-5 penalty to initiative. These effects can be be removed with a greater restoration spell, but not while you are attuned to the weapon."
+                        ]
+                    }
+                ],
+                "fluff": {
+                    "entries": [
+                        "The king's love was endless and often to his own detriment. While he cared, his people thrived. That is, until he met the Queen.",
+                        "Their spark was one for the ages. His calm and serene grace was a benevolent counterpoint to Her aggressive tendencies. Under their combined rule, the kingdoms rejoiced, and their reign spread. They were a bastion of compromise and balance, and there was seemingly nothing they could not handle together.",
+                        "To celebrate their love, the King commissioned two royal blades from a curious smith: a deft and clever rapier to match his wit, and a powerful, steadfast glaive to harness her powerful reach.",
+                        "The smith was none other than a vengeful genie, whose lands had been occupied and family slain by the Queen's imperialist militias. He crafted two stunning blades to match the King's request, but traced into them a powerful, digging magic that would ultimately be their undoing.",
+                        "The blades never left the pair's side. What's more, their personalities grew more intensely divided. What was once a relation of compromise was now a battle for authority.",
+                        "Less than a year went by before the Kingdom was split. Civil war between those that believed that the Queen's strong hand meant safety, and the other that believed the King's empathy led to a sustainable future.",
+                        "Some histories claim the Queen's anger overran the King. Others say the King's kindness outlasted the Queen's fiery temper. One thing is for certain: in the end, the only winner was the genie."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/2fahjwixo3351.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 10000000,
+                "value_estimated": true
+            }
+        }
+    ]
+}
