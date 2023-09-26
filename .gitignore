@@ -12,3 +12,4 @@ assets/img/gen/**
 _scripts/data/**
 assets-submodule/**
 data/poketools/bbvw2/wildarea/**
+venv/**
