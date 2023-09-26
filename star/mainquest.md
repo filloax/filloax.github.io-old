@@ -78,7 +78,7 @@ La connessione con la Selva Fatata è stata interrotta meno degli altri piani, d
 >
 > <p class="badwriting"><span>A R R Y   G U L    R O S S O   B U F F O</span></p>
 >
-> <p class="notes"><span>Per dare contesto al commento del ragazzone, non e' _quel_ tipo di imbarazzo. Sono solo generalmente disagiato, non inquietante, prego.</span></p>
+> <p class="notes"><span markdown="1">Per dare contesto al commento del ragazzone, non e' _quel_ tipo di imbarazzo. Sono solo generalmente disagiato, non inquietante, prego.</span></p>
 
 ### La luce vacillante
 #### Darian
@@ -89,7 +89,7 @@ La connessione con la Selva Fatata è stata interrotta meno degli altri piani, d
 
 Il protagonista in teoria di questa vicenda. Lo scintillante Ser Darian, dalle origini ignote, che quando ancora era sconosciuto ai più sgominò uno dei primi assedi di Nautiloidi di divoramenti. A differenza degli altri, le sue imprese principali girano solo intorno alla Stella Nera - le storie parlano delle sue imprese riguardo a questo, e questo soltanto. Un devoto di Lathlander, il dio di alba, rinnovamento e gioventù. Dopo che respinsero la Stella Nera e le sue forze, in un modo che tutte le storie tuttora raccontano come qualcosa che "solo ai sei eroi è dato conoscere", è scomparso dalla storia improvvisamente come ci è arrivato. C'è chi dice che potrebbe non essere mai neanche esistito e rappresentare le forze umanoidi nella guerra, ma la sua spada esiste e l'avete voi, il che rende la cosa definita.
 
-Alcune storie raccontano che continuò a combattere le forze Illithid e esterne al mondo rimaste dopo la grande guerra per questa realtà. Una è più interessante delle altre - si dice che cadde difendendo "**il Tempio del Sole e della Luna**". In sè questa informazione direbbe ben poco, ma sono arrivate voci dalle terre di [LUOGO] di scoperte sensazionali riguardo a un antico tempio con molti resti di battaglie con esseri fuori dalla realtà, che menzionava soli e lune, e una grande fame di tesori di conseguenza. Hanno smesso di arrivare notizie dall'area da qualche mese.
+Alcune storie raccontano che continuò a combattere le forze Illithid e esterne al mondo rimaste dopo la grande guerra per questa realtà. Una è più interessante delle altre - si dice che cadde difendendo "**il Tempio del Sole e della Luna**". In sè questa informazione direbbe ben poco, ma sono arrivate voci dalla Costa del Drago, nel villaggio di Prehevil, di scoperte sensazionali riguardo a un antico tempio con molti resti di battaglie con esseri fuori dalla realtà, che menzionava soli e lune, e una grande fame di tesori di conseguenza. Hanno smesso di arrivare notizie dall'area da qualche mese.
 
 > <p class="notes"><span>L'assenza di notizie, dato il contesto attuale, non promette bene. Non vorrei che il gruppo della Stella Nera se li sia pappati a colazione, se davvero hanno messo il naso in cose di quel calibro.</span></p>
 >

@@ -20,6 +20,12 @@
     }
     // font-size: var(--margin-mult);
     font-family: 'Zatanna Misdirection';
+    em {
+        font-family: 'Zatanna Misdirection';
+        font-style: italic;
+        transform: skew(-10deg);
+        display: inline-block;
+    }
 }
 
 .big-notes {

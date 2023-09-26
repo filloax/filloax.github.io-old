@@ -6,10 +6,11 @@
 
 <div class="shop-rarities">
 {% for rarity in rarityOrder %}
+    {% assign raritySlug = rarity | slugify  %}
     {% assign rarityGroup = input[rarity] %}
     {% if rarityGroup %}
-        <div class="rarity-group {{rarity}}">
-            <h3 class="collapsible active">Rarità: {{ site.data.homebrew.strings.rarity[rarity] | capitalize }}</h3>
+        <div class="rarity-group {{raritySlug}}">
+            <!-- <h3 class="collapsible active">Rarità: {{ site.data.homebrew.strings.rarity[rarity] | capitalize }}</h3> -->
             <div class="items collapsible-content">
             <ul>
                 {% for it in rarityGroup %}
@@ -31,7 +32,7 @@
                     {% endif %}
                     {% assign value = data.value | json_money %}
                     {% assign id = it.name | slugify %}
-                    {% include shop/shop_card.liquid name=it.name img=img bg-img=bg-img value=value id=id %}
+                    {% include shop/shop_card.liquid name=it.name img=img bg-img=bg-img value=value id=id rarity=raritySlug %}
                 {% endfor  %}
             </ul>
             </div>

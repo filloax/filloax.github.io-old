@@ -13,3 +13,4 @@ _scripts/data/**
 assets-submodule/**
 data/poketools/bbvw2/wildarea/**
 venv/**
+Gemfile.lock

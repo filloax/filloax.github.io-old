@@ -21,12 +21,14 @@
     grid-template-columns: repeat(1,1fr);
     transform-origin: top left;
     transform: skewY(1deg);
-    margin: 20vw 25% 0 2%;
+    margin: 1vw 25% 0 2%;
     overflow: initial;
     padding-left: initial;
     line-height: initial;    
   }
   li{
+    position: relative;
+    top: 45px;
     list-style: none;
     transform-origin: top left;
     transform: skewY(-4.398705355deg) rotatez(-14.03624deg);
@@ -51,12 +53,27 @@
     overflow: hidden;
   }
 
-  li:nth-child(3n+1) .details{
-    background-color: #f9c22e;
+  li.rarity-legendary {
+    .details,h4,p {
+      background-color: #f9c22e;
+    }
   }
-  li:nth-child(3n+2) .details{
-    background-color: #35ce8d;
+  li.rarity-very-rare {
+    .details,h4,p {
+      background-color: #b762fd;
+    }
   }
+  li.rarity-rare {
+    .details,h4,p {
+      background-color: #ff5d5d;
+    }
+  }
+  li.rarity-uncommon {
+    .details,h4,p {
+      background-color: #68ca50;
+    }
+  }
+  
   .product{
     position: absolute;
     z-index: 3;
@@ -75,12 +92,6 @@
   h4, p {
     background-color: #53b3cb;
     padding: 0.4em;
-  }
-  li:nth-child(3n+1) h4,li:nth-child(3n+1) p{
-    background-color: #f9c22e;
-  }
-  li:nth-child(3n+2) h4,li:nth-child(3n+2) p{
-    background-color: #35ce8d;
   }
 
   h4,p{
@@ -133,7 +144,7 @@
   }
 
   li:hover{ 
-    z-index: 4;
+    z-index: 60;
   }
   li:hover .details{ 
     transform: rotate(14.03624deg) translate(0%, 10%) scale(1.3);
@@ -150,7 +161,7 @@
     ul {
       grid-template-columns: repeat(2,1fr);
       grid-column-gap: 3vw;
-      margin: 10vw 14vw 0 2vw;
+      margin: 1vw 14vw 0 2vw;
     }
   }
 
@@ -161,7 +172,7 @@
     ul {
       grid-template-columns: repeat(3,1fr);
       grid-column-gap: 2vw;
-      margin: 8vw 10vw 0 1vw;
+      margin: 1vw 10vw 0 1vw;
     }
   }
 
@@ -172,32 +183,9 @@
     ul {
       grid-template-columns: repeat(4,1fr);
       grid-column-gap: 1.5vw;
-      margin: 6vw 7.5vw 0 0.5vw;
+      margin: 1vw 7.5vw 0 0.5vw;
     }
   }
-
-  // @media (min-width:1200px) { 
-  //   body{
-  //     font-size: 1.25vw;
-  //   }
-  //   ul {
-  //     grid-template-columns: repeat(5,1fr);
-  //     grid-column-gap: 1vw;
-  //     margin: 4.5vw 6vw 0 0.5vw;
-  //   }
-  // }
-
-  // @media (min-width:1500px) { 
-  //   body{
-  //     font-size: 1vw;
-  //   }
-  //   ul {
-  //     grid-template-columns: repeat(6,1fr);
-  //     grid-column-gap: 1vw;
-  //     margin: 4vw 6vw 0 0.5vw;
-  //   }
-  // }
-
 }
 
 .shop-details {

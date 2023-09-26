@@ -12,6 +12,8 @@ Gemelli vissuti millenni or sono.
 
 #### Zekiel Amaranthis
 
+![](https://cdna.artstation.com/p/assets/images/images/059/119/168/large/krystyna-nowek-lich2.jpg?1675694355){: height="200px" }
+
 {% include star/npc/zekiel.md %}
 
 #### Mira Amaranthis
@@ -48,7 +50,7 @@ La esuberante proprietaria della Casa Funerali Wangsheng, e poetessa amatoriale.
 
 #### Governatrice Liu Yu
 
-![](https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/f7390d164940385.63ff2a7a0aff3.png){: width="150px" }
+![](https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/f7390d164940385.63ff2a7a0aff3.png){: height="250px" } ![](/assets/img/kirin-blue.webp){: height="250px" }
 
 *immortale, governatrice improvvisata*
 
