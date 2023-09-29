@@ -28,6 +28,8 @@ Paladino gioviale e valoros di Torm, membro dell'Ordine del Guanto a lui sacro. 
 
 *(Nota: canonicamente è umano, ma dall'immagine mi sembrava un nano, quindi ops.)*
 
+{% include star/npc/tasha.md %}
+
 ### Candlekeep
 
 Personaggi del Castello dei Tomi, Candlekeep.
@@ -52,6 +54,7 @@ Eccentrico mago studioso di piani di esistenza, e collega di Sylvyra. Per qualch
 <br>
 <br>
 <br>
+<br>
 
 #### Falaster Fisk
 
@@ -61,7 +64,7 @@ Eccentrico mago studioso di piani di esistenza, e collega di Sylvyra. Per qualch
 
 Agente di Sylvyra, che lei manda sovente in giro a indagare su notizie di suo interesse riguardanti inferno, culti infernali, ecc. Solitamente bravo a evitare i guai. Proviene dalla regione di Calimshan.
 
-<br><br>
+<br><br><br><br>
 
 ---
 

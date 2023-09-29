@@ -14,7 +14,7 @@ Gemelli vissuti millenni or sono.
 
 ![](https://cdna.artstation.com/p/assets/images/images/059/119/168/large/krystyna-nowek-lich2.jpg?1675694355){: height="200px" }
 
-{% include star/npc/zekiel.md %}
+{% include star/npc/zekiel.md hide-title="true" hide-img="true" %}
 
 #### Mira Amaranthis
 
@@ -27,8 +27,6 @@ La sorella. Da giovane guidò una ribellione contro il governo tirannico dell'ep
 ### Yuan Yue
 
 Viandanti e provenienti da quelle terre.
-
-#### Jinhua
 
 {% include star/npc/jinhua.md %}
 
@@ -43,8 +41,6 @@ Viandanti e provenienti da quelle terre.
 La esuberante proprietaria della Casa Funerali Wangsheng, e poetessa amatoriale.
 
 ### Due Stelle e Thesk
-
-#### Ventus
 
 {% include star/npc/ventus.md %}
 
