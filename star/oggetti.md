@@ -160,7 +160,7 @@ Ciò che i membri del [gruppo di Darian](/star/mainquest) avevano ottenuto per c
 
 {% include star/items/corona.md %}
 
-### Parola Incarnata: ???
+{% include star/items/frutto.md %}
 
 ### Parola Incarnata: ???
 
