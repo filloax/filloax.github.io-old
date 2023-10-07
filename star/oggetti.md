@@ -162,11 +162,11 @@ Ciò che i membri del [gruppo di Darian](/star/mainquest) avevano ottenuto per c
 
 {% include star/items/frutto.md %}
 
-### Parola Incarnata: ???
+{% include star/items/faro.md %}
 
-### Parola Incarnata: ???
+{% include star/items/diamante.md %}
 
-### Parola Incarnata: ???
+{% include star/items/lama.md %}
 
 *\*Potrebbero applicarsi eccezioni se si scopre essere sbroccato.*
 
