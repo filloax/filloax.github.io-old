@@ -162,16 +162,24 @@ Ciò che i membri del [gruppo di Darian](/star/mainquest) avevano ottenuto per c
 
 {% include star/items/frutto.md %}
 
+### Parola Incarnata: ???
+
+### Parola Incarnata: ???
+
+### Parola Incarnata: ???
+
+{% comment %}
 {% include star/items/faro.md %}
+{% endcomment %}
 
+{% comment %}
 {% include star/items/diamante.md %}
+{% endcomment %}
 
+{% comment %}
 {% include star/items/lama.md %}
+{% endcomment %}
 
 *\*Potrebbero applicarsi eccezioni se si scopre essere sbroccato.*
 
 *\*\*Assorbimento: immunità, e ogni danno che subiresti ti cura.*
-
-¹ Consiglio per rapida gestione: non tirare i danni ma usa i danni medi indicati, fornirò eventuali statistiche. 
-
-² Che ha solo te come bersaglio.

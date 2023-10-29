@@ -46,3 +46,7 @@ Non sono magicamente costretti a fare ciò che gli dici se li danneggierebbe dir
     - Puoi usare due opzioni di Comando Strategico invece di una alla fine di ogni turno.
     - La prima volta che una creatura ti attacca o ti lancia un incantesimo² nel suo turno, deve fare un TS Carisma a CD 17. Se lo fallisce, deve cambiare bersaglio o annullare l'azione, e se lo supera, hai vantaggio al prossimo attacco su di essa nel prossimo round.
     - Tu e fino a 3 alleati ottenete 15 PF temporanei. Chi ottiene questi PF può spostarsi della sua velocità come reazione quando li ottiene.
+
+¹ Consiglio per rapida gestione: non tirare i danni ma usa i danni medi indicati, fornirò eventuali statistiche. 
+
+² Che ha solo te come bersaglio.

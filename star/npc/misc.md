@@ -66,6 +66,24 @@ Agente di Sylvyra, che lei manda sovente in giro a indagare su notizie di suo in
 
 <br><br><br><br>
 
+### Pre'hevil
+
+Abitanti di questa cittadina a sud della Costa del Drago, tormentata dalla follia dopo che il tempio è stato dissotterrato.
+
+#### August
+
+![](https://i.imgur.com/tQ5RUZR.png){: width="150px"}
+
+*Umano, cacciatore di creature della notte*
+
+<a id="altri-prehevil"></a>
+#### Altri
+
+- **Irma**. Umana, anziana signora scorbutica che gestisce uno dei ripari di sopravvissuti della città.
+- **Vecchio Tom**. Halfling, non così anziano ricercatore che era impazzito in modo recuperabile, salvato dal gruppo.
+- **Usagon**. Defunto nano che convinto di trovare un tesoro, aveva scavato nelle profondità scoprendo autonomanente il tempio, ma comunque morto di vecchiaia nel proprio letto.
+- **Roger**. Tiefling, capo dei ricercatori, ora probabilmente mutato come gli altri.
+
 ---
 
 #### Sha-ba'ku
