@@ -28,7 +28,7 @@ Oggetti vari che non sono nel manuale base o facilmente trovabili su internet.
 
 - +2 ai tiri per colpire e per i danni
 - In caso di critico, infligge 1d8 danni psichici extra, e il bersaglio ha svantaggio a tutti i tiri per colpire nel suo prossimo turno. *(modificato)*
-- Il possessore può usare 20 PF (+20 per ogni livello in più) della sua Imposizione delle Mani per lanciare l'incantesimo [*fortezza dell'intelletto*](http://dnd5e.wikidot.com/spell:intellect-fortress) attraverso di essa. La concentrazione per questo incantesimo, se lanciato in questo modo, è mantenuta separatamente dagli altri.
+- Il possessore può usare 20 PF (+20 per ogni livello in più) della sua Imposizione delle Mani per lanciare l'incantesimo [*fortezza della mente*](http://dnd5e.wikidot.com/spell:intellect-fortress) attraverso di essa. La concentrazione per questo incantesimo, se lanciato in questo modo, è mantenuta separatamente dagli altri.
 - Permette di "leggere l'anima" delle creature, ed è apparentemente in parte senziente, comunicando telepaticamente con il portatore. Può influenzare le creature soggiogate da entità ideali esterne, come la Stella Nera.
 - **Analisi rapida.** Come azione bonus, Psykos può analizzare un aspetto di una creatura, fornendo una di queste informazioni:
     - Resistenze
@@ -39,6 +39,23 @@ Oggetti vari che non sono nel manuale base o facilmente trovabili su internet.
 
 *Spada del leggendario paladino Ser Darian, che fu cruciale nel respingere gli Illithid secoli fa. Avvicinarla alla testa fa sentire uno strano rumore di fondo mentale.*  
 *"Per sconfiggere il tuo nemico devi saper pensare come lui."*
+
+#### Ascesa
+
+![](https://i.imgur.com/cTaDYeD.jpg){: width="300px" }
+
+- +3 ai tiri per colpire e i danni
+- In caso di critico, infligge 2d8 danni psichici extra, e il bersaglio è *frastornato* fino alla fine del suo prossimo turno.
+- Come azione, puoi lanciare una lancia psionica dall'arma: +10, 9/18m, 4d8 danni psichici, e il bersaglio deve fare un TS Intelligenza a CD 17 o essere frastornato fino alla fine del suo prossimo turno.
+- 1/giorno: come azione bonus, lo spirito della spada può separarsi da essa. Evochi *Psykos* di fianco a te (vedi sotto per statistiche), 
+per un massimo di 10 minuti. Il suo turno è successivo al suo. Puoi usare un'azione bonus per dirle cosa fare nel suo turno, altrimenti farà
+l'azione di *Schivata*, e puoi dirle di spostarsi come azione gratuita. Finchè lo spirito è separato, non puoi usare le abilità della spada oltre ai bonus e agli effetti del critico.
+
+![](https://i.imgur.com/maNkeaM.png)
+
+(Nota: dipende dal livello da paladino e dal bonus competenza, questo è per il livello 15)
+
+[Statistiche Psykos PDF](https://drive.google.com/file/d/1KjmR_feC84DwNMIUWN0MjqHrClFRY_WX/view?usp=drive_link)
 
 ### Anello dell'Ego Astrale
 
@@ -162,15 +179,11 @@ Ciò che i membri del [gruppo di Darian](/star/mainquest) avevano ottenuto per c
 
 {% include star/items/frutto.md %}
 
-### Parola Incarnata: ???
-
-### Parola Incarnata: ???
-
-### Parola Incarnata: ???
-
-{% comment %}
 {% include star/items/faro.md %}
-{% endcomment %}
+
+### Parola Incarnata: ???
+
+### Parola Incarnata: ???
 
 {% comment %}
 {% include star/items/diamante.md %}
