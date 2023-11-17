@@ -181,13 +181,9 @@ Ciò che i membri del [gruppo di Darian](/star/mainquest) avevano ottenuto per c
 
 {% include star/items/faro.md %}
 
-### Parola Incarnata: ???
-
-### Parola Incarnata: ???
-
-{% comment %}
 {% include star/items/diamante.md %}
-{% endcomment %}
+
+### Parola Incarnata: ???
 
 {% comment %}
 {% include star/items/lama.md %}

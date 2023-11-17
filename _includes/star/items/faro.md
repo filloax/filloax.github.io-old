@@ -2,7 +2,7 @@
 
 *parola incarnata*
 
-Tra i concetti incarnati in questa parola vi sono la la redenzione e la luce che rischiara le ombre.
+Tra i concetti incarnati in questa parola vi sono la redenzione e la luce che rischiara le ombre.
 
 - Puoi entrare in sintonia con un oggetto magico in più oltre al limite (quindi, senza altri effetti analoghi, fino a quattro oggetti).
 - Sei resistente ai danni psichici, e se diventi *stordito*, sei invece *frastornato* <sup>3</sup>. Sei immune a essere *frastornato* da altre fonti oltre a questo tratto.
