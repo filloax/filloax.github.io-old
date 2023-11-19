@@ -1,0 +1,477 @@
+{
+    "uncommon": [
+        {
+            "name": "Brawler's Ring",
+            "count": 5,
+            "data": {
+                "name": "Brawler's Ring",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "type": "RG",
+                "rarity": "uncommon",
+                "entries": [
+                    "This brass ring has several splits in its metal that are filled with seams of jade. While wearing this ring, your unarmed strike uses a {@damage d4} for damage."
+                ],
+                "fluff": {
+                    "entries": [
+                        "Jade and brass will knock you on your ass."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/34m4smbxtn651.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 17500,
+                "value_estimated": true
+            }
+        }    
+    ],
+    "rare": [
+        {
+            "name": "Staff of Swarming Insects",
+            "count": 1,
+            "data": {
+                "name": "Staff of Swarming Insects",
+                "source": "DMG",
+                "page": 203,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": "by a bard, cleric, druid, sorcerer, warlock, or wizard",
+                "reqAttuneTags": [
+                    {
+                        "class": "bard"
+                    },
+                    {
+                        "class": "cleric"
+                    },
+                    {
+                        "class": "druid"
+                    },
+                    {
+                        "class": "sorcerer"
+                    },
+                    {
+                        "class": "warlock"
+                    },
+                    {
+                        "class": "wizard"
+                    }
+                ],
+                "weight": 4,
+                "weaponCategory": "simple",
+                "property": [
+                    "V"
+                ],
+                "dmg1": "1d6",
+                "dmgType": "B",
+                "dmg2": "1d8",
+                "recharge": "dawn",
+                "rechargeAmount": "{@dice 1d6 + 4}",
+                "charges": 10,
+                "staff": true,
+                "entries": [
+                    "This staff has 10 charges and regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, a {@creature swarm of insects} consumes and destroys the staff, then disperses.",
+                    {
+                        "name": "Spells",
+                        "type": "entries",
+                        "entries": [
+                            "While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: {@spell giant insect} (4 charges) or {@spell insect plague} (5 charges)."
+                        ]
+                    },
+                    {
+                        "name": "Insect Cloud",
+                        "type": "entries",
+                        "entries": [
+                            "While holding the staff, you can use an action and expend 1 charge to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain for 10 minutes, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect."
+                        ]
+                    }
+                ],
+                "attachedSpells": [
+                    "giant insect",
+                    "insect plague"
+                ],
+                "lootTables": [
+                    "Magic Item Table G"
+                ],
+                "hasFluffImages": true,
+                "value": 800000
+            }
+        },
+        {
+            "name": "Figurine of Wondrous Power, Coprolite Monkeys",
+            "count": 1,
+            "data": {
+                "name": "Figurine of Wondrous Power, Coprolite Monkeys",
+                "source": "TCEE1",
+                "page": 68,
+                "rarity": "rare",
+                "wondrous": true,
+                "entries": [
+                    "A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+                    "The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
+                    "The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
+                    {
+                        "type": "entries",
+                        "name": "Coprolite Monkeys",
+                        "entries": [
+                            "These statuettes of chimpanzee-like apes in brownish stone are always created in sets of three. Each can become an {@creature ape} for up to 10 minutes. Once it becomes an ape in this way, that statue cannot be used again until 7 days have passed.",
+                            "As an action, each ape has the ability to grapple a creature, climbing onto the creature's back. While grappling a creature in this way, the ape cannot take other actions and the creature is affected by a special condition, depending on the statue as described below. The effect lasts until the creature escapes the grapple or the ape turns back into a statue.",
+                            "One statue depicts an ape covering its eyes. Creatures {@condition grappled} by this ape are {@condition blinded}.",
+                            "One statue depicts an ape covering its ears. Creatures {@condition grappled} by this ape are {@condition deafened}.",
+                            "One statue depicts an ape covering its mouth. Creatures {@condition grappled} by this ape cannot speak, make sounds verbally, or perform the verbal components of spells."
+                        ]
+                    }
+                ],
+                "value": 400000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Heward's Handy Haversack",
+            "count": 1,
+            "data": {
+                "name": "Heward's Handy Haversack",
+                "source": "DMG",
+                "page": 174,
+                "srd": "Handy Haversack",
+                "tier": "minor",
+                "rarity": "rare",
+                "wondrous": true,
+                "weight": 5,
+                "entries": [
+                    "This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The large central pouch can hold up to 8 cubic feet or 80 pounds of material. The backpack always weighs 5 pounds, regardless of its contents.",
+                    "Placing an object in the haversack follows the normal rules for interacting with objects. Retrieving an item from the haversack requires you to use an action. When you reach into the haversack for a specific item, the item is always magically on top.",
+                    "The haversack has a few limitations. If it is overloaded, or if a sharp object pierces it or tears it, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth, unharmed, and the haversack must be put right before it can be used again. If a breathing creature is placed within the haversack, the creature can survive for up to 10 minutes, after which time it begins to suffocate.",
+                    "Placing the haversack inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10-feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+                ],
+                "containerCapacity": {
+                    "weight": [
+                        20,
+                        20,
+                        80
+                    ],
+                    "weightless": true
+                },
+                "lootTables": [
+                    "Magic Item Table C"
+                ],
+                "hasFluffImages": true,
+                "value": 100000
+            }
+        },
+        {
+            "name": "Figurine of Wondrous Power, Marble Elephant",
+            "count": 1,
+            "data": {
+                "name": "Figurine of Wondrous Power, Marble Elephant",
+                "source": "DMG",
+                "page": 170,
+                "srd": true,
+                "tier": "major",
+                "rarity": "rare",
+                "wondrous": true,
+                "entries": [
+                    "A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+                    "The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
+                    "The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
+                    {
+                        "type": "entries",
+                        "name": "{@creature elephant||Marble Elephant}",
+                        "entries": [
+                            "This marble statuette is about 4 inches high and long. It can become an {@creature elephant} for up to 24 hours. Once it has been used, it can't be used again until 7 days have passed."
+                        ]
+                    }
+                ],
+                "lootTables": [
+                    "Magic Item Table G"
+                ],
+                "value": 300000
+            }
+        }
+    ],
+    "very rare": [
+        {
+            "name": "Robe of Stars",
+            "count": 1,
+            "data": {
+                "name": "Robe of Stars",
+                "source": "DMG",
+                "page": 194,
+                "srd": true,
+                "tier": "major",
+                "rarity": "very rare",
+                "reqAttune": true,
+                "wondrous": true,
+                "bonusSavingThrow": "+1",
+                "entries": [
+                    "This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.",
+                    "Six stars, located on the robe's upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast {@spell magic missile} as a 5th-level spell. Daily at dusk, {@dice 1d6} removed stars reappear on the robe.",
+                    "While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space."
+                ],
+                "attachedSpells": [
+                    "magic missile"
+                ],
+                "lootTables": [
+                    "Magic Item Table H"
+                ],
+                "hasFluffImages": true,
+                "value": 6000000
+            }
+        },
+        {
+            "name": "Astral Bracelet",
+            "count": 1,
+            "data": {
+                "name": "Astral Bracelet",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "rarity": "very rare",
+                "reqAttune": true,
+                "wondrous": true,
+                "charges": 10,
+                "entries": [
+                    "An astral bracelet is a powerful magical bangle that allows its wearer to see, commune, or otherwise manifest things using powers beyond the Material Plane. The metal and glyphs of each bracelet are related to the kind of power that it holds. You can pull the bracelet off and hold it in the palm of your hand as an action. When you do, the bracelet unfurls to reveal the four inner rings collapsed within it, transforming the bracelet into an astronomical sphere. While the bracelet is transformed into the astronomical sphere, its inner rings slowly spin on their own.",
+                    "The bracelet has 10 charges and regains {@dice 2d4 + 2} expended charges each day dawn. While holding the astronomical sphere, you can expend 1 or more of its charges to cast one of its spells. The sphere's spinning rings magically fold up again into the wearable bracelet if you expend the last charge from the sphere. You can fold the rings back into place early as an action. You can wear the bracelet again once its rings are folded up  again (no action required).",
+                    "Each bracelet can cast a different array of spells and may require different creatures to attune to them. Spells cast using the bracelet while it's an astronomical sphere use your spellcasting modifier and spell save DC. Components that cost less than 100 gp are ignored when casting a spell in this way.",
+                    {
+                        "type": "table",
+                        "colLabels": [
+                            "Bracelet",
+                            "Requires attunement by",
+                            "Spells"
+                        ],
+                        "colStyles": [
+                            "",
+                            "",
+                            ""
+                        ],
+                        "rows": [
+                            [
+                                "Astral Bracelet of Energy",
+                                "A sorcerer or wizard",
+                                "{@spell Dispel magic} (3 charges), floating disk (1 charge), globe of invulnerability (6 charges), hallucinatory terrain (4 charges), hypnotic pattern (3 charges), protection from energy (3 charges), resilient sphere (4 charges)"
+                            ],
+                            [
+                                "Astral Bracelet of Heavens",
+                                "A cleric or paladin",
+                                "Detect evil and good (1 charge), dispel evil and good (5 charges), divination (4 charges), magic circle (3 charges), protection from evil and good (1 charge), spirit guardians (3 charges), warding bond (2 charges)"
+                            ],
+                            [
+                                "Astral Bracelet of Hells",
+                                "A cleric, warlock, or wizard",
+                                "Detect evil and good (1 charge), dispel evil and good (5 charges), fire shield (4 charges), flaming sphere (2 charges), hellish rebuke (1 charge), magic circle (3 charges), protection from evil and good (1 charge)"
+                            ],
+                            [
+                                "Astral Bracelet of Knowledge",
+                                "A bard, cleric, druid, ranger, or wizard",
+                                "Comprehend languages (1 charge), detect magic (1 charge), {@spell dispel magic} (3 charges), identify (1 charge), legend lore (5 charges), locate creature (4 charges), locate object (2 charges), sending (3 charges)"
+                            ],
+                            [
+                                "Astral Bracelet of Planebending",
+                                "A sorcerer, warlock, or wizard",
+                                "Banishment (4 charges), dimension door (4 charges), find familiar (1 charge), misty step (2 charges), plane shift (7 charges), rope trick (2 charges), sending (3 charges)"
+                            ],
+                            [
+                                "Astral Bracelet of Omniscience",
+                                "A wizard",
+                                "Arcane eye (4 charges), detect magic (1 charge), detect thoughts (2 charges), scrying (5 charges), see invisibility (2 charges), sending (3 charges), telepathic bond (5 charges)"
+                            ]
+                        ]
+                    }
+                ],
+                "attachedSpells": [
+                    "dispel magic"
+                ],
+                "fluff": {
+                    "entries": [
+                        "The rings spun wildly as the incantation finished. Blues and reds and bursts of golden arcane energy flung from the astrolabe. Stars sputtered in and out of existence around them as the ground beneath Galan and his companions bent and curled between their feet. Suddenly, as if just waking up, the world around them was different. Flames billowed around them and the heat was almost unbearable.",
+                        "Galan looked down at the sphere in his hand. One of the rings sputtered to a halt, while the others continued to move lazily about on their own accord.",
+                        "He folded the rings back into place, forming a bracelet of the astrolabe, before replacing it on his left wrist. He winced a little as hot metal bands touched his skin.",
+                        "\"Can't that thing do anything pleasant\\, Galan?\" asked the armored warrior to his right. She was in for the worst of it, given this heat.\\",
+                        "\"Only as pleasant as the world around us can be. It warps the fabric of planes: not the nature of them.\"",
+                        "The party continued forward, making their way toward the dark, looming tower before them."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/y1cgcmsd4vb31.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 4000000,
+                "value_estimated": true
+            }
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Dragon Tamer Lance",
+            "count": 1,
+            "data": {
+                "name": "Dragon Tamer Lance",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "lance|PHB",
+                "type": "M",
+                "rarity": "legendary",
+                "reqAttune": true,
+                "weight": 6,
+                "weaponCategory": "martial",
+                "property": [
+                    "R",
+                    "S"
+                ],
+                "dmg1": "1d12",
+                "dmgType": "P",
+                "bonusWeapon": "+1",
+                "recharge": "dawn",
+                "charges": 8,
+                "weapon": true,
+                "entries": [
+                    "This slender, iridescent lance is covered in an enchanted finish that resembles the hardened scales of many dragons. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While attuned to the weapon, you can understand and speak Draconic.",
+                    "The lance has 8 charges and regains {@dice 1d4 + 4} expended charges each day at dawn. When you hit a target with a melee weapon attack using the lance, you can expend 1 charge to deal an extra {@damage 3d6} acid, cold, fire, lightning, or poison damage with the attack. If you expend a charge in this way when you hit a dragon, it must also succeed on a DC 16 Wisdom saving throw or become {@condition frightened} of you until the beginning of your next turn. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns.",
+                    "Whenever you expend a charge in this way to deal extra damage, you can choose to expend a second charge and deal an additional {@damage 1d6} damage of the same type to the target and prevent it from using its reaction until the start of its next turn.",
+                    "In addition, you can use the lance to cast the {@spell find steed} spell. Once you cast it, you cannot do so again until the following dawn. When you cast the spell, you can choose to summon a dragon wyrmling instead by expending a number of charges equal to its challenge rating (maximum 2). You determine the kind of dragon summoned, although its alignment towards good or evil must be the same as your own. If your alignment is neutral, you can summon a wyrmling of either alignment. The wyrmling counts as one size larger when used as a mount and cannot use its breath weapons to attack.",
+                    {
+                        "type": "entries",
+                        "name": "Forceful Impact",
+                        "entries": [
+                            "If you move at least 20 feet straight toward a Medium or smaller target and then make a melee weapon attack with the lance against it while within 5 feet of the target, you make the attack with advantage instead of disadvantage. If you hit, you can immediately roll to attack another target 5 feet directly behind the first as part of the initial attack."
+                        ]
+                    }
+                ],
+                "attachedSpells": [
+                    "find steed"
+                ],
+                "fluff": {
+                    "entries": [
+                        "Some say that dragons are virtually indestructible. I beg to differ."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/6mz2tmh8e3n21.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 9000000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Aberrant Nail",
+            "count": 1,
+            "data": {
+                "name": "Aberrant Nail",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "longsword|PHB",
+                "type": "M",
+                "resist": [
+                    "psychic"
+                ],
+                "rarity": "legendary",
+                "reqAttune": true,
+                "weight": 3,
+                "weaponCategory": "martial",
+                "property": [
+                    "V"
+                ],
+                "dmg1": "1d8",
+                "dmgType": "S",
+                "dmg2": "1d10",
+                "bonusWeapon": "+2",
+                "sword": true,
+                "weapon": true,
+                "entries": [
+                    "This greenish blade was forged under the command of a powerful aboleth as a reward for one of its strongest mortal thralls. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+                    "While attuned to this sword, your Intelligence score is 19. It has no effect on you if your Intelligence is already 19 or higher without it. When you hit with an attack using this weapon, the target takes an extra {@damage 1d8} psychic damage. While holding the sword, you have resistance to psychic damage.",
+                    "In addition, when you roll a 20 on an attack roll made with this sword, the target must succeed on a DC 17 Intelligence saving throw or be {@condition stunned} until the start of your next turn, as it's bombarded by a deluge of unintelligible images and thoughts from a realm beyond comprehension."
+                ],
+                "fluff": {
+                    "entries": [
+                        "\"So...you...are...Kessta?\" The thoughts rang through her head, slow, menacing, and loud. Not as words, but as images and sensations that somehow conveyed an unmistakable meaning.",
+                        "Her mind shook, unable to process the flood of information, experiences, and raw memories.",
+                        "\"Yes, I am,\" she replied aloud. Images came to mind of her home, her sisters, her friends. She thought of those whom she'd cut down, of those she'd lost. Her life and her choices all flashed before her in an instant.",
+                        "The aberrant thoughts clamored through her psyche again\u2014faster now, and cold as ice water.",
+                        "\"I think...you and I...ought to get to know one another.\""
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/151th2w5fjp81.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 10000000,
+                "value_estimated": true
+            }
+        },
+        {
+            "name": "Worldbreaker",
+            "count": 1,
+            "data": {
+                "name": "Worldbreaker",
+                "source": "GriffonsReddit",
+                "page": 0,
+                "baseItem": "maul|PHB",
+                "type": "M",
+                "rarity": "legendary",
+                "reqAttune": "by a creature with strength score of 17 or higher",
+                "reqAttuneTags": [
+                    {
+                        "str": 17
+                    }
+                ],
+                "weight": 10,
+                "weaponCategory": "martial",
+                "property": [
+                    "H",
+                    "2H"
+                ],
+                "dmg1": "2d6",
+                "dmgType": "B",
+                "hammer": true,
+                "weapon": true,
+                "entries": [
+                    "This titanic hammer resembles a darkened globe of impenetrable black iron. When you hit with an attack made with this magic hammer, it deals {@damage 2d12} bludgeoning damage, instead of {@dice 2d6}. This weapon deals double damage to objects and structures.",
+                    "In addition, you can use an action to cast the {@spell earthquake} spell from the hammer (save DC 17), slamming the weapon into the ground as part of the action to cast it. You and up to 10 other creatures of your choice that you can see automatically succeed on the saving throw against being knocked {@condition prone} by the spell. This version of the spell extends from you in a 100-foot radius and does not require concentration, but ends at the end of your next turn. Once this property of the hammer has been used, it can't be used again until a number of days have passed equal to the number of fissures created by the spell (minimum of 1 day)."
+                ],
+                "attachedSpells": [
+                    "earthquake"
+                ],
+                "fluff": {
+                    "entries": [
+                        "There are enemies that simply must be defeated, no matter the cost, whose downfall is paramount to all else. Against such threats, collateral damage is not only acceptable, but expected."
+                    ],
+                    "images": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.redd.it/p5hu56bn4cc91.png"
+                            }
+                        }
+                    ]
+                },
+                "value": 10000000,
+                "value_estimated": true
+            }
+        }
+    ]
+}
