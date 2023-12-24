@@ -183,11 +183,7 @@ Ciò che i membri del [gruppo di Darian](/star/mainquest) avevano ottenuto per c
 
 {% include star/items/diamante.md %}
 
-### Parola Incarnata: ???
-
-{% comment %}
 {% include star/items/lama.md %}
-{% endcomment %}
 
 *\*Potrebbero applicarsi eccezioni se si scopre essere sbroccato.*
 
