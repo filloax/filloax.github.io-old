@@ -5,6 +5,7 @@
 Tra i concetti incarnati in questa parola vi sono l'impeto combattivo, sia per proteggere che per sovrastare.
 
 - Puoi entrare in sintonia con un oggetto magico in più oltre al limite (quindi, senza altri effetti analoghi, fino a quattro oggetti).
+- Puoi tenere armi a 2 mani con una mano.
 - Sei immune ai danni da taglio.
 - Come azione bonus, puoi creare un arma marziale dal nulla nella tua mano. L'arma scompare dopo un'ora, o quando lascia la tua mano.
 - **Arsenale vivente.** Puoi entrare in sintonia con un qualunque numero di armi che richiedono sintonia, e conteranno come un solo oggetto in sintonia. Puoi trasportare fino a un centinaio di armi, e a inizio turno come azione gratuita puoi cambiare le armi che hai in mano. 
