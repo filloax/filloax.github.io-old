@@ -92,4 +92,4 @@ Arcidiacono del tempio di Amaunator (dio del sole) a Elturel, defunto qualche me
 #### Alto Cancelliere Thavius Kreeg
 
 ~~Cancelliere di Elturel, una delle cariche più alte di govenro, fortunatamente scappato alla caduta della città.~~
-Vedi [Thavius Kreeg (cultista)](/star/npc/evil#thavius-kreeg).
+Vedi [Thavius Kreeg (cultista)]({{site.baseurl}}/star/npc/evil#thavius-kreeg).

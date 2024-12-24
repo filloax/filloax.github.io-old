@@ -6,7 +6,7 @@ _Artefice tiefling decisamente impulsivo_
 
 ![](https://i.imgur.com/zfsX6Ow.png){: width="300" }
 
-**Gestore:** [Mavreus Vessac](/xho/npc/merchant#mavreus-vessac)
+**Gestore:** [Mavreus Vessac]({{site.baseurl}}/xho/npc/merchant#mavreus-vessac)
 
 ### Costruttore
 

@@ -41,6 +41,6 @@ Una compagna di avventurieri Dwendaliani "non profit", guidata dal temerario e f
 
 **Bhutur l'anziano.** *Orco M, anziano del villaggio*. Anziano del villaggio di Khuramunz. Affianca Lada al governo, data la sua veneranda età e conoscenza delle genti del villaggio. Sacerdote di Kord, un tempo grande guerriero. Zanne pronunciate, capelli bianchi in coda dietro. Austero ma conosce tutti gli abitanti del villaggio.
 
-**Lord ogre Bufahl II.** *Ogre M, capo reggente*. Capo reggente del villaggio di [Urzin](/xho/luoghi#urzin), in assenza di Olomon Frangisole.
+**Lord ogre Bufahl II.** *Ogre M, capo reggente*. Capo reggente del villaggio di [Urzin]({{site.baseurl}}/xho/luoghi#urzin), in assenza di Olomon Frangisole.
 
-**Veluna Samarshan.** *Umana F, capitano in pensione*. Capitano del [Krakenwhacker](/xho/quest#ultimo-viaggio-del-krakenwhacker), ora anziana e appena andata in pensione.
+**Veluna Samarshan.** *Umana F, capitano in pensione*. Capitano del [Krakenwhacker]({{site.baseurl}}/xho/quest#ultimo-viaggio-del-krakenwhacker), ora anziana e appena andata in pensione.

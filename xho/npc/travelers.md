@@ -46,7 +46,7 @@ Studiosa di magia elementale specializzata nei fulmini, e interessata alle terre
 
 *Ex-PG (Fede)*
 
-Abitante del villaggio semovente di [Urzin](/xho/luoghi#urzin) nella Palude di Velofranto. Riesce in qualche modo a navigare perfettamente nella palude leccando e mangiando piante, e lo fa per cercare funghi. Ama fare amicizia con gli animali. Decisamente poco schizzinoso con il cibo. Un individuo quantomento particolare.
+Abitante del villaggio semovente di [Urzin]({{site.baseurl}}/xho/luoghi#urzin) nella Palude di Velofranto. Riesce in qualche modo a navigare perfettamente nella palude leccando e mangiando piante, e lo fa per cercare funghi. Ama fare amicizia con gli animali. Decisamente poco schizzinoso con il cibo. Un individuo quantomento particolare.
 
 <br>
 <br>

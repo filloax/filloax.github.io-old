@@ -1,4 +1,4 @@
-[Torna a campagna](/xho/campaign)
+[Torna a campagna]({{site.baseurl}}/xho/campaign)
 
 # Lore
 {:.no_toc}
@@ -23,7 +23,7 @@ Informazioni di mondo varie ed eventuali, almeno quelle rilevanti in più di una
 
 > Riflettete su questo: ciò che è sempre esistito, è sempre esistito anche un mese fa?
 >
-> --- [Colui che Vede](/xho/npc/fog#asterius-il-tessistorie)
+> --- [Colui che Vede]({{site.baseurl}}/xho/npc/fog#asterius-il-tessistorie)
 {: class="introquote" }
 
 <br>
@@ -51,15 +51,15 @@ I **marchi draconici** sono probabilmente uno degli effetti della Convergenza: n
 
 Le **gemme draconiche** sono gemme molto utili per realizzare oggetti e costruzioni magiche a relativamente basso costo, facendo le veci di una versione più debole del *residuum* di pietrabianca, un noto e potente ma costoso ingrediente arcano. Quelle più grandi sono apparentemente "legate" al piano delle idee e alla convergenza: se toccate da una persona con un Marchio Draconico, reagiranno portando mal di testa o peggio (in base alla grandezza) alle persone con marchi draconici nei dintorni. Si dice che anche i veri draghi subiscano questa influenza.
 
-*(Fonte: Kresimira, [sessione 30](/xho/sessioni#sessione-30))*
+*(Fonte: Kresimira, [sessione 30]({{site.baseurl}}/xho/sessioni#sessione-30))*
 
 ## Nebbie del Lutto
 
-> In quel momento, tutto il mondo ha visto il cielo bruciare. Io ero lì, nell'occhio del ciclone, a Port Damali. Voci riecheggianti nella testa, parti di frasi dette chissà quando e chissà dove, e [lui](/xho/npc/fog#asterius-il-tessistorie) che parlava di "sublimazione".
+> In quel momento, tutto il mondo ha visto il cielo bruciare. Io ero lì, nell'occhio del ciclone, a Port Damali. Voci riecheggianti nella testa, parti di frasi dette chissà quando e chissà dove, e [lui]({{site.baseurl}}/xho/npc/fog#asterius-il-tessistorie) che parlava di "sublimazione".
 >
 > E intanto, nel resto del mondo enormi sfere di nebbia esplodevano e trasformavano il mondo intorno a loro.
 >
-> --- [Kanenas Sophokleptes](/xho/npc/dwendalian#kanenas), "Il Cielo Bruciò: Saggio sulla Convergenza e la Sublimazione"
+> --- [Kanenas Sophokleptes]({{site.baseurl}}/xho/npc/dwendalian#kanenas), "Il Cielo Bruciò: Saggio sulla Convergenza e la Sublimazione"
 {: class="introquote" }
 
 <br>
@@ -83,6 +83,6 @@ La realtà stessa è molto labile, al punto che sono presenti aree dove la magia
 
 ### Sublimazione
 
-La nebbia è arrivata insieme al dichiarato tentativo da parte di un'[entità](/xho/npc/fog#asterius-il-tessistorie) di portare alla "**Sublimazione**" dell'universo, come è riportato da chi vi era presente. Come la sublimazione è un materiale che passa dallo stato solido a gassoso, questa sarebbe stata la decostruzione del mondo allo stato di pura idea. Per quale scopo, è tuttora ignoto, oltre a vaghe dichiarazioni di "perfezionamento" del mondo.
+La nebbia è arrivata insieme al dichiarato tentativo da parte di un'[entità]({{site.baseurl}}/xho/npc/fog#asterius-il-tessistorie) di portare alla "**Sublimazione**" dell'universo, come è riportato da chi vi era presente. Come la sublimazione è un materiale che passa dallo stato solido a gassoso, questa sarebbe stata la decostruzione del mondo allo stato di pura idea. Per quale scopo, è tuttora ignoto, oltre a vaghe dichiarazioni di "perfezionamento" del mondo.
 
 Questo evento è stato realizzato sfruttanto il potere di rituali potenti, ingannando un grande culto, e usando grandi e rare gemme draconiche. Non è chiaro quanto sia facile ripeterlo, con preoccupazione dei governi del mondo in generale.

@@ -19,8 +19,8 @@ completed: true
 </div>
 
 Completata durante le sessioni:
-- [Sessione 29](/xho/sessioni#sessione-29)
-- [Sessione 30](/xho/sessioni#sessione-30)
-- [Sessione 31](/xho/sessioni#sessione-31)
+- [Sessione 29]({{site.baseurl}}/xho/sessioni#sessione-29)
+- [Sessione 30]({{site.baseurl}}/xho/sessioni#sessione-30)
+- [Sessione 31]({{site.baseurl}}/xho/sessioni#sessione-31)
 
 A causa del pericolo maggiore del previsto, la paga è stata aumentata di 500mo dalle 1500 originali.

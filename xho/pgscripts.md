@@ -1,4 +1,4 @@
-[Torna a PG](/xho/pg)
+[Torna a PG]({{site.baseurl}}/xho/pg)
 
 ## Script riguardo i personaggi giocanti
 

@@ -6,7 +6,7 @@ layout: simple
 <link rel="stylesheet" href="{{ '/assets-submodule/css/wild_enc.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/pokemon-tracker.css' | relative_url }}">
 
-[Back to index](/poketools)
+[Back to index]({{site.baseurl}}/poketools)
 
 # Blaze Black / Volt White 2 Redux 
 ## Prof. Oak Challenge Tracker

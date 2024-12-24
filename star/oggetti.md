@@ -1,4 +1,4 @@
-[Torna a campagna](/star/campaign)
+[Torna a campagna]({{site.baseurl}}/star/campaign)
 
 # Oggetti Homebrew
 
@@ -171,7 +171,7 @@ I danni subiti da esso sono inflitti per metà al proprietario.
 
 ## Parole Incarnate
 
-Ciò che i membri del [gruppo di Darian](/star/mainquest) avevano ottenuto per combattere la Stella Nera; legami metafisici con insiemi di concetti che permettono di manifestare idee più grandi di quelle di un semplice umano. E anche buoni vecchi superpoteri. Offrono tutte uno "slot" di sintonia di oggetti magici in più, insieme a effetti secondari passivi e attivi (generalmente una volta per settimana).
+Ciò che i membri del [gruppo di Darian]({{site.baseurl}}/star/mainquest) avevano ottenuto per combattere la Stella Nera; legami metafisici con insiemi di concetti che permettono di manifestare idee più grandi di quelle di un semplice umano. E anche buoni vecchi superpoteri. Offrono tutte uno "slot" di sintonia di oggetti magici in più, insieme a effetti secondari passivi e attivi (generalmente una volta per settimana).
 
 {% include star/items/torre.md %}
 

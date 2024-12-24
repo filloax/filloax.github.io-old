@@ -1,4 +1,4 @@
-[Torna a campagna](/xho/campaign)
+[Torna a campagna]({{site.baseurl}}/xho/campaign)
 
 # Regole casalinghe
 {:.no_toc}

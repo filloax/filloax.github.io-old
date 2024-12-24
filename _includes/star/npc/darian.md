@@ -7,4 +7,4 @@
 {% endunless %}
 
 
-[???](/star/mainquest#darian)
+[???]({{site.baseurl}}/star/mainquest#darian)

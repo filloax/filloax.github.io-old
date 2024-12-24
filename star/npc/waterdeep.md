@@ -4,7 +4,7 @@
 
 ### Governo cittadino
 
-[Waterdeep](/star/luoghi#waterdeep) è governata da diversi Lord la cui identità è celata, e un Lord Svelato. 
+[Waterdeep]({{site.baseurl}}/star/luoghi#waterdeep) è governata da diversi Lord la cui identità è celata, e un Lord Svelato. 
 
 #### Laeral Silverhand
 

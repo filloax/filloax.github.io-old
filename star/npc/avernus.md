@@ -62,7 +62,7 @@ Un tempo angelo solar di Celestia, ora arcidiavolo e Arciduca dell'Avernus. Era 
 
 - È stata tradita da "Ashmedai", un altro angelo, in passato.
 
-- Ashmedai era [Asmodeus](/star/npc/evil#asmodeus), e il tradimento era strappare l'Avernus ai cieli per prenderlo per sè come regno infernale. Sempre Asmodeus la ha convinta, dopo la rotta dei cavalieri infernali, a combattere in eterno i demoni con lui.
+- Ashmedai era [Asmodeus]({{site.baseurl}}/star/npc/evil#asmodeus), e il tradimento era strappare l'Avernus ai cieli per prenderlo per sè come regno infernale. Sempre Asmodeus la ha convinta, dopo la rotta dei cavalieri infernali, a combattere in eterno i demoni con lui.
 
 - Il gruppo la ha fatta redimere.
 
@@ -130,4 +130,4 @@ Ex-tenente di una legione infernale, che dopo la mala gestione si è separata ed
 
 #### Thalamra la Sterminabande
 
-[Thalamra Vanthampur](/star/npc/evil#thalamra-vanthampur), rianimata da Zariel come *deathlock* e incaricata di mettere a tacere o sotto controllo le varie bande dell'Avernus.
+[Thalamra Vanthampur]({{site.baseurl}}/star/npc/evil#thalamra-vanthampur), rianimata da Zariel come *deathlock* e incaricata di mettere a tacere o sotto controllo le varie bande dell'Avernus.

@@ -114,4 +114,4 @@ Arcimago che possiede un distretto di Nicodranas, e ha ottime connessioni con il
 
 Sempre vestito di colori dorati, in qualche modo senza risultare pacchiano. Estremamente neutro di emozioni sempre, anche se non in modo antipatico.
 
-- Potrebbe essere un drago dorato, come ha intuito il gruppo dopo gli [eventi di Piltover](/xho/sessioni#sessione-31).
+- Potrebbe essere un drago dorato, come ha intuito il gruppo dopo gli [eventi di Piltover]({{site.baseurl}}/xho/sessioni#sessione-31).

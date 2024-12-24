@@ -77,7 +77,7 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
 * <span class="done"></span> **Il lago nella giungla**. Trovata **mappa per un lago in una giungla** nel bel mezzo della foresta, che era posseduta da persone morte nel mulino. Una porzione di giungla nella foresta non è sicuramente qualcosa di naturale; i proprietari sembravano interessati a qualcosa nel centro del lago.
 
-    * <span class="new"></span> Il lago conteneva lo [spirito del sentimento](/xho/npc/vermaloc#spirito-del-sentimento), che è stato liberato dal party, e gli ha offerto dei doni in cambio.
+    * <span class="new"></span> Il lago conteneva lo [spirito del sentimento]({{site.baseurl}}/xho/npc/vermaloc#spirito-del-sentimento), che è stato liberato dal party, e gli ha offerto dei doni in cambio.
 
 * <span class="done"></span> **Torre del Vermaloc**. Sul monte della Corona della Regina si erge ora una **grande torre** che prima non era presente, dalle fattezze descritte come "sia antiche che futuristiche". La torre è stata indicata come luogo da indagare.
 
@@ -90,11 +90,11 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 * **Colui che vede ogni memoria**. Una [misteriosa figura](../npc/fog#colui-che-vede) è comparsa nei sogni diverse volte agli avventurieri che esplorano la foresta. Parla di strane cose come "sublimazione", e invita più o meno cordialmente a non interferire.
 
     - Un'altra figura, [Aldia](../npc/fog#aldia-studioso-della-nebbia), sembra comparire in maniera similmente paranormale, e ha avvisato di stare attenti a questo individuo dei sogni.
-    - Qualunque sia la figura dei sogni, lo [Spirito del Sentimento](/xho/npc/vermaloc#spirito-del-sentimento) sembrava esserne molto spaventato quando ci ha guardato.
+    - Qualunque sia la figura dei sogni, lo [Spirito del Sentimento]({{site.baseurl}}/xho/npc/vermaloc#spirito-del-sentimento) sembrava esserne molto spaventato quando ci ha guardato.
 
 * **L'ultimo circolo verde**. Un circolo di druidi, capeggiato da [Urul l'Antico](../npc/vermaloc#urul-lantico), protegge l'ultima area verde del bosco. Hanno detto che supporteranno il gruppo se li incontreranno, e che se aiuteranno ulteriormente la natura potranno entrare nell'area.
 
-* **...and dragons**. Un [drago verde](/xho/npc/vermaloc#drago-verde) sembra essersi insediato nella foresta.
+* **...and dragons**. Un [drago verde]({{site.baseurl}}/xho/npc/vermaloc#drago-verde) sembra essersi insediato nella foresta.
     - Urul l'Antico dice che il drago è qua da "pochi anni", e che sta sfruttando e manipolando la natura ma non ha idea dei suoi fini.
     - <span class="new"></span> Il drago ha incontrato il gruppo vicino al [crepaccio iridescente](#luoghi-di-interesse-scoperti), intimandogli di "non interferire". Era invisibile, e sembrava essere possessivo di qualcosa che lo interessava nel crepaccio.
 
@@ -116,13 +116,13 @@ Una regione di nebbie del lutto ha avuto origine nella zona sud della foresta, a
 
 * Crepaccio iridescente: un enorme crepaccio che emana luce rosa, la quale è visibile a distanza.
     - L'arcidruido Urul ha detto che da lì provengono gli animali mutanti, e la luce muta gli animali normali.
-    - <span class="new"></span>Sembra esserci qualcosa di interessante per il [drago verde](/xho/npc/vermaloc#drago-verde) che si aggira nella foresta.
+    - <span class="new"></span>Sembra esserci qualcosa di interessante per il [drago verde]({{site.baseurl}}/xho/npc/vermaloc#drago-verde) che si aggira nella foresta.
 
 * Una radura con una perenne tempesta sopra, e tanti fulmini.
     - <span class="new"></span>Sembra che sia soggetto di una leggenda sulla Calamità, la guerra degli dei di poco meno di un millennio fa: il Signore delle Tempeste, Kord, avrebbe trafitto sopra a questa parte di foresta la Regina dei Ragni, Lolth, creando una radura ancora tempestata dai fulmini.
 
 * Area di "giungla" interna alla foresta, sotto la grande torre sul Monte della Corona. Contiene un lago, con qualcosa di interesse per un gruppo vecchio di avventurieri al centro.
-    - <span class="new"></span>Il lago conteneva lo [Spirito del Sentimento](/xho/npc/vermaloc#spirito-del-sentimento).
+    - <span class="new"></span>Il lago conteneva lo [Spirito del Sentimento]({{site.baseurl}}/xho/npc/vermaloc#spirito-del-sentimento).
 
 * Un enorme alveare.
 

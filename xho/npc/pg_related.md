@@ -5,7 +5,7 @@
 ### Tariss
 
 {% imgc %}
-![](/assets/img/tariss.webp){: width="33%" size="150%" pos="top" }
+![]({{site.baseurl}}/assets/img/tariss.webp){: width="33%" size="150%" pos="top" }
 {% endimgc %}
 
 *Drow F, figlia di Xandra*

@@ -1,4 +1,4 @@
-[Torna a campagna](/star/campaign)
+[Torna a campagna]({{site.baseurl}}/star/campaign)
 
 # Personaggi Giocanti
 {:.no_toc}
@@ -89,4 +89,4 @@ Lucertoloide membro della [Tribù della Palude](./npc/korplactz.md#tribù-della-
 
 INSERIRE IMMAGINE
 
-Un harengon, barbaro sotto contratto da [Maggie la Pazza](/star/npc/avernus#maggie-la-pazza) nell'Avernus. Sembra un'esperto di macchine e meccanismi, e abbastanza gagliardo.
+Un harengon, barbaro sotto contratto da [Maggie la Pazza]({{site.baseurl}}/star/npc/avernus#maggie-la-pazza) nell'Avernus. Sembra un'esperto di macchine e meccanismi, e abbastanza gagliardo.

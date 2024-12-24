@@ -24,7 +24,7 @@ Il suo compito è mantenere relazioni positive con persone di potere dentro e fu
 
 [Wiki CR](https://criticalrole.fandom.com/wiki/Athesias_Uludan)
 
-- Potrebbe essere un drago di ametista, come ha intuito il gruppo dopo gli [eventi di Piltover](/xho/sessioni#sessione-31).
+- Potrebbe essere un drago di ametista, come ha intuito il gruppo dopo gli [eventi di Piltover]({{site.baseurl}}/xho/sessioni#sessione-31).
 
 
 #### Altri

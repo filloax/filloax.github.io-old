@@ -1,2 +1,2 @@
-{{ include.indent }}* [Oggetti](/homebrew/items)
-{{ include.indent }}* [Incantesimi](/homebrew/spells)
+{{ include.indent }}* [Oggetti]({{site.baseurl}}/homebrew/items)
+{{ include.indent }}* [Incantesimi]({{site.baseurl}}/homebrew/spells)

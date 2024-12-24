@@ -2,7 +2,7 @@
 
 ## Personaggi di Thesk e Toril Est
 
-Personaggi incontrati durante la missione dei [Gemelli Prodigio](/star/mainquest) o in generale a Thesk e terre orientali.
+Personaggi incontrati durante la missione dei [Gemelli Prodigio]({{site.baseurl}}/star/mainquest) o in generale a Thesk e terre orientali.
 
 ### Gemelli Prodigio
 
@@ -46,7 +46,7 @@ La esuberante proprietaria della Casa Funerali Wangsheng, e poetessa amatoriale.
 
 #### Governatrice Liu Yu
 
-![](https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/f7390d164940385.63ff2a7a0aff3.png){: height="250px" } ![](/assets/img/kirin-blue.webp){: height="250px" }
+![](https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/f7390d164940385.63ff2a7a0aff3.png){: height="250px" } ![]({{site.baseurl}}/assets/img/kirin-blue.webp){: height="250px" }
 
 *immortale, governatrice improvvisata*
 

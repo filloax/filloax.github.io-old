@@ -16,7 +16,7 @@ I lucertoloidi non usano nomi molto fantasiosi.
 
 **Raka.** Cacciatrice ed intagliatrice, le avevano rubato le uova.
 
-**[Gryndarr.](/star/pg#gryndarr)**
+**[Gryndarr.]({{site.baseurl}}/star/pg#gryndarr)**
 
 ### Tempio dell'Acqua
 

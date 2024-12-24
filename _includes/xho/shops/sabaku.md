@@ -10,7 +10,7 @@ _Studioso e mercante di oggetti magici_
 
 ![](../assets/img/Grifone-deserto-logo.webp){: width="800" }
 
-**Gestore**: [Shaba-ku di Marquet](/xho/npc/merchant#shaba-ku-di-marquet), con [Cyd O'neal](/xho/npc/merchant#cyd-oneal) che assiste
+**Gestore**: [Shaba-ku di Marquet]({{site.baseurl}}/xho/npc/merchant#shaba-ku-di-marquet), con [Cyd O'neal]({{site.baseurl}}/xho/npc/merchant#cyd-oneal) che assiste
 
 La sua offerta di oggetti magici cambia spesso. Ogni oggetto ha una storia, che sarà ben felice di raccontare.
 

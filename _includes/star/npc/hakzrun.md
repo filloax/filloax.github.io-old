@@ -7,4 +7,4 @@
 {% endunless %}
 
 
-[???](/star/mainquest#hakzrun-frangimonte)
+[???]({{site.baseurl}}/star/mainquest#hakzrun-frangimonte)

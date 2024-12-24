@@ -1,4 +1,4 @@
-[Torna a campagna](/star/campaign)
+[Torna a campagna]({{site.baseurl}}/star/campaign)
 
 # Luoghi
 

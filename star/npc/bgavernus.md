@@ -3,12 +3,12 @@
 Lista NPC correlati all'avventura discesa nell'Avernus.
 
 Aggiunti:
-- [Famiglia di Verdebosco](/star/npc/misc#famiglia-di-verdebosco)
+- [Famiglia di Verdebosco]({{site.baseurl}}/star/npc/misc#famiglia-di-verdebosco)
 
 Base:
-- [Lulu](/star/npc/avernus#lulu)
-- [Culto di Zariel](/star/npc/evil#culto-di-zariel)
-- [Cavalieri Infernali](/star/npc/elturel#cavalieri-infernali)
-- [Personaggi di Baldur's Gate](/star/npc/baldursgate)
-- [Personaggi di Candlekeep](/star/npc/misc#candlekeep)
-- [Personaggi dell'Avernus](/star/npc/avernus)
+- [Lulu]({{site.baseurl}}/star/npc/avernus#lulu)
+- [Culto di Zariel]({{site.baseurl}}/star/npc/evil#culto-di-zariel)
+- [Cavalieri Infernali]({{site.baseurl}}/star/npc/elturel#cavalieri-infernali)
+- [Personaggi di Baldur's Gate]({{site.baseurl}}/star/npc/baldursgate)
+- [Personaggi di Candlekeep]({{site.baseurl}}/star/npc/misc#candlekeep)
+- [Personaggi dell'Avernus]({{site.baseurl}}/star/npc/avernus)

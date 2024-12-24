@@ -1,4 +1,4 @@
-[Torna a campagna](/xho/campaign.md)
+[Torna a campagna]({{site.baseurl}}/xho/campaign.md)
 
 ## Calendario
 Riferimento: 

@@ -41,7 +41,7 @@ Un chierico, dall'aspetto molto inquietante, apparentemente muto seppur non sord
 
 Hanno in qualche modo orchestrato la caduta di Elturel, e tramite la famiglia Vanthampur pianificavano un destino simile per Baldur's Gate
 
-Personaggi rilevanti tra cui [Zariel](/star/npc/avernus#zariel) menzionati nella sezione [Avernus](/star/npc/avernus).
+Personaggi rilevanti tra cui [Zariel]({{site.baseurl}}/star/npc/avernus#zariel) menzionati nella sezione [Avernus]({{site.baseurl}}/star/npc/avernus).
 
 #### Thavius Kreeg
 

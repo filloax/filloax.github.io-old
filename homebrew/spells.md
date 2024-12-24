@@ -1,4 +1,4 @@
-[Torna a indice](/homebrew/index)
+[Torna a indice]({{site.baseurl}}/homebrew/index)
 
 <script src="/assets/js/homebrew.js"></script>
 <link rel="stylesheet" href="{{ '/assets/css/homebrew.css' | relative_url }}">

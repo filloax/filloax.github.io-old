@@ -23,7 +23,7 @@
 
 ### Script vari
 
-Andate a [pgscripts](/xho/pgscripts) per alcune web-app per i personaggi. Tipo il calcolo danni di Xandra, quella roba lì.
+Andate a [pgscripts]({{site.baseurl}}/xho/pgscripts) per alcune web-app per i personaggi. Tipo il calcolo danni di Xandra, quella roba lì.
 
 {% assign pg_pages = site.xho | where_exp: "page", "page.path contains 'pg'" %}
 

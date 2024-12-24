@@ -7,4 +7,4 @@
 {% endunless %}
 
 
-[???](/star/mainquest#iohannes-erastos)
+[???]({{site.baseurl}}/star/mainquest#iohannes-erastos)

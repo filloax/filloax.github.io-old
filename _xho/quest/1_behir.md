@@ -11,5 +11,5 @@ completed: true
 </div>
 
 Completata durante le sessioni:
-- [Sessione 5](/xho/sessioni#sessione-5-ally-switch)
-- [Sessione 6](/xho/sessioni#sessione-6-fuori-dal-fulmine)
+- [Sessione 5]({{site.baseurl}}/xho/sessioni#sessione-5-ally-switch)
+- [Sessione 6]({{site.baseurl}}/xho/sessioni#sessione-6-fuori-dal-fulmine)

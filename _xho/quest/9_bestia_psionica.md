@@ -15,4 +15,4 @@ completed: true
 </div>
 
 Completata durante le sessioni:
-- [Sessione 7](/xho/sessioni#sessione-7-i-poteri-della-mente)
+- [Sessione 7]({{site.baseurl}}/xho/sessioni#sessione-7-i-poteri-della-mente)

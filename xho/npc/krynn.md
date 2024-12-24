@@ -11,7 +11,7 @@ Una delle tre casate governative, dedita a ricerca, conoscenza, e informazione.
 #### Mano d'ombra Essek Thelyss
 
 {% imgc %}
-![](/assets/img/essek.webp){: width="25%" size="150%" pos="top" }
+![]({{site.baseurl}}/assets/img/essek.webp){: width="25%" size="150%" pos="top" }
 {% endimgc %}
 
 *Drow M, prodigio della dunamanzia*
@@ -36,7 +36,7 @@ Una delle tre casate governative, capeggiata dalla Regina Radiosa, Leylas Kryn, 
 
 [Pagina della wiki](https://criticalrole.fandom.com/wiki/Olomon)
 
-Uno dei fondatori della dinastia, giunto a una tarda età di questa vita (infatti, non era originalmente un minotauro, ma un drow Conseguito), dopo la guerra ha deciso di ritirarsi dai ruoli più alti della carriera militare e lasciare fare a più giovani, qualcosa di inusuale nella Dinastia. Rimane comunque un ufficiale, ma ora è anche dedito a ruoli più governativi, in particolare tra i numerosi piccoli insediamenti ufficialmente governati da lui sta il villaggio semovente di [Urzin](/xho/luoghi#urzin), dopo che ha sconfitto a duello il capo precedente come da tradizione locale.
+Uno dei fondatori della dinastia, giunto a una tarda età di questa vita (infatti, non era originalmente un minotauro, ma un drow Conseguito), dopo la guerra ha deciso di ritirarsi dai ruoli più alti della carriera militare e lasciare fare a più giovani, qualcosa di inusuale nella Dinastia. Rimane comunque un ufficiale, ma ora è anche dedito a ruoli più governativi, in particolare tra i numerosi piccoli insediamenti ufficialmente governati da lui sta il villaggio semovente di [Urzin]({{site.baseurl}}/xho/luoghi#urzin), dopo che ha sconfitto a duello il capo precedente come da tradizione locale.
 
 Attualmente un enorme e imponente minotauro, a quanto pare è molto popolare popolare tra le donne nella dinastia, almeno per quanto riguarda l'ammirazione da una distanza di sicurezza. In realtà abbastanza tranquillo.
 

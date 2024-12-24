@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ '/assets/css/starquest.css' | relative_url }}">
 
-[Torna a campagna](/star/campaign)
+[Torna a campagna]({{site.baseurl}}/star/campaign)
 
 # Ser Darian e gli eroi del passato 
 
@@ -8,7 +8,7 @@ I membri del gruppo di Darian che combattè la Stella Nera in antichità avevano
 
 - Dopo che Flynn ha ottenuto la parola Torre, è stato più chiaro il loro significato: permettono di incarnare un'insieme di concetti legati tra loro, e trarre da essi un potere specifico.
 
-Per gli effetti delle varie parole, consultate la sezione [oggetti](/star/oggetti#parole-incarnate).
+Per gli effetti delle varie parole, consultate la sezione [oggetti]({{site.baseurl}}/star/oggetti#parole-incarnate).
 
 > <p class="notes"><span>Perfetto, ecco tutti i dati. Inserirò le mie note dove necessario in questo modo. - Aragul</span></p>
 >
@@ -34,19 +34,19 @@ Per gli effetti delle varie parole, consultate la sezione [oggetti](/star/oggett
 
 **COMPLETATO**
 
-![](/assets/img/poster-zekiel.jpg){: width="300px" }
+![]({{site.baseurl}}/assets/img/poster-zekiel.jpg){: width="300px" }
 
 Sessioni
-- [Sessione 14](/star/sessioni#sessione-14) [13]
-- [Sessione 15](/star/sessioni#sessione-15) [13]
-- [Sessione 16](/star/sessioni#sessione-16) [13]
-- [Sessione 17](/star/sessioni#sessione-17) [13->14]
+- [Sessione 14]({{site.baseurl}}/star/sessioni#sessione-14) [13]
+- [Sessione 15]({{site.baseurl}}/star/sessioni#sessione-15) [13]
+- [Sessione 16]({{site.baseurl}}/star/sessioni#sessione-16) [13]
+- [Sessione 17]({{site.baseurl}}/star/sessioni#sessione-17) [13->14]
 
 Lui e la sorella gemella Mira Amaranthis erano definiti i Gemelli Prodigio di Thesk, la terra più a oriente dell'occidente, in antichità. Guidarono millenni or sono una ribellione contro un governo opprimente, affiancati dal Primordiale del Vento. Separati dal suo richiamo per la protezione del mondo insieme a Darian, dove fu fondamentale nella sua ricerca sul metafisico, tornò per trovare la sorella uccisa, e maledetta dalla lama per non poter tornare in vita. Disperato nei tentativi di riportarla tra i vivi, si chiuse nella sua torre e nessuno sentì più niente da lui.
 
 ---
 
-La storia non raccontava la frustrazione del mago verso i suoi compatrioti al suo ritorno, che continuavano a chiedere o comunque non aiutavano nei suoi tentativi di riportare la sorella. I disperati tentativi del mago lo portarono alle arti segrete necromantiche per diventare un lich, e rendere lich anche la sorella, facendo qualcosa di unico: rendere ricettacolo dell'anima di un lich non un'oggetto caro, e non solo un essere vivente, ma un altro lich, per legare le loro anime e cercare di mantenerla in qualcosa che ricordasse la vita. Il suo ultimo tentativo, che richiedeva numerose anime e sacrifici, è stato bloccato dal gruppo, e ha ceduto la parola [Torre](/star/oggetti#parola-incarnata-torre) a Flynn.
+La storia non raccontava la frustrazione del mago verso i suoi compatrioti al suo ritorno, che continuavano a chiedere o comunque non aiutavano nei suoi tentativi di riportare la sorella. I disperati tentativi del mago lo portarono alle arti segrete necromantiche per diventare un lich, e rendere lich anche la sorella, facendo qualcosa di unico: rendere ricettacolo dell'anima di un lich non un'oggetto caro, e non solo un essere vivente, ma un altro lich, per legare le loro anime e cercare di mantenerla in qualcosa che ricordasse la vita. Il suo ultimo tentativo, che richiedeva numerose anime e sacrifici, è stato bloccato dal gruppo, e ha ceduto la parola [Torre]({{site.baseurl}}/star/oggetti#parola-incarnata-torre) a Flynn.
 
 ### Il barbaro consumato dall'ira
 #### Hakzrun Frangimonte

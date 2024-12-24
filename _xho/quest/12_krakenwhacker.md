@@ -15,4 +15,4 @@ completed: true
 </div>
 
 Completata durante le sessioni:
-- [Sessione 24](/xho/sessioni#sessione-24-ultimo-viaggio-del-krakenwhacker)
+- [Sessione 24]({{site.baseurl}}/xho/sessioni#sessione-24-ultimo-viaggio-del-krakenwhacker)

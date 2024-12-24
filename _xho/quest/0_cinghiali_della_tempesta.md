@@ -15,5 +15,5 @@ completed: true
 </div>
 
 Completata durante le sessioni:
-- [Sessione 3](/xho/sessioni#sessione-3-cinghiali-della-tempesta)
-- [Sessione 4](/xho/sessioni#sessione-4-fulminamenti)
+- [Sessione 3]({{site.baseurl}}/xho/sessioni#sessione-3-cinghiali-della-tempesta)
+- [Sessione 4]({{site.baseurl}}/xho/sessioni#sessione-4-fulminamenti)

@@ -2,7 +2,7 @@
 name: Kaizner
 player: Gimmy
 ---
-![](/assets/img/pg/kaizner.jpg){: width="350px" }
+![]({{site.baseurl}}/assets/img/pg/kaizner.jpg){: width="350px" }
 
 *Drow, monaco (page)*
 

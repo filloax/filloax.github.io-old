@@ -11,5 +11,5 @@ completed: true
 </div>
 
 Completata durante le sessioni:
-- [Sessione 21](/xho/sessioni#sessione-21-la-marcia-di-urzin)
-- [Sessione 23](/xho/sessioni#sessione-23-anfibi-sgraditi)
+- [Sessione 21]({{site.baseurl}}/xho/sessioni#sessione-21-la-marcia-di-urzin)
+- [Sessione 23]({{site.baseurl}}/xho/sessioni#sessione-23-anfibi-sgraditi)

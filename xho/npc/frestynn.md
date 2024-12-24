@@ -5,7 +5,7 @@
 ### Kynthea Fres'tynn
 
 {% imgc %}
-![](/assets/img/bolo_kynthea_frestynn.webp){: width="40%" size="150%" pos="top" float="right" }
+![]({{site.baseurl}}/assets/img/bolo_kynthea_frestynn.webp){: width="40%" size="150%" pos="top" float="right" }
 {% endimgc %}
 
 *Drow F, studiosa di creature magiche*
@@ -17,7 +17,7 @@ La convergenza e le nebbie del lutto hanno esteso in modo entusiasmante le poten
 #### Creature di Kynthea
 {:.no_toc}
 
-![](/assets/img/garchomp.webp){: width="200" }
+![]({{site.baseurl}}/assets/img/garchomp.webp){: width="200" }
 
 **Anken.** Un esemplare di *kaburias* addomesticato, cosa molto rara.
 
@@ -40,7 +40,7 @@ Da tradizione del clan serve scienziati e studiosi... particolari. Il trisnonno 
 ### Chestibor
 
 {% imgc %}
-![](/assets/img/chestibor.webp){: width="33%" max-width="180px" size="250%" pos="top 0 right 40%" float="left" }
+![]({{site.baseurl}}/assets/img/chestibor.webp){: width="33%" max-width="180px" size="250%" pos="top 0 right 40%" float="left" }
 {% endimgc %}
 
 *Bugbear M, esploratore*

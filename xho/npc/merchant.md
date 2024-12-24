@@ -26,7 +26,7 @@ Fratello gemello di [Maza Vessac](#maza-vessac).
 ### Shaba-ku di Marquet
 
 {% imgc %}
-![](/assets/img/Alaloth-Sabaku-Shaba-Ku.webp){: width="33%" min-width="250px" pos="top" size="280%" }
+![]({{site.baseurl}}/assets/img/Alaloth-Sabaku-Shaba-Ku.webp){: width="33%" min-width="250px" pos="top" size="280%" }
 {% endimgc %}
 
 *Umano M, mercante di oggetti magici*

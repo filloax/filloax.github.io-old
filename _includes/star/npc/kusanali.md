@@ -9,7 +9,7 @@
 {% endunless %}
 *primordiale, savia vicina alle piante*
 
-Inizialmente conosciuta per nome dopo che [Ventus](/star/npc/primordial#ventus) la ha consigliata come fonte di informazioni sulle Parole Incarnate, Kusanali è il Primordiale della Natura\* era prigioniera per ragioni al momento ignote di [Mottom](/star/npc/feyshadow#signora-mottom), per un lungo tempo. Sembra essere anche lei in forma umanoide, di una giovane (22-ish) donna vestita con motivi naturali, e ha uno sguardo perennemente annoiato. 
+Inizialmente conosciuta per nome dopo che [Ventus]({{site.baseurl}}/star/npc/primordial#ventus) la ha consigliata come fonte di informazioni sulle Parole Incarnate, Kusanali è il Primordiale della Natura\* era prigioniera per ragioni al momento ignote di [Mottom]({{site.baseurl}}/star/npc/feyshadow#signora-mottom), per un lungo tempo. Sembra essere anche lei in forma umanoide, di una giovane (22-ish) donna vestita con motivi naturali, e ha uno sguardo perennemente annoiato. 
 
 - La ha incontrata prima Ielenia, e poi il gruppo la ha liberata, rivelandosi le persone più formidabili mai imprigionate dalla Signora Mottom. Ha cominciato a mostrare di nuovo espressioni diverse dalla noia.
 

@@ -4,7 +4,7 @@ _Fabbro mutante della gilda_
 
 > Hrrm.
 
-**Gestore**: [Mastro Ner Tör](/xho/npc/frestynn#mastro-ner-tör). Orco e tiefling mutante, numerose corna ovunque.
+**Gestore**: [Mastro Ner Tör]({{site.baseurl}}/xho/npc/frestynn#mastro-ner-tör). Orco e tiefling mutante, numerose corna ovunque.
 
 Lavoratore della gilda: offre sconto o extra a membri della gilda.
 
@@ -48,7 +48,7 @@ Oggetti trovabili normalmente da un fabbro:
 
 Altri oggetti:
 
--   Materiali da costruzione rilevanti a prezzo base, alcuni particolari evidenziati sotto. Elenco metalli speciali [qua](/xho/oggetti#metalli) o linkato nella tabella.
--   Oggetti speciali da Kibbles' Compendium of Craft and Creation, evidenziati [qua](/xho/oggetti), non tutti solo quelli interessanti
+-   Materiali da costruzione rilevanti a prezzo base, alcuni particolari evidenziati sotto. Elenco metalli speciali [qua]({{site.baseurl}}/xho/oggetti#metalli) o linkato nella tabella.
+-   Oggetti speciali da Kibbles' Compendium of Craft and Creation, evidenziati [qua]({{site.baseurl}}/xho/oggetti), non tutti solo quelli interessanti
 
 </div>

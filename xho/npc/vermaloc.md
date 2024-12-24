@@ -39,7 +39,7 @@ Spirito fatato che risiedeva nel lago al centro della "giungla" nella foresta. S
 Aspetto: praticamente Mesprit dei pokemon, ma le parti grigie sono anche esse rosa.
 
 - Il gruppo lo ha liberato, "mostrandogli i suoi sentimenti". Ora ha ricominciato a viaggiare.
-- Ha dato al gruppo [varie informazioni ontologiche](/xho/sessioni#sessione-19---la-forza-del-sentimento).
+- Ha dato al gruppo [varie informazioni ontologiche]({{site.baseurl}}/xho/sessioni#sessione-19---la-forza-del-sentimento).
 
 ### Drago verde ???
 *drago verde, ???*

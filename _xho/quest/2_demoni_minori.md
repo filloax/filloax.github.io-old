@@ -12,4 +12,4 @@ completed: true
 </div>
 
 Completata durante le sessioni:
-- [Sessione 22](/xho/sessioni#sessione-22-cyber-vs-demon)
+- [Sessione 22]({{site.baseurl}}/xho/sessioni#sessione-22-cyber-vs-demon)
